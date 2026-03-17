@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  news-pipeline:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    container_name: news-pipeline
+    restart: unless-stopped
+    env_file:
+      - ../.env
+    volumes:
+      - pipeline-data:/app/data
+      - ../sources:/app/sources:ro
+      - ../config:/app/config:ro
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  pipeline-data:
+    driver: local

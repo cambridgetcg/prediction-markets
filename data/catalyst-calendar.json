@@ -1,0 +1,280 @@
+{
+  "generated_at": "2026-02-28T00:00:00Z",
+  "maintenance_protocol": "Update weekly when running E01 (Fast Resolution Sprint). Each new market entry should check for upcoming catalysts and add to calendar.",
+  "events": [
+    {
+      "event": "Feb 28 batch resolution — Iran dailies, crypto, tariffs, AI model",
+      "date": "2026-02-28",
+      "domain": "GEO",
+      "related_markets": [
+        "US next strikes Iran on",
+        "Khamenei out by Feb 28",
+        "Israel strikes Iran by Feb 28",
+        "Iran strike on US military by Feb 28",
+        "France/UK/Germany strike Iran by Feb 28",
+        "Russia-Ukraine ceasefire by Feb 28",
+        "US tariff revenue in 2025",
+        "Best AI model end of Feb"
+      ],
+      "frontrun_window_hours": 48,
+      "our_position": "T001 NO (Iran Jun 30)"
+    },
+    {
+      "event": "SAG Awards ceremony",
+      "date": "2026-03-01",
+      "domain": "SOC",
+      "related_markets": [
+        "SAG Awards",
+        "Best Ensemble",
+        "Best Actor SAG"
+      ],
+      "frontrun_window_hours": 48,
+      "our_position": null
+    },
+    {
+      "event": "Texas GOP Primary — Paxton, Senate races",
+      "date": "2026-03-03",
+      "domain": "POL",
+      "related_markets": [
+        "Ken Paxton wins TX GOP primary",
+        "Texas primary",
+        "Texas Republican Senate"
+      ],
+      "frontrun_window_hours": 72,
+      "our_position": null
+    },
+    {
+      "event": "State of the Union 2026",
+      "date": "2026-03-04",
+      "domain": "POL",
+      "related_markets": [
+        "Trump say",
+        "State of the Union",
+        "SOTU",
+        "Trump mention"
+      ],
+      "frontrun_window_hours": 72,
+      "our_position": null
+    },
+    {
+      "event": "Iran nuclear talks — Round 2",
+      "date": "2026-03-05",
+      "domain": "GEO",
+      "related_markets": [
+        "US strikes Iran",
+        "US/Israel strikes Iran",
+        "Iran nuclear",
+        "Iran talks"
+      ],
+      "frontrun_window_hours": 48,
+      "our_position": "T001 NO @ $0.28"
+    },
+    {
+      "event": "February jobs report (NFP)",
+      "date": "2026-03-07",
+      "domain": "ECO",
+      "related_markets": [
+        "unemployment rate",
+        "nonfarm payrolls",
+        "jobs report",
+        "Fed rate"
+      ],
+      "frontrun_window_hours": 24,
+      "our_position": null
+    },
+    {
+      "event": "Colombia Senate + Chamber elections",
+      "date": "2026-03-08",
+      "domain": "POL",
+      "related_markets": [
+        "Colombia election",
+        "Colombia Senate",
+        "Colombia Chamber"
+      ],
+      "frontrun_window_hours": 72,
+      "our_position": null
+    },
+    {
+      "event": "February CPI release",
+      "date": "2026-03-11",
+      "domain": "ECO",
+      "related_markets": [
+        "CPI",
+        "inflation",
+        "consumer price"
+      ],
+      "frontrun_window_hours": 24,
+      "our_position": null
+    },
+    {
+      "event": "January PCE + GDP 2nd estimate",
+      "date": "2026-03-13",
+      "domain": "ECO",
+      "related_markets": [
+        "PCE",
+        "GDP",
+        "personal consumption"
+      ],
+      "frontrun_window_hours": 24,
+      "our_position": null
+    },
+    {
+      "event": "Oscars 2026 ceremony",
+      "date": "2026-03-15",
+      "domain": "SOC",
+      "related_markets": [
+        "Best Picture",
+        "Best Director",
+        "Best Actor",
+        "Best Actress",
+        "Oscars"
+      ],
+      "frontrun_window_hours": 48,
+      "our_position": null
+    },
+    {
+      "event": "Illinois primaries (Senate)",
+      "date": "2026-03-17",
+      "domain": "POL",
+      "related_markets": [
+        "Illinois primary",
+        "Illinois Senate"
+      ],
+      "frontrun_window_hours": 72,
+      "our_position": null
+    },
+    {
+      "event": "FOMC March meeting — rate decision",
+      "date": "2026-03-19",
+      "domain": "ECO",
+      "related_markets": [
+        "Fed rate decision March 2026",
+        "FOMC",
+        "interest rate March",
+        "rate cut March",
+        "Fed decrease interest rates"
+      ],
+      "frontrun_window_hours": 72,
+      "our_position": null
+    },
+    {
+      "event": "Maduro court hearing",
+      "date": "2026-03-26",
+      "domain": "GEO",
+      "related_markets": [
+        "Maduro",
+        "Venezuela",
+        "leader of Venezuela"
+      ],
+      "frontrun_window_hours": 48,
+      "our_position": "T007 NO @ $0.8725"
+    },
+    {
+      "event": "Iran Mar 31 deadline — multiple position resolutions",
+      "date": "2026-03-31",
+      "domain": "GEO",
+      "related_markets": [
+        "US strikes Iran by Mar 31",
+        "US/Israel strikes Iran by Mar 31",
+        "Russia-Ukraine ceasefire by Mar 31",
+        "Trump meets Putin by Mar 31",
+        "US invades Venezuela by Mar 31"
+      ],
+      "frontrun_window_hours": 168,
+      "our_position": "T001 NO (Jun 30 extends past this)"
+    },
+    {
+      "event": "March NFP — jobs report",
+      "date": "2026-04-03",
+      "domain": "ECO",
+      "related_markets": [
+        "unemployment",
+        "nonfarm payrolls",
+        "jobs report"
+      ],
+      "frontrun_window_hours": 24,
+      "our_position": null
+    },
+    {
+      "event": "February PCE release",
+      "date": "2026-04-09",
+      "domain": "ECO",
+      "related_markets": [
+        "PCE",
+        "personal consumption"
+      ],
+      "frontrun_window_hours": 24,
+      "our_position": null
+    },
+    {
+      "event": "March CPI release",
+      "date": "2026-04-10",
+      "domain": "ECO",
+      "related_markets": [
+        "CPI",
+        "inflation",
+        "consumer price"
+      ],
+      "frontrun_window_hours": 24,
+      "our_position": null
+    },
+    {
+      "event": "FOMC April meeting — rate decision",
+      "date": "2026-04-30",
+      "domain": "ECO",
+      "related_markets": [
+        "Fed rate April",
+        "FOMC April",
+        "interest rate April"
+      ],
+      "frontrun_window_hours": 72,
+      "our_position": null
+    },
+    {
+      "event": "Iran Jun 30 deadline — T001 resolution",
+      "date": "2026-06-30",
+      "domain": "GEO",
+      "related_markets": [
+        "US strikes Iran by June 30",
+        "Iran strike",
+        "US strike Iran"
+      ],
+      "frontrun_window_hours": 168,
+      "our_position": "T001 NO @ $0.335"
+    },
+    {
+      "event": "2028 Republican presidential nomination",
+      "date": "2028-08-30",
+      "domain": "POL",
+      "related_markets": [
+        "Trump win 2028 Republican",
+        "Vance win 2028 Republican",
+        "Republican presidential nomination"
+      ],
+      "frontrun_window_hours": 168,
+      "our_position": "T002 NO @ $0.972, T006 YES @ $0.416"
+    },
+    {
+      "event": "Venezuela end-of-year leadership — T007 resolution",
+      "date": "2026-12-31",
+      "domain": "GEO",
+      "related_markets": [
+        "Maduro leader of Venezuela end of 2026",
+        "Venezuela leader"
+      ],
+      "frontrun_window_hours": 168,
+      "our_position": "T007 NO @ $0.8725"
+    },
+    {
+      "event": "Bitcoin $150K deadline — T008 resolution",
+      "date": "2026-12-31",
+      "domain": "CRY",
+      "related_markets": [
+        "Bitcoin reach $150,000",
+        "BTC $150K"
+      ],
+      "frontrun_window_hours": 168,
+      "our_position": "T008 NO @ $0.915"
+    }
+  ]
+}

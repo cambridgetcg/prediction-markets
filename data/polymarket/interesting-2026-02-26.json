@@ -1,0 +1,5298 @@
+[
+  {
+    "id": "35908",
+    "title": "Who will Trump nominate as Fed Chair?",
+    "liquidity": 56417716.73248,
+    "volume": 538814281.293548,
+    "volume24hr": 20756763.071994,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+        "groupItemTitle": "Kevin Warsh",
+        "outcomePrices": "[\"0.9415\", \"0.0585\"]",
+        "volume24hr": 2238865.085463004
+      },
+      {
+        "question": "Will Trump nominate Kevin Hassett as the next Fed chair?",
+        "groupItemTitle": "Kevin Hassett",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 2527097.475334001
+      },
+      {
+        "question": "Will Trump nominate Christopher Waller as the next Fed chair?",
+        "groupItemTitle": "Christopher Waller",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 1648721.5604309994
+      },
+      {
+        "question": "Will Trump nominate Bill Pulte as the next Fed chair?",
+        "groupItemTitle": "Bill Pulte",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 39254.55000000001
+      },
+      {
+        "question": "Will Trump nominate Judy Shelton as the next Fed chair?",
+        "groupItemTitle": "Judy Shelton",
+        "outcomePrices": "[\"0.0375\", \"0.9625\"]",
+        "volume24hr": 7787609.451657013
+      },
+      {
+        "question": "Will Trump nominate David Malpass as the next Fed chair?",
+        "groupItemTitle": "David Malpass",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 22726.590000000007
+      },
+      {
+        "question": "Will Trump nominate Howard Lutnick as the next Fed chair?",
+        "groupItemTitle": "Howard Lutnick",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 23300.090000000022
+      },
+      {
+        "question": "Will Trump nominate Individual T as the next Fed chair?",
+        "groupItemTitle": "Individual T",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Trump nominate Arthur Laffer as the next Fed chair?",
+        "groupItemTitle": "Arthur Laffer",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 26468.06000000001
+      },
+      {
+        "question": "Will Trump nominate Larry Kudlow as the next Fed chair?",
+        "groupItemTitle": "Larry Kudlow",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 32605.400000000005
+      }
+    ]
+  },
+  {
+    "id": "30829",
+    "title": "Democratic Presidential Nominee 2028",
+    "liquidity": 40802755.07685,
+    "volume": 719223374.71144,
+    "volume24hr": 7578347.620951999,
+    "endDate": "2028-11-07T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Stephen A. Smith win the 2028 Democratic presidential nomination?",
+        "groupItemTitle": "Stephen A. Smith",
+        "outcomePrices": "[\"0.013\", \"0.987\"]",
+        "volume24hr": 471871.86922599986
+      },
+      {
+        "question": "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
+        "groupItemTitle": "Gretchen Whitmer",
+        "outcomePrices": "[\"0.0205\", \"0.9795\"]",
+        "volume24hr": 266753.45980600006
+      },
+      {
+        "question": "Will Andy Beshear win the 2028 Democratic presidential nomination?",
+        "groupItemTitle": "Andy Beshear",
+        "outcomePrices": "[\"0.025\", \"0.975\"]",
+        "volume24hr": 194575.8842380001
+      },
+      {
+        "question": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
+        "groupItemTitle": "Oprah Winfrey",
+        "outcomePrices": "[\"0.0085\", \"0.9915\"]",
+        "volume24hr": 860198.2872989997
+      },
+      {
+        "question": "Will Person P win the 2028 Democratic presidential nomination?",
+        "groupItemTitle": "Person P",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person S win the 2028 Democratic presidential nomination?",
+        "groupItemTitle": "Person S",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person AB win the 2028 Democratic presidential nomination?",
+        "groupItemTitle": "Person AB",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person BE win the 2028 Democratic presidential nomination?",
+        "groupItemTitle": "Person BE",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person BJ win the 2028 Democratic presidential nomination?",
+        "groupItemTitle": "Person BJ",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person CB win the 2028 Democratic presidential nomination?",
+        "groupItemTitle": "Person CB",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "31552",
+    "title": "Presidential Election Winner 2028",
+    "liquidity": 19605036.5736,
+    "volume": 333199891.017957,
+    "volume24hr": 6269204.496054,
+    "endDate": "2028-11-07T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Eric Trump win the 2028 US Presidential Election?",
+        "groupItemTitle": "Eric Trump",
+        "outcomePrices": "[\"0.0085\", \"0.9915\"]",
+        "volume24hr": 1392966.1242729998
+      },
+      {
+        "question": "Will Person BG win the 2028 US Presidential Election?",
+        "groupItemTitle": "Person BG",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person CZ win the 2028 US Presidential Election?",
+        "groupItemTitle": "Person CZ",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person Q win the 2028 US Presidential Election?",
+        "groupItemTitle": "Person Q",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person AY win the 2028 US Presidential Election?",
+        "groupItemTitle": "Person AY",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person R win the 2028 US Presidential Election?",
+        "groupItemTitle": "Person R",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person CG win the 2028 US Presidential Election?",
+        "groupItemTitle": "Person CG",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person W win the 2028 US Presidential Election?",
+        "groupItemTitle": "Person W",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person BO win the 2028 US Presidential Election?",
+        "groupItemTitle": "Person BO",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person CK win the 2028 US Presidential Election?",
+        "groupItemTitle": "Person CK",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "31875",
+    "title": "Republican Presidential Nominee 2028",
+    "liquidity": 15824501.38142,
+    "volume": 330415660.305844,
+    "volume24hr": 3450327.229592,
+    "endDate": "2028-11-07T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Donald Trump win the 2028 Republican presidential nomination?",
+        "groupItemTitle": "Donald Trump",
+        "outcomePrices": "[\"0.025\", \"0.975\"]",
+        "volume24hr": 310562.52775399963
+      },
+      {
+        "question": "Will Person AN win the 2028 Republican presidential nomination?",
+        "groupItemTitle": "Person AN",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person CX win the 2028 Republican presidential nomination?",
+        "groupItemTitle": "Person CX",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+        "groupItemTitle": "J.D. Vance",
+        "outcomePrices": "[\"0.421\", \"0.579\"]",
+        "volume24hr": 260216.4734410001
+      },
+      {
+        "question": "Will Rand Paul win the 2028 Republican presidential nomination?",
+        "groupItemTitle": "Rand Paul",
+        "outcomePrices": "[\"0.0145\", \"0.9855\"]",
+        "volume24hr": 590253.7630779998
+      },
+      {
+        "question": "Will Person P win the 2028 Republican presidential nomination?",
+        "groupItemTitle": "Person P",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person AC win the 2028 Republican presidential nomination?",
+        "groupItemTitle": "Person AC",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person AY win the 2028 Republican presidential nomination?",
+        "groupItemTitle": "Person AY",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person CZ win the 2028 Republican presidential nomination?",
+        "groupItemTitle": "Person CZ",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Marco Rubio win the 2028 Republican presidential nomination?",
+        "groupItemTitle": "Marco Rubio",
+        "outcomePrices": "[\"0.1495\", \"0.8505\"]",
+        "volume24hr": 288520.17821600003
+      }
+    ]
+  },
+  {
+    "id": "194107",
+    "title": "What price will Bitcoin hit in February?",
+    "liquidity": 8553041.27816,
+    "volume": 109048428.497421,
+    "volume24hr": 5005815.724163,
+    "endDate": "2026-03-01T05:00:00Z",
+    "markets": [
+      {
+        "question": "Will Bitcoin reach $150,000 in February?",
+        "groupItemTitle": "\u2191 150,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 8606327.524653984
+      },
+      {
+        "question": "Will Bitcoin reach $120,000 in February?",
+        "groupItemTitle": "\u2191 120,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 1139572.9115319997
+      },
+      {
+        "question": "Will Bitcoin reach $125,000 in February?",
+        "groupItemTitle": "\u2191 125,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 1324052.8411750025
+      },
+      {
+        "question": "Will Bitcoin reach $115,000 in February?",
+        "groupItemTitle": "\u2191 115,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 1064554.9180850026
+      },
+      {
+        "question": "Will Bitcoin dip to $55,000 in February?",
+        "groupItemTitle": "\u2193 55,000",
+        "outcomePrices": "[\"0.0065\", \"0.9935\"]",
+        "volume24hr": 1985096.7984009988
+      },
+      {
+        "question": "Will Bitcoin reach $110,000 in February?",
+        "groupItemTitle": "\u2191 110,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 380870.0588800002
+      },
+      {
+        "question": "Will Bitcoin dip to $50,000 in February?",
+        "groupItemTitle": "\u2193 50,000",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 1328347.0264789988
+      },
+      {
+        "question": "Will Bitcoin reach $105,000 in February?",
+        "groupItemTitle": "\u2191 105,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 748085.7652070007
+      },
+      {
+        "question": "Will Bitcoin reach $100,000 in February?",
+        "groupItemTitle": "\u2191 100,000",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 1010875.7309030005
+      },
+      {
+        "question": "Will Bitcoin reach $95,000 in February?",
+        "groupItemTitle": "\u2191 95,000",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 553024.6274700002
+      }
+    ]
+  },
+  {
+    "id": "67284",
+    "title": "Fed decision in March?",
+    "liquidity": 6740998.02511,
+    "volume": 172675400.103455,
+    "volume24hr": 3385635.0123870005,
+    "endDate": "2026-03-18T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will the Fed decrease interest rates by 50+ bps after the March 2026 meeting?",
+        "groupItemTitle": "50+ bps decrease",
+        "outcomePrices": "[\"0.0055\", \"0.9945\"]",
+        "volume24hr": 14189222.628534004
+      },
+      {
+        "question": "Will the Fed decrease interest rates by 25 bps after the March 2026 meeting?",
+        "groupItemTitle": "25 bps decrease",
+        "outcomePrices": "[\"0.0175\", \"0.9825\"]",
+        "volume24hr": 3629840.815493007
+      },
+      {
+        "question": "Will there be no change in Fed interest rates after the March 2026 meeting?",
+        "groupItemTitle": "No change",
+        "outcomePrices": "[\"0.9715\", \"0.0285\"]",
+        "volume24hr": 4345413.155661005
+      },
+      {
+        "question": "Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?",
+        "groupItemTitle": "25+ bps increase",
+        "outcomePrices": "[\"0.0055\", \"0.9945\"]",
+        "volume24hr": 12113247.054116985
+      }
+    ]
+  },
+  {
+    "id": "90178",
+    "title": "Will Jesus Christ return before 2027?",
+    "liquidity": 5341994.14246,
+    "volume": 33355287.660822,
+    "volume24hr": 436636.41491099965,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Jesus Christ return before 2027?",
+        "groupItemTitle": "",
+        "outcomePrices": "[\"0.0375\", \"0.9625\"]",
+        "volume24hr": 4976569.688775979
+      }
+    ]
+  },
+  {
+    "id": "215688",
+    "title": "\"How to Make a Killing\" Rotten Tomatoes score?",
+    "liquidity": 3686194.11882,
+    "volume": 164013.169176,
+    "volume24hr": 1000,
+    "endDate": "2026-02-23T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will \"How to Make a Killing\" score at least 56 on the Rotten Tomatoes Tomatometer?",
+        "groupItemTitle": "56+",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 59284.785711
+      },
+      {
+        "question": "Will \"How to Make a Killing\" score at least 58 on the Rotten Tomatoes Tomatometer?",
+        "groupItemTitle": "58+",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 30417.131339000003
+      },
+      {
+        "question": "Will \"How to Make a Killing\" score at least 59 on the Rotten Tomatoes Tomatometer?",
+        "groupItemTitle": "59+",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 30756.034988000003
+      },
+      {
+        "question": "Will \"How to Make a Killing\" score at least 60 on the Rotten Tomatoes Tomatometer?",
+        "groupItemTitle": "60+",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 33901.0078
+      }
+    ]
+  },
+  {
+    "id": "23784",
+    "title": "What will happen before GTA VI?",
+    "liquidity": 3538001.60966,
+    "volume": 17827956.323562,
+    "volume24hr": 37086.104145,
+    "endDate": "2026-07-31T12:00:00Z",
+    "markets": [
+      {
+        "question": "Russia-Ukraine Ceasefire before GTA VI?",
+        "groupItemTitle": "Russia-Ukraine Ceasefire",
+        "outcomePrices": "[\"0.58\", \"0.42\"]",
+        "volume24hr": 8066.387169999998
+      },
+      {
+        "question": "New Rihanna Album before GTA VI?",
+        "groupItemTitle": "New Rihanna Album",
+        "outcomePrices": "[\"0.53\", \"0.47\"]",
+        "volume24hr": 1524.854148
+      },
+      {
+        "question": "New Playboi Carti Album before GTA VI?",
+        "groupItemTitle": "New Playboi Carti Album ",
+        "outcomePrices": "[\"0.58\", \"0.42\"]",
+        "volume24hr": 1420.713971
+      },
+      {
+        "question": "Will Jesus Christ return before GTA VI?",
+        "groupItemTitle": "Jesus Christ returns",
+        "outcomePrices": "[\"0.485\", \"0.515\"]",
+        "volume24hr": 101742.4624669994
+      },
+      {
+        "question": "Trump out as President before GTA VI?",
+        "groupItemTitle": "Trump out as President ",
+        "outcomePrices": "[\"0.525\", \"0.475\"]",
+        "volume24hr": 7145.892352999999
+      },
+      {
+        "question": "Will China invades Taiwan before GTA VI?",
+        "groupItemTitle": "China invades Taiwan ",
+        "outcomePrices": "[\"0.505\", \"0.495\"]",
+        "volume24hr": 11476.166564
+      },
+      {
+        "question": "Will bitcoin hit $1m before GTA VI?",
+        "groupItemTitle": "Bitcoin hits $1m",
+        "outcomePrices": "[\"0.487\", \"0.513\"]",
+        "volume24hr": 220326.8082659993
+      },
+      {
+        "question": "Will GPT-6 be released before GTA VI?",
+        "groupItemTitle": "GPT-6 released",
+        "outcomePrices": "[\"0.585\", \"0.415\"]",
+        "volume24hr": 1170.5833890000004
+      },
+      {
+        "question": "Will Drake release Iceman before GTA VI?",
+        "groupItemTitle": "Drake releases Iceman",
+        "outcomePrices": "[\"0.8995\", \"0.1005\"]",
+        "volume24hr": 3309.5405800000012
+      }
+    ]
+  },
+  {
+    "id": "190338",
+    "title": "Which company has the best AI model end of February?",
+    "liquidity": 3000074.53926,
+    "volume": 20981392.577472,
+    "volume24hr": 610041.9571809999,
+    "endDate": "2026-02-28T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Moonshot have the best AI model at the end of February 2026?",
+        "groupItemTitle": "Moonshot",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 54400.07
+      },
+      {
+        "question": "Will Alibaba have the best AI model at the end of February 2026?",
+        "groupItemTitle": "Alibaba",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 26655.600000000002
+      },
+      {
+        "question": "Will Company B have the best AI model at the end of February 2026?",
+        "groupItemTitle": "Company B",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company J have the best AI model at the end of February 2026?",
+        "groupItemTitle": "Company J",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company K have the best AI model at the end of February 2026?",
+        "groupItemTitle": "Company K",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Google have the best AI model at the end of February 2026?",
+        "groupItemTitle": "Google",
+        "outcomePrices": "[\"0.015\", \"0.985\"]",
+        "volume24hr": 1519179.4692699988
+      },
+      {
+        "question": "Will Anthropic have the best AI model at the end of February 2026?",
+        "groupItemTitle": "Anthropic",
+        "outcomePrices": "[\"0.9735\", \"0.0265\"]",
+        "volume24hr": 1194510.968492003
+      },
+      {
+        "question": "Will DeepSeek have the best AI model at the end of February 2026?",
+        "groupItemTitle": "DeepSeek",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 762694.3412350005
+      },
+      {
+        "question": "Will Company A have the best AI model at the end of February 2026?",
+        "groupItemTitle": "Company A",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company C have the best AI model at the end of February 2026?",
+        "groupItemTitle": "Company C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "194106",
+    "title": "What price will Ethereum hit in February?",
+    "liquidity": 2892430.89742,
+    "volume": 33971800.579455,
+    "volume24hr": 1836611.962068,
+    "endDate": "2026-03-01T05:00:00Z",
+    "markets": [
+      {
+        "question": "Will Ethereum reach $5,000 in February?",
+        "groupItemTitle": "\u2191 5,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 3767961.747204005
+      },
+      {
+        "question": "Will Ethereum reach $4,400 in February?",
+        "groupItemTitle": "\u2191 4,400",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 1291271.4249020044
+      },
+      {
+        "question": "Will Ethereum reach $4,200 in February?",
+        "groupItemTitle": "\u2191 4,200",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 480511.5354029999
+      },
+      {
+        "question": "Will Ethereum reach $3,600 in February?",
+        "groupItemTitle": "\u2191 3,600",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 214427.68089999986
+      },
+      {
+        "question": "Will Ethereum reach $4,000 in February?",
+        "groupItemTitle": "\u2191 4,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 418142.5995770007
+      },
+      {
+        "question": "Will Ethereum dip to $800 in February?",
+        "groupItemTitle": "\u2193 800",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 160176.77844700005
+      },
+      {
+        "question": "Will Ethereum dip to $1,200 in February?",
+        "groupItemTitle": "\u2193 1,200",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 284028.0591729999
+      },
+      {
+        "question": "Will Ethereum reach $3,800 in February?",
+        "groupItemTitle": "\u2191 3,800",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 620880.6835310004
+      },
+      {
+        "question": "Will Ethereum reach $3,400 in February?",
+        "groupItemTitle": "\u2191 3,400",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 155172.59491600003
+      },
+      {
+        "question": "Will Ethereum reach $3,200 in February?",
+        "groupItemTitle": "\u2191 3,200",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 146477.86957699995
+      }
+    ]
+  },
+  {
+    "id": "114242",
+    "title": "US strikes Iran by...?",
+    "liquidity": 2693949.2885,
+    "volume": 427573168.73737,
+    "volume24hr": 13314550.997639993,
+    "endDate": "2026-06-30T00:00:00Z",
+    "markets": [
+      {
+        "question": "US strikes Iran by March 31, 2026?",
+        "groupItemTitle": "March 31",
+        "outcomePrices": "[\"0.555\", \"0.445\"]",
+        "volume24hr": 5641810.787800982
+      },
+      {
+        "question": "US strikes Iran by June 30, 2026?",
+        "groupItemTitle": "June 30",
+        "outcomePrices": "[\"0.675\", \"0.325\"]",
+        "volume24hr": 1130943.4831930003
+      },
+      {
+        "question": "US strikes Iran by February 28, 2026?",
+        "groupItemTitle": "February 28",
+        "outcomePrices": "[\"0.085\", \"0.915\"]",
+        "volume24hr": 19504188.43418003
+      },
+      {
+        "question": "US strikes Iran by March 15, 2026?",
+        "groupItemTitle": "March 15",
+        "outcomePrices": "[\"0.385\", \"0.615\"]",
+        "volume24hr": 2627986.7578859976
+      },
+      {
+        "question": "US strikes Iran by February 26, 2026?",
+        "groupItemTitle": "February 26",
+        "outcomePrices": "[\"0.0175\", \"0.9825\"]",
+        "volume24hr": 4862572.423513006
+      },
+      {
+        "question": "US strikes Iran by February 27, 2026?",
+        "groupItemTitle": "February 27",
+        "outcomePrices": "[\"0.041\", \"0.959\"]",
+        "volume24hr": 2584724.256871
+      },
+      {
+        "question": "US strikes Iran by December 31, 2026?",
+        "groupItemTitle": "December 31",
+        "outcomePrices": "[\"0.735\", \"0.265\"]",
+        "volume24hr": 698167.9183740289
+      },
+      {
+        "question": "US strikes Iran by March 8, 2026?",
+        "groupItemTitle": "March 8",
+        "outcomePrices": "[\"0.275\", \"0.725\"]",
+        "volume24hr": 9961.846007000004
+      },
+      {
+        "question": "US strikes Iran by March 9, 2026?",
+        "groupItemTitle": "March 9",
+        "outcomePrices": "[\"0.29\", \"0.71\"]",
+        "volume24hr": 4606.613790999999
+      },
+      {
+        "question": "US strikes Iran by March 10, 2026?",
+        "groupItemTitle": "March 10",
+        "outcomePrices": "[\"0.29\", \"0.71\"]",
+        "volume24hr": 8883.357001
+      }
+    ]
+  },
+  {
+    "id": "225752",
+    "title": "Which crypto company will ZachXBT expose for insider trading?",
+    "liquidity": 1755594.60204,
+    "volume": 27365252.518698,
+    "volume24hr": 15121282.011039995,
+    "endDate": "2026-03-02T04:00:00Z",
+    "markets": [
+      {
+        "question": "Will Ethena be accused of insider trading?",
+        "groupItemTitle": "Ethena",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 651021.7226909996
+      },
+      {
+        "question": "Will OpenSea be accused of insider trading?",
+        "groupItemTitle": "OpenSea",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 569397.3468199997
+      },
+      {
+        "question": "Will Dexscreener be accused of insider trading?",
+        "groupItemTitle": "Dexscreener",
+        "outcomePrices": "[\"0.0065\", \"0.9935\"]",
+        "volume24hr": 636309.2687119995
+      },
+      {
+        "question": "Will Company O be accused of insider trading?",
+        "groupItemTitle": "Company O",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company U be accused of insider trading?",
+        "groupItemTitle": "Company U",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will AAVE be accused of insider trading?",
+        "groupItemTitle": "AAVE",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 477232.8946029996
+      },
+      {
+        "question": "Will Coinbase be accused of insider trading?",
+        "groupItemTitle": "Coinbase",
+        "outcomePrices": "[\"0.0105\", \"0.9895\"]",
+        "volume24hr": 820639.9174199987
+      },
+      {
+        "question": "Will Tether be accused of insider trading?",
+        "groupItemTitle": "Tether",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 627942.9940680003
+      },
+      {
+        "question": "Will Flashbots be accused of insider trading?",
+        "groupItemTitle": "Flashbots",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 515668.4603309999
+      },
+      {
+        "question": "Will Grayscale be accused of insider trading?",
+        "groupItemTitle": "Grayscale",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 578105.4796139997
+      }
+    ]
+  },
+  {
+    "id": "79987",
+    "title": "Next French Presidential Election",
+    "liquidity": 1721961.71491,
+    "volume": 9308718.975916,
+    "volume24hr": 75683.191716,
+    "endDate": "2027-04-30T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Marine Le Pen win the 2027 French presidential election?",
+        "groupItemTitle": "Marine Le Pen",
+        "outcomePrices": "[\"0.095\", \"0.905\"]",
+        "volume24hr": 11653.930189
+      },
+      {
+        "question": "Will \u00c9ric Zemmour win the 2027 French presidential election?",
+        "groupItemTitle": "\u00c9ric Zemmour",
+        "outcomePrices": "[\"0.0085\", \"0.9915\"]",
+        "volume24hr": 8777.14162
+      },
+      {
+        "question": "Will David Lisnard win the 2027 French presidential election?",
+        "groupItemTitle": "David Lisnard",
+        "outcomePrices": "[\"0.029\", \"0.971\"]",
+        "volume24hr": 48243.810521999985
+      },
+      {
+        "question": "Will Laurent Wauquiez win the 2027 French presidential election?",
+        "groupItemTitle": "Laurent Wauquiez",
+        "outcomePrices": "[\"0.003\", \"0.997\"]",
+        "volume24hr": 19334.790166
+      },
+      {
+        "question": "Will Gabriel Attal win the 2027 French presidential election?",
+        "groupItemTitle": "Gabriel Attal",
+        "outcomePrices": "[\"0.0415\", \"0.9585\"]",
+        "volume24hr": 66172.20633699998
+      },
+      {
+        "question": "Will Fran\u00e7ois Hollande win the 2027 French presidential election?",
+        "groupItemTitle": "Fran\u00e7ois Hollande",
+        "outcomePrices": "[\"0.0345\", \"0.9655\"]",
+        "volume24hr": 54669.56861199995
+      },
+      {
+        "question": "Will Jean-Luc M\u00e9lenchon win the 2027 French presidential election?",
+        "groupItemTitle": "Jean-Luc M\u00e9lenchon",
+        "outcomePrices": "[\"0.105\", \"0.895\"]",
+        "volume24hr": 19700.861913
+      },
+      {
+        "question": "Will Fabien Roussel win the 2027 French presidential election?",
+        "groupItemTitle": "Fabien Roussel",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 9416.109
+      },
+      {
+        "question": "Will Dominique de Villepin win the 2027 French presidential election?",
+        "groupItemTitle": "Dominique de Villepin",
+        "outcomePrices": "[\"0.054\", \"0.946\"]",
+        "volume24hr": 79590.69557100003
+      },
+      {
+        "question": "Will Fran\u00e7ois Asselineau win the 2027 French presidential election?",
+        "groupItemTitle": "Fran\u00e7ois Asselineau",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 6490.690000000001
+      }
+    ]
+  },
+  {
+    "id": "194119",
+    "title": "What price will Solana hit in February?",
+    "liquidity": 1663007.81074,
+    "volume": 13700791.944071,
+    "volume24hr": 530099.5250319999,
+    "endDate": "2026-03-01T05:00:00Z",
+    "markets": [
+      {
+        "question": "Will Solana reach $150 in February?",
+        "groupItemTitle": "\u2191 150",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 297590.5051899998
+      },
+      {
+        "question": "Will Solana dip to $30 in February?",
+        "groupItemTitle": "\u2193 30",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 119223.033952
+      },
+      {
+        "question": "Will Solana dip to $50 in February?",
+        "groupItemTitle": "\u2193 50",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 173028.865554
+      },
+      {
+        "question": "Will Solana dip to $60 in February?",
+        "groupItemTitle": "\u2193 60",
+        "outcomePrices": "[\"0.008\", \"0.992\"]",
+        "volume24hr": 214532.84084799982
+      },
+      {
+        "question": "Will Solana dip to $20 in February?",
+        "groupItemTitle": "\u2193 20",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 157949.97984100002
+      },
+      {
+        "question": "Will Solana reach $180 in February?",
+        "groupItemTitle": "\u2191 180",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 64497.02386900003
+      },
+      {
+        "question": "Will Solana reach $200 in February?",
+        "groupItemTitle": "\u2191 200",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 222379.69510800022
+      },
+      {
+        "question": "Will Solana reach $170 in February?",
+        "groupItemTitle": "\u2191 170",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 918500.6288960003
+      },
+      {
+        "question": "Will Solana reach $190 in February?",
+        "groupItemTitle": "\u2191 190",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 528441.7903309996
+      },
+      {
+        "question": "Will Solana reach $160 in February?",
+        "groupItemTitle": "\u2191 160",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 239818.2902930001
+      }
+    ]
+  },
+  {
+    "id": "189698",
+    "title": "Will Silver (SI) hit__ by end of February?",
+    "liquidity": 1652503.98072,
+    "volume": 8305465.577651,
+    "volume24hr": 728506.2438170001,
+    "endDate": "2026-02-28T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Silver (SI) hit (HIGH) $140 by end of February?",
+        "groupItemTitle": "\u2191 $140",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 40646.023253
+      },
+      {
+        "question": "Will Silver (SI) hit (HIGH) $150 by end of February?",
+        "groupItemTitle": "\u2191 $150",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 48392.135685
+      },
+      {
+        "question": "Will Silver (SI) hit (HIGH) $130 by end of February?",
+        "groupItemTitle": "\u2191 $130",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 75886.57547899999
+      },
+      {
+        "question": "Will Silver (SI) hit (LOW) $70 by end of February?",
+        "groupItemTitle": "\u2193 $70",
+        "outcomePrices": "[\"0.0145\", \"0.9855\"]",
+        "volume24hr": 73859.38232099998
+      },
+      {
+        "question": "Will Silver (SI) hit (LOW) $55 by end of February?",
+        "groupItemTitle": "\u2193 $55",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 136888.74634900005
+      },
+      {
+        "question": "Will Silver (SI) hit (LOW) $25 by end of February?",
+        "groupItemTitle": "\u2193 $25",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 73889.42768299999
+      },
+      {
+        "question": "Will Silver (SI) hit (HIGH) $160 by end of February?",
+        "groupItemTitle": "\u2191 $160",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 83679.142539
+      },
+      {
+        "question": "Will Silver (SI) hit (HIGH) $180 by end of February?",
+        "groupItemTitle": "\u2191 $180",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 759693.128462
+      },
+      {
+        "question": "Will Silver (SI) hit (HIGH) $170 by end of February?",
+        "groupItemTitle": "\u2191 $170",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 110284.11129199999
+      },
+      {
+        "question": "Will Silver (SI) hit (HIGH) $190 by end of February?",
+        "groupItemTitle": "\u2191 $190",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 497071.7415989998
+      }
+    ]
+  },
+  {
+    "id": "90177",
+    "title": "Will the US confirm that aliens exist before 2027?",
+    "liquidity": 1381550.8753,
+    "volume": 8894916.838493,
+    "volume24hr": 750649.8896650026,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will the US confirm that aliens exist before 2027?",
+        "groupItemTitle": "",
+        "outcomePrices": "[\"0.155\", \"0.845\"]",
+        "volume24hr": 5849356.198731963
+      }
+    ]
+  },
+  {
+    "id": "89502",
+    "title": "What price will Bitcoin hit in 2026?",
+    "liquidity": 1343844.40184,
+    "volume": 20308367.533714,
+    "volume24hr": 567698.25013,
+    "endDate": "2027-01-01T05:00:00Z",
+    "markets": [
+      {
+        "question": "Will Bitcoin reach $200,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 200,000",
+        "outcomePrices": "[\"0.055\", \"0.945\"]",
+        "volume24hr": 41552.71138200001
+      },
+      {
+        "question": "Will Bitcoin reach $180,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 180,000",
+        "outcomePrices": "[\"0.065\", \"0.935\"]",
+        "volume24hr": 4436.558155
+      },
+      {
+        "question": "Will Bitcoin reach $160,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 160,000",
+        "outcomePrices": "[\"0.07\", \"0.93\"]",
+        "volume24hr": 22595.146522999974
+      },
+      {
+        "question": "Will Bitcoin reach $140,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 140,000",
+        "outcomePrices": "[\"0.105\", \"0.895\"]",
+        "volume24hr": 40433.86464700006
+      },
+      {
+        "question": "Will Bitcoin reach $120,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 120,000",
+        "outcomePrices": "[\"0.205\", \"0.795\"]",
+        "volume24hr": 20862.427463000004
+      },
+      {
+        "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 100,000",
+        "outcomePrices": "[\"0.39\", \"0.61\"]",
+        "volume24hr": 120506.62313000004
+      },
+      {
+        "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+        "groupItemTitle": "\u2193 45,000",
+        "outcomePrices": "[\"0.525\", \"0.475\"]",
+        "volume24hr": 76112.86720899997
+      },
+      {
+        "question": "Will Bitcoin dip to $25,000 by December 31, 2026?",
+        "groupItemTitle": "\u2193 25,000",
+        "outcomePrices": "[\"0.13\", \"0.87\"]",
+        "volume24hr": 16501.816822
+      },
+      {
+        "question": "Will Bitcoin reach $190,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 190,000",
+        "outcomePrices": "[\"0.065\", \"0.935\"]",
+        "volume24hr": 5867.765585
+      },
+      {
+        "question": "Will Bitcoin reach $170,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 170,000",
+        "outcomePrices": "[\"0.065\", \"0.935\"]",
+        "volume24hr": 4851.095573
+      }
+    ]
+  },
+  {
+    "id": "60182",
+    "title": "Nobel Peace Prize Winner 2026",
+    "liquidity": 1265243.31053,
+    "volume": 6080975.322257,
+    "volume24hr": 60534.32542799999,
+    "endDate": "2026-10-10T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Donald Trump win the Nobel Peace Prize in 2026?",
+        "groupItemTitle": "Donald Trump",
+        "outcomePrices": "[\"0.095\", \"0.905\"]",
+        "volume24hr": 51373.828594999984
+      },
+      {
+        "question": "Will Yulia Navalnaya win the Nobel Peace Prize in 2026?",
+        "groupItemTitle": "Yulia Navalnaya",
+        "outcomePrices": "[\"0.075\", \"0.925\"]",
+        "volume24hr": 1282.5191140000009
+      },
+      {
+        "question": "Will Greta Thunberg win the Nobel Peace Prize in 2026?",
+        "groupItemTitle": "Greta Thunberg",
+        "outcomePrices": "[\"0.023\", \"0.977\"]",
+        "volume24hr": 169789.5809419995
+      },
+      {
+        "question": "Will UNRWA win the Nobel Peace Prize in 2026?",
+        "groupItemTitle": "UNRWA",
+        "outcomePrices": "[\"0.057\", \"0.943\"]",
+        "volume24hr": 186690.2331490006
+      },
+      {
+        "question": "Will Ant\u00f3nio Guterres win the Nobel Peace Prize in 2026?",
+        "groupItemTitle": "Ant\u00f3nio Guterres",
+        "outcomePrices": "[\"0.0055\", \"0.9945\"]",
+        "volume24hr": 2109.02967
+      },
+      {
+        "question": "Will Tamim bin Hamad Al Thani win the Nobel Peace Prize in 2026?",
+        "groupItemTitle": "Tamim bin Hamad Al Thani",
+        "outcomePrices": "[\"0.0955\", \"0.9045\"]",
+        "volume24hr": 2861.1207210000002
+      },
+      {
+        "question": "Will Khaled Mashal win the Nobel Peace Prize in 2026?",
+        "groupItemTitle": "Khaled Mashal",
+        "outcomePrices": "[\"0.007\", \"0.993\"]",
+        "volume24hr": 3672.5076189999995
+      },
+      {
+        "question": "Will Recep Tayyip Erdo\u011fan win the Nobel Peace Prize in 2026?",
+        "groupItemTitle": "Recep Tayyip Erdo\u011fan",
+        "outcomePrices": "[\"0.008\", \"0.992\"]",
+        "volume24hr": 2108.07835
+      },
+      {
+        "question": "Will Ahmed al-Sharaa win the Nobel Peace Prize in 2026?",
+        "groupItemTitle": "Ahmed al-Sharaa",
+        "outcomePrices": "[\"0.0145\", \"0.9855\"]",
+        "volume24hr": 1960.081625
+      },
+      {
+        "question": "Will Mohammed bin Salman win the Nobel Peace Prize in 2026?",
+        "groupItemTitle": "Mohammed bin Salman",
+        "outcomePrices": "[\"0.009\", \"0.991\"]",
+        "volume24hr": 6090.630487
+      }
+    ]
+  },
+  {
+    "id": "212454",
+    "title": "Elon Musk # tweets February 20 - February 27, 2026?",
+    "liquidity": 1192420.42492,
+    "volume": 8975139.63171,
+    "volume24hr": 2760418.113566,
+    "endDate": "2026-02-27T17:00:00Z",
+    "markets": [
+      {
+        "question": "Will Elon Musk post 240-259 tweets from February 20 to February 27, 2026?",
+        "groupItemTitle": "240-259",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 664804.9423839999
+      },
+      {
+        "question": "Will Elon Musk post 260-279 tweets from February 20 to February 27, 2026?",
+        "groupItemTitle": "260-279",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 575014.5309129999
+      },
+      {
+        "question": "Will Elon Musk post 280-299 tweets from February 20 to February 27, 2026?",
+        "groupItemTitle": "280-299",
+        "outcomePrices": "[\"0.085\", \"0.915\"]",
+        "volume24hr": 438683.0784289989
+      },
+      {
+        "question": "Will Elon Musk post 300-319 tweets from February 20 to February 27, 2026?",
+        "groupItemTitle": "300-319",
+        "outcomePrices": "[\"0.265\", \"0.735\"]",
+        "volume24hr": 401080.3044379993
+      },
+      {
+        "question": "Will Elon Musk post 320-339 tweets from February 20 to February 27, 2026?",
+        "groupItemTitle": "320-339",
+        "outcomePrices": "[\"0.365\", \"0.635\"]",
+        "volume24hr": 370585.79296499916
+      },
+      {
+        "question": "Will Elon Musk post 340-359 tweets from February 20 to February 27, 2026?",
+        "groupItemTitle": "340-359",
+        "outcomePrices": "[\"0.2\", \"0.8\"]",
+        "volume24hr": 372526.41237899975
+      },
+      {
+        "question": "Will Elon Musk post 360-379 tweets from February 20 to February 27, 2026?",
+        "groupItemTitle": "360-379",
+        "outcomePrices": "[\"0.0565\", \"0.9435\"]",
+        "volume24hr": 316338.0190059994
+      },
+      {
+        "question": "Will Elon Musk post 380-399 tweets from February 20 to February 27, 2026?",
+        "groupItemTitle": "380-399",
+        "outcomePrices": "[\"0.0185\", \"0.9815\"]",
+        "volume24hr": 291022.7396249999
+      },
+      {
+        "question": "Will Elon Musk post 400-419 tweets from February 20 to February 27, 2026?",
+        "groupItemTitle": "400-419",
+        "outcomePrices": "[\"0.008\", \"0.992\"]",
+        "volume24hr": 269897.6168629997
+      },
+      {
+        "question": "Will Elon Musk post 420-439 tweets from February 20 to February 27, 2026?",
+        "groupItemTitle": "420-439",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 285779.11168299994
+      }
+    ]
+  },
+  {
+    "id": "45915",
+    "title": "Brazil Presidential Election",
+    "liquidity": 1101476.48315,
+    "volume": 21169681.924863,
+    "volume24hr": 445732.1384519999,
+    "endDate": "2026-10-04T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Tarcisio de Freitas win the 2026 Brazilian presidential election?",
+        "groupItemTitle": "Tarcisio de Freitas",
+        "outcomePrices": "[\"0.0325\", \"0.9675\"]",
+        "volume24hr": 172892.33517499996
+      },
+      {
+        "question": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+        "groupItemTitle": "Luiz In\u00e1cio Lula da Silva",
+        "outcomePrices": "[\"0.495\", \"0.505\"]",
+        "volume24hr": 141874.15790400014
+      },
+      {
+        "question": "Will Jair Bolsonaro win the 2026 Brazilian presidential election?",
+        "groupItemTitle": "Jair Bolsonaro",
+        "outcomePrices": "[\"0.007\", \"0.993\"]",
+        "volume24hr": 100062.03885200001
+      },
+      {
+        "question": "Will Fernando Haddad win the 2026 Brazilian presidential election?",
+        "groupItemTitle": "Fernando Haddad",
+        "outcomePrices": "[\"0.023\", \"0.977\"]",
+        "volume24hr": 162766.91076000006
+      },
+      {
+        "question": "Will Michelle Bolsonaro win the 2026 Brazilian presidential election?",
+        "groupItemTitle": "Michelle Bolsonaro",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 140502.66699899998
+      },
+      {
+        "question": "Will Eduardo Bolsonaro win the 2026 Brazilian presidential election?",
+        "groupItemTitle": "Eduardo Bolsonaro",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 226102.832333
+      },
+      {
+        "question": "Will Carlos Roberto Massa J\u00fanior win the 2026 Brazilian presidential election?",
+        "groupItemTitle": "Ratinho J\u00fanior",
+        "outcomePrices": "[\"0.0415\", \"0.9585\"]",
+        "volume24hr": 190827.76152700023
+      },
+      {
+        "question": "Will Renan Santos win the 2026 Brazilian presidential election?",
+        "groupItemTitle": "Renan Santos",
+        "outcomePrices": "[\"0.054\", \"0.946\"]",
+        "volume24hr": 172199.57052699968
+      },
+      {
+        "question": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+        "groupItemTitle": "Fl\u00e1vio Bolsonaro",
+        "outcomePrices": "[\"0.346\", \"0.654\"]",
+        "volume24hr": 304837.483996
+      },
+      {
+        "question": "Will Ronaldo Caiado win the 2026 Brazilian presidential election?",
+        "groupItemTitle": "Ronaldo Caiado",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "179810",
+    "title": "Largest Company End of February?",
+    "liquidity": 1083280.28602,
+    "volume": 14603686.812024,
+    "volume24hr": 783209.6228260001,
+    "endDate": "2026-02-28T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will NVIDIA be the largest company in the world by market cap on February 28?",
+        "groupItemTitle": "NVIDIA",
+        "outcomePrices": "[\"0.9985\", \"0.0015\"]",
+        "volume24hr": 938625.6685869999
+      },
+      {
+        "question": "Will Microsoft be the largest company in the world by market cap on February 28?",
+        "groupItemTitle": "Microsoft",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 97375.95199999999
+      },
+      {
+        "question": "Will Apple be the largest company in the world by market cap on February 28?",
+        "groupItemTitle": "Apple",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 230198.22803500015
+      },
+      {
+        "question": "Will Alphabet be the largest company in the world by market cap on February 28?",
+        "groupItemTitle": "Alphabet",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 927975.5392790003
+      },
+      {
+        "question": "Will Tesla be the largest company in the world by market cap on February 28?",
+        "groupItemTitle": "Tesla",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 438958.885
+      },
+      {
+        "question": "Will Saudi Aramco be the largest company in the world by market cap on February 28?",
+        "groupItemTitle": "Saudi Aramco",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 475515.26013499976
+      },
+      {
+        "question": "Will Amazon be the largest company in the world by market cap on February 28?",
+        "groupItemTitle": "Amazon",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 378850.66
+      },
+      {
+        "question": "Will Company A be the largest company in the world by market cap on February 28?",
+        "groupItemTitle": "Company A",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company B be the largest company in the world by market cap on February 28?",
+        "groupItemTitle": "Company B",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company C be the largest company in the world by market cap on February 28?",
+        "groupItemTitle": "Company C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "194105",
+    "title": "What price will XRP hit in February?",
+    "liquidity": 1063907.32883,
+    "volume": 4459911.939409,
+    "volume24hr": 379625.732939,
+    "endDate": "2026-03-01T05:00:00Z",
+    "markets": [
+      {
+        "question": "Will XRP dip to $0.00 in February?",
+        "groupItemTitle": "\u2193 0.00",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will XRP reach $4.00 in February?",
+        "groupItemTitle": "\u2191 4.00",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 489407.27640499995
+      },
+      {
+        "question": "Will XRP reach $3.40 in February?",
+        "groupItemTitle": "\u2191 3.40",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 294964.9582309999
+      },
+      {
+        "question": "Will XRP reach $3.20 in February?",
+        "groupItemTitle": "\u2191 3.20",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 138963.50708999988
+      },
+      {
+        "question": "Will XRP dip to $0.60 in February?",
+        "groupItemTitle": "\u2193 0.60",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 45312.454340000004
+      },
+      {
+        "question": "Will XRP reach $3.00 in February?",
+        "groupItemTitle": "\u2191 3.00",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 140125.15306100005
+      },
+      {
+        "question": "Will XRP reach $2.80 in February?",
+        "groupItemTitle": "\u2191 2.80",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 29645.963517000004
+      },
+      {
+        "question": "Will XRP reach $2.60 in February?",
+        "groupItemTitle": "\u2191 2.60",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 16658.702201000004
+      },
+      {
+        "question": "Will XRP reach $2.40 in February?",
+        "groupItemTitle": "\u2191 2.40",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 34873.26525800001
+      },
+      {
+        "question": "Will XRP dip to $1.00 in February?",
+        "groupItemTitle": "\u2193 1.00",
+        "outcomePrices": "[\"0.0125\", \"0.9875\"]",
+        "volume24hr": 78890.84825700002
+      }
+    ]
+  },
+  {
+    "id": "226986",
+    "title": "Elon Musk # tweets February 27 - March 6, 2026?",
+    "liquidity": 1038616.91448,
+    "volume": 1018294.378998,
+    "volume24hr": 426420.557824,
+    "endDate": "2026-03-06T17:00:00Z",
+    "markets": [
+      {
+        "question": "Will Elon Musk post 0-19 tweets from February 27 to March 6, 2026?",
+        "groupItemTitle": "<20",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 36617.969999999994
+      },
+      {
+        "question": "Will Elon Musk post 40-59 tweets from February 27 to March 6, 2026?",
+        "groupItemTitle": "40-59",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 37528.0226
+      },
+      {
+        "question": "Will Elon Musk post 20-39 tweets from February 27 to March 6, 2026?",
+        "groupItemTitle": "20-39",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 30936.943
+      },
+      {
+        "question": "Will Elon Musk post 60-79 tweets from February 27 to March 6, 2026?",
+        "groupItemTitle": "60-79",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 34787.64
+      },
+      {
+        "question": "Will Elon Musk post 80-99 tweets from February 27 to March 6, 2026?",
+        "groupItemTitle": "80-99",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 81709.01600500001
+      },
+      {
+        "question": "Will Elon Musk post 100-119 tweets from February 27 to March 6, 2026?",
+        "groupItemTitle": "100-119",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 66888.26512099997
+      },
+      {
+        "question": "Will Elon Musk post 120-139 tweets from February 27 to March 6, 2026?",
+        "groupItemTitle": "120-139",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 45195.59249999999
+      },
+      {
+        "question": "Will Elon Musk post 220-239 tweets from February 27 to March 6, 2026?",
+        "groupItemTitle": "220-239",
+        "outcomePrices": "[\"0.0165\", \"0.9835\"]",
+        "volume24hr": 32076.478189
+      },
+      {
+        "question": "Will Elon Musk post 380-399 tweets from February 27 to March 6, 2026?",
+        "groupItemTitle": "380-399",
+        "outcomePrices": "[\"0.085\", \"0.915\"]",
+        "volume24hr": 18930.775983999996
+      },
+      {
+        "question": "Will Elon Musk post 400-419 tweets from February 27 to March 6, 2026?",
+        "groupItemTitle": "400-419",
+        "outcomePrices": "[\"0.0345\", \"0.9655\"]",
+        "volume24hr": 32899.49924799999
+      }
+    ]
+  },
+  {
+    "id": "143443",
+    "title": "Venezuela leader end of 2026?",
+    "liquidity": 972552.41821,
+    "volume": 53472992.901574,
+    "volume24hr": 1107368.471912,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Mar\u00eda Corina Machado be the leader of Venezuela end of 2026?",
+        "groupItemTitle": "Mar\u00eda Corina Machado",
+        "outcomePrices": "[\"0.115\", \"0.885\"]",
+        "volume24hr": 20017.79790900001
+      },
+      {
+        "question": "Will Diosdado Cabello Rond\u00f3n be the leader of Venezuela end of 2026?",
+        "groupItemTitle": "Diosdado Cabello Rond\u00f3n",
+        "outcomePrices": "[\"0.018\", \"0.982\"]",
+        "volume24hr": 73968.208565
+      },
+      {
+        "question": "Will Dinorah Figuera be the leader of Venezuela end of 2026?",
+        "groupItemTitle": "Dinorah Figuera",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 110115.91149999997
+      },
+      {
+        "question": "Will Vladimir Padrino L\u00f3pez be the leader of Venezuela end of 2026?",
+        "groupItemTitle": "Vladimir Padrino L\u00f3pez",
+        "outcomePrices": "[\"0.013\", \"0.987\"]",
+        "volume24hr": 81118.677756
+      },
+      {
+        "question": "Will Jorge Rodr\u00edguez be the leader of Venezuela end of 2026?",
+        "groupItemTitle": "Jorge Rodr\u00edguez",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 10476.6637
+      },
+      {
+        "question": "Will Evan Pettus be the leader of Venezuela end of 2026?",
+        "groupItemTitle": "Evan Pettus",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 388843.5449999999
+      },
+      {
+        "question": "Will Dan Caine be the leader of Venezuela end of 2026?",
+        "groupItemTitle": "Dan Caine",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 19980.636000000002
+      },
+      {
+        "question": "Will there be no head of state of Venezuela end of 2026?",
+        "groupItemTitle": "No Head of State",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 79848.782
+      },
+      {
+        "question": "Will Leader 2 be the leader of Venezuela end of 2026?",
+        "groupItemTitle": "Leader 2",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Leader 4 be the leader of Venezuela end of 2026?",
+        "groupItemTitle": "Leader 4",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "227149",
+    "title": "Bitcoin Up or Down - February 26, 2AM ET",
+    "liquidity": 962681.01652,
+    "volume": 136088.650675,
+    "volume24hr": 135663.3206749998,
+    "endDate": "2026-02-26T08:00:00Z",
+    "markets": [
+      {
+        "question": "Bitcoin Up or Down - February 26, 2AM ET",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 135663.3206749998
+      }
+    ]
+  },
+  {
+    "id": "220474",
+    "title": "Elon Musk # tweets February 24 - March 3, 2026?",
+    "liquidity": 942750.50836,
+    "volume": 2548917.315737,
+    "volume24hr": 766406.250797,
+    "endDate": "2026-03-03T17:00:00Z",
+    "markets": [
+      {
+        "question": "Will Elon Musk post 40-59 tweets from February 24 to March 3, 2026?",
+        "groupItemTitle": "40-59",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 32111.678
+      },
+      {
+        "question": "Will Elon Musk post 60-79 tweets from February 24 to March 3, 2026?",
+        "groupItemTitle": "60-79",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 21604.3245
+      },
+      {
+        "question": "Will Elon Musk post 80-99 tweets from February 24 to March 3, 2026?",
+        "groupItemTitle": "80-99",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 87495.18599999999
+      },
+      {
+        "question": "Will Elon Musk post 100-119 tweets from February 24 to March 3, 2026?",
+        "groupItemTitle": "100-119",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 80335.2054
+      },
+      {
+        "question": "Will Elon Musk post 120-139 tweets from February 24 to March 3, 2026?",
+        "groupItemTitle": "120-139",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 200601.89591699987
+      },
+      {
+        "question": "Will Elon Musk post 140-159 tweets from February 24 to March 3, 2026?",
+        "groupItemTitle": "140-159",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 95916.739973
+      },
+      {
+        "question": "Will Elon Musk post 160-179 tweets from February 24 to March 3, 2026?",
+        "groupItemTitle": "160-179",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 91337.99373700001
+      },
+      {
+        "question": "Will Elon Musk post 180-199 tweets from February 24 to March 3, 2026?",
+        "groupItemTitle": "180-199",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 94600.84190799996
+      },
+      {
+        "question": "Will Elon Musk post 200-219 tweets from February 24 to March 3, 2026?",
+        "groupItemTitle": "200-219",
+        "outcomePrices": "[\"0.0045\", \"0.9955\"]",
+        "volume24hr": 122853.428097
+      },
+      {
+        "question": "Will Elon Musk post 220-239 tweets from February 24 to March 3, 2026?",
+        "groupItemTitle": "220-239",
+        "outcomePrices": "[\"0.009\", \"0.991\"]",
+        "volume24hr": 104224.841274
+      }
+    ]
+  },
+  {
+    "id": "189792",
+    "title": "What will Gold (GC) hit__ by end of February?",
+    "liquidity": 927009.60476,
+    "volume": 8854213.796931,
+    "volume24hr": 307407.282467,
+    "endDate": "2026-02-28T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Gold (GC) hit (HIGH) $5,800 by end of February?",
+        "groupItemTitle": "\u2191 $5,800",
+        "outcomePrices": "[\"0.0065\", \"0.9935\"]",
+        "volume24hr": 199534.7244329999
+      },
+      {
+        "question": "Will Gold (GC) hit (HIGH) $6,400 by end of February?",
+        "groupItemTitle": "\u2191 $6,400",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 82234.764764
+      },
+      {
+        "question": "Will Gold (GC) hit (HIGH) $7,000 by end of February?",
+        "groupItemTitle": "\u2191 $7,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 117956.29353999993
+      },
+      {
+        "question": "Will Gold (GC) hit (HIGH) $6,000 by end of February?",
+        "groupItemTitle": "\u2191 $6,000",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 119783.64939400001
+      },
+      {
+        "question": "Will Gold (GC) hit (LOW) $4,600 by end of February?",
+        "groupItemTitle": "\u2193 $4,600",
+        "outcomePrices": "[\"0.007\", \"0.993\"]",
+        "volume24hr": 96025.36140500003
+      },
+      {
+        "question": "Will Gold (GC) hit (LOW) $4,000 by end of February?",
+        "groupItemTitle": "\u2193 $4,000",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 81814.38010800001
+      },
+      {
+        "question": "Will Gold (GC) hit (LOW) $3,000 by end of February?",
+        "groupItemTitle": "\u2193 $3,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 82003.31951000003
+      },
+      {
+        "question": "Will Gold (GC) hit (HIGH) $10,000 by end of February?",
+        "groupItemTitle": "\u2191 $10,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 437107.2408379997
+      },
+      {
+        "question": "Will Gold (GC) hit (HIGH) $5,500 by end of February?",
+        "groupItemTitle": "\u2191 $5,500",
+        "outcomePrices": "[\"0.0115\", \"0.9885\"]",
+        "volume24hr": 373375.7403270001
+      },
+      {
+        "question": "Will Gold (GC) hit (LOW) $4,450 by end of February?",
+        "groupItemTitle": "\u2193 $4,450",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 66132.58511200003
+      }
+    ]
+  },
+  {
+    "id": "203488",
+    "title": "US next strikes Iran on...?",
+    "liquidity": 918485.89465,
+    "volume": 8958079.6246,
+    "volume24hr": 508317.494211,
+    "endDate": "2026-03-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will the US next strike Iran before March 2026 (ET)?",
+        "groupItemTitle": "Before March ET",
+        "outcomePrices": "[\"0.085\", \"0.915\"]",
+        "volume24hr": 163157.35020700004
+      },
+      {
+        "question": "Will the US next strike Iran on March 1, 2026 (ET)?",
+        "groupItemTitle": "March 1",
+        "outcomePrices": "[\"0.037\", \"0.963\"]",
+        "volume24hr": 204526.43913999977
+      },
+      {
+        "question": "Will the US next strike Iran on March 2, 2026 (ET)?",
+        "groupItemTitle": "March 2",
+        "outcomePrices": "[\"0.028\", \"0.972\"]",
+        "volume24hr": 225710.38020500008
+      },
+      {
+        "question": "Will the US next strike Iran on March 6, 2026 (ET)?",
+        "groupItemTitle": "March 6",
+        "outcomePrices": "[\"0.0395\", \"0.9605\"]",
+        "volume24hr": 139351.19123500018
+      },
+      {
+        "question": "Will the US next strike Iran on March 7, 2026 (ET)?",
+        "groupItemTitle": "March 7",
+        "outcomePrices": "[\"0.0365\", \"0.9635\"]",
+        "volume24hr": 149353.9857359998
+      },
+      {
+        "question": "Will the US next strike Iran on March 12, 2026 (ET)?",
+        "groupItemTitle": "March 12",
+        "outcomePrices": "[\"0.0135\", \"0.9865\"]",
+        "volume24hr": 149757.36243100002
+      },
+      {
+        "question": "Will the US next strike Iran on March 16, 2026 (ET)?",
+        "groupItemTitle": "March 16",
+        "outcomePrices": "[\"0.009\", \"0.991\"]",
+        "volume24hr": 106737.14094899994
+      },
+      {
+        "question": "Will the US next strike Iran on March 20, 2026 (ET)?",
+        "groupItemTitle": "March 20",
+        "outcomePrices": "[\"0.0205\", \"0.9795\"]",
+        "volume24hr": 116687.62895699994
+      },
+      {
+        "question": "Will the US next strike Iran on March 21, 2026 (ET)?",
+        "groupItemTitle": "March 21",
+        "outcomePrices": "[\"0.021\", \"0.979\"]",
+        "volume24hr": 67787.34495399999
+      },
+      {
+        "question": "Will the US next strike Iran on March 24, 2026 (ET)?",
+        "groupItemTitle": "March 24",
+        "outcomePrices": "[\"0.0095\", \"0.9905\"]",
+        "volume24hr": 93687.63694899993
+      }
+    ]
+  },
+  {
+    "id": "51456",
+    "title": "How many Fed rate cuts in 2026?",
+    "liquidity": 874809.41849,
+    "volume": 7363755.211905,
+    "volume24hr": 81259.74674899995,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will no Fed rate cuts happen in 2026?",
+        "groupItemTitle": "0 (0 bps)",
+        "outcomePrices": "[\"0.101\", \"0.899\"]",
+        "volume24hr": 156752.17126099995
+      },
+      {
+        "question": "Will 1 Fed rate cut happen in 2026?",
+        "groupItemTitle": "1 (25 bps)",
+        "outcomePrices": "[\"0.175\", \"0.825\"]",
+        "volume24hr": 23339.511938
+      },
+      {
+        "question": "Will 2 Fed rate cuts happen in 2026?",
+        "groupItemTitle": "2 (50 bps)",
+        "outcomePrices": "[\"0.265\", \"0.735\"]",
+        "volume24hr": 32641.379326
+      },
+      {
+        "question": "Will 3 Fed rate cuts happen in 2026?",
+        "groupItemTitle": "3 (75 bps)",
+        "outcomePrices": "[\"0.205\", \"0.795\"]",
+        "volume24hr": 23905.32981799999
+      },
+      {
+        "question": "Will 4 Fed rate cuts happen in 2026?",
+        "groupItemTitle": "4 (100 bps)",
+        "outcomePrices": "[\"0.105\", \"0.895\"]",
+        "volume24hr": 14244.7595
+      },
+      {
+        "question": "Will 5 Fed rate cuts happen in 2026?",
+        "groupItemTitle": "5 (125 bps)",
+        "outcomePrices": "[\"0.055\", \"0.945\"]",
+        "volume24hr": 17227.35154
+      },
+      {
+        "question": "Will 6 Fed rate cuts happen in 2026?",
+        "groupItemTitle": "6 (150 bps)",
+        "outcomePrices": "[\"0.026\", \"0.974\"]",
+        "volume24hr": 169084.581133
+      },
+      {
+        "question": "Will 7 Fed rate cuts happen in 2026?",
+        "groupItemTitle": "7 (175 bps)",
+        "outcomePrices": "[\"0.0095\", \"0.9905\"]",
+        "volume24hr": 28465.563945000013
+      },
+      {
+        "question": "Will 8 Fed rate cuts happen in 2026?",
+        "groupItemTitle": "8 (200 bps)",
+        "outcomePrices": "[\"0.0105\", \"0.9895\"]",
+        "volume24hr": 28550.092036
+      },
+      {
+        "question": "Will 9 Fed rate cuts happen in 2026?",
+        "groupItemTitle": "9 (225 bps)",
+        "outcomePrices": "[\"0.0065\", \"0.9935\"]",
+        "volume24hr": 14949.713676000003
+      }
+    ]
+  },
+  {
+    "id": "227147",
+    "title": "Ethereum Up or Down - February 26, 2AM ET",
+    "liquidity": 874768.54217,
+    "volume": 46835.863403,
+    "volume24hr": 46217.043675000044,
+    "endDate": "2026-02-26T08:00:00Z",
+    "markets": [
+      {
+        "question": "Ethereum Up or Down - February 26, 2AM ET",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 46664.55340300004
+      }
+    ]
+  },
+  {
+    "id": "227148",
+    "title": "XRP Up or Down - February 26, 2AM ET",
+    "liquidity": 872382.48854,
+    "volume": 12227.684595,
+    "volume24hr": 12219.284595000005,
+    "endDate": "2026-02-26T08:00:00Z",
+    "markets": [
+      {
+        "question": "XRP Up or Down - February 26, 2AM ET",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 12219.284595000005
+      }
+    ]
+  },
+  {
+    "id": "227150",
+    "title": "Solana Up or Down - February 26, 2AM ET",
+    "liquidity": 872204.11931,
+    "volume": 23363.945228,
+    "volume24hr": 23340.165228000023,
+    "endDate": "2026-02-26T08:00:00Z",
+    "markets": [
+      {
+        "question": "Solana Up or Down - February 26, 2AM ET",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 23340.165228000023
+      }
+    ]
+  },
+  {
+    "id": "226988",
+    "title": "Elon Musk musk # tweets in April 2026?",
+    "liquidity": 867966.37231,
+    "volume": 83432.692704,
+    "volume24hr": 41640.160141,
+    "endDate": "2026-05-01T04:00:00Z",
+    "markets": [
+      {
+        "question": "Will Elon Musk post 0-19 tweets in April 2026?",
+        "groupItemTitle": "<20",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 3141.9828
+      },
+      {
+        "question": "Will Elon Musk post 20-39 tweets in April 2026?",
+        "groupItemTitle": "20-39",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 2616.7137
+      },
+      {
+        "question": "Will Elon Musk post 80-99 tweets in April 2026?",
+        "groupItemTitle": "80-99",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 3309.2407
+      },
+      {
+        "question": "Will Elon Musk post 180-199 tweets in April 2026?",
+        "groupItemTitle": "180-199",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 3892.815
+      },
+      {
+        "question": "Will Elon Musk post 700-719 tweets in April 2026?",
+        "groupItemTitle": "700-719",
+        "outcomePrices": "[\"0.039\", \"0.961\"]",
+        "volume24hr": 207.61
+      },
+      {
+        "question": "Will Elon Musk post 720-739 tweets in April 2026?",
+        "groupItemTitle": "720-739",
+        "outcomePrices": "[\"0.039\", \"0.961\"]",
+        "volume24hr": 207.61
+      },
+      {
+        "question": "Will Elon Musk post 40-59 tweets in April 2026?",
+        "groupItemTitle": "40-59",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 2991.0543000000002
+      },
+      {
+        "question": "Will Elon Musk post 100-119 tweets in April 2026?",
+        "groupItemTitle": "100-119",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 3429.272181
+      },
+      {
+        "question": "Will Elon Musk post 60-79 tweets in April 2026?",
+        "groupItemTitle": "60-79",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 3354.2463
+      },
+      {
+        "question": "Will Elon Musk post 120-139 tweets in April 2026?",
+        "groupItemTitle": "120-139",
+        "outcomePrices": "[\"0.007\", \"0.993\"]",
+        "volume24hr": 894.6099999999999
+      }
+    ]
+  },
+  {
+    "id": "50251",
+    "title": "Oscars 2026: Best Picture Winner",
+    "liquidity": 836678.95628,
+    "volume": 18419687.363173,
+    "volume24hr": 364082.058409,
+    "endDate": "2026-03-15T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will One Battle After Another win Best Picture at the 98th Academy Awards?",
+        "groupItemTitle": "One Battle After Another",
+        "outcomePrices": "[\"0.755\", \"0.245\"]",
+        "volume24hr": 129416.80372299996
+      },
+      {
+        "question": "Will Hamnet win Best Picture at the 98th Academy Awards?",
+        "groupItemTitle": "Hamnet",
+        "outcomePrices": "[\"0.0455\", \"0.9545\"]",
+        "volume24hr": 325812.5967510001
+      },
+      {
+        "question": "Will Sinners win Best Picture at the 98th Academy Awards?",
+        "groupItemTitle": "Sinners",
+        "outcomePrices": "[\"0.1425\", \"0.8575\"]",
+        "volume24hr": 126099.93877300007
+      },
+      {
+        "question": "Will Sentimental Value win Best Picture at the 98th Academy Awards?",
+        "groupItemTitle": "Sentimental Value",
+        "outcomePrices": "[\"0.0055\", \"0.9945\"]",
+        "volume24hr": 242694.06732299994
+      },
+      {
+        "question": "Will Marty Supreme win Best Picture at the 98th Academy Awards?",
+        "groupItemTitle": "Marty Supreme",
+        "outcomePrices": "[\"0.0255\", \"0.9745\"]",
+        "volume24hr": 293246.5852279992
+      },
+      {
+        "question": "Will Bugonia win Best Picture at the 98th Academy Awards?",
+        "groupItemTitle": "Bugonia",
+        "outcomePrices": "[\"0.0055\", \"0.9945\"]",
+        "volume24hr": 230113.91548900006
+      },
+      {
+        "question": "Will Frankenstein win Best Picture at the 98th Academy Awards?",
+        "groupItemTitle": "Frankenstein",
+        "outcomePrices": "[\"0.0055\", \"0.9945\"]",
+        "volume24hr": 231253.3176100001
+      },
+      {
+        "question": "Will any other film win Best Picture at the 98th Academy Awards?",
+        "groupItemTitle": "Other",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will F1 win Best Picture at the 98th Academy Awards?",
+        "groupItemTitle": "F1",
+        "outcomePrices": "[\"0.0055\", \"0.9945\"]",
+        "volume24hr": 329244.07638800016
+      },
+      {
+        "question": "Will The Secret Agent win Best Picture at the 98th Academy Awards?",
+        "groupItemTitle": "The Secret Agent",
+        "outcomePrices": "[\"0.013\", \"0.987\"]",
+        "volume24hr": 253469.2948380001
+      }
+    ]
+  },
+  {
+    "id": "33228",
+    "title": "Which party wins 2028 US Presidential Election?",
+    "liquidity": 807923.1109,
+    "volume": 1365003.422924,
+    "volume24hr": 4260.178019,
+    "endDate": "2028-11-07T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Party K win the 2028 US Presidential Election?",
+        "groupItemTitle": "Party K",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Party L win the 2028 US Presidential Election?",
+        "groupItemTitle": "Party L",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will another party win the 2028 US Presidential Election?",
+        "groupItemTitle": "Other",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Party H win the 2028 US Presidential Election?",
+        "groupItemTitle": "Party H",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Party E win the 2028 US Presidential Election?",
+        "groupItemTitle": "Party E",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will the Republicans win the 2028 US Presidential Election?",
+        "groupItemTitle": "Republican",
+        "outcomePrices": "[\"0.455\", \"0.545\"]",
+        "volume24hr": 4022.3508960000004
+      },
+      {
+        "question": "Will Party A win the 2028 US Presidential Election?",
+        "groupItemTitle": "Party A",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Party B win the 2028 US Presidential Election?",
+        "groupItemTitle": "Party B",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will the Democrats win the 2028 US Presidential Election?",
+        "groupItemTitle": "Democratic",
+        "outcomePrices": "[\"0.545\", \"0.455\"]",
+        "volume24hr": 13186.256495999998
+      },
+      {
+        "question": "Will Party C win the 2028 US Presidential Election?",
+        "groupItemTitle": "Party C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "184873",
+    "title": "Elon Musk musk # tweets in March 2026?",
+    "liquidity": 743508.83331,
+    "volume": 1075135.5301,
+    "volume24hr": 17616.771834,
+    "endDate": "2026-04-01T04:00:00Z",
+    "markets": [
+      {
+        "question": "Will Elon Musk post 0-19 tweets in March 2026?",
+        "groupItemTitle": "<20",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 10646.718
+      },
+      {
+        "question": "Will Elon Musk post 20-39 tweets in March 2026?",
+        "groupItemTitle": "20-39",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 11826.011999999999
+      },
+      {
+        "question": "Will Elon Musk post 40-59 tweets in March 2026?",
+        "groupItemTitle": "40-59",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 43644.389
+      },
+      {
+        "question": "Will Elon Musk post 60-79 tweets in March 2026?",
+        "groupItemTitle": "60-79",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 30620.911
+      },
+      {
+        "question": "Will Elon Musk post 80-99 tweets in March 2026?",
+        "groupItemTitle": "80-99",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 26299.567
+      },
+      {
+        "question": "Will Elon Musk post 100-119 tweets in March 2026?",
+        "groupItemTitle": "100-119",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 10468.375
+      },
+      {
+        "question": "Will Elon Musk post 120-139 tweets in March 2026?",
+        "groupItemTitle": "120-139",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 10024.665
+      },
+      {
+        "question": "Will Elon Musk post 140-159 tweets in March 2026?",
+        "groupItemTitle": "140-159",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 5013.19
+      },
+      {
+        "question": "Will Elon Musk post 160-179 tweets in March 2026?",
+        "groupItemTitle": "160-179",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 4611.43
+      },
+      {
+        "question": "Will Elon Musk post 180-199 tweets in March 2026?",
+        "groupItemTitle": "180-199",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 5295.53
+      }
+    ]
+  },
+  {
+    "id": "31759",
+    "title": "Russia x Ukraine ceasefire by March 31, 2026?",
+    "liquidity": 711888.16475,
+    "volume": 19855449.646513,
+    "volume24hr": 191092.388709,
+    "endDate": "2026-03-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Russia x Ukraine ceasefire by March 31, 2026?",
+        "groupItemTitle": "",
+        "outcomePrices": "[\"0.0255\", \"0.9745\"]",
+        "volume24hr": 1406371.1650429992
+      }
+    ]
+  },
+  {
+    "id": "34038",
+    "title": "Next Prime Minister of Hungary",
+    "liquidity": 661094.60749,
+    "volume": 23628824.559307,
+    "volume24hr": 693075.3478240004,
+    "endDate": "2026-04-12T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will the next Prime Minister of Hungary be another person?",
+        "groupItemTitle": "Other",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will the next Prime Minister of Hungary be Person Q?",
+        "groupItemTitle": "Person Q",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will the next Prime Minister of Hungary be Person R?",
+        "groupItemTitle": "Person R",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will the next Prime Minister of Hungary be Person S?",
+        "groupItemTitle": "Person S",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will the next Prime Minister of Hungary be Person T?",
+        "groupItemTitle": "Person T",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will the next Prime Minister of Hungary be Person U?",
+        "groupItemTitle": "Person U",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
+        "groupItemTitle": "Viktor Orb\u00e1n",
+        "outcomePrices": "[\"0.375\", \"0.625\"]",
+        "volume24hr": 322554.9386670001
+      },
+      {
+        "question": "Will the next Prime Minister of Hungary be Person P?",
+        "groupItemTitle": "Person P",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
+        "groupItemTitle": "P\u00e9ter Magyar",
+        "outcomePrices": "[\"0.615\", \"0.385\"]",
+        "volume24hr": 275986.9477609998
+      },
+      {
+        "question": "Will the next Prime Minister of Hungary be Kl\u00e1ra Dobrev?",
+        "groupItemTitle": "Kl\u00e1ra Dobrev",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 351376.478764
+      }
+    ]
+  },
+  {
+    "id": "189845",
+    "title": "US next strikes Iran on...?",
+    "liquidity": 659127.71523,
+    "volume": 46960734.649094,
+    "volume24hr": 1349012.555205,
+    "endDate": "2026-02-28T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will the US next strike Iran on February 24, 2026 (ET)?",
+        "groupItemTitle": "February 24",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 1592627.637482999
+      },
+      {
+        "question": "Will the US next strike Iran on February 26, 2026 (ET)?",
+        "groupItemTitle": "February 26",
+        "outcomePrices": "[\"0.015\", \"0.985\"]",
+        "volume24hr": 1119245.3963319997
+      },
+      {
+        "question": "Will the US next strike Iran on February 28, 2026 (ET)?",
+        "groupItemTitle": "February 28",
+        "outcomePrices": "[\"0.051\", \"0.949\"]",
+        "volume24hr": 864783.690843001
+      },
+      {
+        "question": "Will the US next strike Iran on February 25, 2026 (ET)?",
+        "groupItemTitle": "February 25",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 1616048.8056909991
+      },
+      {
+        "question": "Will the US next strike Iran on February 27, 2026 (ET)?",
+        "groupItemTitle": "February 27",
+        "outcomePrices": "[\"0.025\", \"0.975\"]",
+        "volume24hr": 722117.04795
+      },
+      {
+        "question": "Will the US not strike Iran by February 28, 2026?",
+        "groupItemTitle": "No strike by February 28",
+        "outcomePrices": "[\"0.915\", \"0.085\"]",
+        "volume24hr": 579457.8908570022
+      }
+    ]
+  },
+  {
+    "id": "226467",
+    "title": "ATX Open: Kamilla Rakhimova vs Oksana Selekhmeteva",
+    "liquidity": 656929.94359,
+    "volume": 249711.113917,
+    "volume24hr": 238064.64393699996,
+    "endDate": "2026-03-04T16:00:00Z",
+    "markets": [
+      {
+        "question": "ATX Open: Kamilla Rakhimova vs Oksana Selekhmeteva",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 249259.43948399994
+      },
+      {
+        "question": "Rakhimova vs. Selekhmeteva: Set 1 Games O/U 9.5",
+        "groupItemTitle": "ATX Open: Kamilla Rakhimova vs Oksana Selekhmeteva Set 1 O/U 9.5",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 20.63
+      },
+      {
+        "question": "Rakhimova vs. Selekhmeteva: Match O/U 22.5",
+        "groupItemTitle": "ATX Open: Kamilla Rakhimova vs Oksana Selekhmeteva Match O/U 22.5",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 20.630000000000003
+      },
+      {
+        "question": "Rakhimova vs. Selekhmeteva: Match O/U 23.5",
+        "groupItemTitle": "ATX Open: Kamilla Rakhimova vs Oksana Selekhmeteva Match O/U 23.5",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 20.630000000000003
+      },
+      {
+        "question": "Rakhimova vs. Selekhmeteva: Total Sets O/U 2.5",
+        "groupItemTitle": "ATX Open: Kamilla Rakhimova vs Oksana Selekhmeteva Total Sets: O/U 2.5",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 20.630000000000003
+      }
+    ]
+  },
+  {
+    "id": "89519",
+    "title": "What price will Ethereum hit in 2026?",
+    "liquidity": 627161.8607,
+    "volume": 2902243.76807,
+    "volume24hr": 16246.349392999999,
+    "endDate": "2027-01-01T05:00:00Z",
+    "markets": [
+      {
+        "question": "Will Ethereum reach $10,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 10,000",
+        "outcomePrices": "[\"0.0455\", \"0.9545\"]",
+        "volume24hr": 13835.990935000002
+      },
+      {
+        "question": "Will Ethereum reach $7,500 by December 31, 2026?",
+        "groupItemTitle": "\u2191 7,500",
+        "outcomePrices": "[\"0.07\", \"0.93\"]",
+        "volume24hr": 5655.030312
+      },
+      {
+        "question": "Will Ethereum reach $6,500 by December 31, 2026?",
+        "groupItemTitle": "\u2191 6,500",
+        "outcomePrices": "[\"0.08\", \"0.92\"]",
+        "volume24hr": 7309.153329
+      },
+      {
+        "question": "Will Ethereum reach $5,500 by December 31, 2026?",
+        "groupItemTitle": "\u2191 5,500",
+        "outcomePrices": "[\"0.14\", \"0.86\"]",
+        "volume24hr": 14010.538981
+      },
+      {
+        "question": "Will Ethereum reach $4,500 by December 31, 2026?",
+        "groupItemTitle": "\u2191 4,500",
+        "outcomePrices": "[\"0.18\", \"0.82\"]",
+        "volume24hr": 6035.691312999999
+      },
+      {
+        "question": "Will Ethereum reach $3,500 by December 31, 2026?",
+        "groupItemTitle": "\u2191 3,500",
+        "outcomePrices": "[\"0.37\", \"0.63\"]",
+        "volume24hr": 13637.090968
+      },
+      {
+        "question": "Will Ethereum dip to $1,000 by December 31, 2026?",
+        "groupItemTitle": "\u2193 1,000",
+        "outcomePrices": "[\"0.31\", \"0.69\"]",
+        "volume24hr": 6895.857795000001
+      },
+      {
+        "question": "Will Ethereum reach $8,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 8,000",
+        "outcomePrices": "[\"0.065\", \"0.935\"]",
+        "volume24hr": 11649.224737999999
+      },
+      {
+        "question": "Will Ethereum reach $7,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 7,000",
+        "outcomePrices": "[\"0.08\", \"0.92\"]",
+        "volume24hr": 5367.979107
+      },
+      {
+        "question": "Will Ethereum reach $6,000 by December 31, 2026?",
+        "groupItemTitle": "\u2191 6,000",
+        "outcomePrices": "[\"0.095\", \"0.905\"]",
+        "volume24hr": 16409.44224
+      }
+    ]
+  },
+  {
+    "id": "139020",
+    "title": "2026 Men's French Open Winner",
+    "liquidity": 618856.30851,
+    "volume": 501792.949239,
+    "volume24hr": 8156.998812,
+    "endDate": "2026-06-07T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Jannik Sinner win the 2026 Men's French Open?",
+        "groupItemTitle": "Jannik Sinner",
+        "outcomePrices": "[\"0.315\", \"0.685\"]",
+        "volume24hr": 2676.391676
+      },
+      {
+        "question": "Will Jack Draper win the 2026 Men's French Open?",
+        "groupItemTitle": "Jack Draper",
+        "outcomePrices": "[\"0.01\", \"0.99\"]",
+        "volume24hr": 2133.8145709999994
+      },
+      {
+        "question": "Will Grigor Dimitrov win the 2026 Men's French Open?",
+        "groupItemTitle": "Grigor Dimitrov",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 1641.1905000000004
+      },
+      {
+        "question": "Will Alexander Bublik win the 2026 Men's French Open?",
+        "groupItemTitle": "Alexander Bublik",
+        "outcomePrices": "[\"0.008\", \"0.992\"]",
+        "volume24hr": 1814.705789
+      },
+      {
+        "question": "Will Marin Cilic win the 2026 Men's French Open?",
+        "groupItemTitle": "Marin Cilic",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 1641.1835
+      },
+      {
+        "question": "Will Alex Michelsen win the 2026 Men's French Open?",
+        "groupItemTitle": "Alex Michelsen",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 2545.5548290000006
+      },
+      {
+        "question": "Will Alejandro Tabilo win the 2026 Men's French Open?",
+        "groupItemTitle": "Alejandro Tabilo",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 1656.7219940000007
+      },
+      {
+        "question": "Will Player A win the 2026 Men's French Open?",
+        "groupItemTitle": "Player A",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Player B win the 2026 Men's French Open?",
+        "groupItemTitle": "Player B",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Player I win the 2026 Men's French Open?",
+        "groupItemTitle": "Player I",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "118172",
+    "title": "Will Trump acquire Greenland before 2027?",
+    "liquidity": 611316.17647,
+    "volume": 28478560.465281,
+    "volume24hr": 33720.512921,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Trump acquire Greenland before 2027?",
+        "groupItemTitle": "",
+        "outcomePrices": "[\"0.1125\", \"0.8875\"]",
+        "volume24hr": 401265.46578699985
+      }
+    ]
+  },
+  {
+    "id": "69987",
+    "title": "2026 NCAA Tournament Winner",
+    "liquidity": 600811.44574,
+    "volume": 821335.202611,
+    "volume24hr": 49496.835509000004,
+    "endDate": "2026-04-04T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Florida win the 2026 NCAA Tournament?",
+        "groupItemTitle": "Florida",
+        "outcomePrices": "[\"0.078\", \"0.922\"]",
+        "volume24hr": 8463.361102999997
+      },
+      {
+        "question": "Will Michigan win the 2026 NCAA Tournament?",
+        "groupItemTitle": "Michigan",
+        "outcomePrices": "[\"0.175\", \"0.825\"]",
+        "volume24hr": 7371.180261
+      },
+      {
+        "question": "Will Alabama win the 2026 NCAA Tournament?",
+        "groupItemTitle": "Alabama",
+        "outcomePrices": "[\"0.0105\", \"0.9895\"]",
+        "volume24hr": 5515.733936999999
+      },
+      {
+        "question": "Will Michigan State win the 2026 NCAA Tournament?",
+        "groupItemTitle": "Michigan State",
+        "outcomePrices": "[\"0.025\", \"0.975\"]",
+        "volume24hr": 14788.806513
+      },
+      {
+        "question": "Will Kentucky win the 2026 NCAA Tournament?",
+        "groupItemTitle": "Kentucky",
+        "outcomePrices": "[\"0.0045\", \"0.9955\"]",
+        "volume24hr": 4462.8351
+      },
+      {
+        "question": "Will BYU win the 2026 NCAA Tournament?",
+        "groupItemTitle": "BYU",
+        "outcomePrices": "[\"0.0105\", \"0.9895\"]",
+        "volume24hr": 8375.0872
+      },
+      {
+        "question": "Will Arizona win the 2026 NCAA Tournament?",
+        "groupItemTitle": "Arizona",
+        "outcomePrices": "[\"0.107\", \"0.893\"]",
+        "volume24hr": 11895.46336
+      },
+      {
+        "question": "Will NC State win the 2026 NCAA Tournament?",
+        "groupItemTitle": "NC State",
+        "outcomePrices": "[\"0.0115\", \"0.9885\"]",
+        "volume24hr": 5753.734112
+      },
+      {
+        "question": "Will Connecticut win the 2026 NCAA Tournament?",
+        "groupItemTitle": "Connecticut",
+        "outcomePrices": "[\"0.0475\", \"0.9525\"]",
+        "volume24hr": 12661.765751
+      },
+      {
+        "question": "Will Kansas win the 2026 NCAA Tournament?",
+        "groupItemTitle": "Kansas",
+        "outcomePrices": "[\"0.0315\", \"0.9685\"]",
+        "volume24hr": 12622.006276999997
+      }
+    ]
+  },
+  {
+    "id": "139182",
+    "title": "2026 Women's Wimbledon Winner",
+    "liquidity": 591922.74732,
+    "volume": 63968.666818,
+    "volume24hr": 633.5768,
+    "endDate": "2026-07-12T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Elena Rybakina be the 2026 Women\u2019s Wimbledon Winner?",
+        "groupItemTitle": "Elena Rybakina",
+        "outcomePrices": "[\"0.14\", \"0.86\"]",
+        "volume24hr": 9.52
+      },
+      {
+        "question": "Will Emma Raducanu be the 2026 Women\u2019s Wimbledon Winner?",
+        "groupItemTitle": "Emma Raducanu",
+        "outcomePrices": "[\"0.0145\", \"0.9855\"]",
+        "volume24hr": 9.52
+      },
+      {
+        "question": "Will Jasmine Paolini be the 2026 Women\u2019s Wimbledon Winner?",
+        "groupItemTitle": "Jasmine Paolini",
+        "outcomePrices": "[\"0.025\", \"0.975\"]",
+        "volume24hr": 112.02
+      },
+      {
+        "question": "Will Belinda Bencic be the 2026 Women\u2019s Wimbledon Winner?",
+        "groupItemTitle": "Belinda Bencic",
+        "outcomePrices": "[\"0.025\", \"0.975\"]",
+        "volume24hr": 89.2068
+      },
+      {
+        "question": "Will Liudmila Samsonova be the 2026 Women\u2019s Wimbledon Winner?",
+        "groupItemTitle": "Liudmila Samsonova",
+        "outcomePrices": "[\"0.003\", \"0.997\"]",
+        "volume24hr": 9.52
+      },
+      {
+        "question": "Will Emma Navarro be the 2026 Women\u2019s Wimbledon Winner?",
+        "groupItemTitle": "Emma Navarro",
+        "outcomePrices": "[\"0.013\", \"0.987\"]",
+        "volume24hr": 9.52
+      },
+      {
+        "question": "Will Linda Noskov\u00e1 be the 2026 Women\u2019s Wimbledon Winner?",
+        "groupItemTitle": "Linda Noskov\u00e1",
+        "outcomePrices": "[\"0.02\", \"0.98\"]",
+        "volume24hr": 9.52
+      },
+      {
+        "question": "Will Naomi Osaka be the 2026 Women\u2019s Wimbledon Winner?",
+        "groupItemTitle": "Naomi Osaka",
+        "outcomePrices": "[\"0.023\", \"0.977\"]",
+        "volume24hr": 28.52
+      },
+      {
+        "question": "Will Maya Joint be the 2026 Women\u2019s Wimbledon Winner?",
+        "groupItemTitle": "Maya Joint",
+        "outcomePrices": "[\"0.0085\", \"0.9915\"]",
+        "volume24hr": 9.52
+      },
+      {
+        "question": "Will Dayana Yastremska be the 2026 Women\u2019s Wimbledon Winner?",
+        "groupItemTitle": "Dayana Yastremska",
+        "outcomePrices": "[\"0.016\", \"0.984\"]",
+        "volume24hr": 9.52
+      }
+    ]
+  },
+  {
+    "id": "139065",
+    "title": "2026 Women's French Open Winner",
+    "liquidity": 579446.61561,
+    "volume": 26946.071331,
+    "volume24hr": 591.92,
+    "endDate": "2026-06-06T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Madison Keys win the 2026 Women\u2019s French Open?",
+        "groupItemTitle": "Madison Keys",
+        "outcomePrices": "[\"0.05\", \"0.95\"]",
+        "volume24hr": 157.88
+      },
+      {
+        "question": "Will Amanda Anisimova win the 2026 Women\u2019s French Open?",
+        "groupItemTitle": "Amanda Anisimova",
+        "outcomePrices": "[\"0.0325\", \"0.9675\"]",
+        "volume24hr": 6.01
+      },
+      {
+        "question": "Will Karol\u00edna Muchov\u00e1 win the 2026 Women\u2019s French Open?",
+        "groupItemTitle": "Karol\u00edna Muchov\u00e1",
+        "outcomePrices": "[\"0.0295\", \"0.9705\"]",
+        "volume24hr": 6.01
+      },
+      {
+        "question": "Will Barbora Krej\u010d\u00edkov\u00e1 win the 2026 Women\u2019s French Open?",
+        "groupItemTitle": "Barbora Krej\u010d\u00edkov\u00e1",
+        "outcomePrices": "[\"0.003\", \"0.997\"]",
+        "volume24hr": 6.01
+      },
+      {
+        "question": "Will Victoria Mboko win the 2026 Women\u2019s French Open?",
+        "groupItemTitle": "Victoria Mboko",
+        "outcomePrices": "[\"0.024\", \"0.976\"]",
+        "volume24hr": 40.01
+      },
+      {
+        "question": "Will Daria Kasatkina win the 2026 Women\u2019s French Open?",
+        "groupItemTitle": "Daria Kasatkina",
+        "outcomePrices": "[\"0.003\", \"0.997\"]",
+        "volume24hr": 6.01
+      },
+      {
+        "question": "Will Linda Noskov\u00e1 win the 2026 Women\u2019s French Open?",
+        "groupItemTitle": "Linda Noskov\u00e1",
+        "outcomePrices": "[\"0.0285\", \"0.9715\"]",
+        "volume24hr": 278.91
+      },
+      {
+        "question": "Will Anastasia Potapova win the 2026 Women\u2019s French Open?",
+        "groupItemTitle": "Anastasia Potapova",
+        "outcomePrices": "[\"0.01\", \"0.99\"]",
+        "volume24hr": 98.01
+      },
+      {
+        "question": "Will Ekaterina Alexandrova win the 2026 Women\u2019s French Open?",
+        "groupItemTitle": "Ekaterina Alexandrova",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 6.01
+      },
+      {
+        "question": "Will Alexandra Eala win the 2026 Women\u2019s French Open?",
+        "groupItemTitle": "Alexandra Eala",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 6.01
+      }
+    ]
+  },
+  {
+    "id": "34044",
+    "title": "Will China invade Taiwan by end of 2026?",
+    "liquidity": 569287.95004,
+    "volume": 9404620.009523,
+    "volume24hr": 92452.03996699986,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will China invade Taiwan by end of 2026?",
+        "groupItemTitle": "",
+        "outcomePrices": "[\"0.1005\", \"0.8995\"]",
+        "volume24hr": 431927.60779199924
+      }
+    ]
+  },
+  {
+    "id": "139122",
+    "title": "2026 Men\u2019s Wimbledon Winner",
+    "liquidity": 540588.38756,
+    "volume": 48458.405972,
+    "volume24hr": 3083.21056,
+    "endDate": "2026-07-12T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Carlos Alcaraz be the 2026 Men\u2019s Wimbledon winner?",
+        "groupItemTitle": "Carlos Alcaraz",
+        "outcomePrices": "[\"0.37\", \"0.63\"]",
+        "volume24hr": 271.81452199999995
+      },
+      {
+        "question": "Will Taylor Fritz be the 2026 Men\u2019s Wimbledon winner?",
+        "groupItemTitle": "Taylor Fritz",
+        "outcomePrices": "[\"0.015\", \"0.985\"]",
+        "volume24hr": 430.30249999999995
+      },
+      {
+        "question": "Will Daniil Medvedev be the 2026 Men\u2019s Wimbledon winner?",
+        "groupItemTitle": "Daniil Medvedev",
+        "outcomePrices": "[\"0.014\", \"0.986\"]",
+        "volume24hr": 291.79999999999995
+      },
+      {
+        "question": "Will Tommy Paul be the 2026 Men\u2019s Wimbledon winner?",
+        "groupItemTitle": "Tommy Paul",
+        "outcomePrices": "[\"0.007\", \"0.993\"]",
+        "volume24hr": 216.30999999999997
+      },
+      {
+        "question": "Will Alex de Minaur be the 2026 Men\u2019s Wimbledon winner?",
+        "groupItemTitle": "Alex de Minaur",
+        "outcomePrices": "[\"0.009\", \"0.991\"]",
+        "volume24hr": 251.90999999999997
+      },
+      {
+        "question": "Will Stefanos Tsitsipas be the 2026 Men\u2019s Wimbledon winner?",
+        "groupItemTitle": "Stefanos Tsitsipas",
+        "outcomePrices": "[\"0.0055\", \"0.9945\"]",
+        "volume24hr": 719.8262500000001
+      },
+      {
+        "question": "Will Andrey Rublev be the 2026 Men\u2019s Wimbledon winner?",
+        "groupItemTitle": "Andrey Rublev",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 211.9
+      },
+      {
+        "question": "Will Frances Tiafoe be the 2026 Men\u2019s Wimbledon winner?",
+        "groupItemTitle": "Frances Tiafoe",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 255.40999999999997
+      },
+      {
+        "question": "Will Alexei Popyrin be the 2026 Men\u2019s Wimbledon winner?",
+        "groupItemTitle": "Alexei Popyrin",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 262.01
+      },
+      {
+        "question": "Will Player C be the 2026 Men\u2019s Wimbledon winner?",
+        "groupItemTitle": "Player C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "34050",
+    "title": "Russia x Ukraine ceasefire by end of 2026?",
+    "liquidity": 540267.8131,
+    "volume": 10471627.27514,
+    "volume24hr": 123718.69753600002,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Russia x Ukraine ceasefire by end of 2026?",
+        "groupItemTitle": "",
+        "outcomePrices": "[\"0.365\", \"0.635\"]",
+        "volume24hr": 584501.1019929994
+      }
+    ]
+  },
+  {
+    "id": "75478",
+    "title": "Fed decision in April?",
+    "liquidity": 539841.95032,
+    "volume": 2728272.150432,
+    "volume24hr": 130242.45973,
+    "endDate": "2026-04-29T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will the Fed decrease interest rates by 50+ bps after the April 2026 meeting?",
+        "groupItemTitle": "50+ bps decrease",
+        "outcomePrices": "[\"0.014\", \"0.986\"]",
+        "volume24hr": 167734.91711900014
+      },
+      {
+        "question": "Will the Fed decrease interest rates by 25 bps after the April 2026 meeting?",
+        "groupItemTitle": "25 bps decrease",
+        "outcomePrices": "[\"0.085\", \"0.915\"]",
+        "volume24hr": 97895.49442799998
+      },
+      {
+        "question": "Will there be no change in Fed interest rates after the April 2026 meeting?",
+        "groupItemTitle": "No change",
+        "outcomePrices": "[\"0.895\", \"0.105\"]",
+        "volume24hr": 137581.26362800004
+      },
+      {
+        "question": "Will the Fed increase interest rates by 25+ bps after the April 2026 meeting?",
+        "groupItemTitle": "25+ bps increase",
+        "outcomePrices": "[\"0.012\", \"0.988\"]",
+        "volume24hr": 296363.62444200023
+      }
+    ]
+  },
+  {
+    "id": "34436",
+    "title": "The Masters - Winner ",
+    "liquidity": 522636.25195,
+    "volume": 9673859.069356,
+    "volume24hr": 1150270.8946379998,
+    "endDate": "2026-04-13T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Xander Schauffele win the 2026 Masters tournament?",
+        "groupItemTitle": "Xander Schauffele",
+        "outcomePrices": "[\"0.051\", \"0.949\"]",
+        "volume24hr": 2672029.7612070004
+      },
+      {
+        "question": "Will Joaquin Niemann win the 2026 Masters tournament?",
+        "groupItemTitle": "Joaquin Niemann",
+        "outcomePrices": "[\"0.0115\", \"0.9885\"]",
+        "volume24hr": 1587.4419939999998
+      },
+      {
+        "question": "Will Sungjae Im win the 2026 Masters tournament?",
+        "groupItemTitle": "Sungjae Im",
+        "outcomePrices": "[\"0.0045\", \"0.9955\"]",
+        "volume24hr": 1757.4554999999998
+      },
+      {
+        "question": "Will Akshay Bhatia win the 2026 Masters tournament?",
+        "groupItemTitle": "Akshay Bhatia",
+        "outcomePrices": "[\"0.0145\", \"0.9855\"]",
+        "volume24hr": 2010.0238309999997
+      },
+      {
+        "question": "Will Tom Kim win the 2026 Masters tournament?",
+        "groupItemTitle": "Tom Kim",
+        "outcomePrices": "[\"0.0065\", \"0.9935\"]",
+        "volume24hr": 2311.2974999999997
+      },
+      {
+        "question": "Will Cameron Young win the 2026 Masters tournament?",
+        "groupItemTitle": "Cameron Young",
+        "outcomePrices": "[\"0.014\", \"0.986\"]",
+        "volume24hr": 717.0713379999999
+      },
+      {
+        "question": "Will Billy Horschel win the 2026 Masters tournament?",
+        "groupItemTitle": "Billy Horschel",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 5525.041333
+      },
+      {
+        "question": "Will Brian Harman win the 2026 Masters tournament?",
+        "groupItemTitle": "Brian Harman",
+        "outcomePrices": "[\"0.0095\", \"0.9905\"]",
+        "volume24hr": 5517.906147
+      },
+      {
+        "question": "Will Rasmus Hojgaard win the 2026 Masters tournament?",
+        "groupItemTitle": "Rasmus Hojgaard",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 1200.705833
+      },
+      {
+        "question": "Will Player C win the 2026 Masters tournament?",
+        "groupItemTitle": "Player C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "217208",
+    "title": "Bitcoin above ___ on February 26?",
+    "liquidity": 510758.81145,
+    "volume": 4302169.010953,
+    "volume24hr": 3180818.677079,
+    "endDate": "2026-02-26T17:00:00Z",
+    "markets": [
+      {
+        "question": "Will the price of Bitcoin be above $62,000 on February 26?",
+        "groupItemTitle": "62,000",
+        "outcomePrices": "[\"0.9965\", \"0.0035\"]",
+        "volume24hr": 376853.4906770002
+      },
+      {
+        "question": "Will the price of Bitcoin be above $64,000 on February 26?",
+        "groupItemTitle": "64,000",
+        "outcomePrices": "[\"0.9825\", \"0.0175\"]",
+        "volume24hr": 333210.98434299976
+      },
+      {
+        "question": "Will the price of Bitcoin be above $66,000 on February 26?",
+        "groupItemTitle": "66,000",
+        "outcomePrices": "[\"0.928\", \"0.072\"]",
+        "volume24hr": 330256.92028199957
+      },
+      {
+        "question": "Will the price of Bitcoin be above $76,000 on February 26?",
+        "groupItemTitle": "76,000",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 609550.1244219999
+      },
+      {
+        "question": "Will the price of Bitcoin be above $56,000 on February 26?",
+        "groupItemTitle": "56,000",
+        "outcomePrices": "[\"0.9995\", \"0.0005\"]",
+        "volume24hr": 288295.324548
+      },
+      {
+        "question": "Will the price of Bitcoin be above $74,000 on February 26?",
+        "groupItemTitle": "74,000",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 362814.9720240004
+      },
+      {
+        "question": "Will the price of Bitcoin be above $68,000 on February 26?",
+        "groupItemTitle": "68,000",
+        "outcomePrices": "[\"0.495\", \"0.505\"]",
+        "volume24hr": 471198.69859799964
+      },
+      {
+        "question": "Will the price of Bitcoin be above $70,000 on February 26?",
+        "groupItemTitle": "70,000",
+        "outcomePrices": "[\"0.072\", \"0.928\"]",
+        "volume24hr": 340876.33150899975
+      },
+      {
+        "question": "Will the price of Bitcoin be above $58,000 on February 26?",
+        "groupItemTitle": "58,000",
+        "outcomePrices": "[\"0.9995\", \"0.0005\"]",
+        "volume24hr": 337267.1607250002
+      },
+      {
+        "question": "Will the price of Bitcoin be above $60,000 on February 26?",
+        "groupItemTitle": "60,000",
+        "outcomePrices": "[\"0.9985\", \"0.0015\"]",
+        "volume24hr": 508183.3437760005
+      }
+    ]
+  },
+  {
+    "id": "228517",
+    "title": "Bitcoin Up or Down - February 25, 4:10PM-4:15PM ET",
+    "liquidity": 485011.52861,
+    "volume": 155251.956178,
+    "volume24hr": 154396.65617799998,
+    "endDate": "2026-02-25T21:15:00Z",
+    "markets": [
+      {
+        "question": "Bitcoin Up or Down - February 25, 4:10PM-4:15PM ET",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 154396.65617799998
+      }
+    ]
+  },
+  {
+    "id": "32225",
+    "title": "Which party will win the House in 2026?",
+    "liquidity": 479612.5409,
+    "volume": 3376237.066156,
+    "volume24hr": 21299.356285,
+    "endDate": "2026-11-03T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will another party control the House after the 2026 Midterm elections?",
+        "groupItemTitle": "Other",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will the Democratic Party control the House after the 2026 Midterm elections?",
+        "groupItemTitle": "Democratic Party",
+        "outcomePrices": "[\"0.85\", \"0.15\"]",
+        "volume24hr": 83978.66650599989
+      },
+      {
+        "question": "Will the Republican Party control the House after the 2026 Midterm elections?",
+        "groupItemTitle": "Republican Party",
+        "outcomePrices": "[\"0.145\", \"0.855\"]",
+        "volume24hr": 179904.23824199996
+      },
+      {
+        "question": "Will Party A control the House after the 2026 Midterm elections?",
+        "groupItemTitle": "Party A",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Party B control the House after the 2026 Midterm elections?",
+        "groupItemTitle": "Party B",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Party C control the House after the 2026 Midterm elections?",
+        "groupItemTitle": "Party C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Party D control the House after the 2026 Midterm elections?",
+        "groupItemTitle": "Party D",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Party F control the House after the 2026 Midterm elections?",
+        "groupItemTitle": "Party F",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Party E control the House after the 2026 Midterm elections?",
+        "groupItemTitle": "Party E",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "199763",
+    "title": "Next UK Prime Minister in 2026?",
+    "liquidity": 473921.07487,
+    "volume": 1327894.476655,
+    "volume24hr": 77422.611358,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Lucy Powell be the next Prime Minister of the United Kingdom in 2026?",
+        "groupItemTitle": "Lucy Powell",
+        "outcomePrices": "[\"0.0125\", \"0.9875\"]",
+        "volume24hr": 33140.05142
+      },
+      {
+        "question": "Will Wes Streeting be the next Prime Minister of the United Kingdom in 2026?",
+        "groupItemTitle": "Wes Streeting",
+        "outcomePrices": "[\"0.105\", \"0.895\"]",
+        "volume24hr": 4488.507712
+      },
+      {
+        "question": "Will Angela Rayner be the next Prime Minister of the United Kingdom in 2026?",
+        "groupItemTitle": "Angela Rayner",
+        "outcomePrices": "[\"0.185\", \"0.815\"]",
+        "volume24hr": 5203.537412999999
+      },
+      {
+        "question": "Will Nigel Farage be the next Prime Minister of the United Kingdom in 2026?",
+        "groupItemTitle": "Nigel Farage",
+        "outcomePrices": "[\"0.068\", \"0.932\"]",
+        "volume24hr": 24569.542471
+      },
+      {
+        "question": "Will Andy Burnham be the next Prime Minister of the United Kingdom in 2026?",
+        "groupItemTitle": "Andy Burnham",
+        "outcomePrices": "[\"0.029\", \"0.971\"]",
+        "volume24hr": 3053.5163589999997
+      },
+      {
+        "question": "Will Kemi Badenoch be the next Prime Minister of the United Kingdom in 2026?",
+        "groupItemTitle": "Kemi Badenoch",
+        "outcomePrices": "[\"0.013\", \"0.987\"]",
+        "volume24hr": 25668.641907
+      },
+      {
+        "question": "Will Yvette Cooper be the next Prime Minister of the United Kingdom in 2026?",
+        "groupItemTitle": "Yvette Cooper",
+        "outcomePrices": "[\"0.0155\", \"0.9845\"]",
+        "volume24hr": 45881.386544999994
+      },
+      {
+        "question": "Will Shabana Mahmood be the next Prime Minister of the United Kingdom in 2026?",
+        "groupItemTitle": "Shabana Mahmood",
+        "outcomePrices": "[\"0.0215\", \"0.9785\"]",
+        "volume24hr": 4206.068525
+      },
+      {
+        "question": "Will Ed Miliband be the next Prime Minister of the United Kingdom in 2026?",
+        "groupItemTitle": "Ed Miliband",
+        "outcomePrices": "[\"0.074\", \"0.926\"]",
+        "volume24hr": 56204.889368
+      },
+      {
+        "question": "Will Boris Johnson be the next Prime Minister of the United Kingdom in 2026?",
+        "groupItemTitle": "Boris Johnson",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 996.141
+      }
+    ]
+  },
+  {
+    "id": "33660",
+    "title": "Bundesliga Winner ",
+    "liquidity": 472030.0665,
+    "volume": 3125792.258619,
+    "volume24hr": 4644.932928,
+    "endDate": "2026-05-28T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Bayern Munich win the 2025\u201326 Bundesliga?",
+        "groupItemTitle": "Bayern Munich",
+        "outcomePrices": "[\"0.9655\", \"0.0345\"]",
+        "volume24hr": 1882.9613959999992
+      },
+      {
+        "question": "Will Leverkusen win the 2025\u201326 Bundesliga?",
+        "groupItemTitle": "Leverkusen",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 14331.466
+      },
+      {
+        "question": "Will Dortmund win the 2025\u201326 Bundesliga?",
+        "groupItemTitle": "Dortmund",
+        "outcomePrices": "[\"0.018\", \"0.982\"]",
+        "volume24hr": 1919.511133
+      },
+      {
+        "question": "Will RB Leipzig win the 2025\u201326 Bundesliga?",
+        "groupItemTitle": "RB Leipzig",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 25571.957909
+      },
+      {
+        "question": "Will Eintracht Frankfurt win the 2025\u201326 Bundesliga?",
+        "groupItemTitle": "Eintracht Frankfurt",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 1584.975
+      },
+      {
+        "question": "Will Freiburg win the 2025\u201326 Bundesliga?",
+        "groupItemTitle": "Freiburg",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 141903.9247379999
+      },
+      {
+        "question": "Will Stuttgart win the 2025\u201326 Bundesliga?",
+        "groupItemTitle": "Stuttgart",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 167182.06525300007
+      },
+      {
+        "question": "Will Hoffenheim win the 2025\u201326 Bundesliga?",
+        "groupItemTitle": "Hoffenheim",
+        "outcomePrices": "[\"0.004\", \"0.996\"]",
+        "volume24hr": 13651.344692000002
+      },
+      {
+        "question": "Will Union Berlin win the 2025\u201326 Bundesliga?",
+        "groupItemTitle": "Union Berlin",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 3460.153
+      },
+      {
+        "question": "Will FC Augsburg win the 2025\u201326 Bundesliga?",
+        "groupItemTitle": "FC Augsburg",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 981.531
+      }
+    ]
+  },
+  {
+    "id": "102773",
+    "title": "Khamenei out as Supreme Leader of Iran by March 31?",
+    "liquidity": 458867.8845,
+    "volume": 16799736.931527,
+    "volume24hr": 375057.29662099987,
+    "endDate": "2026-03-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Khamenei out as Supreme Leader of Iran by March 31?",
+        "groupItemTitle": "",
+        "outcomePrices": "[\"0.175\", \"0.825\"]",
+        "volume24hr": 2773623.6418870036
+      }
+    ]
+  },
+  {
+    "id": "139255",
+    "title": "2026 Women\u2019s US Open Winner (Tennis)",
+    "liquidity": 453097.03094,
+    "volume": 34778.150835,
+    "volume24hr": 55.78,
+    "endDate": "2026-09-13T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Aryna Sabalenka win the 2026 Women\u2019s US Open?",
+        "groupItemTitle": "Aryna Sabalenka",
+        "outcomePrices": "[\"0.34\", \"0.66\"]",
+        "volume24hr": 148.88
+      },
+      {
+        "question": "Will Coco Gauff win the 2026 Women\u2019s US Open?",
+        "groupItemTitle": "Coco Gauff",
+        "outcomePrices": "[\"0.0585\", \"0.9415\"]",
+        "volume24hr": 136.2
+      },
+      {
+        "question": "Will Elena Rybakina win the 2026 Women\u2019s US Open?",
+        "groupItemTitle": "Elena Rybakina",
+        "outcomePrices": "[\"0.0925\", \"0.9075\"]",
+        "volume24hr": 533.9499999999999
+      },
+      {
+        "question": "Will Naomi Osaka win the 2026 Women\u2019s US Open?",
+        "groupItemTitle": "Naomi Osaka",
+        "outcomePrices": "[\"0.005\", \"0.995\"]",
+        "volume24hr": 136.2
+      },
+      {
+        "question": "Will Madison Keys win the 2026 Women\u2019s US Open?",
+        "groupItemTitle": "Madison Keys",
+        "outcomePrices": "[\"0.024\", \"0.976\"]",
+        "volume24hr": 141.2
+      },
+      {
+        "question": "Will Barbora Krejcikova win the 2026 Women\u2019s US Open?",
+        "groupItemTitle": "Barbora Krejcikova",
+        "outcomePrices": "[\"0.007\", \"0.993\"]",
+        "volume24hr": 136.2
+      },
+      {
+        "question": "Will Marketa Vondrousova win the 2026 Women\u2019s US Open?",
+        "groupItemTitle": "Marketa Vondrousova",
+        "outcomePrices": "[\"0.0245\", \"0.9755\"]",
+        "volume24hr": 136.2
+      },
+      {
+        "question": "Will Emma Navarro win the 2026 Women\u2019s US Open?",
+        "groupItemTitle": "Emma Navarro",
+        "outcomePrices": "[\"0.011\", \"0.989\"]",
+        "volume24hr": 85.003
+      },
+      {
+        "question": "Will Belinda Bencic win the 2026 Women\u2019s US Open?",
+        "groupItemTitle": "Belinda Bencic",
+        "outcomePrices": "[\"0.008\", \"0.992\"]",
+        "volume24hr": 136.2
+      },
+      {
+        "question": "Will Linda Noskova win the 2026 Women\u2019s US Open?",
+        "groupItemTitle": "Linda Noskova",
+        "outcomePrices": "[\"0.024\", \"0.976\"]",
+        "volume24hr": 204.2
+      }
+    ]
+  },
+  {
+    "id": "34584",
+    "title": "Colombia Presidential Election",
+    "liquidity": 432279.07246,
+    "volume": 5144053.041814,
+    "volume24hr": 72528.499799,
+    "endDate": "2026-06-21T14:00:00Z",
+    "markets": [
+      {
+        "question": "Will Vicky D\u00e1vila win the 2026 Colombian presidential election?",
+        "groupItemTitle": "Vicky D\u00e1vila (IND)",
+        "outcomePrices": "[\"0.0045\", \"0.9955\"]",
+        "volume24hr": 11346.317699000001
+      },
+      {
+        "question": "Will Candidate N win the 2026 Colombian presidential election?",
+        "groupItemTitle": "Candidate N",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Candidate O win the 2026 Colombian presidential election?",
+        "groupItemTitle": "Candidate O",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Candidate P win the 2026 Colombian presidential election?",
+        "groupItemTitle": "Candidate P",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Candidate Q win the 2026 Colombian presidential election?",
+        "groupItemTitle": "Candidate Q",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Luis Gilberto Murillo win the 2026 Colombian presidential election?",
+        "groupItemTitle": "Luis Gilberto Murillo (CRB)",
+        "outcomePrices": "[\"0.003\", \"0.997\"]",
+        "volume24hr": 55538.10533299999
+      },
+      {
+        "question": "Will Claudia L\u00f3pez win the 2026 Colombian presidential election?",
+        "groupItemTitle": "Claudia L\u00f3pez (IND)",
+        "outcomePrices": "[\"0.036\", \"0.964\"]",
+        "volume24hr": 31854.386480999998
+      },
+      {
+        "question": "Will David Luna S\u00e1nchez win the 2026 Colombian presidential election?",
+        "groupItemTitle": "David Luna S\u00e1nchez (IND)",
+        "outcomePrices": "[\"0.003\", \"0.997\"]",
+        "volume24hr": 10087.141776999999
+      },
+      {
+        "question": "Will Juan Daniel Oviedo win the 2026 Colombian presidential election?",
+        "groupItemTitle": "Juan Daniel Oviedo (IND)",
+        "outcomePrices": "[\"0.005\", \"0.995\"]",
+        "volume24hr": 9136.260283
+      },
+      {
+        "question": "Will Gustavo Bol\u00edvar win the 2026 Colombian presidential election?",
+        "groupItemTitle": "Gustavo Bol\u00edvar (HC)",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 205626.915
+      }
+    ]
+  },
+  {
+    "id": "229717",
+    "title": "Mexican Open: Valentin Vacherot vs Gael Monfils",
+    "liquidity": 427975.83169,
+    "volume": 253912.903866,
+    "volume24hr": 250593.93386599992,
+    "endDate": "2026-03-05T03:00:00Z",
+    "markets": [
+      {
+        "question": "Mexican Open: Valentin Vacherot vs Gael Monfils",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.9995\", \"0.0005\"]",
+        "volume24hr": 232818.6819989999
+      },
+      {
+        "question": "Set 1 Winner: Vacherot vs Monfils",
+        "groupItemTitle": "Mexican Open: Valentin Vacherot vs Gael Monfils Set 1 Winner",
+        "outcomePrices": "[\"0.9995\", \"0.0005\"]",
+        "volume24hr": 6637.083188
+      },
+      {
+        "question": "Vacherot vs. Monfils: Total Sets O/U 2.5",
+        "groupItemTitle": "Mexican Open: Valentin Vacherot vs Gael Monfils Total Sets: O/U 2.5",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 1399.65363
+      },
+      {
+        "question": "Set Handicap: Vacherot (-1.5) vs Monfils (+1.5)",
+        "groupItemTitle": "Mexican Open: Valentin Vacherot vs Gael Monfils Set Handicap +/-1.5",
+        "outcomePrices": "[\"0.9995\", \"0.0005\"]",
+        "volume24hr": 8940.496764
+      },
+      {
+        "question": "Vacherot vs. Monfils: Match O/U 23.5",
+        "groupItemTitle": "Mexican Open: Valentin Vacherot vs Gael Monfils Match O/U 23.5",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 38.63
+      },
+      {
+        "question": "Vacherot vs. Monfils: Match O/U 21.5",
+        "groupItemTitle": "Mexican Open: Valentin Vacherot vs Gael Monfils Match O/U 21.5",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 397.083528
+      },
+      {
+        "question": "Vacherot vs. Monfils: Match O/U 22.5",
+        "groupItemTitle": "Mexican Open: Valentin Vacherot vs Gael Monfils Match O/U 22.5",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 57.434757000000005
+      }
+    ]
+  },
+  {
+    "id": "79039",
+    "title": "Largest Company end of March?",
+    "liquidity": 426191.73812,
+    "volume": 2384207.760023,
+    "volume24hr": 131417.88291200003,
+    "endDate": "2026-03-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will NVIDIA be the largest company in the world by market cap on March 31?",
+        "groupItemTitle": "NVIDIA",
+        "outcomePrices": "[\"0.94\", \"0.06\"]",
+        "volume24hr": 68018.05757200002
+      },
+      {
+        "question": "Will Apple be the largest company in the world by market cap on March 31?",
+        "groupItemTitle": "Apple",
+        "outcomePrices": "[\"0.0295\", \"0.9705\"]",
+        "volume24hr": 54806.46326299999
+      },
+      {
+        "question": "Will Tesla be the largest company in the world by market cap on March 31?",
+        "groupItemTitle": "Tesla",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 42431.62299999999
+      },
+      {
+        "question": "Will Amazon be the largest company in the world by market cap on March 31?",
+        "groupItemTitle": "Amazon",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 54927.32200000001
+      },
+      {
+        "question": "Will Company B be the largest company in the world by market cap on March 31?",
+        "groupItemTitle": "Company B",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company D be the largest company in the world by market cap on March 31?",
+        "groupItemTitle": "Company D",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company F be the largest company in the world by market cap on March 31?",
+        "groupItemTitle": "Company F",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company H be the largest company in the world by market cap on March 31?",
+        "groupItemTitle": "Company H",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company J be the largest company in the world by market cap on March 31?",
+        "groupItemTitle": "Company J",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company L be the largest company in the world by market cap on March 31?",
+        "groupItemTitle": "Company L",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "57096",
+    "title": "California Governor Election Winner",
+    "liquidity": 421063.18315,
+    "volume": 354147.609371,
+    "volume24hr": 3011.583665,
+    "endDate": "2026-11-03T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Rick Caruso win the California Governor Election in 2026?",
+        "groupItemTitle": "Rick Caruso",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 786.212
+      },
+      {
+        "question": "Will Katie Porter win the California Governor Election in 2026?",
+        "groupItemTitle": "Katie Porter",
+        "outcomePrices": "[\"0.099\", \"0.901\"]",
+        "volume24hr": 794.038543
+      },
+      {
+        "question": "Will Steve Hilton win the California Governor Election in 2026?",
+        "groupItemTitle": "Steve Hilton",
+        "outcomePrices": "[\"0.0975\", \"0.9025\"]",
+        "volume24hr": 626.871477
+      },
+      {
+        "question": "Will Stephen Cloobeck win the California Governor Election in 2026?",
+        "groupItemTitle": "Stephen Cloobeck",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 611.588
+      },
+      {
+        "question": "Will Betty Yee win the California Governor Election in 2026?",
+        "groupItemTitle": "Betty Yee",
+        "outcomePrices": "[\"0.007\", \"0.993\"]",
+        "volume24hr": 926.233333
+      },
+      {
+        "question": "Will Kyle Langford win the California Governor Election in 2026?",
+        "groupItemTitle": "Kyle Langford",
+        "outcomePrices": "[\"0.009\", \"0.991\"]",
+        "volume24hr": 188.002
+      },
+      {
+        "question": "Will Eleni Kounalakis win the California Governor Election in 2026?",
+        "groupItemTitle": "Eleni Kounalakis",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 363.75200000000007
+      },
+      {
+        "question": "Will Tony Thurmond win the California Governor Election in 2026?",
+        "groupItemTitle": "Tony Thurmond",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 191.66200000000003
+      },
+      {
+        "question": "Will Leo Zacky win the California Governor Election in 2026?",
+        "groupItemTitle": "Leo Zacky",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 287.196
+      },
+      {
+        "question": "Will Eric Swalwell win the California Governor Election in 2026?",
+        "groupItemTitle": "Eric Swalwell",
+        "outcomePrices": "[\"0.465\", \"0.535\"]",
+        "volume24hr": 1969.2629140000001
+      }
+    ]
+  },
+  {
+    "id": "228515",
+    "title": "Ethereum Up or Down - February 25, 4:10PM-4:15PM ET",
+    "liquidity": 417352.29534,
+    "volume": 16055.545092,
+    "volume24hr": 16046.325092,
+    "endDate": "2026-02-25T21:15:00Z",
+    "markets": [
+      {
+        "question": "Ethereum Up or Down - February 25, 4:10PM-4:15PM ET",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 16046.325092
+      }
+    ]
+  },
+  {
+    "id": "96022",
+    "title": "Which company has the best AI model end of March?",
+    "liquidity": 402324.4341,
+    "volume": 2834788.466277,
+    "volume24hr": 40778.734263,
+    "endDate": "2026-03-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Google have the best AI model at the end of March 2026?",
+        "groupItemTitle": "Google",
+        "outcomePrices": "[\"0.22\", \"0.78\"]",
+        "volume24hr": 75350.20388400005
+      },
+      {
+        "question": "Will OpenAI have the best AI model at the end of March 2026?",
+        "groupItemTitle": "OpenAI",
+        "outcomePrices": "[\"0.0975\", \"0.9025\"]",
+        "volume24hr": 80014.33579000003
+      },
+      {
+        "question": "Will Baidu have the best AI model at the end of March 2026?",
+        "groupItemTitle": "Baidu",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 46657.241146999986
+      },
+      {
+        "question": "Will xAI have the best AI model at the end of March 2026?",
+        "groupItemTitle": "xAI",
+        "outcomePrices": "[\"0.0425\", \"0.9575\"]",
+        "volume24hr": 66276.42835700004
+      },
+      {
+        "question": "Will Moonshot have the best AI model at the end of March 2026?",
+        "groupItemTitle": "Moonshot",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 46438.37283299999
+      },
+      {
+        "question": "Will Meituan have the best AI model at the end of March 2026?",
+        "groupItemTitle": "Meituan",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 50376.53800000002
+      },
+      {
+        "question": "Will Company B have the best AI model at the end of March 2026?",
+        "groupItemTitle": "Company B",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company D have the best AI model at the end of March 2026?",
+        "groupItemTitle": "Company D",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company F have the best AI model at the end of March 2026?",
+        "groupItemTitle": "Company F",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company H have the best AI model at the end of March 2026?",
+        "groupItemTitle": "Company H",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "217219",
+    "title": "Solana above ___ on February 26?",
+    "liquidity": 397480.30827,
+    "volume": 340870.714003,
+    "volume24hr": 282915.33907800005,
+    "endDate": "2026-02-26T17:00:00Z",
+    "markets": [
+      {
+        "question": "Will the price of Solana be above $50 on February 26?",
+        "groupItemTitle": "50",
+        "outcomePrices": "[\"0.9995\", \"0.0005\"]",
+        "volume24hr": 4334.127477
+      },
+      {
+        "question": "Will the price of Solana be above $60 on February 26?",
+        "groupItemTitle": "60",
+        "outcomePrices": "[\"0.9995\", \"0.0005\"]",
+        "volume24hr": 18185.322863
+      },
+      {
+        "question": "Will the price of Solana be above $70 on February 26?",
+        "groupItemTitle": "70",
+        "outcomePrices": "[\"0.9995\", \"0.0005\"]",
+        "volume24hr": 51302.09793200001
+      },
+      {
+        "question": "Will the price of Solana be above $80 on February 26?",
+        "groupItemTitle": "80",
+        "outcomePrices": "[\"0.981\", \"0.019\"]",
+        "volume24hr": 18860.967197000005
+      },
+      {
+        "question": "Will the price of Solana be above $100 on February 26?",
+        "groupItemTitle": "100",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 188332.31812900002
+      },
+      {
+        "question": "Will the price of Solana be above $110 on February 26?",
+        "groupItemTitle": "110",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 15337.906464
+      },
+      {
+        "question": "Will the price of Solana be above $120 on February 26?",
+        "groupItemTitle": "120",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 2452.663497
+      },
+      {
+        "question": "Will the price of Solana be above $130 on February 26?",
+        "groupItemTitle": "130",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 5596.757363000001
+      },
+      {
+        "question": "Will the price of Solana be above $30 on February 26?",
+        "groupItemTitle": "30",
+        "outcomePrices": "[\"0.9995\", \"0.0005\"]",
+        "volume24hr": 846.1933220000001
+      },
+      {
+        "question": "Will the price of Solana be above $40 on February 26?",
+        "groupItemTitle": "40",
+        "outcomePrices": "[\"0.9995\", \"0.0005\"]",
+        "volume24hr": 1617.957056
+      }
+    ]
+  },
+  {
+    "id": "181516",
+    "title": "Russia x Ukraine ceasefire by February 28, 2026?",
+    "liquidity": 389026.77309,
+    "volume": 5854136.855556,
+    "volume24hr": 106539.91752599999,
+    "endDate": "2026-02-28T00:00:00Z",
+    "markets": [
+      {
+        "question": "Russia x Ukraine ceasefire by February 28, 2026?",
+        "groupItemTitle": "",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 1109864.1062720004
+      }
+    ]
+  },
+  {
+    "id": "79831",
+    "title": "Highest grossing movie in 2026?",
+    "liquidity": 384838.02468,
+    "volume": 1215187.242504,
+    "volume24hr": 44715.217068,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Wicked: For Good be the top grossing movie of 2026?",
+        "groupItemTitle": "Wicked: For Good",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 1459.065
+      },
+      {
+        "question": "Will Scream 7 be the top grossing movie of 2026?",
+        "groupItemTitle": "Scream 7",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 990.211428
+      },
+      {
+        "question": "Will Star Wars: The Mandalorian and Grogu be the top grossing movie of 2026?",
+        "groupItemTitle": "Star Wars: The Mandalorian and Grogu",
+        "outcomePrices": "[\"0.0215\", \"0.9785\"]",
+        "volume24hr": 50.3
+      },
+      {
+        "question": "Will The Odyssey be the top grossing movie of 2026?",
+        "groupItemTitle": "The Odyssey",
+        "outcomePrices": "[\"0.0355\", \"0.9645\"]",
+        "volume24hr": 39385.229443000004
+      },
+      {
+        "question": "Will The Hunger Games: Sunrise on the Reaping be the top grossing movie of 2026?",
+        "groupItemTitle": "The Hunger Games: Sunrise on the Reaping",
+        "outcomePrices": "[\"0.0085\", \"0.9915\"]",
+        "volume24hr": 47.35999999999999
+      },
+      {
+        "question": "Will Dune: Messiah be the top grossing movie of 2026?",
+        "groupItemTitle": "Dune: Messiah",
+        "outcomePrices": "[\"0.0105\", \"0.9895\"]",
+        "volume24hr": 1318.611
+      },
+      {
+        "question": "Will The Super Mario Galaxy Movie be the top grossing movie of 2026?",
+        "groupItemTitle": "The Super Mario Galaxy Movie",
+        "outcomePrices": "[\"0.305\", \"0.695\"]",
+        "volume24hr": 612.032359
+      },
+      {
+        "question": "Will Movie C be the top grossing movie of 2026?",
+        "groupItemTitle": "Movie C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Movie E be the top grossing movie of 2026?",
+        "groupItemTitle": "Movie E",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Movie G be the top grossing movie of 2026?",
+        "groupItemTitle": "Movie G",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "38532",
+    "title": "UEFA Europa League Winner ",
+    "liquidity": 381935.11685,
+    "volume": 2021661.592637,
+    "volume24hr": 21871.246455,
+    "endDate": "2026-05-24T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Aston Villa win the 2025-26 UEFA Europa League?",
+        "groupItemTitle": "Aston Villa",
+        "outcomePrices": "[\"0.235\", \"0.765\"]",
+        "volume24hr": 195848.744371
+      },
+      {
+        "question": "Will Freiburg win the 2025-26 UEFA Europa League?",
+        "groupItemTitle": "Freiburg",
+        "outcomePrices": "[\"0.0405\", \"0.9595\"]",
+        "volume24hr": 2037.913373
+      },
+      {
+        "question": "Will Nott'm Forest win the 2025-26 UEFA Europa League?",
+        "groupItemTitle": "Nott'm Forest",
+        "outcomePrices": "[\"0.085\", \"0.915\"]",
+        "volume24hr": 2365.1958560000003
+      },
+      {
+        "question": "Will Bologna win the 2025-26 UEFA Europa League?",
+        "groupItemTitle": "Bologna",
+        "outcomePrices": "[\"0.0475\", \"0.9525\"]",
+        "volume24hr": 6270.915409999999
+      },
+      {
+        "question": "Will Club O win the 2025-26 UEFA Europa League?",
+        "groupItemTitle": "Club O",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Celta win the 2025-26 UEFA Europa League?",
+        "groupItemTitle": "Celta",
+        "outcomePrices": "[\"0.036\", \"0.964\"]",
+        "volume24hr": 2493.6156679999995
+      },
+      {
+        "question": "Will GNK Dinamo win the 2025-26 UEFA Europa League?",
+        "groupItemTitle": "GNK Dinamo",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 5982.866499999999
+      },
+      {
+        "question": "Will Lille win the 2025-26 UEFA Europa League?",
+        "groupItemTitle": "Lille",
+        "outcomePrices": "[\"0.0285\", \"0.9715\"]",
+        "volume24hr": 6679.037341
+      },
+      {
+        "question": "Will Lyon win the 2025-26 UEFA Europa League?",
+        "groupItemTitle": "Lyon",
+        "outcomePrices": "[\"0.125\", \"0.875\"]",
+        "volume24hr": 2149.742928
+      },
+      {
+        "question": "Will Roma win the 2025-26 UEFA Europa League?",
+        "groupItemTitle": "Roma",
+        "outcomePrices": "[\"0.105\", \"0.895\"]",
+        "volume24hr": 2546.671225
+      }
+    ]
+  },
+  {
+    "id": "208541",
+    "title": "Andrew Tate # posts February 17 - February 24, 2026?",
+    "liquidity": 381326.89648,
+    "volume": 279940.425012,
+    "volume24hr": 0,
+    "endDate": "2026-02-24T17:00:00Z",
+    "markets": [
+      {
+        "question": "Will Andrew Tate post 310-339 posts from February 17 to February 24, 2026?",
+        "groupItemTitle": "310-339",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 7520.87
+      },
+      {
+        "question": "Will Andrew Tate post 370-399 posts from February 17 to February 24, 2026?",
+        "groupItemTitle": "370-399",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 7695.849999999999
+      },
+      {
+        "question": "Will Andrew Tate post 430-459 posts from February 17 to February 24, 2026?",
+        "groupItemTitle": "430-459",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 7326.75
+      }
+    ]
+  },
+  {
+    "id": "133675",
+    "title": "Opinion FDV above ___ one day after launch?",
+    "liquidity": 378674.64102,
+    "volume": 6334384.25219,
+    "volume24hr": 119933.10838999998,
+    "endDate": "2028-01-01T05:00:00Z",
+    "markets": [
+      {
+        "question": "Opinion FDV above $500M one day after launch?",
+        "groupItemTitle": "$500M",
+        "outcomePrices": "[\"0.5555\", \"0.4445\"]",
+        "volume24hr": 275635.57632899994
+      },
+      {
+        "question": "Opinion FDV above $1B one day after launch?",
+        "groupItemTitle": "$1B",
+        "outcomePrices": "[\"0.115\", \"0.885\"]",
+        "volume24hr": 210548.59094900003
+      },
+      {
+        "question": "Opinion FDV above $2B one day after launch?",
+        "groupItemTitle": "$2B",
+        "outcomePrices": "[\"0.016\", \"0.984\"]",
+        "volume24hr": 43770.321667000004
+      },
+      {
+        "question": "Opinion FDV above $3B one day after launch?",
+        "groupItemTitle": "$3B",
+        "outcomePrices": "[\"0.0075\", \"0.9925\"]",
+        "volume24hr": 43661.843941
+      },
+      {
+        "question": "Opinion FDV above $4B one day after launch?",
+        "groupItemTitle": "$4B",
+        "outcomePrices": "[\"0.0045\", \"0.9955\"]",
+        "volume24hr": 36528.48852599978
+      },
+      {
+        "question": "Opinion FDV above $5B one day after launch?",
+        "groupItemTitle": "$5B",
+        "outcomePrices": "[\"0.0055\", \"0.9945\"]",
+        "volume24hr": 19041.122326999997
+      },
+      {
+        "question": "Opinion FDV above $800M one day after launch?",
+        "groupItemTitle": "$800M",
+        "outcomePrices": "[\"0.185\", \"0.815\"]",
+        "volume24hr": 47987.07249299999
+      },
+      {
+        "question": "Opinion FDV above $1.5B one day after launch?",
+        "groupItemTitle": "$1.5B",
+        "outcomePrices": "[\"0.0335\", \"0.9665\"]",
+        "volume24hr": 114316.63558000002
+      },
+      {
+        "question": "Opinion FDV above $250M one day after launch?",
+        "groupItemTitle": "$250M",
+        "outcomePrices": "[\"0.875\", \"0.125\"]",
+        "volume24hr": 412016.0656379997
+      }
+    ]
+  },
+  {
+    "id": "179361",
+    "title": "WBC Winner 2026",
+    "liquidity": 371698.72275,
+    "volume": 878172.86972,
+    "volume24hr": 146696.938398,
+    "endDate": "2026-03-17T23:55:00Z",
+    "markets": [
+      {
+        "question": "Will Canada win the 2026 World Baseball Classic?",
+        "groupItemTitle": "Canada",
+        "outcomePrices": "[\"0.01\", \"0.99\"]",
+        "volume24hr": 16736.73003
+      },
+      {
+        "question": "Will Colombia win the 2026 World Baseball Classic?",
+        "groupItemTitle": "Colombia",
+        "outcomePrices": "[\"0.0045\", \"0.9955\"]",
+        "volume24hr": 5319.339831999999
+      },
+      {
+        "question": "Will Cuba win the 2026 World Baseball Classic?",
+        "groupItemTitle": "Cuba",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 5443.807
+      },
+      {
+        "question": "Will Panama win the 2026 World Baseball Classic?",
+        "groupItemTitle": "Panama",
+        "outcomePrices": "[\"0.0045\", \"0.9955\"]",
+        "volume24hr": 5068.5233419999995
+      },
+      {
+        "question": "Will Puerto Rico win the 2026 World Baseball Classic?",
+        "groupItemTitle": "Puerto Rico",
+        "outcomePrices": "[\"0.0245\", \"0.9755\"]",
+        "volume24hr": 86549.964696
+      },
+      {
+        "question": "Will Brazil win the 2026 World Baseball Classic?",
+        "groupItemTitle": "Brazil",
+        "outcomePrices": "[\"0.006\", \"0.994\"]",
+        "volume24hr": 28865.948469000003
+      },
+      {
+        "question": "Will Great Britain win the 2026 World Baseball Classic?",
+        "groupItemTitle": "Great Britain",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 6008.394000000002
+      },
+      {
+        "question": "Will Italy win the 2026 World Baseball Classic?",
+        "groupItemTitle": "Italy",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 5536.649166000001
+      },
+      {
+        "question": "Will Mexico win the 2026 World Baseball Classic?",
+        "groupItemTitle": "Mexico",
+        "outcomePrices": "[\"0.022\", \"0.978\"]",
+        "volume24hr": 90174.229437
+      },
+      {
+        "question": "Will USA win the 2026 World Baseball Classic?",
+        "groupItemTitle": "USA",
+        "outcomePrices": "[\"0.46\", \"0.54\"]",
+        "volume24hr": 7685.148518999999
+      }
+    ]
+  },
+  {
+    "id": "228507",
+    "title": "Ethereum Up or Down - February 25, 4:00PM-4:15PM ET",
+    "liquidity": 366766.50082,
+    "volume": 33313.158171,
+    "volume24hr": 33253.05817100003,
+    "endDate": "2026-02-25T21:15:00Z",
+    "markets": [
+      {
+        "question": "Ethereum Up or Down - February 25, 4:00PM-4:15PM ET",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 33253.05817100003
+      }
+    ]
+  },
+  {
+    "id": "85704",
+    "title": "Who will announce Presidential run before 2027?",
+    "liquidity": 349662.0422,
+    "volume": 347444.747051,
+    "volume24hr": 2645.93426,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Alexandria Ocasio-Cortez announce a Presidential run before 2027?",
+        "groupItemTitle": "Alexandria Ocasio-Cortez",
+        "outcomePrices": "[\"0.145\", \"0.855\"]",
+        "volume24hr": 1970.1811569999995
+      },
+      {
+        "question": "Will Stephen A. Smith announce a Presidential run before 2027?",
+        "groupItemTitle": "Stephen A. Smith",
+        "outcomePrices": "[\"0.1\", \"0.9\"]",
+        "volume24hr": 457.118
+      },
+      {
+        "question": "Will Jon Ossoff announce a Presidential run before 2027?",
+        "groupItemTitle": "Jon Ossoff",
+        "outcomePrices": "[\"0.105\", \"0.895\"]",
+        "volume24hr": 12.173331999999997
+      },
+      {
+        "question": "Will Cory Booker announce a Presidential run before 2027?",
+        "groupItemTitle": "Cory Booker",
+        "outcomePrices": "[\"0.08\", \"0.92\"]",
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Rahm Emanuel announce a Presidential run before 2027?",
+        "groupItemTitle": "Rahm Emanuel",
+        "outcomePrices": "[\"0.105\", \"0.895\"]",
+        "volume24hr": 218.84999999999997
+      },
+      {
+        "question": "Will John Fetterman announce a Presidential run before 2027?",
+        "groupItemTitle": "John Fetterman",
+        "outcomePrices": "[\"0.11\", \"0.89\"]",
+        "volume24hr": 133.71
+      },
+      {
+        "question": "Will Hillary Clinton announce a Presidential run before 2027?",
+        "groupItemTitle": "Hillary Clinton",
+        "outcomePrices": "[\"0.07\", \"0.93\"]",
+        "volume24hr": 242.70015800000004
+      },
+      {
+        "question": "Will LeBron James announce a Presidential run before 2027?",
+        "groupItemTitle": "LeBron James",
+        "outcomePrices": "[\"0.0335\", \"0.9665\"]",
+        "volume24hr": 57.99
+      },
+      {
+        "question": "Will MrBeast announce a Presidential run before 2027?",
+        "groupItemTitle": "MrBeast",
+        "outcomePrices": "[\"0.0255\", \"0.9745\"]",
+        "volume24hr": 2186.636284
+      },
+      {
+        "question": "Will Beto O\u2019Rourke announce a Presidential run before 2027?",
+        "groupItemTitle": "Beto O\u2019Rourke",
+        "outcomePrices": "[\"0.0825\", \"0.9175\"]",
+        "volume24hr": 13.94
+      }
+    ]
+  },
+  {
+    "id": "228503",
+    "title": "Bitcoin Up or Down - February 25, 4:00PM-4:15PM ET",
+    "liquidity": 347918.19721,
+    "volume": 129136.290361,
+    "volume24hr": 128582.09036100002,
+    "endDate": "2026-02-25T21:15:00Z",
+    "markets": [
+      {
+        "question": "Bitcoin Up or Down - February 25, 4:00PM-4:15PM ET",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 128657.09036100001
+      }
+    ]
+  },
+  {
+    "id": "63766",
+    "title": "Paris Mayoral Election",
+    "liquidity": 345662.63115,
+    "volume": 3221598.818398,
+    "volume24hr": 189961.345096,
+    "endDate": "2026-03-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will \u00c9ric Gr\u00e9goire win the Paris mayor election?",
+        "groupItemTitle": "\u00c9ric Gr\u00e9goire",
+        "outcomePrices": "[\"0.33\", \"0.67\"]",
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Rachida Dati win the Paris mayor election?",
+        "groupItemTitle": "Rachida Dati",
+        "outcomePrices": "[\"0.355\", \"0.645\"]",
+        "volume24hr": 146930.30796
+      },
+      {
+        "question": "Will Pierre-Yves Bournazel win the Paris mayor election?",
+        "groupItemTitle": "Pierre-Yves Bournazel",
+        "outcomePrices": "[\"0.004\", \"0.996\"]",
+        "volume24hr": 10890.14832
+      },
+      {
+        "question": "Will David Belliard win the Paris mayor election?",
+        "groupItemTitle": "David Belliard",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 13484.636
+      },
+      {
+        "question": "Will Sophia Chikirou win the Paris mayor election?",
+        "groupItemTitle": "Sophia Chikirou",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 12387.306332000004
+      },
+      {
+        "question": "Will Thierry Mariani win the Paris mayor election?",
+        "groupItemTitle": "Thierry Mariani",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 18252.443
+      },
+      {
+        "question": "Will Sarah Knafo win the Paris mayor election?",
+        "groupItemTitle": "Sarah Knafo",
+        "outcomePrices": "[\"0.0155\", \"0.9845\"]",
+        "volume24hr": 190721.6571230001
+      },
+      {
+        "question": "Will Emmanuel Gr\u00e9goire win the Paris mayor election?",
+        "groupItemTitle": "Emmanuel Gr\u00e9goire",
+        "outcomePrices": "[\"0.605\", \"0.395\"]",
+        "volume24hr": 103577.58677899998
+      },
+      {
+        "question": "Will Person 2 win the Paris mayor election?",
+        "groupItemTitle": "Person 2",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person 3 win the Paris mayor election?",
+        "groupItemTitle": "Person 3",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "79041",
+    "title": "Largest Company end of December 2026?",
+    "liquidity": 338856.03399,
+    "volume": 737530.268839,
+    "volume24hr": 5071.6857629999995,
+    "endDate": "2026-12-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Microsoft be the largest company in the world by market cap on December 31?",
+        "groupItemTitle": "Microsoft",
+        "outcomePrices": "[\"0.0265\", \"0.9735\"]",
+        "volume24hr": 3523.983586
+      },
+      {
+        "question": "Will Alphabet be the largest company in the world by market cap on December 31?",
+        "groupItemTitle": "Alphabet",
+        "outcomePrices": "[\"0.25\", \"0.75\"]",
+        "volume24hr": 10437.151976
+      },
+      {
+        "question": "Will Saudi Aramco be the largest company in the world by market cap on December 31?",
+        "groupItemTitle": "Saudi Aramco",
+        "outcomePrices": "[\"0.008\", \"0.992\"]",
+        "volume24hr": 4528.468796
+      },
+      {
+        "question": "Will Company A be the largest company in the world by market cap on December 31?",
+        "groupItemTitle": "Company A",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company C be the largest company in the world by market cap on December 31?",
+        "groupItemTitle": "Company C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company E be the largest company in the world by market cap on December 31?",
+        "groupItemTitle": "Company E",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company G be the largest company in the world by market cap on December 31?",
+        "groupItemTitle": "Company G",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company I be the largest company in the world by market cap on December 31?",
+        "groupItemTitle": "Company I",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company K be the largest company in the world by market cap on December 31?",
+        "groupItemTitle": "Company K",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company M be the largest company in the world by market cap on December 31?",
+        "groupItemTitle": "Company M",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "32228",
+    "title": "Balance of Power: 2026 Midterms",
+    "liquidity": 337123.61178,
+    "volume": 2526823.35083,
+    "volume24hr": 28134.975151,
+    "endDate": "2026-11-03T00:00:00Z",
+    "markets": [
+      {
+        "question": "2026 Balance of Power: D Senate, D House",
+        "groupItemTitle": "Democrats Sweep",
+        "outcomePrices": "[\"0.395\", \"0.605\"]",
+        "volume24hr": 38482.902504
+      },
+      {
+        "question": "2026 Balance of Power: D Senate, R House",
+        "groupItemTitle": "D Senate, R House",
+        "outcomePrices": "[\"0.017\", \"0.983\"]",
+        "volume24hr": 8244.285650999998
+      },
+      {
+        "question": "2026 Balance of Power: R Senate, R House",
+        "groupItemTitle": "Republicans Sweep",
+        "outcomePrices": "[\"0.15\", \"0.85\"]",
+        "volume24hr": 19545.912590000004
+      },
+      {
+        "question": "2026 Balance of Power: Other",
+        "groupItemTitle": "Other",
+        "outcomePrices": "[\"0.0035\", \"0.9965\"]",
+        "volume24hr": 13748.242014000001
+      },
+      {
+        "question": "2026 Balance of Power: R Senate, D House",
+        "groupItemTitle": "R Senate, D House",
+        "outcomePrices": "[\"0.445\", \"0.555\"]",
+        "volume24hr": 22881.512551000003
+      }
+    ]
+  },
+  {
+    "id": "200782",
+    "title": "MLS Cup Winner 2026",
+    "liquidity": 333449.53023,
+    "volume": 1691.471458,
+    "volume24hr": 475.23230600000005,
+    "endDate": "2026-12-19T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Atlanta United FC win the 2026 MLS Cup?",
+        "groupItemTitle": "Atlanta United FC",
+        "outcomePrices": "[\"0.024\", \"0.976\"]",
+        "volume24hr": 6.1899999999999995
+      },
+      {
+        "question": "Will Austin FC win the 2026 MLS Cup?",
+        "groupItemTitle": "Austin FC",
+        "outcomePrices": "[\"0.024\", \"0.976\"]",
+        "volume24hr": 6.1899999999999995
+      },
+      {
+        "question": "Will Charlotte FC win the 2026 MLS Cup?",
+        "groupItemTitle": "Charlotte FC",
+        "outcomePrices": "[\"0.044\", \"0.956\"]",
+        "volume24hr": 6.1899999999999995
+      },
+      {
+        "question": "Will Chicago Fire FC win the 2026 MLS Cup?",
+        "groupItemTitle": "Chicago Fire FC",
+        "outcomePrices": "[\"0.023\", \"0.977\"]",
+        "volume24hr": 6.1899999999999995
+      },
+      {
+        "question": "Will FC Cincinnati win the 2026 MLS Cup?",
+        "groupItemTitle": "FC Cincinnati",
+        "outcomePrices": "[\"0.075\", \"0.925\"]",
+        "volume24hr": 19.009999999999998
+      },
+      {
+        "question": "Will Colorado Rapids win the 2026 MLS Cup?",
+        "groupItemTitle": "Colorado Rapids",
+        "outcomePrices": "[\"0.0235\", \"0.9765\"]",
+        "volume24hr": 6.1899999999999995
+      },
+      {
+        "question": "Will Columbus Crew win the 2026 MLS Cup?",
+        "groupItemTitle": "Columbus Crew",
+        "outcomePrices": "[\"0.055\", \"0.945\"]",
+        "volume24hr": 16.189999999999998
+      },
+      {
+        "question": "Will FC Dallas win the 2026 MLS Cup?",
+        "groupItemTitle": "FC Dallas",
+        "outcomePrices": "[\"0.024\", \"0.976\"]",
+        "volume24hr": 6.1899999999999995
+      },
+      {
+        "question": "Will D.C. United win the 2026 MLS Cup?",
+        "groupItemTitle": "D.C. United",
+        "outcomePrices": "[\"0.04\", \"0.96\"]",
+        "volume24hr": 6.1899999999999995
+      },
+      {
+        "question": "Will Houston Dynamo FC win the 2026 MLS Cup?",
+        "groupItemTitle": "Houston Dynamo FC",
+        "outcomePrices": "[\"0.023\", \"0.977\"]",
+        "volume24hr": 6.1899999999999995
+      }
+    ]
+  },
+  {
+    "id": "33699",
+    "title": "French Ligue 1 Winner ",
+    "liquidity": 333442.77845,
+    "volume": 9986966.857881,
+    "volume24hr": 435949.9323220005,
+    "endDate": "2026-05-30T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will PSG win the 2025\u201326 French Ligue 1?",
+        "groupItemTitle": "PSG",
+        "outcomePrices": "[\"0.86\", \"0.14\"]",
+        "volume24hr": 8618.137588000003
+      },
+      {
+        "question": "Will Monaco win the 2025\u201326 French Ligue 1?",
+        "groupItemTitle": "Monaco",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 12891.693333000003
+      },
+      {
+        "question": "Will Lille win the 2025\u201326 French Ligue 1?",
+        "groupItemTitle": "Lille",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 376.2000000000001
+      },
+      {
+        "question": "Will Marseille win the 2025\u201326 French Ligue 1?",
+        "groupItemTitle": "Marseille",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 18628.190332999995
+      },
+      {
+        "question": "Will Lyon win the 2025\u201326 French Ligue 1?",
+        "groupItemTitle": "Lyon",
+        "outcomePrices": "[\"0.013\", \"0.987\"]",
+        "volume24hr": 25072.596707000004
+      },
+      {
+        "question": "Will Nice win the 2025\u201326 French Ligue 1?",
+        "groupItemTitle": "Nice",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 376.2000000000001
+      },
+      {
+        "question": "Will Lens win the 2025\u201326 French Ligue 1?",
+        "groupItemTitle": "Lens",
+        "outcomePrices": "[\"0.121\", \"0.879\"]",
+        "volume24hr": 3932797.0902780015
+      },
+      {
+        "question": "Will Angers win the 2025\u201326 French Ligue 1?",
+        "groupItemTitle": "Angers",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 376.2000000000001
+      },
+      {
+        "question": "Will Strasbourg win the 2025\u201326 French Ligue 1?",
+        "groupItemTitle": "Strasbourg",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 4392.2
+      },
+      {
+        "question": "Will Rennes win the 2025\u201326 French Ligue 1?",
+        "groupItemTitle": "Rennes",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 376.2000000000001
+      }
+    ]
+  },
+  {
+    "id": "145916",
+    "title": "New \"Stranger Things\" episode released by...? ",
+    "liquidity": 330974.1744,
+    "volume": 28720358.819763,
+    "volume24hr": 100022.50460699998,
+    "endDate": "2026-01-07T00:00:00Z",
+    "markets": [
+      {
+        "question": "New \"Stranger Things\" episode released by December 31? ",
+        "groupItemTitle": "December 31",
+        "outcomePrices": "[\"0.095\", \"0.905\"]",
+        "volume24hr": 42597.788742
+      },
+      {
+        "question": "New \"Stranger Things\" episode released by February 28? ",
+        "groupItemTitle": "February 28",
+        "outcomePrices": "[\"0.001\", \"0.999\"]",
+        "volume24hr": 165221.86991100002
+      }
+    ]
+  },
+  {
+    "id": "179295",
+    "title": "Next President of Vietnam",
+    "liquidity": 330471.61514,
+    "volume": 6551931.991918,
+    "volume24hr": 68103.96089300001,
+    "endDate": "2026-01-25T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will L\u01b0\u01a1ng C\u01b0\u1eddng be the next President of Vietnam?",
+        "groupItemTitle": "L\u01b0\u01a1ng C\u01b0\u1eddng",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 20472.735
+      },
+      {
+        "question": "Will Phan V\u0103n Giang be the next President of Vietnam?",
+        "groupItemTitle": "Phan V\u0103n Giang",
+        "outcomePrices": "[\"0.044\", \"0.956\"]",
+        "volume24hr": 45104.048146
+      },
+      {
+        "question": "Will T\u00f4 L\u00e2m be the next President of Vietnam?",
+        "groupItemTitle": "T\u00f4 L\u00e2m",
+        "outcomePrices": "[\"0.855\", \"0.145\"]",
+        "volume24hr": 77871.50096699999
+      },
+      {
+        "question": "Will Tr\u1ea7n C\u1ea9m T\u00fa be the next President of Vietnam?",
+        "groupItemTitle": "Tr\u1ea7n C\u1ea9m T\u00fa",
+        "outcomePrices": "[\"0.009\", \"0.991\"]",
+        "volume24hr": 35650.83045600001
+      },
+      {
+        "question": "Will Nguy\u1ec5n Duy Ng\u1ecdc be the next President of Vietnam?",
+        "groupItemTitle": "Nguy\u1ec5n Duy Ng\u1ecdc",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 23025.743
+      },
+      {
+        "question": "Will Ph\u1ea1m Minh Ch\u00ednh be the next President of Vietnam?",
+        "groupItemTitle": "Ph\u1ea1m Minh Ch\u00ednh",
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 9000
+      },
+      {
+        "question": "Will Tr\u1ea7n Thanh M\u1eabn be the next President of Vietnam?",
+        "groupItemTitle": "Tr\u1ea7n Thanh M\u1eabn",
+        "outcomePrices": "[\"0.07\", \"0.93\"]",
+        "volume24hr": 28564.878016
+      },
+      {
+        "question": "Will Person A be the next President of Vietnam?",
+        "groupItemTitle": "Person A",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person B be the next President of Vietnam?",
+        "groupItemTitle": "Person B",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Person C be the next President of Vietnam?",
+        "groupItemTitle": "Person C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "101772",
+    "title": "Fed Decision in June?",
+    "liquidity": 330389.35919,
+    "volume": 450418.712414,
+    "volume24hr": 16852.556672000002,
+    "endDate": "2026-06-17T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will the Fed decrease interest rates by 25 bps after the June 2026 meeting?",
+        "groupItemTitle": "25 bps decrease",
+        "outcomePrices": "[\"0.45\", \"0.55\"]",
+        "volume24hr": 23594.217491999992
+      },
+      {
+        "question": "Will the Fed increase interest rates by 25 bps after the June 2026 meeting?",
+        "groupItemTitle": "25 bps increase",
+        "outcomePrices": "[\"0.0165\", \"0.9835\"]",
+        "volume24hr": 29316.01058599999
+      },
+      {
+        "question": "Will the Fed decrease interest rates by 50+ bps after the June 2026 meeting?",
+        "groupItemTitle": "50+ bps decrease",
+        "outcomePrices": "[\"0.05\", \"0.95\"]",
+        "volume24hr": 20416.758293999996
+      },
+      {
+        "question": "Will there be no change in Fed interest rates after the June 2026 meeting?",
+        "groupItemTitle": "No change",
+        "outcomePrices": "[\"0.495\", \"0.505\"]",
+        "volume24hr": 21957.295615999996
+      },
+      {
+        "question": "Will the Fed increase interest rates by 50+ bps after the June 2026 meeting?",
+        "groupItemTitle": "50+ bps increase",
+        "outcomePrices": "[\"0.009\", \"0.991\"]",
+        "volume24hr": 22221.014502999988
+      }
+    ]
+  },
+  {
+    "id": "228516",
+    "title": "Solana Up or Down - February 25, 4:10PM-4:15PM ET",
+    "liquidity": 323941.53162,
+    "volume": 7100.738166,
+    "volume24hr": 7096.658165999998,
+    "endDate": "2026-02-25T21:15:00Z",
+    "markets": [
+      {
+        "question": "Solana Up or Down - February 25, 4:10PM-4:15PM ET",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 7096.658165999998
+      }
+    ]
+  },
+  {
+    "id": "28999",
+    "title": "MegaETH market cap (FDV) one day after launch?",
+    "liquidity": 310862.51458,
+    "volume": 12223641.900273,
+    "volume24hr": 43391.155467000004,
+    "endDate": "2026-07-01T04:00:00Z",
+    "markets": [
+      {
+        "question": "MegaETH market cap (FDV) >$6B one day after launch?",
+        "groupItemTitle": ">$6B",
+        "outcomePrices": "[\"0.0115\", \"0.9885\"]",
+        "volume24hr": 46286.4500329999
+      },
+      {
+        "question": "MegaETH market cap (FDV) >$2B one day after launch?",
+        "groupItemTitle": ">$2B",
+        "outcomePrices": "[\"0.18\", \"0.82\"]",
+        "volume24hr": 111994.99385499995
+      },
+      {
+        "question": "MegaETH market cap (FDV) >$4B one day after launch?",
+        "groupItemTitle": ">$4B",
+        "outcomePrices": "[\"0.0295\", \"0.9705\"]",
+        "volume24hr": 29515.01788600002
+      },
+      {
+        "question": "MegaETH market cap (FDV) >$3B one day after launch?",
+        "groupItemTitle": ">$3B",
+        "outcomePrices": "[\"0.0415\", \"0.9585\"]",
+        "volume24hr": 44514.785518
+      },
+      {
+        "question": "MegaETH market cap (FDV) >$1B one day after launch?",
+        "groupItemTitle": ">$1B",
+        "outcomePrices": "[\"0.54\", \"0.46\"]",
+        "volume24hr": 97597.47002799998
+      },
+      {
+        "question": "MegaETH market cap (FDV) >$1.5B one day after launch?",
+        "groupItemTitle": ">$1.5B",
+        "outcomePrices": "[\"0.2\", \"0.8\"]",
+        "volume24hr": 19815.320509999998
+      },
+      {
+        "question": "MegaETH market cap (FDV) >$800M one day after launch?",
+        "groupItemTitle": ">$800M",
+        "outcomePrices": "[\"0.65\", \"0.35\"]",
+        "volume24hr": 3589.512208
+      }
+    ]
+  },
+  {
+    "id": "228518",
+    "title": "XRP Up or Down - February 25, 4:10PM-4:15PM ET",
+    "liquidity": 303404.07546,
+    "volume": 7649.549234,
+    "volume24hr": 7645.469234,
+    "endDate": "2026-02-25T21:15:00Z",
+    "markets": [
+      {
+        "question": "XRP Up or Down - February 25, 4:10PM-4:15PM ET",
+        "groupItemTitle": null,
+        "outcomePrices": "[\"0.0005\", \"0.9995\"]",
+        "volume24hr": 7645.469234
+      }
+    ]
+  },
+  {
+    "id": "139236",
+    "title": "2026 Men\u2019s US Open Winner (Tennis)",
+    "liquidity": 299627.18078,
+    "volume": 149429.059667,
+    "volume24hr": 117.0125,
+    "endDate": "2026-09-13T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Jannik Sinner win the 2026 Men's US Open?",
+        "groupItemTitle": "Jannik Sinner",
+        "outcomePrices": "[\"0.365\", \"0.635\"]",
+        "volume24hr": 63.278318
+      },
+      {
+        "question": "Will Novak Djokovic win the 2026 Men's US Open?",
+        "groupItemTitle": "Novak Djokovic",
+        "outcomePrices": "[\"0.055\", \"0.945\"]",
+        "volume24hr": 186.35069000000001
+      },
+      {
+        "question": "Will Jack Draper win the 2026 Men's US Open?",
+        "groupItemTitle": "Jack Draper",
+        "outcomePrices": "[\"0.0225\", \"0.9775\"]",
+        "volume24hr": 64.351
+      },
+      {
+        "question": "Will Alexander Bublik win the 2026 Men's US Open?",
+        "groupItemTitle": "Alexander Bublik",
+        "outcomePrices": "[\"0.015\", \"0.985\"]",
+        "volume24hr": 30.83
+      },
+      {
+        "question": "Will Player B win the 2026 Men's US Open?",
+        "groupItemTitle": "Player B",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Player C win the 2026 Men's US Open?",
+        "groupItemTitle": "Player C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Player E win the 2026 Men's US Open?",
+        "groupItemTitle": "Player E",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Player I win the 2026 Men's US Open?",
+        "groupItemTitle": "Player I",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Player K win the 2026 Men's US Open?",
+        "groupItemTitle": "Player K",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Player Z win the 2026 Men's US Open?",
+        "groupItemTitle": "Player Z",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "79973",
+    "title": "2026 Seoul Mayoral Election Winner",
+    "liquidity": 295208.98424,
+    "volume": 2698743.725044,
+    "volume24hr": 55422.719739,
+    "endDate": "2026-06-03T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will Oh Se-hoon win the 2026 Seoul Mayoral Election",
+        "groupItemTitle": "Oh Se-hoon",
+        "outcomePrices": "[\"0.15\", \"0.85\"]",
+        "volume24hr": 273143.78108000004
+      },
+      {
+        "question": "Will Cho Eun-hee win the 2026 Seoul Mayoral Election",
+        "groupItemTitle": "Cho Eun-hee",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 14096.856000000003
+      },
+      {
+        "question": "Will Ahn Cheol-soo win the 2026 Seoul Mayoral Election",
+        "groupItemTitle": "Ahn Cheol-soo",
+        "outcomePrices": "[\"0.0105\", \"0.9895\"]",
+        "volume24hr": 34269.928915
+      },
+      {
+        "question": "Will Park Yong-jin win the 2026 Seoul Mayoral Election",
+        "groupItemTitle": "Park Yong-jin",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 309159.63199999975
+      },
+      {
+        "question": "Will Chong Won-oh win the 2026 Seoul Mayoral Election",
+        "groupItemTitle": "Chong Won-oh",
+        "outcomePrices": "[\"0.755\", \"0.245\"]",
+        "volume24hr": 25146.67275
+      },
+      {
+        "question": "Will Hong Ihk-pyo win the 2026 Seoul Mayoral Election",
+        "groupItemTitle": "Hong Ihk-pyo",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 32959.240000000005
+      },
+      {
+        "question": "Will Cho Kuk win the 2026 Seoul Mayoral Election",
+        "groupItemTitle": "Cho Kuk",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 40459.12675299999
+      },
+      {
+        "question": "Will Kang Hoon-sik win the 2026 Seoul Mayoral Election",
+        "groupItemTitle": "Kang Hoon-sik ",
+        "outcomePrices": "[\"0.002\", \"0.998\"]",
+        "volume24hr": 83732.500495
+      },
+      {
+        "question": "Will Candidate C win the 2026 Seoul Mayoral Election",
+        "groupItemTitle": "Candidate C",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Candidate E win the 2026 Seoul Mayoral Election",
+        "groupItemTitle": "Candidate E",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "214405",
+    "title": "Predict.fun FDV above ___ one day after launch?",
+    "liquidity": 279365.35777,
+    "volume": 168136.213965,
+    "volume24hr": 14259.806031,
+    "endDate": "2028-01-01T05:00:00Z",
+    "markets": [
+      {
+        "question": "Predict.fun FDV above $50M one day after launch?",
+        "groupItemTitle": "$50M",
+        "outcomePrices": "[\"0.895\", \"0.105\"]",
+        "volume24hr": 7816.179748999999
+      },
+      {
+        "question": "Predict.fun FDV above $100M one day after launch?",
+        "groupItemTitle": "$100M",
+        "outcomePrices": "[\"0.655\", \"0.345\"]",
+        "volume24hr": 32470.921419999995
+      },
+      {
+        "question": "Predict.fun FDV above $200M one day after launch?",
+        "groupItemTitle": "$200M",
+        "outcomePrices": "[\"0.425\", \"0.575\"]",
+        "volume24hr": 36667.710587
+      },
+      {
+        "question": "Predict.fun FDV above $300M one day after launch?",
+        "groupItemTitle": "$300M",
+        "outcomePrices": "[\"0.335\", \"0.665\"]",
+        "volume24hr": 34941.037327000005
+      },
+      {
+        "question": "Predict.fun FDV above $400M one day after launch?",
+        "groupItemTitle": "$400M",
+        "outcomePrices": "[\"0.24\", \"0.76\"]",
+        "volume24hr": 15402.252557999998
+      },
+      {
+        "question": "Predict.fun FDV above $500M one day after launch?",
+        "groupItemTitle": "$500M",
+        "outcomePrices": "[\"0.155\", \"0.845\"]",
+        "volume24hr": 11321.051532000001
+      },
+      {
+        "question": "Predict.fun FDV above $600M one day after launch?",
+        "groupItemTitle": "$600M",
+        "outcomePrices": "[\"0.12\", \"0.88\"]",
+        "volume24hr": 1758.507731
+      },
+      {
+        "question": "Predict.fun FDV above $800M one day after launch?",
+        "groupItemTitle": "$800M",
+        "outcomePrices": "[\"0.075\", \"0.925\"]",
+        "volume24hr": 842.507858
+      },
+      {
+        "question": "Predict.fun FDV above $1B one day after launch?",
+        "groupItemTitle": "$1B",
+        "outcomePrices": "[\"0.0565\", \"0.9435\"]",
+        "volume24hr": 6712.998926
+      },
+      {
+        "question": "Predict.fun FDV above $1.5B one day after launch?",
+        "groupItemTitle": "$1.5B",
+        "outcomePrices": "[\"0.06\", \"0.94\"]",
+        "volume24hr": 6949.55156
+      }
+    ]
+  },
+  {
+    "id": "108633",
+    "title": "Will the Iranian regime fall by March 31?",
+    "liquidity": 273494.6012,
+    "volume": 5991967.156976,
+    "volume24hr": 175776.23394499993,
+    "endDate": "2026-03-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will the Iranian regime fall by March 31?",
+        "groupItemTitle": "",
+        "outcomePrices": "[\"0.0955\", \"0.9045\"]",
+        "volume24hr": 1003158.8540589974
+      }
+    ]
+  },
+  {
+    "id": "228581",
+    "title": "What day will ZachXBT release his investigation?",
+    "liquidity": 273242.38518,
+    "volume": 842195.822941,
+    "volume24hr": 797908.0045329997,
+    "endDate": "2026-03-02T05:00:00Z",
+    "markets": [
+      {
+        "question": "Will ZachXBT release his investigation on February 27?",
+        "groupItemTitle": "February 27",
+        "outcomePrices": "[\"0.017\", \"0.983\"]",
+        "volume24hr": 148645.236157
+      },
+      {
+        "question": "Will ZachXBT release his investigation on March 1?",
+        "groupItemTitle": "March 1",
+        "outcomePrices": "[\"0.0025\", \"0.9975\"]",
+        "volume24hr": 67522.41191900002
+      },
+      {
+        "question": "Will ZachXBT release his investigation on February 26?",
+        "groupItemTitle": "February 26",
+        "outcomePrices": "[\"0.9615\", \"0.0385\"]",
+        "volume24hr": 293213.45532899984
+      },
+      {
+        "question": "Will ZachXBT release his investigation on February 28?",
+        "groupItemTitle": "February 28",
+        "outcomePrices": "[\"0.005\", \"0.995\"]",
+        "volume24hr": 74345.740964
+      },
+      {
+        "question": "No release by March 1",
+        "groupItemTitle": "No release by March 1",
+        "outcomePrices": "[\"0.0145\", \"0.9855\"]",
+        "volume24hr": 100676.46587399997
+      }
+    ]
+  },
+  {
+    "id": "209521",
+    "title": "How long will the DHS shutdown last?",
+    "liquidity": 272786.05347,
+    "volume": 1137593.778634,
+    "volume24hr": 179432.18628600004,
+    "endDate": "2026-03-14T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will the DHS shutdown last 14 days or more?",
+        "groupItemTitle": "14+ days",
+        "outcomePrices": "[\"0.9985\", \"0.0015\"]",
+        "volume24hr": 198119.46446900012
+      },
+      {
+        "question": "Will the DHS shutdown last 30 days or more?",
+        "groupItemTitle": "30+ days",
+        "outcomePrices": "[\"0.74\", \"0.26\"]",
+        "volume24hr": 65228.708534000005
+      },
+      {
+        "question": "Will the DHS shutdown last 21 days or more?",
+        "groupItemTitle": "21+ days",
+        "outcomePrices": "[\"0.955\", \"0.045\"]",
+        "volume24hr": 64846.97462400001
+      },
+      {
+        "question": "Will the DHS shutdown last 60 days or more?",
+        "groupItemTitle": "60+ days",
+        "outcomePrices": "[\"0.21\", \"0.79\"]",
+        "volume24hr": 31898.662089
+      }
+    ]
+  },
+  {
+    "id": "57711",
+    "title": "Largest Company end of June?",
+    "liquidity": 272534.33813,
+    "volume": 1875763.348675,
+    "volume24hr": 34233.28333699999,
+    "endDate": "2026-06-30T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will NVIDIA be the largest company in the world by market cap on June 30?",
+        "groupItemTitle": "NVIDIA",
+        "outcomePrices": "[\"0.78\", \"0.22\"]",
+        "volume24hr": 36628.553699000004
+      },
+      {
+        "question": "Will Apple be the largest company in the world by market cap on June 30?",
+        "groupItemTitle": "Apple",
+        "outcomePrices": "[\"0.096\", \"0.904\"]",
+        "volume24hr": 23385.003506999998
+      },
+      {
+        "question": "Will Tesla be the largest company in the world by market cap on June 30?",
+        "groupItemTitle": "Tesla",
+        "outcomePrices": "[\"0.0045\", \"0.9955\"]",
+        "volume24hr": 11191.333729999998
+      },
+      {
+        "question": "Will Amazon be the largest company in the world by market cap on June 30?",
+        "groupItemTitle": "Amazon",
+        "outcomePrices": "[\"0.003\", \"0.997\"]",
+        "volume24hr": 27087.354834999995
+      },
+      {
+        "question": "Will Company B be the largest company in the world by market cap on June 30?",
+        "groupItemTitle": "Company B",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company D be the largest company in the world by market cap on June 30?",
+        "groupItemTitle": "Company D",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company F be the largest company in the world by market cap on June 30?",
+        "groupItemTitle": "Company F",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company H be the largest company in the world by market cap on June 30?",
+        "groupItemTitle": "Company H",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company J be the largest company in the world by market cap on June 30?",
+        "groupItemTitle": "Company J",
+        "outcomePrices": null,
+        "volume24hr": 0
+      },
+      {
+        "question": "Will Company L be the largest company in the world by market cap on June 30?",
+        "groupItemTitle": "Company L",
+        "outcomePrices": null,
+        "volume24hr": 0
+      }
+    ]
+  },
+  {
+    "id": "107420",
+    "title": "Slovenian Parliamentary Election Winner",
+    "liquidity": 268908.18936,
+    "volume": 742475.407867,
+    "volume24hr": 19057.082936,
+    "endDate": "2026-03-31T00:00:00Z",
+    "markets": [
+      {
+        "question": "Will the Slovenian Democratic Party (SDS) win the most seats in the 2026 Slovenian parliamentary election?",
+        "groupItemTitle": "Slovenian Democratic Party (SDS)",
+        "outcomePrices": "[\"0.915\", \"0.085\"]",
+        "volume24hr": 19296.57245699999
+      },
+      {
+        "question": "Will the Freedom Movement (GS) win the most seats in the 2026 Slovenian parliamentary election?",
+        "groupItemTitle": "Freedom Movement (GS)",
+        "outcomePrices": "[\"0.075\", \"0.925\"]",
+        "volume24hr": 8834.0398
+      },
+      {
+        "question": "Will the Social Democrats (SD) win the most seats in the 2026 Slovenian parliamentary election?",
+        "groupItemTitle": "Social Democrats (SD)",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 7918.0650000000005
+      },
+      {
+        "question": "Will the Democrats (D) win the most seats in the 2026 Slovenian parliamentary election?",
+        "groupItemTitle": "Democrats (D)",
+        "outcomePrices": "[\"0.005\", \"0.995\"]",
+        "volume24hr": 15593.577398
+      },
+      {
+        "question": "Will New Slovenia \u2013 Christian Democrats (NSi) win the most seats in the 2026 Slovenian parliamentary election?",
+        "groupItemTitle": "New Slovenia \u2013 Christian Democrats (NSi)",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 13378.1295
+      },
+      {
+        "question": "Will The Left (Levica) win the most seats in the 2026 Slovenian parliamentary election?",
+        "groupItemTitle": "The Left (Levica)",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 31107.791
+      },
+      {
+        "question": "Will Resni.ca (Res) win the most seats in the 2026 Slovenian parliamentary election?",
+        "groupItemTitle": "Resni.ca (Res)",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 27507.418999999998
+      },
+      {
+        "question": "Will Mi, socialisti! (Mi!) win the most seats in the 2026 Slovenian parliamentary election?",
+        "groupItemTitle": "Mi, socialisti! (Mi!)",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 26036.317000000006
+      },
+      {
+        "question": "Will Vesna \u2013 Green Party (Vesna) win the most seats in the 2026 Slovenian parliamentary election?",
+        "groupItemTitle": "Vesna \u2013 Green Party (Vesna)",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 19112.127
+      },
+      {
+        "question": "Will the Slovenian National Party (SNS) win the most seats in the 2026 Slovenian parliamentary election?",
+        "groupItemTitle": "Slovenian National Party (SNS)",
+        "outcomePrices": "[\"0.0015\", \"0.9985\"]",
+        "volume24hr": 10544.544140999998
+      }
+    ]
+  },
+  {
+    "id": "219439",
+    "title": "Bitcoin above ___ on February 27?",
+    "liquidity": 264287.69049,
+    "volume": 945039.290939,
+    "volume24hr": 523949.6533199999,
+    "endDate": "2026-02-27T17:00:00Z",
+    "markets": [
+      {
+        "question": "Will the price of Bitcoin be above $58,000 on February 27?",
+        "groupItemTitle": "58,000",
+        "outcomePrices": "[\"0.996\", \"0.004\"]",
+        "volume24hr": 54680.330212999994
+      },
+      {
+        "question": "Will the price of Bitcoin be above $60,000 on February 27?",
+        "groupItemTitle": "60,000",
+        "outcomePrices": "[\"0.9845\", \"0.0155\"]",
+        "volume24hr": 57923.879808
+      },
+      {
+        "question": "Will the price of Bitcoin be above $62,000 on February 27?",
+        "groupItemTitle": "62,000",
+        "outcomePrices": "[\"0.978\", \"0.022\"]",
+        "volume24hr": 67329.98102299999
+      },
+      {
+        "question": "Will the price of Bitcoin be above $64,000 on February 27?",
+        "groupItemTitle": "64,000",
+        "outcomePrices": "[\"0.935\", \"0.065\"]",
+        "volume24hr": 87633.84630999998
+      },
+      {
+        "question": "Will the price of Bitcoin be above $66,000 on February 27?",
+        "groupItemTitle": "66,000",
+        "outcomePrices": "[\"0.81\", \"0.19\"]",
+        "volume24hr": 94024.69287600003
+      },
+      {
+        "question": "Will the price of Bitcoin be above $68,000 on February 27?",
+        "groupItemTitle": "68,000",
+        "outcomePrices": "[\"0.49\", \"0.51\"]",
+        "volume24hr": 103742.65535500002
+      },
+      {
+        "question": "Will the price of Bitcoin be above $70,000 on February 27?",
+        "groupItemTitle": "70,000",
+        "outcomePrices": "[\"0.1865\", \"0.8135\"]",
+        "volume24hr": 115314.29082800003
+      },
+      {
+        "question": "Will the price of Bitcoin be above $72,000 on February 27?",
+        "groupItemTitle": "72,000",
+        "outcomePrices": "[\"0.0545\", \"0.9455\"]",
+        "volume24hr": 56927.48190800002
+      },
+      {
+        "question": "Will the price of Bitcoin be above $74,000 on February 27?",
+        "groupItemTitle": "74,000",
+        "outcomePrices": "[\"0.0195\", \"0.9805\"]",
+        "volume24hr": 61252.347528000035
+      },
+      {
+        "question": "Will the price of Bitcoin be above $76,000 on February 27?",
+        "groupItemTitle": "76,000",
+        "outcomePrices": "[\"0.008\", \"0.992\"]",
+        "volume24hr": 76621.853841
+      }
+    ]
+  },
+  {
+    "id": "106811",
+    "title": "Bitcoin all time high by ___?",
+    "liquidity": 262002.40509,
+    "volume": 2753313.76791,
+    "volume24hr": 210398.1739,
+    "endDate": "2027-01-01T05:00:00Z",
+    "markets": [
+      {
+        "question": "Bitcoin all time high by March 31, 2026?",
+        "groupItemTitle": "March 31, 2026",
+        "outcomePrices": "[\"0.0115\", \"0.9885\"]",
+        "volume24hr": 302973.83663400006
+      },
+      {
+        "question": "Bitcoin all time high by June 30, 2026?",
+        "groupItemTitle": "June 30, 2026",
+        "outcomePrices": "[\"0.08\", \"0.92\"]",
+        "volume24hr": 98402.21068999998
+      },
+      {
+        "question": "Bitcoin all time high by September 30, 2026?",
+        "groupItemTitle": "September 30, 2026",
+        "outcomePrices": "[\"0.145\", \"0.855\"]",
+        "volume24hr": 28825.754108
+      },
+      {
+        "question": "Bitcoin all time high by December 31, 2026?",
+        "groupItemTitle": "December 31, 2026",
+        "outcomePrices": "[\"0.205\", \"0.795\"]",
+        "volume24hr": 39976.485492999986
+      }
+    ]
+  },
+  {
+    "id": "125871",
+    "title": "Will Silver (SI) hit__ by end of June?",
+    "liquidity": 261712.61835,
+    "volume": 2237779.505518,
+    "volume24hr": 21481.398314,
+    "endDate": "2026-06-30T17:30:00Z",
+    "markets": [
+      {
+        "question": "Will Silver (SI) hit (HIGH) $200 by end of June?",
+        "groupItemTitle": "\u2191 $200",
+        "outcomePrices": "[\"0.075\", \"0.925\"]",
+        "volume24hr": 30576.986159
+      },
+      {
+        "question": "Will Silver (SI) hit (HIGH) $150 by end of June?",
+        "groupItemTitle": "\u2191 $150",
+        "outcomePrices": "[\"0.175\", \"0.825\"]",
+        "volume24hr": 21306.750003999998
+      },
+      {
+        "question": "Will Silver (SI) hit (HIGH) $120 by end of June?",
+        "groupItemTitle": "\u2191 $120",
+        "outcomePrices": "[\"0.355\", \"0.645\"]",
+        "volume24hr": 30021.243887999994
+      },
+      {
+        "question": "Will Silver (SI) hit (LOW) $70 by end of June?",
+        "groupItemTitle": "\u2193 $70",
+        "outcomePrices": "[\"0.485\", \"0.515\"]",
+        "volume24hr": 293185.08291899983
+      },
+      {
+        "question": "Will Silver (SI) hit (LOW) $65 by end of June?",
+        "groupItemTitle": "\u2193 $65",
+        "outcomePrices": "[\"0.475\", \"0.525\"]",
+        "volume24hr": 68888.15336699996
+      },
+      {
+        "question": "Will Silver (SI) hit (LOW) $60 by end of June?",
+        "groupItemTitle": "\u2193 $60",
+        "outcomePrices": "[\"0.23\", \"0.77\"]",
+        "volume24hr": 64641.52324500001
+      },
+      {
+        "question": "Will Silver (SI) hit (LOW) $55 by end of June?",
+        "groupItemTitle": "\u2193 $55",
+        "outcomePrices": "[\"0.13\", \"0.87\"]",
+        "volume24hr": 67771.456858
+      },
+      {
+        "question": "Will Silver (SI) hit (LOW) $45 by end of June?",
+        "groupItemTitle": "\u2193 $45",
+        "outcomePrices": "[\"0.0645\", \"0.9355\"]",
+        "volume24hr": 2620.619996
+      },
+      {
+        "question": "Will Silver (SI) hit (LOW) $35 by end of June?",
+        "groupItemTitle": "\u2193 $35",
+        "outcomePrices": "[\"0.0495\", \"0.9505\"]",
+        "volume24hr": 287.236671
+      },
+      {
+        "question": "Will Silver (SI) hit (HIGH) $130 by end of June?",
+        "groupItemTitle": "\u2191 $130",
+        "outcomePrices": "[\"0.235\", \"0.765\"]",
+        "volume24hr": 13911.656233000003
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "initial_deposit_gbp": 1000,
+  "initial_deposit_usd": 1250,
+  "current_bankroll_usd": 1.65,
+  "phase": 1,
+  "phase_deployed_usd": 0,
+  "reserve_usd": 0,
+  "total_pnl_usd": 0,
+  "total_pnl_pct": 0,
+  "peak_bankroll_usd": 1.65,
+  "max_drawdown_usd": 0,
+  "max_drawdown_pct": 0,
+  "trades_total": 0,
+  "trades_won": 0,
+  "trades_lost": 0,
+  "status": "awaiting_funding",
+  "last_updated": "2026-02-23T12:26:00Z"
+}

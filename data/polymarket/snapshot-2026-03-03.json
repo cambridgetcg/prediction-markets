@@ -1,0 +1,134 @@
+{
+  "date": "2026-03-03",
+  "GEO": {
+    "iran_strikes_feb28": {
+      "YES": 1.0,
+      "status": "RESOLVED_YES"
+    },
+    "iran_strikes_mar1": {
+      "YES": 1.0,
+      "status": "RESOLVED_YES"
+    },
+    "iran_strikes_mar2": {
+      "YES": 1.0,
+      "status": "RESOLVED_YES"
+    },
+    "iran_strikes_mar3": {
+      "YES": 0.998,
+      "status": "LIVE_TODAY"
+    },
+    "khamenei_out_feb28": {
+      "YES": 1.0,
+      "status": "RESOLVED_YES"
+    },
+    "khamenei_out_mar31": {
+      "YES": 0.999,
+      "status": "RESOLVING"
+    },
+    "strait_hormuz_closure_mar31": {
+      "YES": 0.585
+    },
+    "strait_hormuz_closure_dec31": {
+      "YES": 0.697
+    },
+    "iran_ceasefire_mar31": {
+      "YES": 0.45
+    },
+    "iran_ceasefire_apr30": {
+      "YES": 0.655
+    },
+    "iran_regime_fall_mar31": {
+      "YES": 0.14
+    },
+    "iran_regime_fall_jun30": {
+      "YES": 0.355
+    },
+    "new_supreme_leader_by_mar15": {
+      "YES": 0.685
+    },
+    "israel_strikes_iran_first": {
+      "YES": 0.494
+    },
+    "iran_strikes_israel_mar3": {
+      "YES": 0.898
+    },
+    "iran_strikes_israel_mar4": {
+      "YES": 0.875
+    },
+    "next_supreme_leader_arafi": {
+      "YES": 0.219
+    },
+    "next_supreme_leader_mohseni": {
+      "YES": 0.173
+    },
+    "next_supreme_leader_khomeini_hassan": {
+      "YES": 0.135
+    },
+    "ukraine_ceasefire_mar31": {
+      "YES": 0.0275
+    }
+  },
+  "POL": {
+    "fed_chair_warsh": {
+      "YES": 0.935
+    },
+    "fed_chair_judy_shelton": {
+      "YES": 0.04
+    },
+    "fed_chair_rick_rieder": {
+      "YES": 0.075
+    },
+    "dem_2028_newsom": {
+      "YES": 0.252
+    },
+    "dem_2028_aoc": {
+      "YES": 0.088
+    },
+    "dem_2028_kamala": {
+      "YES": 0.052
+    },
+    "dem_2028_shapiro": {
+      "YES": 0.042
+    },
+    "dem_2028_ossoff": {
+      "YES": 0.044
+    },
+    "dem_2028_kelly": {
+      "YES": 0.026
+    },
+    "dem_2028_beshear": {
+      "YES": 0.023
+    },
+    "fed_march_no_change": {
+      "YES": 0.97
+    },
+    "fed_march_25bps_cut": {
+      "YES": 0.018
+    }
+  },
+  "CRY": {
+    "btc_above_64k_mar3": {
+      "YES": 0.927
+    },
+    "btc_above_66k_mar3": {
+      "YES": 0.715
+    },
+    "btc_above_68k_mar3": {
+      "YES": 0.22
+    },
+    "btc_above_70k_mar3": {
+      "YES": 0.043
+    },
+    "btc_implied_price_mar3": "~$66-67K",
+    "btc_reach_70k_march": {
+      "YES": 1.0,
+      "note": "already hit 70K in March? or market mispriced"
+    },
+    "btc_110k_march": {
+      "YES": 0.005
+    },
+    "btc_150k_march": {
+      "YES": 0.004
+    }
+  }
+}

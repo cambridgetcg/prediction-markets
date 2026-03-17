@@ -1,0 +1,46 @@
+{
+  "date": "2026-03-05",
+  "note": "Operation Epic Fury day 6. US/Israel strikes began Feb 28. Khamenei killed Feb 28. Natanz hit March 2. Strikes continuing daily. Strait of Hormuz partially shut. BTC up 13% since strikes.",
+  "GEO": {
+    "iran_strikes_feb28": { "YES": 1.0, "status": "RESOLVED_YES" },
+    "iran_strikes_mar1": { "YES": 1.0, "status": "RESOLVED_YES" },
+    "iran_strikes_mar2": { "YES": 1.0, "status": "RESOLVED_YES" },
+    "iran_strikes_mar3": { "YES": 1.0, "status": "RESOLVED_YES" },
+    "iran_strikes_mar4": { "YES": 1.0, "status": "RESOLVED_YES" },
+    "iran_strikes_mar5": { "YES": 0.97, "status": "LIVE_TODAY" },
+    "khamenei_out_feb28": { "YES": 1.0, "status": "RESOLVED_YES" },
+    "khamenei_out_mar31": { "YES": 1.0, "status": "RESOLVED_YES", "note": "Killed Feb 28" },
+    "new_supreme_leader_by_mar15": { "YES": 0.97, "note": "Was 68.5% on Mar 3 — jumped on Khamenei death" },
+    "iran_announces_leader_mar5": { "YES": 0.14, "note": "TODAY frontrunner at 14%; No Leader by Mar31 at 13%" },
+    "iran_leader_end2026_mojtaba": { "YES": 0.27, "note": "NEW TRACK — frontrunner for end-2026 leader" },
+    "iran_leader_end2026_pahlavi": { "YES": 0.17, "note": "Reza Pahlavi — regime change scenario" },
+    "us_recognizes_pahlavi_2026": { "YES": 0.21, "note": "NEW — geopolitically significant" },
+    "strait_hormuz_closure_mar31": { "YES": 0.84, "note": "Was 58.5% on Mar 3; actual closure ongoing (+25.5pp est)" },
+    "strait_hormuz_closure_dec31": { "YES": 0.81, "note": "Was 69.7% on Mar 3" },
+    "iran_ceasefire_mar31": { "YES": 0.61, "note": "Was 45% on Mar 3 (+16pp)" },
+    "iran_ceasefire_apr30": { "YES": 0.78, "note": "Was 65.5% on Mar 3 (+12.5pp)" },
+    "iran_regime_fall_mar31": { "YES": 0.31, "note": "Was 14% on Mar 3 (+17pp est)" },
+    "iran_regime_fall_jun30": { "YES": 0.52, "note": "Was 35.5% on Mar 3 (+16.5pp est)" },
+    "ukraine_ceasefire_mar31": { "YES": 0.0275, "note": "Stable — no movement" }
+  },
+  "POL": {
+    "fed_chair_warsh": { "YES": 0.935, "note": "Stable" },
+    "fed_march_no_change": { "YES": 0.97, "note": "Stable — 97% even amid oil shock" },
+    "fed_cuts_2026_2cuts": { "YES": 0.26, "note": "NEW TRACK — frontrunner at 26%; oil shock complicating cuts" },
+    "fed_cuts_2026_1cut": { "YES": 0.24, "note": "Close second" },
+    "dem_2028_newsom": { "YES": 0.252, "note": "Stable" },
+    "dem_2028_aoc": { "YES": 0.088, "note": "Stable" }
+  },
+  "CRY": {
+    "btc_current_price": "~$71K",
+    "btc_note": "Up 13% since Iran strikes; geopolitical safe haven bid",
+    "btc_above_75k_march": { "YES": 0.70, "note": "NEW — ~70% on invezz" },
+    "btc_above_80k_march": { "YES": 0.51, "note": "NEW — $14M volume" },
+    "btc_crash_65k_march": { "YES": 0.44, "note": "Tail risk; volatile range" },
+    "btc_100k_2026": { "YES": 0.385, "note": "Stable from pre-strike levels" }
+  },
+  "META": {
+    "polymarket_nuclear_market": "PULLED — Polymarket created then removed nuclear detonation 2026 market after ~$850K volume and backlash. Archived.",
+    "notable_event": "Polymarket recorded $529M in Iran strike trading volume. 'Magamyman' account made $553K on Khamenei death bet just before strikes."
+  }
+}

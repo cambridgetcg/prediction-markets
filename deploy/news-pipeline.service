@@ -1,0 +1,23 @@
+[Unit]
+Description=News Intelligence Pipeline
+After=network.target
+
+[Service]
+Type=simple
+User=yu
+WorkingDirectory=/opt/prediction-markets
+ExecStart=/usr/bin/python3 scripts/orchestrator.py --config config/news-pipeline.yaml
+Restart=on-failure
+RestartSec=30
+EnvironmentFile=/opt/prediction-markets/.env
+
+# Graceful shutdown
+TimeoutStopSec=60
+KillSignal=SIGTERM
+
+# Logging
+StandardOutput=append:/var/log/news-pipeline/stdout.log
+StandardError=append:/var/log/news-pipeline/stderr.log
+
+[Install]
+WantedBy=multi-user.target

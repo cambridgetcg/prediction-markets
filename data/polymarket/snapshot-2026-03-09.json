@@ -1,0 +1,558 @@
+{
+  "date": "2026-03-09",
+  "note": "Operation Epic Fury day 10. Iran struck Saudi Arabia, Bahrain, UAE, Kuwait in March — conflict regionalized. BTC at ~$67K (implied $66-68K range from daily markets). Oil: CL $100 by March now 93.7% (up from ~76% yesterday). Regime fall Mar 31 DOWN sharply to 8.8% (from 31% on Mar 7). Iran ceasefire Mar 31: 24.5% (down from 46% on Mar 8). US ground troops in Iran by Mar 31: 39.5%. New Supreme Leader market not directly found via API — likely Mojtaba still frontrunner. GPT-5.3 confirmed released (resolved YES). Anthropic still leads AI model race. Gold outperforming BTC and S&P in 2026. Israel struck Yemen by Mar 31: 63.5%.",
+  "GEO": {
+    "iran_regime_fall_mar31": {
+      "YES": 0.088,
+      "prev": 0.31,
+      "delta": -0.222,
+      "note": "MASSIVE DROP -22pp from Mar 7. $26M volume. Market pricing regime survival at 91.2%"
+    },
+    "iran_regime_fall_apr30": {
+      "YES": 0.185,
+      "note": "NEW TRACK — $1.5M volume"
+    },
+    "iran_regime_fall_jun30": {
+      "YES": 0.315,
+      "prev": 0.52,
+      "delta": -0.205,
+      "note": "DOWN -20pp from Mar 7. Market losing faith in near-term regime change"
+    },
+    "iran_regime_fall_2026": {
+      "YES": 0.405,
+      "prev_est": 0.52,
+      "note": "$8.7M volume. Down from ~52% estimate"
+    },
+    "iran_regime_survives_strikes": {
+      "YES": 0.67,
+      "note": "67% chance regime survives US military strikes. $310K volume"
+    },
+    "strait_hormuz_closure_mar31": {
+      "YES": 0.977,
+      "prev": 0.85,
+      "delta": 0.127,
+      "note": "UP +12.7pp — near certainty. $21.3M volume. Already happened."
+    },
+    "strait_hormuz_closure_2026": {
+      "YES": 0.984,
+      "note": "98.4% — essentially resolved YES"
+    },
+    "iran_ceasefire_mar15": {
+      "YES": 0.075,
+      "prev": 0.26,
+      "delta": -0.185,
+      "note": "DOWN -18.5pp. Only 6 days left. $4.5M volume"
+    },
+    "iran_ceasefire_mar31": {
+      "YES": 0.245,
+      "prev": 0.46,
+      "delta": -0.215,
+      "note": "DOWN -21.5pp from Mar 8. Major shift — hardening positions confirmed. $3.8M"
+    },
+    "iran_ceasefire_apr30": {
+      "YES": 0.465,
+      "note": "$1.3M volume"
+    },
+    "iran_ceasefire_jun30": {
+      "YES": 0.655,
+      "note": "NEW TRACK"
+    },
+    "iran_conflict_ends_mar15": {
+      "YES": 0.043,
+      "note": "$1.1M volume. Conflict end market"
+    },
+    "iran_conflict_ends_mar31": {
+      "YES": 0.205,
+      "note": "$500K volume"
+    },
+    "iran_conflict_ends_jun30": {
+      "YES": 0.695,
+      "note": "Market expects June+ resolution"
+    },
+    "trump_ends_operations_mar15": {
+      "YES": 0.095,
+      "note": "$260K volume"
+    },
+    "trump_ends_operations_mar31": {
+      "YES": 0.325,
+      "prev": 0.31,
+      "delta": 0.015,
+      "note": "Stable +1.5pp"
+    },
+    "trump_ends_operations_apr30": {
+      "YES": 0.575,
+      "note": "NEW TRACK"
+    },
+    "us_forces_enter_iran_mar14": {
+      "YES": 0.165,
+      "note": "$2.6M volume. 5 days out"
+    },
+    "us_forces_enter_iran_mar31": {
+      "YES": 0.395,
+      "note": "$4.1M volume. Significant probability"
+    },
+    "us_forces_enter_iran_2026": {
+      "YES": 0.655,
+      "note": "$930K volume"
+    },
+    "us_invade_iran_mar31": {
+      "YES": 0.171,
+      "note": "$1.1M volume. Full invasion market"
+    },
+    "us_invade_iran_2026": {
+      "YES": 0.36,
+      "note": "$520K volume"
+    },
+    "us_declare_war_iran_mar31": {
+      "YES": 0.015,
+      "note": "Very low — not formal war"
+    },
+    "us_declare_war_iran_2026": {
+      "YES": 0.115,
+      "note": "$210K"
+    },
+    "another_country_strikes_iran_mar31": {
+      "YES": 0.535,
+      "prev": 0.46,
+      "delta": 0.075,
+      "note": "UP +7.5pp. $2.1M volume"
+    },
+    "which_countries_strike_iran_mar31": {
+      "uae": 0.345,
+      "qatar": 0.195,
+      "uk": 0.175,
+      "france": 0.086,
+      "jordan": 0.085,
+      "turkey": 0.069,
+      "note": "UAE leading at 34.5% (up from 27% on Mar 8). $5.2M volume"
+    },
+    "france_uk_germany_strike_iran_mar31": {
+      "YES": 0.203,
+      "note": "$2.9M volume. Western allies joining?"
+    },
+    "france_uk_germany_strike_iran_jun30": {
+      "YES": 0.31,
+      "note": "$260K"
+    },
+    "iran_strikes_countries_march": {
+      "israel": 1.0,
+      "saudi": 1.0,
+      "bahrain": 1.0,
+      "uae": 1.0,
+      "kuwait": 1.0,
+      "jordan": 0.885,
+      "turkey": 0.097,
+      "cyprus": 0.075,
+      "note": "Iran has struck 5 countries already (Israel, Saudi, Bahrain, UAE, Kuwait). Jordan at 88.5%. $2.3M"
+    },
+    "us_support_kurds_iran_mar31": {
+      "YES": 0.19,
+      "prev_est": "NEW",
+      "note": "DOWN from earlier estimates. $360K"
+    },
+    "pahlavi_enters_iran_mar31": {
+      "YES": 0.024,
+      "note": "$4M volume. Very unlikely near-term"
+    },
+    "pahlavi_enters_iran_jun30": {
+      "YES": 0.18,
+      "note": "$1.3M"
+    },
+    "pahlavi_enters_iran_dec31": {
+      "YES": 0.315,
+      "note": "Longer-dated"
+    },
+    "us_recognizes_pahlavi_2026": {
+      "YES": 0.21,
+      "prev": 0.22,
+      "delta": -0.01,
+      "note": "Stable"
+    },
+    "pahlavi_leads_iran_2026": {
+      "YES": 0.179,
+      "prev": 0.17,
+      "delta": 0.009,
+      "note": "Stable"
+    },
+    "iran_leader_end2026_mojtaba": {
+      "YES": 0.296,
+      "prev": 0.30,
+      "delta": -0.004,
+      "note": "Stable. $1.4M volume. Leading candidate"
+    },
+    "iran_leader_end2026_pahlavi": {
+      "YES": 0.165,
+      "prev": 0.17,
+      "delta": -0.005,
+      "note": "Stable"
+    },
+    "iran_nuclear_enrichment_ends_mar31": {
+      "YES": 0.055,
+      "note": "NEW TRACK — $1.8M. Very low"
+    },
+    "us_iran_nuclear_deal_mar31": {
+      "YES": 0.07,
+      "note": "$900K"
+    },
+    "us_iran_nuclear_deal_jun30": {
+      "YES": 0.285,
+      "note": "$790K"
+    },
+    "us_iran_nuclear_deal_2026": {
+      "YES": 0.445,
+      "note": "$350K"
+    },
+    "fordow_strike_mar31": {
+      "YES": 0.49,
+      "note": "$280K. 49% chance Fordow gets hit"
+    },
+    "fordow_strike_mar15": {
+      "YES": 0.285,
+      "note": "$40K"
+    },
+    "pezeshkian_out_mar31": {
+      "YES": 0.32,
+      "note": "President Pezeshkian out by Mar 31: 32%"
+    },
+    "pezeshkian_out_jun30": {
+      "YES": 0.48,
+      "note": ""
+    },
+    "houthi_strike_israel_mar15": {
+      "YES": 0.265,
+      "note": "NEW — Houthi activity"
+    },
+    "houthi_strike_israel_mar31": {
+      "YES": 0.535,
+      "note": "$100K"
+    },
+    "israel_strike_yemen_mar31": {
+      "YES": 0.635,
+      "note": "63.5% — likely retaliation"
+    },
+    "iran_cyprus_strike_mar15": {
+      "YES": 0.105,
+      "note": "Iran/Hezbollah strike on Cyprus"
+    },
+    "oslo_embassy_accusation": {
+      "YES": 0.255,
+      "note": "US accuses Iran of Oslo Embassy attack"
+    },
+    "us_cyberattack_iran_mar31": {
+      "YES": 0.26,
+      "note": "Cyber warfare dimension"
+    },
+    "ukraine_ceasefire_mar31": {
+      "YES": 0.018,
+      "prev": 0.0275,
+      "delta": -0.0095,
+      "note": "DOWN — dead market while Iran dominates"
+    },
+    "ukraine_ceasefire_apr30": {
+      "YES": 0.075,
+      "note": "NEW TRACK"
+    },
+    "ukraine_ceasefire_jun30": {
+      "YES": 0.16,
+      "note": "$2.7M volume"
+    },
+    "ukraine_ceasefire_2026": {
+      "YES": 0.395,
+      "note": "$11.3M volume"
+    },
+    "gulf_state_strikes_iran_mar7": {
+      "YES": 0.022,
+      "status": "PENDING_RESOLUTION",
+      "note": "Should resolve soon — March 7 passed"
+    }
+  },
+  "POL": {
+    "fed_march_no_change": {
+      "YES": 0.986,
+      "prev": 0.97,
+      "delta": 0.016,
+      "note": "UP slightly — essentially locked in. $286M total event volume"
+    },
+    "fed_march_25bp_cut": {
+      "YES": 0.009,
+      "note": "0.9% — basically dead"
+    },
+    "fed_chair_warsh": {
+      "YES": 0.942,
+      "prev": 0.935,
+      "delta": 0.007,
+      "note": "Stable. $3.2M. Warsh confirmation near-certain"
+    },
+    "warsh_confirmed_by_may1": {
+      "YES": 0.365,
+      "note": "NEW TRACK — $220K"
+    },
+    "warsh_confirmed_by_may15": {
+      "YES": 0.905,
+      "note": "90.5% by mid-May"
+    },
+    "powell_out_mar31": {
+      "YES": 0.008,
+      "note": "Not leaving early"
+    },
+    "dem_2028_nominee": {
+      "whitmer": 0.017,
+      "stephen_a_smith": 0.016,
+      "note": "Fragmented. $787M event volume. Too early to price"
+    },
+    "gop_2028_nominee": {
+      "vance": 0.416,
+      "trump_disqualified": 0.018,
+      "note": "Vance at 41.6% — unchanged. $367M event volume"
+    },
+    "starmer_out_jun30": {
+      "YES": 0.445,
+      "note": "NEW TRACK — Starmer in trouble? 44.5%. $9.4M total"
+    },
+    "starmer_out_dec31": {
+      "YES": 0.66,
+      "note": "66% out by end of 2026"
+    }
+  },
+  "CRY": {
+    "btc_current_price": "~$67,000 (implied: 89.5% above $66K, 46.5% above $68K on Mar 9)",
+    "btc_mar9_range": {
+      "above_66k": 0.895,
+      "above_68k": 0.465,
+      "above_70k": 0.072,
+      "note": "Heavily concentrated $66-68K. Consistent with ~$67K"
+    },
+    "btc_mar10_range": {
+      "above_66k": 0.755,
+      "above_68k": 0.47,
+      "above_70k": 0.215,
+      "note": "Slight upward bias for tomorrow"
+    },
+    "btc_80k_march": {
+      "YES": 0.205,
+      "prev_est": 0.20,
+      "note": "Stable at 20.5%. Needs $13K rally in 22 days"
+    },
+    "btc_85k_march": {
+      "YES": 0.085,
+      "note": "8.5% — improbable"
+    },
+    "btc_90k_march": {
+      "YES": 0.03,
+      "note": "3% — very unlikely"
+    },
+    "btc_100k_2026": {
+      "YES": 0.355,
+      "prev": 0.385,
+      "delta": -0.03,
+      "note": "DOWN -3pp. $23M event volume. BTC dip to $65K in 2026 already resolved YES (100%)"
+    },
+    "btc_120k_2026": {
+      "YES": 0.205,
+      "note": "20.5%"
+    },
+    "btc_150k_2026": {
+      "YES": 0.115,
+      "note": "11.5%"
+    },
+    "btc_ath_mar31": {
+      "YES": 0.005,
+      "note": "0.5% — dead. BTC ATH needs ~$109K from $67K"
+    },
+    "btc_ath_jun30": {
+      "YES": 0.045,
+      "note": "4.5%"
+    },
+    "btc_ath_dec31": {
+      "YES": 0.165,
+      "note": "16.5% — market very bearish on ATH recovery"
+    },
+    "btc_60k_or_80k_first": {
+      "YES_60k": 0.63,
+      "note": "$60K first: 63%. Market expects further downside. $370K"
+    },
+    "btc_vs_gold_vs_sp500_2026": {
+      "gold": 0.715,
+      "btc": 0.185,
+      "sp500": 0.105,
+      "note": "Gold DOMINANT at 71.5%. Risk-off 2026. BTC at 18.5%"
+    },
+    "btc_outperform_gold_2026": {
+      "YES": 0.29,
+      "note": "29% — Gold winning 2026 decisively"
+    },
+    "satoshi_moves_btc_2026": {
+      "YES": 0.085,
+      "note": "$1.6M. Perennial long-shot"
+    },
+    "china_unbans_btc_2027": {
+      "YES": 0.04,
+      "note": "4%"
+    },
+    "microstrategy_sells_btc_2026": {
+      "YES": 0.15,
+      "note": "15%. Down from higher levels"
+    }
+  },
+  "ECO": {
+    "crude_oil_100_march": {
+      "YES": 0.937,
+      "prev": 0.76,
+      "delta": 0.177,
+      "note": "MASSIVE UP +17.7pp. $2.7M. Near-certain oil hits $100 this month"
+    },
+    "crude_oil_110_march": {
+      "YES": 0.748,
+      "note": "74.8%. $110 oil in March: nearly 3-in-4 chance. $1.5M"
+    },
+    "crude_oil_120_march": {
+      "YES": 0.635,
+      "note": "63.5%. $120 oil — majority probability! $1.5M"
+    },
+    "crude_oil_80_90_already_hit": {
+      "note": "CL $80, $90 = 100%. Already happened. $100 = 93.7% (nearly there)"
+    },
+    "usd_rial_1point8m_mar31": {
+      "YES": 0.215,
+      "note": "Iranian rial depreciation market"
+    }
+  },
+  "FIN": {
+    "nothing_ever_happens_2026": {
+      "YES": 0.44,
+      "note": "Meta-market on whether 'nothing happens' in 2026. 44% says yes. $400K"
+    },
+    "nothing_ever_happens_microstrategy": {
+      "YES": 0.49,
+      "note": "49% — coin flip on MicroStrategy drama"
+    }
+  },
+  "TEC": {
+    "best_ai_model_march": {
+      "google": 0.155,
+      "openai": 0.028,
+      "xai": 0.022,
+      "baidu": 0.002,
+      "note": "Anthropic implied ~80% (1 minus others). DOWN from 57% est — but API doesn't show Anthropic directly. Google 15.5% (down from 23.5%). OpenAI collapsed to 2.8% (from 12.25%). xAI 2.2%. $6.2M"
+    },
+    "best_ai_model_coding_march": {
+      "openai": 0.79,
+      "google": 0.018,
+      "deepseek": 0.014,
+      "note": "OpenAI DOMINANT in coding at 79%. Anthropic not shown directly. $600K"
+    },
+    "best_ai_model_june": {
+      "google": 0.33,
+      "openai": 0.13,
+      "deepseek": 0.03,
+      "note": "Google leads June predictions at 33%. $1.6M"
+    },
+    "gpt5_3_released": {
+      "mar8": 1.0,
+      "mar15": 1.0,
+      "mar31": 1.0,
+      "status": "RESOLVED_YES",
+      "note": "GPT-5.3 released! Confirmed. $4.2M"
+    },
+    "gpt6_released_mar31": {
+      "YES": 0.034,
+      "note": "3.4%. Not happening this month"
+    },
+    "gpt6_released_jun30": {
+      "YES": 0.215,
+      "note": "21.5%"
+    },
+    "gpt6_released_sep30": {
+      "YES": 0.60,
+      "note": "60% by September"
+    },
+    "gpt6_released_dec31": {
+      "YES": 0.82,
+      "note": "82% by end of year"
+    },
+    "anthropic_1_by_jun30": {
+      "YES": 1.0,
+      "note": "Already achieved (currently #1)"
+    },
+    "openai_1_by_jun30": {
+      "YES": 0.23,
+      "note": "23% chance OpenAI retakes #1 by June"
+    },
+    "xai_1_by_jun30": {
+      "YES": 0.275,
+      "note": "xAI at 27.5% — interesting"
+    }
+  },
+  "SOC": {
+    "gta_vi_race": {
+      "russia_ukraine_ceasefire": 0.535,
+      "rihanna_album": 0.535,
+      "playboi_carti_album": 0.52,
+      "jesus_returns": 0.485,
+      "trump_out": 0.525,
+      "china_taiwan": 0.515,
+      "note": "$18.8M total. Jesus return before GTA VI: 48.5%!"
+    },
+    "oscars_best_picture": {
+      "one_battle_after_another": 0.735,
+      "sinners": 0.224,
+      "hamnet": 0.019,
+      "note": "$26.9M volume. One Battle After Another dominant"
+    },
+    "jesus_returns_2027": {
+      "YES": 0.039,
+      "note": "3.9%. $40.4M volume — most liquid eschatology market ever"
+    }
+  },
+  "LAW": {
+    "israel_hamas_ceasefire_cancelled_mar31": {
+      "YES": 0.095,
+      "note": "9.5%. $130K"
+    },
+    "israel_hamas_phase2_mar31": {
+      "YES": 0.04,
+      "note": "4%. Phase 2 unlikely near-term"
+    },
+    "trump_declare_war_iran_mar31": {
+      "YES": 0.015,
+      "note": "Formal declaration very unlikely"
+    },
+    "trump_declare_war_iran_2026": {
+      "YES": 0.14,
+      "note": "14% for full year"
+    }
+  },
+  "META": {
+    "total_iran_volume_estimate": "$200M+ across all Iran-related markets",
+    "biggest_shifts_24h": [
+      "Crude oil $100 March: 76% → 93.7% (+17.7pp)",
+      "Iran ceasefire Mar 31: 46% → 24.5% (-21.5pp)",
+      "Iran regime fall Mar 31: 31% → 8.8% (-22.2pp)",
+      "Strait Hormuz Mar 31: 85% → 97.7% (+12.7pp)",
+      "Iran regime fall Jun 30: 52% → 31.5% (-20.5pp)"
+    ],
+    "new_markets_noted": [
+      "Iran regime fall Apr 30 (18.5%)",
+      "US invade Iran Mar 31 (17.1%)",
+      "Iran/Hezbollah strike Cyprus (10.5% by Mar 15)",
+      "Houthi strike Israel Mar 31 (53.5%)",
+      "Israel strike Yemen Mar 31 (63.5%)",
+      "Warsh confirmed by May 1 (36.5%)",
+      "Starmer out by Jun 30 (44.5%)",
+      "Gold vs BTC vs S&P — Gold dominant at 71.5%"
+    ],
+    "resolved_markets": [
+      "GPT-5.3 released by Mar 8: YES (confirmed)",
+      "BTC dip to $65K in 2026: YES (already happened)",
+      "BTC dip to $85K in 2026: YES (already happened)",
+      "Iran strikes Israel March: YES",
+      "Iran strikes Saudi Arabia March: YES",
+      "Iran strikes Bahrain March: YES",
+      "Iran strikes UAE March: YES",
+      "Iran strikes Kuwait March: YES",
+      "US strikes Iraq: YES (100%)",
+      "US/Israel strike Iran Mar 1-8: All YES (100%)",
+      "CL hit $80, $90 March: YES"
+    ]
+  }
+}

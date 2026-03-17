@@ -1,0 +1,1729 @@
+{
+  "timestamp": "2026-02-23T11:38:48Z",
+  "total_markets_fetched": 500,
+  "filtered_non_sports": 409,
+  "active_markets": [
+    {
+      "question": "US strikes Iran by February 28, 2026?",
+      "yes_price": 0.175,
+      "volume": 37066475.265554,
+      "volume24hr": 2663338.227503998,
+      "liquidity": 625771.4439,
+      "one_day_change": 0.0,
+      "one_week_change": 0.04,
+      "one_month_change": -0.29,
+      "yes_token": "110790003121442365126855864076707686014650523258783405996925622264696084778807",
+      "end_date": "2026-01-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "US strikes Iran by February 23, 2026?",
+      "yes_price": 0.0125,
+      "volume": 4497456.798102,
+      "volume24hr": 1998074.2928290006,
+      "liquidity": 560515.23143,
+      "one_day_change": -0.023,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "100959738883588056549629713272524015062919617765705425762311330028980363847537",
+      "end_date": "2026-01-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "US strikes Iran by February 24, 2026?",
+      "yes_price": 0.0345,
+      "volume": 2632072.594132,
+      "volume24hr": 1159486.762743001,
+      "liquidity": 207495.89224,
+      "one_day_change": -0.0205,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "111977898551602011660195806458348931912849013753262334814342962907278475615442",
+      "end_date": "2026-01-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Trump nominate Judy Shelton as the next Fed chair?",
+      "yes_price": 0.0315,
+      "volume": 93554626.318077,
+      "volume24hr": 1039471.1365310008,
+      "liquidity": 2258441.18337,
+      "one_day_change": -0.002,
+      "one_week_change": 0.0,
+      "one_month_change": 0.02,
+      "yes_token": "5031084282167950494806674428243037744881029417420880897305642929037077494331",
+      "end_date": "2026-12-31T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will the Fed increase interest rates by 25+ bps after the March 2026 meeting?",
+      "yes_price": 0.0065,
+      "volume": 53643930.056675,
+      "volume24hr": 994050.7399830002,
+      "liquidity": 1167520.09459,
+      "one_day_change": 0.001,
+      "one_week_change": 0.001,
+      "one_month_change": -0.005,
+      "yes_token": "54073086346734626735797775941991553522163760164405051969883391401961188364109",
+      "end_date": "2026-03-18T00:00:00Z",
+      "domain": "ECO"
+    },
+    {
+      "question": "US strikes Iran by March 31, 2026?",
+      "yes_price": 0.575,
+      "volume": 14120734.131792,
+      "volume24hr": 831560.203693,
+      "liquidity": 568071.7849,
+      "one_day_change": 0.02,
+      "one_week_change": 0.25,
+      "one_month_change": 0.03,
+      "yes_token": "114073431155826730926052468626599502581519892859155799641358176120253844422606",
+      "end_date": "2026-06-30T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will the US next strike Iran on February 22, 2026 (ET)?",
+      "yes_price": 0.001,
+      "volume": 2007483.747928,
+      "volume24hr": 744978.558022,
+      "liquidity": 123950.73316,
+      "one_day_change": -0.0135,
+      "one_week_change": -0.0095,
+      "one_month_change": 0.0,
+      "yes_token": "7258754494114330194697542566958413396327197841420497971813818992446897471385",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Andy Beshear win the 2028 US Presidential Election?",
+      "yes_price": 0.019,
+      "volume": 4885892.932195,
+      "volume24hr": 737121.986115,
+      "liquidity": 332722.90606,
+      "one_day_change": 0.0015,
+      "one_week_change": -0.0045,
+      "one_month_change": -0.0005,
+      "yes_token": "50507496430692162923857760920722624157737138256097150616293040054748564876552",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Ethereum reach $5,000 in February?",
+      "yes_price": 0.0015,
+      "volume": 6414012.037901,
+      "volume24hr": 688342.6290000001,
+      "liquidity": 267498.71538,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "8678660470472826014418184687935682042816231019568458767776122035544471785962",
+      "end_date": "2026-03-01T05:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "US strikes Iran by February 25, 2026?",
+      "yes_price": 0.045,
+      "volume": 1672710.352095,
+      "volume24hr": 623875.7466449992,
+      "liquidity": 260094.9374,
+      "one_day_change": -0.035,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "2901186071822462930731294794067546493320718410742503903635387157619970575130",
+      "end_date": "2026-01-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Richard Grenell be the leader of Venezuela end of 2026?",
+      "yes_price": 0.0005,
+      "volume": 6984939.112163,
+      "volume24hr": 580854.4599999998,
+      "liquidity": 146334.59744,
+      "one_day_change": 0.0,
+      "one_week_change": -0.001,
+      "one_month_change": 0.0,
+      "yes_token": "63041927234014862550752749844577619438319946530923167906649363118591050055991",
+      "end_date": "2026-12-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Manchester United FC win on 2026-02-23?",
+      "yes_price": 0.495,
+      "volume": 813649.812572,
+      "volume24hr": 558285.019718,
+      "liquidity": 599258.5465,
+      "one_day_change": -0.01,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "62714570878257649619659356909770618496133386495527296744337304814607638065503",
+      "end_date": "2026-02-23T20:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will the next Prime Minister of Hungary be L\u00e1szl\u00f3 Toroczkai?",
+      "yes_price": 0.026,
+      "volume": 7320982.478626,
+      "volume24hr": 557386.6849120001,
+      "liquidity": 28824.2121,
+      "one_day_change": 0.0115,
+      "one_week_change": 0.0145,
+      "one_month_change": 0.021,
+      "yes_token": "62276312834902257904558594246531967377131544314278449037472956208145787396192",
+      "end_date": "2026-04-12T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Rahm Emanuel win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0125,
+      "volume": 7390274.821798,
+      "volume24hr": 549741.1070980001,
+      "liquidity": 548839.31294,
+      "one_day_change": -0.0005,
+      "one_week_change": -0.004,
+      "one_month_change": -0.007,
+      "yes_token": "10521981432803570450946212503203364998108630328528216082760514453664705157397",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Norway win the 2026 FIFA World Cup?",
+      "yes_price": 0.027,
+      "volume": 4051406.544401,
+      "volume24hr": 523216.0477330008,
+      "liquidity": 358218.92715,
+      "one_day_change": 0.0,
+      "one_week_change": -0.0005,
+      "one_month_change": -0.001,
+      "yes_token": "60447443643099453130956385288904175887233107411078568881602330835010340506057",
+      "end_date": "2026-07-20T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will the Fed decrease interest rates by 50+ bps after the March 2026 meeting?",
+      "yes_price": 0.0075,
+      "volume": 64416435.887703,
+      "volume24hr": 519292.729462,
+      "liquidity": 1433097.67947,
+      "one_day_change": 0.0,
+      "one_week_change": 0.001,
+      "one_month_change": -0.009,
+      "yes_token": "46553455570564517989191023458705371521436514261892866503067981558938998232024",
+      "end_date": "2026-03-18T00:00:00Z",
+      "domain": "ECO"
+    },
+    {
+      "question": "Khamenei out as Supreme Leader of Iran by March 31?",
+      "yes_price": 0.205,
+      "volume": 15777887.484023,
+      "volume24hr": 493648.4931210008,
+      "liquidity": 413188.7485,
+      "one_day_change": 0.0,
+      "one_week_change": 0.07,
+      "one_month_change": -0.085,
+      "yes_token": "70771354585365381988139008309072205730081182435161568795508496003376222185889",
+      "end_date": "2026-03-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Mike Pence win the 2028 Republican presidential nomination?",
+      "yes_price": 0.0105,
+      "volume": 24469269.056341,
+      "volume24hr": 485917.35292100004,
+      "liquidity": 592613.19973,
+      "one_day_change": 0.0,
+      "one_week_change": 0.001,
+      "one_month_change": 0.004,
+      "yes_token": "110467341601356058460373968989438018821471776813704553223329002744055822742107",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Saudi Arabia win the 2026 FIFA World Cup?",
+      "yes_price": 0.0025,
+      "volume": 7041766.438054,
+      "volume24hr": 480385.1020000001,
+      "liquidity": 976463.55028,
+      "one_day_change": 0.001,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "23542782083949026234898323432000742558288032327930681121040136746492993951914",
+      "end_date": "2026-07-20T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Alexandria Ocasio-Cortez win the 2028 US Presidential Election?",
+      "yes_price": 0.057,
+      "volume": 3492597.502798,
+      "volume24hr": 479483.1520139999,
+      "liquidity": 487706.42474,
+      "one_day_change": -0.0005,
+      "one_week_change": -0.0005,
+      "one_month_change": -0.008,
+      "yes_token": "8113830512143065501177519557124858581375945005490796772950589720955457782465",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Bitcoin reach $150,000 in February?",
+      "yes_price": 0.0015,
+      "volume": 23109347.611516,
+      "volume24hr": 477606.2890000008,
+      "liquidity": 1768770.65819,
+      "one_day_change": 0.0,
+      "one_week_change": -0.001,
+      "one_month_change": 0.0,
+      "yes_token": "37297213992198847758335843642137412014662841314020423585709724457305615671955",
+      "end_date": "2026-03-01T05:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Elon Musk post 40-64 tweets from February 21 to February 23, 2026?",
+      "yes_price": 0.0005,
+      "volume": 597209.095569,
+      "volume24hr": 472764.8202789998,
+      "liquidity": 64340.025,
+      "one_day_change": -0.024,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "114740398813525641481866273601192766137797775018066287730354493107740602649260",
+      "end_date": "2026-02-23T17:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Hillary Clinton win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0085,
+      "volume": 29936231.398521,
+      "volume24hr": 456984.509694,
+      "liquidity": 958832.89664,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.002,
+      "yes_token": "6349038249650226718426900942104344803413105653564595362433352811865798195800",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "US strikes Iran by March 15, 2026?",
+      "yes_price": 0.465,
+      "volume": 2734658.112814,
+      "volume24hr": 405167.65901999845,
+      "liquidity": 122221.6836,
+      "one_day_change": 0.055,
+      "one_week_change": 0.23,
+      "one_month_change": 0.0,
+      "yes_token": "72169238921197925373760655508554204363420378094004568451083033336165979963995",
+      "end_date": "2026-06-30T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Zohran Mamdani win the 2028 US Presidential Election?",
+      "yes_price": 0.0085,
+      "volume": 11033266.347179,
+      "volume24hr": 399147.9834099999,
+      "liquidity": 622540.08106,
+      "one_day_change": 0.0,
+      "one_week_change": 0.001,
+      "one_month_change": 0.003,
+      "yes_token": "94621929236241392639802280031607240386237812521756048982107414565863464212526",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Canada win the 2026 FIFA World Cup?",
+      "yes_price": 0.0055,
+      "volume": 6255791.268788,
+      "volume24hr": 391871.9106660001,
+      "liquidity": 787194.11081,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.002,
+      "yes_token": "99303605181956827630838461879484468077121754034387765735989859308848389894408",
+      "end_date": "2026-07-20T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Jared Polis win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0095,
+      "volume": 13312263.566023,
+      "volume24hr": 383264.2777740001,
+      "liquidity": 481180.94559,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0005,
+      "yes_token": "42119164854283656238382173699154739480090965550328051492328192273011556335098",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "US strikes Iran by February 26, 2026?",
+      "yes_price": 0.085,
+      "volume": 1559344.940875,
+      "volume24hr": 380365.0508019997,
+      "liquidity": 120236.5388,
+      "one_day_change": -0.015,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "12969318009896256868991936292041530205133046865883986806178061233542533741974",
+      "end_date": "2026-01-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will there be no change in Fed interest rates after the March 2026 meeting?",
+      "yes_price": 0.9585,
+      "volume": 18695657.033389,
+      "volume24hr": 371307.5586179999,
+      "liquidity": 1032882.24031,
+      "one_day_change": 0.001,
+      "one_week_change": 0.0335,
+      "one_month_change": 0.1435,
+      "yes_token": "102559817034631022221500208641784929295731053857601013029449249654006364919935",
+      "end_date": "2026-03-18T00:00:00Z",
+      "domain": "ECO"
+    },
+    {
+      "question": "Will the Fed decrease interest rates by 25 bps after the March 2026 meeting?",
+      "yes_price": 0.0285,
+      "volume": 18858927.571496,
+      "volume24hr": 365742.0439639999,
+      "liquidity": 831017.5805,
+      "one_day_change": -0.001,
+      "one_week_change": -0.0365,
+      "one_month_change": -0.1265,
+      "yes_token": "62938043365772447095885755955446362343142416536419862840923032141775380249586",
+      "end_date": "2026-03-18T00:00:00Z",
+      "domain": "ECO"
+    },
+    {
+      "question": "Will Elon Musk win the 2028 Republican presidential nomination?",
+      "yes_price": 0.0155,
+      "volume": 17475532.807138,
+      "volume24hr": 363771.2356019999,
+      "liquidity": 720805.57204,
+      "one_day_change": 0.001,
+      "one_week_change": 0.005,
+      "one_month_change": 0.009,
+      "yes_token": "97933607699985149274021900377397416175605196663149372937380275158258659161873",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will US or Israel strike Iran by February 28, 2026?",
+      "yes_price": 0.185,
+      "volume": 3091076.227167,
+      "volume24hr": 360577.991453,
+      "liquidity": 206463.5595,
+      "one_day_change": -0.01,
+      "one_week_change": 0.03,
+      "one_month_change": -0.41,
+      "yes_token": "65741574801229586608638068603746290198737096176008836031498361619593304880051",
+      "end_date": "2026-12-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will the price of Bitcoin be above $72,000 on February 23?",
+      "yes_price": 0.0015,
+      "volume": 562193.619195,
+      "volume24hr": 358052.152544,
+      "liquidity": 65975.08433,
+      "one_day_change": -0.043,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "86373777961842308175239710398001048360337891685988352033823037026751684920256",
+      "end_date": "2026-02-23T17:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Xander Schauffele win the 2026 Masters tournament?",
+      "yes_price": 0.0445,
+      "volume": 2262628.776912,
+      "volume24hr": 340651.1514149999,
+      "liquidity": 20212.15278,
+      "one_day_change": -0.0005,
+      "one_week_change": 0.0085,
+      "one_month_change": -0.0025,
+      "yes_token": "101224125717581883106048111538769728899093696763496070232425429569281195951517",
+      "end_date": "2026-04-13T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will the next Dutch government be PVV + CDA + D66?",
+      "yes_price": 0.0005,
+      "volume": 2845798.80851,
+      "volume24hr": 338733.0,
+      "liquidity": 109389.19433,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "80347906663762031195431309230433728063217275721661666104481188489855045786188",
+      "end_date": "",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Jasmine Crockett win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0075,
+      "volume": 12062068.52503,
+      "volume24hr": 336341.0354240002,
+      "liquidity": 1223182.91805,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.003,
+      "yes_token": "22103094389913052942362639589409218272323168761614999702665821259175535456835",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Katie Britt win the 2028 Republican presidential nomination?",
+      "yes_price": 0.0105,
+      "volume": 19488834.801654,
+      "volume24hr": 332354.2488640001,
+      "liquidity": 618311.12708,
+      "one_day_change": 0.0,
+      "one_week_change": 0.001,
+      "one_month_change": 0.0055,
+      "yes_token": "42282542821681724515855150589432262778581936160356547088323204270366545065655",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+      "yes_price": 0.0085,
+      "volume": 19996483.54208,
+      "volume24hr": 330090.0383730001,
+      "liquidity": 871503.29347,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": -0.001,
+      "yes_token": "48067717079255656974334181122173546721823870434119599450595298250019538972254",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Jesus Christ return before 2027?",
+      "yes_price": 0.0375,
+      "volume": 32049744.63695,
+      "volume24hr": 325574.97590799915,
+      "liquidity": 4627430.3011,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.011,
+      "yes_token": "69324317355037271422943965141382095011871956039434394956830818206664869608517",
+      "end_date": "2026-12-31T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will the US next strike Iran on February 24, 2026 (ET)?",
+      "yes_price": 0.0195,
+      "volume": 1482065.171904,
+      "volume24hr": 324235.559967,
+      "liquidity": 67094.05545,
+      "one_day_change": -0.006,
+      "one_week_change": 0.0125,
+      "one_month_change": 0.0,
+      "yes_token": "2339064107568955796561199379013244493997305212294370832486352523428047403882",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will the next Prime Minister of Hungary be Istv\u00e1n Kapit\u00e1ny?",
+      "yes_price": 0.0105,
+      "volume": 6693703.175031,
+      "volume24hr": 318169.674845,
+      "liquidity": 77677.95858,
+      "one_day_change": -0.004,
+      "one_week_change": -0.007,
+      "one_month_change": 0.0,
+      "yes_token": "112334119315898655379557681849814313140380376299028916203775469724730149194325",
+      "end_date": "2026-04-12T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Bitcoin dip to $60,000 in February?",
+      "yes_price": 0.2,
+      "volume": 2356642.720255,
+      "volume24hr": 313218.6854629996,
+      "liquidity": 46876.1036,
+      "one_day_change": 0.085,
+      "one_week_change": -0.01,
+      "one_month_change": 0.0,
+      "yes_token": "10173760944708366003313904598971409987613016696437105074768621813128448039101",
+      "end_date": "2026-03-01T05:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will the US next strike Iran on February 23, 2026 (ET)?",
+      "yes_price": 0.0125,
+      "volume": 1524834.908967,
+      "volume24hr": 307794.81166199985,
+      "liquidity": 84684.88558,
+      "one_day_change": -0.01,
+      "one_week_change": 0.005,
+      "one_month_change": 0.0,
+      "yes_token": "40486335378384658282338133584432284629842942725766216823173988372163992524862",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "US strikes Iran by March 7, 2026?",
+      "yes_price": 0.35,
+      "volume": 580346.86262,
+      "volume24hr": 304813.5610050001,
+      "liquidity": 87125.9498,
+      "one_day_change": 0.035,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "78401819360371842884592766246994756223604758552908906108993679656359284361217",
+      "end_date": "2026-06-30T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "US strikes Iran by February 27, 2026?",
+      "yes_price": 0.135,
+      "volume": 1430344.829951,
+      "volume24hr": 300801.05340900004,
+      "liquidity": 81533.928,
+      "one_day_change": 0.01,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "16581159092118702962412590502551978746865251171601054389828093232030979416235",
+      "end_date": "2026-01-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Bitcoin reach $75,000 in February?",
+      "yes_price": 0.07,
+      "volume": 3316732.29929,
+      "volume24hr": 299146.0715079999,
+      "liquidity": 57699.7475,
+      "one_day_change": -0.1,
+      "one_week_change": -0.255,
+      "one_month_change": 0.0,
+      "yes_token": "24120579393151285531790392365655515414663383379081658053153655752666989210807",
+      "end_date": "2026-03-01T05:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Trump nominate Kevin Hassett as the next Fed chair?",
+      "yes_price": 0.0015,
+      "volume": 30220817.657667,
+      "volume24hr": 293278.9588330001,
+      "liquidity": 1033673.83709,
+      "one_day_change": -0.001,
+      "one_week_change": -0.001,
+      "one_month_change": -0.0435,
+      "yes_token": "34551606549875928972193520396544368029176529083448203019529657908155427866742",
+      "end_date": "2026-12-31T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
+      "yes_price": 0.0095,
+      "volume": 23952195.248011,
+      "volume24hr": 289606.03027600003,
+      "liquidity": 689244.37442,
+      "one_day_change": 0.001,
+      "one_week_change": 0.001,
+      "one_month_change": 0.002,
+      "yes_token": "97633418272282627828834872960145259034624388719803091466146359304286851612172",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Elon Musk post 300-319 tweets from February 17 to February 24, 2026?",
+      "yes_price": 0.009,
+      "volume": 717444.257761,
+      "volume24hr": 289414.62556099996,
+      "liquidity": 32334.88326,
+      "one_day_change": -0.0005,
+      "one_week_change": -0.096,
+      "one_month_change": 0.0,
+      "yes_token": "22655273331090645912752284652960771433599157071010477165531411005382662310693",
+      "end_date": "2026-02-24T17:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will John Fetterman win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0085,
+      "volume": 12091383.190769,
+      "volume24hr": 284945.968666,
+      "liquidity": 505902.73253,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": -0.0015,
+      "yes_token": "71289010523270989807437428651002770360280908813019627976988032260868574107425",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will the US confirm that aliens exist before 2027?",
+      "yes_price": 0.135,
+      "volume": 5915155.574164,
+      "volume24hr": 284945.1058789994,
+      "liquidity": 976945.1892,
+      "one_day_change": 0.0,
+      "one_week_change": 0.04,
+      "one_month_change": 0.04,
+      "yes_token": "107505882767731489358349912513945399560393482969656700824895970500493757150417",
+      "end_date": "2026-12-31T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Silver (SI) hit (HIGH) $180 by end of February?",
+      "yes_price": 0.0025,
+      "volume": 514857.79053,
+      "volume24hr": 283525.829161,
+      "liquidity": 224228.1664,
+      "one_day_change": 0.001,
+      "one_week_change": -0.001,
+      "one_month_change": 0.0,
+      "yes_token": "32205607380818951018456205190888704813151514424434831525272480800507304122461",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Austria win the 2026 FIFA World Cup?",
+      "yes_price": 0.0065,
+      "volume": 4319113.095764,
+      "volume24hr": 281761.22775399993,
+      "liquidity": 520803.29148,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.001,
+      "yes_token": "88168215299416146215691671077998911754346458567817860712850392736799004561327",
+      "end_date": "2026-07-20T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will the price of Bitcoin be above $74,000 on February 23?",
+      "yes_price": 0.0005,
+      "volume": 412830.410805,
+      "volume24hr": 276272.958595,
+      "liquidity": 44031.70562,
+      "one_day_change": -0.0065,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "3265145558773882320826985731789318494943369599173261449006505975884652090051",
+      "end_date": "2026-02-23T17:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Greg Abbott win the 2028 Republican presidential nomination?",
+      "yes_price": 0.0145,
+      "volume": 12145774.266134,
+      "volume24hr": 274184.78711699997,
+      "liquidity": 415662.18717,
+      "one_day_change": 0.004,
+      "one_week_change": 0.006,
+      "one_month_change": 0.0085,
+      "yes_token": "51109358167525503124101840618196204295486048568333812245607026343682053354150",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+      "yes_price": 0.9455,
+      "volume": 42367152.744801,
+      "volume24hr": 271892.58823999995,
+      "liquidity": 266521.66486,
+      "one_day_change": 0.0035,
+      "one_week_change": -0.0125,
+      "one_month_change": 0.6545,
+      "yes_token": "51338236787729560681434534660841415073585974762690814047670810862722808070955",
+      "end_date": "2026-12-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will South Korea win the 2026 FIFA World Cup?",
+      "yes_price": 0.007,
+      "volume": 5004480.142476,
+      "volume24hr": 267703.802645,
+      "liquidity": 669723.33089,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0015,
+      "one_month_change": 0.0035,
+      "yes_token": "80724786407275266937534613008558715581084712230616856739273522348302669402554",
+      "end_date": "2026-07-20T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Roy Cooper win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0235,
+      "volume": 19208640.781325,
+      "volume24hr": 264307.92506799963,
+      "liquidity": 1062401.52995,
+      "one_day_change": 0.014,
+      "one_week_change": 0.014,
+      "one_month_change": 0.017,
+      "yes_token": "30732552320006664177902085971957467957450485111214036633872573588757974348601",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Glenn Youngkin win the 2028 US Presidential Election?",
+      "yes_price": 0.0105,
+      "volume": 11581301.23435,
+      "volume24hr": 262580.82947199995,
+      "liquidity": 617607.67502,
+      "one_day_change": 0.001,
+      "one_week_change": 0.001,
+      "one_month_change": 0.002,
+      "yes_token": "631059815958854406224163480574507434200946764542129005247984171366597476420",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will LeBron James win the 2028 US Presidential Election?",
+      "yes_price": 0.0095,
+      "volume": 31639947.78502,
+      "volume24hr": 261091.8628740001,
+      "liquidity": 469096.48606,
+      "one_day_change": 0.001,
+      "one_week_change": 0.002,
+      "one_month_change": 0.001,
+      "yes_token": "39223330966352513418907732239455948906399882924787587183466504819170775983376",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will the price of Bitcoin be above $58,000 on February 23?",
+      "yes_price": 0.9985,
+      "volume": 431786.611251,
+      "volume24hr": 257181.28380699997,
+      "liquidity": 39544.48908,
+      "one_day_change": 0.0035,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "107798711200050464185077319917394339589496218581432085857614724457907413383463",
+      "end_date": "2026-02-23T17:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will the next Dutch government be PVV + CDA?",
+      "yes_price": 0.0005,
+      "volume": 3311751.50095,
+      "volume24hr": 256770.0,
+      "liquidity": 98126.34716,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "57161226662911313600185085863402734381384256531535976934187607611693330262788",
+      "end_date": "",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Bitcoin reach $80,000 in February?",
+      "yes_price": 0.021,
+      "volume": 2728191.675512,
+      "volume24hr": 255317.28033200014,
+      "liquidity": 97170.12777,
+      "one_day_change": -0.008,
+      "one_week_change": -0.094,
+      "one_month_change": 0.0,
+      "yes_token": "115716410038051954858122996383598541941611892010761741648786542765667470135972",
+      "end_date": "2026-03-01T05:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "US strikes Iran by March 1, 2026?",
+      "yes_price": 0.205,
+      "volume": 523405.415315,
+      "volume24hr": 249761.46644100003,
+      "liquidity": 66002.1428,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "1306356719094689346313063714841373579985151911129925593045086113492724507979",
+      "end_date": "2026-06-30T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Pete Buttigieg win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0365,
+      "volume": 3803389.858355,
+      "volume24hr": 248235.81775000002,
+      "liquidity": 706864.5526,
+      "one_day_change": -0.001,
+      "one_week_change": 0.0,
+      "one_month_change": -0.0085,
+      "yes_token": "91031279171981959197361710127213577102576826515163085396576756946418341946256",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Bitcoin dip to $55,000 in February?",
+      "yes_price": 0.0655,
+      "volume": 4405376.686584,
+      "volume24hr": 243994.17919799997,
+      "liquidity": 82988.95134,
+      "one_day_change": 0.025,
+      "one_week_change": -0.0125,
+      "one_month_change": 0.0,
+      "yes_token": "6308246834299809644599996350028819065720794060706840760707195752509814012860",
+      "end_date": "2026-03-01T05:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Josh Shapiro win the 2028 US Presidential Election?",
+      "yes_price": 0.0245,
+      "volume": 3850816.806416,
+      "volume24hr": 242866.52211000046,
+      "liquidity": 268882.95088,
+      "one_day_change": -0.0005,
+      "one_week_change": 0.001,
+      "one_month_change": -0.0195,
+      "yes_token": "1420113190297259908358916251277696183671602680024474979931472444792502392139",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Eric Trump win the 2028 US Presidential Election?",
+      "yes_price": 0.0075,
+      "volume": 929075.692595,
+      "volume24hr": 241738.75054,
+      "liquidity": 433117.69556,
+      "one_day_change": 0.001,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "67028631656597977031363620447645908995417871899828777750494099295092202422178",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Barack Obama win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0125,
+      "volume": 18785806.011779,
+      "volume24hr": 241133.73208400005,
+      "liquidity": 1412151.92544,
+      "one_day_change": 0.002,
+      "one_week_change": 0.003,
+      "one_month_change": 0.005,
+      "yes_token": "88927218779847397120407909832537568114340511586397698395193736044476021744522",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will the price of Bitcoin be above $66,000 on February 23?",
+      "yes_price": 0.605,
+      "volume": 397146.865777,
+      "volume24hr": 239260.882504,
+      "liquidity": 19048.6216,
+      "one_day_change": -0.29,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "97007471278837526715475019011816387959807240907821566815499578324068016651279",
+      "end_date": "2026-02-23T17:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Bitcoin reach $100,000 in February?",
+      "yes_price": 0.0025,
+      "volume": 3397171.741518,
+      "volume24hr": 234207.99811000002,
+      "liquidity": 534367.15738,
+      "one_day_change": 0.0,
+      "one_week_change": -0.003,
+      "one_month_change": 0.0,
+      "yes_token": "89968161013067095713229206715230424277798777366465084511128730315266824429302",
+      "end_date": "2026-03-01T05:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Croatia win the 2026 FIFA World Cup?",
+      "yes_price": 0.0105,
+      "volume": 4076768.848931,
+      "volume24hr": 218368.88793899995,
+      "liquidity": 452353.39854,
+      "one_day_change": 0.0,
+      "one_week_change": -0.001,
+      "one_month_change": 0.002,
+      "yes_token": "106593539437032467615148553707998472829334050617128244920821917025746481184109",
+      "end_date": "2026-07-20T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Tom Brady win the 2028 Republican presidential nomination?",
+      "yes_price": 0.0155,
+      "volume": 19126177.466874,
+      "volume24hr": 209928.31045000008,
+      "liquidity": 527963.04306,
+      "one_day_change": 0.003,
+      "one_week_change": 0.005,
+      "one_month_change": 0.009,
+      "yes_token": "45742939946094874824687417208711661205131461760422331277735745393193805349457",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Elon Musk post 65-89 tweets from February 21 to February 23, 2026?",
+      "yes_price": 0.7,
+      "volume": 306153.357031,
+      "volume24hr": 207550.84445299988,
+      "liquidity": 10865.8244,
+      "one_day_change": 0.38,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "86932416593965362960958618540292381929232036834504032325292513585908842823776",
+      "end_date": "2026-02-23T17:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Elon Musk post 320-339 tweets from February 17 to February 24, 2026?",
+      "yes_price": 0.1335,
+      "volume": 513932.283688,
+      "volume24hr": 204132.12582699995,
+      "liquidity": 20300.20863,
+      "one_day_change": 0.0585,
+      "one_week_change": 0.0185,
+      "one_month_change": 0.0,
+      "yes_token": "36500674288131060753936433864671631694384492103443073208186072992020936410831",
+      "end_date": "2026-02-24T17:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Uzbekistan win the 2026 FIFA World Cup?",
+      "yes_price": 0.0025,
+      "volume": 8989587.429552,
+      "volume24hr": 203636.4175,
+      "liquidity": 1259971.54278,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "90538013438399246674125939147272424357773921253199632436930218305581040235987",
+      "end_date": "2026-07-20T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Khamenei out as Supreme Leader of Iran by February 28?",
+      "yes_price": 0.0245,
+      "volume": 11070820.544234,
+      "volume24hr": 202911.63265699998,
+      "liquidity": 284775.07656,
+      "one_day_change": -0.0045,
+      "one_week_change": 0.0,
+      "one_month_change": -0.1905,
+      "yes_token": "39317885422026394259056328144566743331998444273202427934141325790266108570112",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Nikki Haley win the 2028 US Presidential Election?",
+      "yes_price": 0.0155,
+      "volume": 15049537.815306,
+      "volume24hr": 202517.330367,
+      "liquidity": 930593.37046,
+      "one_day_change": 0.005,
+      "one_week_change": 0.005,
+      "one_month_change": 0.009,
+      "yes_token": "14253956839582698877884742930225331487593177635330318923853046874994118249367",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will the next Dutch government be PVV + VVD + CDA + JA21?",
+      "yes_price": 0.0005,
+      "volume": 2576738.900588,
+      "volume24hr": 200700.0,
+      "liquidity": 50168.50963,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": -0.0005,
+      "yes_token": "46582699971191197458810234805942705437961184799081101582747057707143624806741",
+      "end_date": "",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Russia x Ukraine ceasefire by February 28, 2026?",
+      "yes_price": 0.0045,
+      "volume": 5355579.17924,
+      "volume24hr": 194478.94753299997,
+      "liquidity": 286339.65838,
+      "one_day_change": 0.001,
+      "one_week_change": -0.009,
+      "one_month_change": -0.0805,
+      "yes_token": "48542681435247439258666128962898934229410828949745554458943224971747087131816",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will the US next strike Iran on February 25, 2026 (ET)?",
+      "yes_price": 0.024,
+      "volume": 1342688.805546,
+      "volume24hr": 186509.7747089999,
+      "liquidity": 42247.09165,
+      "one_day_change": -0.0025,
+      "one_week_change": 0.01,
+      "one_month_change": 0.0,
+      "yes_token": "80345099336218964563786326751798824488215592343439565349775437763129189370863",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will the next Dutch government be PVV + JA21?",
+      "yes_price": 0.0005,
+      "volume": 1590732.876115,
+      "volume24hr": 181810.0,
+      "liquidity": 61399.74215,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "68380422712241607046584935994580246850306960659037344376090410160181187173608",
+      "end_date": "",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will XRP reach $3.40 in February?",
+      "yes_price": 0.0015,
+      "volume": 458861.746908,
+      "volume24hr": 181525.903,
+      "liquidity": 431575.17601,
+      "one_day_change": 0.0,
+      "one_week_change": -0.002,
+      "one_month_change": 0.0,
+      "yes_token": "87424403167143121609548179743480186040816783101118147211326721193003679262286",
+      "end_date": "2026-03-01T05:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Bitcoin dip to $50,000 in February?",
+      "yes_price": 0.019,
+      "volume": 4272288.680956,
+      "volume24hr": 181109.014898,
+      "liquidity": 122142.45598,
+      "one_day_change": 0.0065,
+      "one_week_change": -0.0215,
+      "one_month_change": 0.0,
+      "yes_token": "72286082196346239426273927415048001973622018124128115564978081284083765823009",
+      "end_date": "2026-03-01T05:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Stephen Smith win the 2028 US Presidential Election?",
+      "yes_price": 0.0085,
+      "volume": 17610017.939185,
+      "volume24hr": 178040.400971,
+      "liquidity": 889794.9295,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.001,
+      "yes_token": "105367778020161609482094090847463497982204321259381518614669619753184648647559",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will Scotland win the 2026 FIFA World Cup?",
+      "yes_price": 0.0035,
+      "volume": 5475900.232784,
+      "volume24hr": 176768.75599299994,
+      "liquidity": 570805.07767,
+      "one_day_change": 0.0,
+      "one_week_change": -0.001,
+      "one_month_change": -0.002,
+      "yes_token": "105252206997885252352889070218074909957179496257006510170583432513037465278006",
+      "end_date": "2026-07-20T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will the price of Bitcoin be above $70,000 on February 23?",
+      "yes_price": 0.0035,
+      "volume": 337582.339886,
+      "volume24hr": 175995.55131099993,
+      "liquidity": 51904.51237,
+      "one_day_change": -0.1615,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "5304015020790625829588403789228325267058125055827967258133790392998193173162",
+      "end_date": "2026-02-23T17:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Chelsea Clinton win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0085,
+      "volume": 38329791.359599,
+      "volume24hr": 175876.35886,
+      "liquidity": 920825.17581,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.002,
+      "yes_token": "46211769122513729244602558513001215391004042100934296321661285791281233261657",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "POL"
+    },
+    {
+      "question": "Will the US next strike Iran on February 28, 2026 (ET)?",
+      "yes_price": 0.047,
+      "volume": 1148202.954016,
+      "volume24hr": 169692.1783000001,
+      "liquidity": 68491.67224,
+      "one_day_change": 0.0185,
+      "one_week_change": 0.032,
+      "one_month_change": 0.0,
+      "yes_token": "15052934213634595778860506780061300924840406606782657138856492802067972899387",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+      "yes_price": 0.0085,
+      "volume": 16903065.4026,
+      "volume24hr": 166678.13769199996,
+      "liquidity": 725044.61943,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.003,
+      "yes_token": "52310257194926233099477326083312959938983447523839326865869372741334281264830",
+      "end_date": "2028-11-07T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will China invade Taiwan by March 31, 2026?",
+      "yes_price": 0.0175,
+      "volume": 2902988.930941,
+      "volume24hr": 158940.21580599996,
+      "liquidity": 141387.47096,
+      "one_day_change": 0.0,
+      "one_week_change": -0.0005,
+      "one_month_change": -0.003,
+      "yes_token": "106549993070946237758310281255754864390927967486677098278324584793561067743644",
+      "end_date": "2026-03-31T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Anthropic have the best AI model at the end of February 2026?",
+      "yes_price": 0.95,
+      "volume": 2857580.410245,
+      "volume24hr": 155763.05720100025,
+      "liquidity": 98053.62768,
+      "one_day_change": -0.0115,
+      "one_week_change": 0.3515,
+      "one_month_change": 0.0,
+      "yes_token": "63143918686236233928672983984129058891473353803994659201131614781821505294362",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "TECH"
+    },
+    {
+      "question": "Will the next Dutch government be PVV + VVD + CDA + JA21 + D66?",
+      "yes_price": 0.0005,
+      "volume": 1994279.432181,
+      "volume24hr": 151760.0,
+      "liquidity": 107855.233,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "34017870386620319136970820938919214694914829774152222051973341879698656839097",
+      "end_date": "",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Bitcoin reach $85,000 in February?",
+      "yes_price": 0.0075,
+      "volume": 6191441.521999,
+      "volume24hr": 151439.80121499998,
+      "liquidity": 310615.04931,
+      "one_day_change": -0.0035,
+      "one_week_change": -0.031,
+      "one_month_change": 0.0,
+      "yes_token": "16393551545749826032099527282824025354814839232380838180410593285887081984932",
+      "end_date": "2026-03-01T05:00:00Z",
+      "domain": "CRYPTO"
+    },
+    {
+      "question": "Will Elon Musk post 90-114 tweets from February 21 to February 23, 2026?",
+      "yes_price": 0.305,
+      "volume": 216100.52389,
+      "volume24hr": 150622.66818799995,
+      "liquidity": 7283.7414,
+      "one_day_change": -0.18,
+      "one_week_change": 0.0,
+      "one_month_change": 0.0,
+      "yes_token": "4466570708116111114463084246478169003778061856762139716890424498148307584917",
+      "end_date": "2026-02-23T17:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Elon Musk post 380-399 tweets from February 17 to February 24, 2026?",
+      "yes_price": 0.094,
+      "volume": 444746.471918,
+      "volume24hr": 149959.70693299998,
+      "liquidity": 19112.95474,
+      "one_day_change": -0.1335,
+      "one_week_change": 0.025,
+      "one_month_change": 0.0,
+      "yes_token": "20514581474220126032370418192542678522643426669916383209841813873174312670562",
+      "end_date": "2026-02-24T17:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Khamenei out as Supreme Leader of Iran by June 30?",
+      "yes_price": 0.335,
+      "volume": 5831228.177869,
+      "volume24hr": 148680.62517400004,
+      "liquidity": 148571.6907,
+      "one_day_change": -0.05,
+      "one_week_change": 0.07,
+      "one_month_change": -0.06,
+      "yes_token": "9116770648672617954873502150906669109632013173266181691206825621739241400461",
+      "end_date": "2026-06-30T00:00:00Z",
+      "domain": "GEO"
+    },
+    {
+      "question": "Will Gold (GC) hit (HIGH) $10,000 by end of February?",
+      "yes_price": 0.0005,
+      "volume": 1177208.882435,
+      "volume24hr": 148352.38943099996,
+      "liquidity": 235175.15464,
+      "one_day_change": -0.001,
+      "one_week_change": -0.001,
+      "one_month_change": 0.0,
+      "yes_token": "59318134077908698989563186175865452162692068657980456959669922924532122377967",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "OTHER"
+    },
+    {
+      "question": "Will Saudi Aramco be the largest company in the world by market cap on February 28?",
+      "yes_price": 0.0015,
+      "volume": 1309517.57637,
+      "volume24hr": 148052.72562199994,
+      "liquidity": 130286.57814,
+      "one_day_change": 0.0,
+      "one_week_change": 0.0,
+      "one_month_change": -0.0015,
+      "yes_token": "83020820225220420253400815041096820668075705689052843125159497024403347395278",
+      "end_date": "2026-02-28T00:00:00Z",
+      "domain": "ECO"
+    },
+    {
+      "question": "Will Jordan Spieth win the 2026 Masters tournament?",
+      "yes_price": 0.0155,
+      "volume": 206836.905353,
+      "volume24hr": 146976.362333,
+      "liquidity": 6178.37443,
+      "one_day_change": 0.001,
+      "one_week_change": -0.0105,
+      "one_month_change": -0.0025,
+      "yes_token": "39504727941745472464725696979254138178336652541090405166181880699707692381685",
+      "end_date": "2026-04-13T00:00:00Z",
+      "domain": "CRYPTO"
+    }
+  ],
+  "daily_movers": [
+    {
+      "question": "Will there be exactly 0 earthquakes of magnitude 6.5 or higher worldwide by February 22?",
+      "yes_price": 0.001,
+      "one_day_change": -0.956,
+      "volume24hr": 60386.347097000005
+    },
+    {
+      "question": "US x Iran meeting by February 28, 2026?",
+      "yes_price": 0.825,
+      "one_day_change": 0.735,
+      "volume24hr": 81076.03978399995
+    },
+    {
+      "question": "Will MrBeast's next video get between 24 and 28 million views on day 2?",
+      "yes_price": 0.0025,
+      "one_day_change": -0.605,
+      "volume24hr": 62172.38424400001
+    },
+    {
+      "question": "Will the price of Bitcoin be above $68,000 on February 23?",
+      "yes_price": 0.0535,
+      "one_day_change": -0.504,
+      "volume24hr": 123937.51559599997
+    },
+    {
+      "question": "Will there be 20 or more inches of snow in NYC this weekend?",
+      "yes_price": 0.625,
+      "one_day_change": 0.46,
+      "volume24hr": 54499.414391999984
+    },
+    {
+      "question": "Will Israel strike Lebanon on February 22, 2026?",
+      "yes_price": 0.0135,
+      "one_day_change": -0.427,
+      "volume24hr": 42701.72938199999
+    },
+    {
+      "question": "Will Sean Penn win Best Supporting Actor at the 98th Academy Awards?",
+      "yes_price": 0.58,
+      "one_day_change": 0.395,
+      "volume24hr": 43976.013379
+    },
+    {
+      "question": "Will Stellan Skarsg\u00e5rd win Best Supporting Actor at the 98th Academy Awards?",
+      "yes_price": 0.3,
+      "one_day_change": -0.39,
+      "volume24hr": 82173.97932900002
+    },
+    {
+      "question": "Will Elon Musk post 65-89 tweets from February 21 to February 23, 2026?",
+      "yes_price": 0.7,
+      "one_day_change": 0.38,
+      "volume24hr": 207550.84445299988
+    },
+    {
+      "question": "Will the price of Ethereum be above $2,000 on February 23?",
+      "yes_price": 0.028,
+      "one_day_change": -0.348,
+      "volume24hr": 23977.270264000002
+    },
+    {
+      "question": "Will the price of Bitcoin be above $66,000 on February 23?",
+      "yes_price": 0.605,
+      "one_day_change": -0.29,
+      "volume24hr": 239260.882504
+    },
+    {
+      "question": "LoL: DN SOOPers Challengers vs Nongshim Esports Academy (BO5) - LCK Challengers League Kickoff Playoffs",
+      "yes_price": 0.235,
+      "one_day_change": -0.265,
+      "volume24hr": 52699.09195300002
+    },
+    {
+      "question": "Will the price of Bitcoin be between $64,000 and $66,000 on February 23?",
+      "yes_price": 0.36,
+      "one_day_change": 0.26,
+      "volume24hr": 49136.580651000004
+    },
+    {
+      "question": "Will the price of Ethereum be above $1,900 on February 23?",
+      "yes_price": 0.65,
+      "one_day_change": -0.24,
+      "volume24hr": 44382.27295600001
+    },
+    {
+      "question": "Fabric FDV above $300M one day after launch?",
+      "yes_price": 0.58,
+      "one_day_change": 0.235,
+      "volume24hr": 36629.257887
+    },
+    {
+      "question": "Will Elon Musk post 340-359 tweets from February 17 to February 24, 2026?",
+      "yes_price": 0.425,
+      "one_day_change": 0.23,
+      "volume24hr": 144827.15104399994
+    },
+    {
+      "question": "Mexican Open: Sebastian Korda vs Mattia Bellucci",
+      "yes_price": 0.7,
+      "one_day_change": 0.225,
+      "volume24hr": 26787.142459000002
+    },
+    {
+      "question": "Clarity Act signed into law in 2026?",
+      "yes_price": 0.515,
+      "one_day_change": -0.21,
+      "volume24hr": 29501.527857999994
+    },
+    {
+      "question": "Will there be 16\u201318 inches of snow in NYC this weekend?",
+      "yes_price": 0.0795,
+      "one_day_change": -0.2095,
+      "volume24hr": 27202.994536000002
+    },
+    {
+      "question": "Will the price of Bitcoin be above $70,000 on February 24?",
+      "yes_price": 0.0455,
+      "one_day_change": -0.1995,
+      "volume24hr": 29425.037721999994
+    }
+  ],
+  "weekly_movers": [
+    {
+      "question": "Will there be exactly 0 earthquakes of magnitude 6.5 or higher worldwide by February 22?",
+      "yes_price": 0.001,
+      "one_week_change": -0.549,
+      "volume24hr": 60386.347097000005
+    },
+    {
+      "question": "Will Israel strike Lebanon on February 22, 2026?",
+      "yes_price": 0.0135,
+      "one_week_change": -0.462,
+      "volume24hr": 42701.72938199999
+    },
+    {
+      "question": "Will Israel strike Lebanon on February 21, 2026?",
+      "yes_price": 0.0315,
+      "one_week_change": -0.435,
+      "volume24hr": 32794.099324
+    },
+    {
+      "question": "Will Sean Penn win Best Supporting Actor at the 98th Academy Awards?",
+      "yes_price": 0.58,
+      "one_week_change": 0.42,
+      "volume24hr": 43976.013379
+    },
+    {
+      "question": "Will Alexandria Ocasio-Cortez be named in newly released Epstein files by February 28?",
+      "yes_price": 0.055,
+      "one_week_change": -0.405,
+      "volume24hr": 56392.87990499999
+    },
+    {
+      "question": "Will Stellan Skarsg\u00e5rd win Best Supporting Actor at the 98th Academy Awards?",
+      "yes_price": 0.3,
+      "one_week_change": -0.39,
+      "volume24hr": 82173.97932900002
+    },
+    {
+      "question": "Will MrBeast's next video get less than 60 million views on week 1?",
+      "yes_price": 0.992,
+      "one_week_change": 0.367,
+      "volume24hr": 33531.41880800001
+    },
+    {
+      "question": "Will Anthropic have the best AI model at the end of February 2026?",
+      "yes_price": 0.95,
+      "one_week_change": 0.3515,
+      "volume24hr": 155763.05720100025
+    },
+    {
+      "question": "Will Elon Musk post 340-359 tweets from February 17 to February 24, 2026?",
+      "yes_price": 0.425,
+      "one_week_change": 0.34,
+      "volume24hr": 144827.15104399994
+    },
+    {
+      "question": "Fabric FDV above $300M one day after launch?",
+      "yes_price": 0.58,
+      "one_week_change": 0.325,
+      "volume24hr": 36629.257887
+    },
+    {
+      "question": "Will Ethereum dip to $1,800 February 16-22?",
+      "yes_price": 0.0005,
+      "one_week_change": -0.2995,
+      "volume24hr": 144068.183979
+    },
+    {
+      "question": "Will Google have the best AI model at the end of February 2026?",
+      "yes_price": 0.039,
+      "one_week_change": -0.296,
+      "volume24hr": 122572.71651200001
+    },
+    {
+      "question": "Will Bitcoin dip to $64,000 February 16-22?",
+      "yes_price": 0.0005,
+      "one_week_change": -0.2695,
+      "volume24hr": 145178.34493999995
+    },
+    {
+      "question": "Will XRP dip to $1.30 February 16-22?",
+      "yes_price": 0.001,
+      "one_week_change": -0.259,
+      "volume24hr": 26712.692926000003
+    },
+    {
+      "question": "Will Bitcoin reach $75,000 in February?",
+      "yes_price": 0.07,
+      "one_week_change": -0.255,
+      "volume24hr": 299146.0715079999
+    },
+    {
+      "question": "US strikes Iran by March 31, 2026?",
+      "yes_price": 0.575,
+      "one_week_change": 0.25,
+      "volume24hr": 831560.203693
+    },
+    {
+      "question": "Will Opinion launch a token by February 28, 2026?",
+      "yes_price": 0.0365,
+      "one_week_change": -0.242,
+      "volume24hr": 31902.019298000007
+    },
+    {
+      "question": "US strikes Iran by March 15, 2026?",
+      "yes_price": 0.465,
+      "one_week_change": 0.23,
+      "volume24hr": 405167.65901999845
+    },
+    {
+      "question": "Will US or Israel strike Iran by March 31, 2026?",
+      "yes_price": 0.59,
+      "one_week_change": 0.23,
+      "volume24hr": 77598.082813
+    },
+    {
+      "question": "Will Elon Musk post 360-379 tweets from February 17 to February 24, 2026?",
+      "yes_price": 0.305,
+      "one_week_change": 0.225,
+      "volume24hr": 131085.93693700008
+    }
+  ],
+  "monthly_movers": [
+    {
+      "question": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+      "yes_price": 0.9455,
+      "one_month_change": 0.6545,
+      "volume24hr": 271892.58823999995
+    },
+    {
+      "question": "Opinion FDV above $1B one day after launch?",
+      "yes_price": 0.14,
+      "one_month_change": -0.53,
+      "volume24hr": 32032.638941
+    },
+    {
+      "question": "Will Trump nominate Rick Rieder as the next Fed chair?",
+      "yes_price": 0.0025,
+      "one_month_change": -0.522,
+      "volume24hr": 84142.105499
+    },
+    {
+      "question": "Will the U.S. collect less than $100b in revenue in 2025?",
+      "yes_price": 0.965,
+      "one_month_change": 0.4305,
+      "volume24hr": 25290.003805999993
+    },
+    {
+      "question": "Will US or Israel strike Iran by February 28, 2026?",
+      "yes_price": 0.185,
+      "one_month_change": -0.41,
+      "volume24hr": 360577.991453
+    },
+    {
+      "question": "Will Dick Schoof be the next leader out before 2027?",
+      "yes_price": 0.9995,
+      "one_month_change": 0.3895,
+      "volume24hr": 89059.979043
+    },
+    {
+      "question": "Iran Strike on Israel by February 28?",
+      "yes_price": 0.095,
+      "one_month_change": -0.385,
+      "volume24hr": 38553.48014
+    },
+    {
+      "question": "Will Sean Penn win Best Supporting Actor at the 98th Academy Awards?",
+      "yes_price": 0.58,
+      "one_month_change": 0.35,
+      "volume24hr": 43976.013379
+    },
+    {
+      "question": "Opinion FDV above $500M one day after launch?",
+      "yes_price": 0.5835,
+      "one_month_change": -0.3455,
+      "volume24hr": 32632.527243
+    },
+    {
+      "question": "Israel strikes Iran by February 28, 2026?",
+      "yes_price": 0.135,
+      "one_month_change": -0.34,
+      "volume24hr": 134410.487792
+    },
+    {
+      "question": "Will Stellan Skarsg\u00e5rd win Best Supporting Actor at the 98th Academy Awards?",
+      "yes_price": 0.3,
+      "one_month_change": -0.295,
+      "volume24hr": 82173.97932900002
+    },
+    {
+      "question": "US strikes Iran by February 28, 2026?",
+      "yes_price": 0.175,
+      "one_month_change": -0.29,
+      "volume24hr": 2663338.227503998
+    },
+    {
+      "question": "Will L\u00ea Minh H\u01b0ng be the next Prime Minister of Vietnam?",
+      "yes_price": 0.7595,
+      "one_month_change": -0.2205,
+      "volume24hr": 51618.11123799996
+    },
+    {
+      "question": "Khamenei out as Supreme Leader of Iran by February 28?",
+      "yes_price": 0.0245,
+      "one_month_change": -0.1905,
+      "volume24hr": 202911.63265699998
+    },
+    {
+      "question": "Flying Tulip FDV above $800M one day after launch?",
+      "yes_price": 0.83,
+      "one_month_change": 0.17,
+      "volume24hr": 27498.936937000006
+    },
+    {
+      "question": "Will there be no change in Fed interest rates after the March 2026 meeting?",
+      "yes_price": 0.9585,
+      "one_month_change": 0.1435,
+      "volume24hr": 371307.5586179999
+    },
+    {
+      "question": "Russia x Ukraine ceasefire by March 31, 2026?",
+      "yes_price": 0.0345,
+      "one_month_change": -0.1305,
+      "volume24hr": 140502.32022500003
+    },
+    {
+      "question": "Will the Fed decrease interest rates by 25 bps after the March 2026 meeting?",
+      "yes_price": 0.0285,
+      "one_month_change": -0.1265,
+      "volume24hr": 365742.0439639999
+    },
+    {
+      "question": "Will Ali Khamenei be the next leader out before 2027?",
+      "yes_price": 0.0005,
+      "one_month_change": -0.1245,
+      "volume24hr": 88195.098179
+    },
+    {
+      "question": "Will the US acquire part of Greenland in 2026?",
+      "yes_price": 0.155,
+      "one_month_change": -0.12,
+      "volume24hr": 36134.45210599998
+    }
+  ],
+  "intraday_spikes": [
+    {
+      "market": "Will Israel strike Lebanon on February 22, 2026?",
+      "date": "2026-02-23",
+      "prev_close": 0.1,
+      "curr_close": 0.0145,
+      "change": -0.0855,
+      "intraday_range": 0.09100000000000001,
+      "current": 0.0135
+    },
+    {
+      "market": "Will Sean Penn win Best Supporting Actor at the 98th Academy Awards?",
+      "date": "2026-02-23",
+      "prev_close": 0.56,
+      "curr_close": 0.585,
+      "change": 0.02499999999999991,
+      "intraday_range": 0.14999999999999997,
+      "current": 0.58
+    },
+    {
+      "market": "Will MrBeast's next video get less than 60 million views on week 1?",
+      "date": "2026-02-23",
+      "prev_close": 0.972,
+      "curr_close": 0.992,
+      "change": 0.020000000000000018,
+      "intraday_range": 0.4285,
+      "current": 0.992
+    },
+    {
+      "market": "Will Elon Musk post 340-359 tweets from February 17 to February 24, 2026?",
+      "date": "2026-02-23",
+      "prev_close": 0.39,
+      "curr_close": 0.415,
+      "change": 0.024999999999999967,
+      "intraday_range": 0.15999999999999998,
+      "current": 0.425
+    },
+    {
+      "market": "Fabric FDV above $300M one day after launch?",
+      "date": "2026-02-23",
+      "prev_close": 0.36,
+      "curr_close": 0.625,
+      "change": 0.265,
+      "intraday_range": 0.45000000000000007,
+      "current": 0.58
+    },
+    {
+      "market": "Will Ethereum dip to $1,800 February 16-22?",
+      "date": "2026-02-23",
+      "prev_close": 0.003,
+      "curr_close": 0.0005,
+      "change": -0.0025,
+      "intraday_range": 0.228,
+      "current": 0.0005
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+    "date": "2026-03-07",
+    "note": "Operation Epic Fury day 8. Strikes continuing daily; Iran FM explicitly rejects ceasefire talks. Trump: 'unconditional surrender only.' US submarine sunk Iranian warship (confirmed). Brent crude surged to ~$90-93/bbl (+18% weekly — largest weekly oil rally on record). BTC retraced to ~$70-71K (-1% from Mar 5). Kalshi sued for $54M over Khamenei 'death carveout' technicality. Polymarket: $529M+ total Iran trading volume.",
+    "GEO": {
+        "iran_strikes_mar5": {
+            "YES": 1.0,
+            "status": "RESOLVED_YES"
+        },
+        "iran_strikes_mar6": {
+            "YES": 1.0,
+            "status": "RESOLVED_YES"
+        },
+        "iran_strikes_mar7": {
+            "YES": 1.0,
+            "status": "LIVE_TODAY",
+            "note": "Market priced at 100% — strikes ongoing"
+        },
+        "iran_announces_leader_mar5": {
+            "YES": 0.0,
+            "status": "RESOLVED_NO",
+            "note": "No leader announced by Mar 5 — resolved NO"
+        },
+        "new_supreme_leader_by_mar15": {
+            "YES": 0.97,
+            "note": "Still ~97% — Assembly of Experts process underway; Mojtaba frontrunner at 41% in open-ended market"
+        },
+        "iran_leader_next_mojtaba": {
+            "YES": 0.41,
+            "note": "NEW TRACK (open-ended Next Supreme Leader market) — was at 49% peak Friday morning per investing.com, dropped to 41% by Saturday; Arafi (cleric, 3-man panel) at 14%"
+        },
+        "iran_leader_next_arafi": {
+            "YES": 0.14,
+            "note": "Alireza Arafi — member of ruling 3-man panel, rising as compromise candidate"
+        },
+        "iran_leader_end2026_mojtaba": {
+            "YES": 0.24,
+            "note": "Was 27% on Mar 5 — slight dip (-3pp)"
+        },
+        "iran_leader_end2026_pahlavi": {
+            "YES": 0.17,
+            "note": "Stable"
+        },
+        "us_recognizes_pahlavi_2026": {
+            "YES": 0.21,
+            "note": "Stable"
+        },
+        "strait_hormuz_closure_mar31": {
+            "YES": 0.85,
+            "note": "Was 84% on Mar 5 (+1pp — stable/slightly up); TipRanks confirms 85%"
+        },
+        "strait_hormuz_closure_dec31": {
+            "YES": 0.81,
+            "note": "Stable"
+        },
+        "iran_ceasefire_mar31": {
+            "YES": 0.28,
+            "note": "WAS 61% on Mar 5 — CRASHED -33pp. Iran FM rejected ceasefire talks; Trump: 'unconditional surrender only'"
+        },
+        "iran_ceasefire_apr30": {
+            "YES": 0.48,
+            "note": "WAS 78% on Mar 5 — CRASHED -30pp. Major shift driven by hardening positions"
+        },
+        "trump_ends_operations_mar31": {
+            "YES": 0.31,
+            "note": "NEW TRACK — 'Trump announces end of military operations by March 31?' per Polymarket"
+        },
+        "iran_regime_fall_mar31": {
+            "YES": 0.31,
+            "note": "Stable from Mar 5 estimate"
+        },
+        "iran_regime_fall_jun30": {
+            "YES": 0.52,
+            "note": "Stable"
+        },
+        "ukraine_ceasefire_mar31": {
+            "YES": 0.0275,
+            "note": "Stable — Iran war consuming all attention"
+        },
+        "us_ground_troops_iran_2026": {
+            "YES": "RESEARCH_NEEDED",
+            "note": "NEW — Newsweek reports suspected insider whale betting on US troops entering Iran by end March; market active on Polymarket"
+        }
+    },
+    "POL": {
+        "fed_chair_warsh": {
+            "YES": 0.935,
+            "note": "Stable"
+        },
+        "fed_march_no_change": {
+            "YES": 0.97,
+            "note": "Stable — Fed holding despite oil shock"
+        },
+        "fed_cuts_2026_2cuts": {
+            "YES": 0.26,
+            "note": "Stable — oil shock is stagflationary, complicates cuts"
+        },
+        "dem_2028_newsom": {
+            "YES": 0.252,
+            "note": "Stable"
+        },
+        "dem_2028_aoc": {
+            "YES": 0.088,
+            "note": "Stable"
+        }
+    },
+    "CRY": {
+        "btc_current_price": "~$70-71K",
+        "btc_note": "Slight retreat from ~$71K peak; risk-off as oil surges. Still +7.2% weekly gain per techi.com. midforex.com projects $67-69K range today.",
+        "btc_above_75k_march": {
+            "YES": 0.48,
+            "note": "WAS ~70% on Mar 5 — dropped ~22pp as BTC retraced; needs $5K gain by end March"
+        },
+        "btc_above_80k_march": {
+            "YES": 0.33,
+            "note": "WAS 51% on Mar 5 — dropped ~18pp"
+        },
+        "btc_crash_65k_march": {
+            "YES": 0.44,
+            "note": "Roughly stable — tail risk persists with oil-driven risk-off"
+        },
+        "btc_100k_2026": {
+            "YES": 0.385,
+            "note": "Stable — war uncertainty keeping this range-bound"
+        }
+    },
+    "ECO": {
+        "brent_crude_mar7": "$90-93/bbl",
+        "brent_note": "Biggest weekly rally on record (+18%). FXStreet reports Brent at ~$90 Friday; oilpriceapi.com showing $92.69 live. WTI above $83/bbl.",
+        "brent_above_100_apr30": {
+            "YES": "NEW_TRACK_RECOMMENDED",
+            "note": "With Brent at $90+ and Hormuz closure at 85% probability, a $100 oil market is emerging as major tracking opportunity"
+        }
+    },
+    "META": {
+        "kalshi_lawsuit": "Kalshi sued Mar 6 — class action for $54M. Refused to pay out 'Khamenei out by March 1' contracts citing 'death carveout' in T&Cs. Polymarket DID honor its equivalent markets. Major industry credibility event.",
+        "insider_trading_scrutiny": "CNN, Bloomberg reporting regulatory scrutiny of Iran war insider trading on both platforms. 89 wallets (0.4% of bettors) captured 70% of Khamenei contract profits.",
+        "polymarket_volume": "$529M+ Iran trading total; $18.3M on ceasefire market alone",
+        "suspected_insider_whale": "Newsweek: whale who made $100K on Khamenei bet now betting US forces enter Iran by end March"
+    }
+}

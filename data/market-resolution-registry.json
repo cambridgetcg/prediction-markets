@@ -1,0 +1,247 @@
+[
+  {
+    "trade_id": "T001",
+    "market": "US strikes Iran by June 30, 2026",
+    "direction": "NO",
+    "entry_price_YES": 0.665,
+    "current_price_YES": 0.695,
+    "resolution_date": "2026-06-30",
+    "resolution_YES": [
+      "US military conducts kinetic military strikes (air strikes, cruise missiles, special operations raids) against targets on Iranian soil",
+      "UMA interprets 'strike' broadly enough to include US-directed operations"
+    ],
+    "resolution_NO": [
+      "Deadline passes without qualifying US military action against Iran",
+      "Only Israeli unilateral strikes occur (not 'US strikes')",
+      "Only proxy/indirect actions (cyber, sanctions, proxy militia strikes)",
+      "Diplomatic resolution prevents military action"
+    ],
+    "ambiguity_score": 4,
+    "ambiguity_notes": "Key ambiguities: (1) Does 'Iranian soil' include IRGC assets in Iraq/Syria? UMA Israel-Lebanon precedent suggests narrow geographic interpretation. (2) Does cyber strike qualify as 'strike'? UMA likely interprets as kinetic only per common usage. (3) Does a US-coordinated Israeli strike count as 'US strikes'? Probably not — title says 'US.' (4) What about proxy forces? Almost certainly NO — title implies direct US action.",
+    "uma_prediction": "UMA would likely interpret 'US strikes Iran' narrowly: requires direct US kinetic military action on Iranian territory. Cyber, proxy, and non-Iranian-soil operations would NOT qualify. This favors NO resolution in edge cases.",
+    "s009_adjustment": {
+      "p_event": 0.45,
+      "p_resolution_given_event": 0.70,
+      "true_yes": 0.315,
+      "market_yes": 0.695,
+      "edge_pp": -38.0,
+      "direction": "Strongly supports our NO position"
+    },
+    "news_monitors": [
+      "US strikes Iran",
+      "US attacks Iran",
+      "US military action Iran",
+      "B-2 bomber Iran",
+      "carrier strike group Iran",
+      "Pentagon Iran strike",
+      "CENTCOM Iran"
+    ]
+  },
+  {
+    "trade_id": "T002",
+    "market": "Will Donald Trump win the 2028 Republican presidential nomination?",
+    "direction": "NO",
+    "entry_price_YES": 0.028,
+    "current_price_YES": 0.025,
+    "resolution_date": "2028-08-30",
+    "resolution_YES": [
+      "Donald Trump is formally nominated as the Republican Party's candidate for President at the 2028 Republican National Convention"
+    ],
+    "resolution_NO": [
+      "Any other person is nominated",
+      "Trump is constitutionally ineligible (22nd Amendment — already served two terms)",
+      "Convention nominates someone else"
+    ],
+    "ambiguity_score": 1,
+    "ambiguity_notes": "Virtually no ambiguity. Trump is constitutionally barred from a third term by the 22nd Amendment. The only edge case would be an attempt to circumvent the amendment, which has no legal basis. Convention nomination is a verifiable event.",
+    "uma_prediction": "Would resolve cleanly. No dispute expected.",
+    "s009_adjustment": {
+      "p_event": 0.02,
+      "p_resolution_given_event": 0.99,
+      "true_yes": 0.0198,
+      "market_yes": 0.025,
+      "edge_pp": -0.5,
+      "direction": "Negligible S009 effect — position is based on S007 overround, not ambiguity"
+    },
+    "news_monitors": [
+      "Trump 2028 nomination",
+      "Trump third term",
+      "22nd Amendment challenge",
+      "Republican 2028 convention"
+    ]
+  },
+  {
+    "trade_id": "T003",
+    "market": "US strikes Iran by March 31, 2026",
+    "direction": "NO",
+    "entry_price_YES": 0.575,
+    "current_price_YES": 0.605,
+    "resolution_date": "2026-03-31",
+    "resolution_YES": [
+      "US military conducts kinetic military strikes against targets on Iranian soil before March 31, 2026"
+    ],
+    "resolution_NO": [
+      "March 31 deadline passes without qualifying US strike",
+      "Only non-kinetic actions (cyber, sanctions)",
+      "Only proxy/Israeli strikes",
+      "Diplomatic breakthrough"
+    ],
+    "ambiguity_score": 4,
+    "ambiguity_notes": "Same ambiguities as T001 but with shorter timeframe. The March 31 deadline is clear, but 'strike' definition is not. Additional risk: if a strike occurs on March 31 itself, time-zone interpretation could matter (UTC? ET? local Iranian time?).",
+    "uma_prediction": "Same as T001 — narrow interpretation of 'US strikes' favoring NO in edge cases. Time-zone would likely follow UTC (Polymarket standard).",
+    "s009_adjustment": {
+      "p_event": 0.35,
+      "p_resolution_given_event": 0.70,
+      "true_yes": 0.245,
+      "market_yes": 0.605,
+      "edge_pp": -36.0,
+      "direction": "Strongly supports our NO position"
+    },
+    "news_monitors": [
+      "US strikes Iran",
+      "Iran strike March",
+      "US military action Iran",
+      "Trump Iran attack",
+      "CENTCOM Iran operations"
+    ]
+  },
+  {
+    "trade_id": "T005",
+    "market": "Will US or Israel strike Iran by March 31, 2026?",
+    "direction": "NO",
+    "entry_price_YES": 0.59,
+    "current_price_YES": 0.605,
+    "resolution_date": "2026-03-31",
+    "resolution_YES": [
+      "Either the US or Israel conducts kinetic military strikes against targets on Iranian soil before March 31, 2026"
+    ],
+    "resolution_NO": [
+      "March 31 deadline passes without qualifying strike by either US or Israel",
+      "Only non-kinetic actions",
+      "Only proxy strikes",
+      "Strikes against Iranian assets outside Iran (IRGC in Syria/Iraq)"
+    ],
+    "ambiguity_score": 3,
+    "ambiguity_notes": "Slightly less ambiguous than T001/T003 because 'US or Israel' broadens the actor (Israel has a clearer pattern of conventional strikes). The 'strike' definition issue persists but Israel's past actions (airstrikes on nuclear facilities, targeted assassinations) provide clearer precedent for what constitutes a 'strike.' Still ambiguous on: does hitting IRGC in Iraq count as striking 'Iran'?",
+    "uma_prediction": "Broader actor definition makes YES slightly more likely to be recognized if an event occurs. But 'Iranian soil' requirement still applies. Israel striking IRGC in Syria would likely NOT qualify.",
+    "s009_adjustment": {
+      "p_event": 0.40,
+      "p_resolution_given_event": 0.80,
+      "true_yes": 0.32,
+      "market_yes": 0.605,
+      "edge_pp": -28.5,
+      "direction": "Supports our NO position"
+    },
+    "news_monitors": [
+      "US strikes Iran",
+      "Israel strikes Iran",
+      "Israel attacks Iran",
+      "IDF Iran operation",
+      "Israel Iran nuclear",
+      "US or Israel military action Iran"
+    ]
+  },
+  {
+    "trade_id": "T006",
+    "market": "Will J.D. Vance win the 2028 Republican presidential nomination?",
+    "direction": "YES",
+    "entry_price_YES": 0.416,
+    "current_price_YES": 0.416,
+    "resolution_date": "2028-08-30",
+    "resolution_YES": [
+      "J.D. Vance is formally nominated as the Republican Party's candidate for President at the 2028 Republican National Convention"
+    ],
+    "resolution_NO": [
+      "Any other person is nominated at the 2028 RNC",
+      "Vance does not run or withdraws before convention"
+    ],
+    "ambiguity_score": 2,
+    "ambiguity_notes": "Very clear resolution — convention nomination is a verifiable event. Minor edge case: contested convention with multiple ballots, but the final nominee is still clearly identifiable. Another edge case: if Vance wins but the convention is disrupted/invalidated — extremely unlikely.",
+    "uma_prediction": "Would resolve cleanly. No dispute expected unless truly extraordinary circumstances.",
+    "s009_adjustment": {
+      "p_event": 0.40,
+      "p_resolution_given_event": 0.98,
+      "true_yes": 0.392,
+      "market_yes": 0.416,
+      "edge_pp": -2.4,
+      "direction": "Negligible S009 effect — this is a clean market"
+    },
+    "news_monitors": [
+      "Vance 2028",
+      "Vance presidential",
+      "Republican 2028 primary",
+      "Vance campaign",
+      "GOP 2028 nominee"
+    ]
+  },
+  {
+    "trade_id": "T007",
+    "market": "Will Nicolas Maduro be the leader of Venezuela at end of 2026?",
+    "direction": "NO",
+    "entry_price_YES": 0.8725,
+    "current_price_YES": 0.8725,
+    "resolution_date": "2026-12-31",
+    "resolution_YES": [
+      "Nicolas Maduro is recognized as the leader/president of Venezuela as of December 31, 2026",
+      "Maduro retains de facto control of the Venezuelan government"
+    ],
+    "resolution_NO": [
+      "Maduro has been removed from power (coup, election loss, resignation, death, exile)",
+      "A different person is widely recognized as Venezuela's leader",
+      "Maduro retains nominal title but has lost effective control"
+    ],
+    "ambiguity_score": 4,
+    "ambiguity_notes": "HIGHEST AMBIGUITY IN PORTFOLIO. Key issues: (1) 'Leader' is deeply ambiguous — de facto (controls government), de jure (constitutionally recognized), or internationally recognized? (2) If Maduro is in exile but Chavista government claims he's still president, is he 'leader'? (3) If Gonzalez is internationally recognized but Maduro controls Caracas, who is 'leader'? (4) UMA's Western media consensus principle complicates this — if Reuters calls Gonzalez the 'legitimate president' but Maduro holds power, which way does UMA go? (5) Venezuela 2019 precedent: Guaido was recognized by 50+ countries as president while Maduro held power. Market would likely have resolved YES for Maduro (he was the de facto leader). But UMA may interpret differently.",
+    "uma_prediction": "UNCERTAIN. UMA's 'public consensus' principle would likely follow Western media. If Western media describes Maduro as 'president of Venezuela' or 'Venezuelan leader' on Dec 31, 2026 → YES. If Western media describes him as 'former president' or 'ousted leader' → NO. The Guaido precedent suggests that holding de facto power matters more than international recognition to Western media. Maduro was consistently called 'president' even during Guaido's claim. This tilts toward YES if Maduro retains physical control.",
+    "s009_adjustment": {
+      "p_event_removal": 0.15,
+      "p_resolution_no_given_removal": 0.65,
+      "true_no": 0.0975,
+      "market_no": 0.1275,
+      "edge_pp": -3.0,
+      "direction": "S009 WORKS AGAINST our NO position. Resolution ambiguity means even if Maduro is 'removed,' UMA might still resolve YES if he retains some form of power. Our NO position carries hidden oracle risk.",
+      "recommendation": "Consider reducing T007 size. The S009 overlay reveals that our 12.75c NO price doesn't adequately compensate for resolution ambiguity. If Maduro is 'semi-removed' (exile but Chavista government persists), we could lose despite being 'right.'"
+    },
+    "news_monitors": [
+      "Maduro Venezuela",
+      "Venezuela president",
+      "Maduro removed",
+      "Maduro resignation",
+      "Venezuela coup",
+      "Gonzalez Venezuela president",
+      "Venezuela transition"
+    ]
+  },
+  {
+    "trade_id": "T008",
+    "market": "Will Bitcoin reach $150,000 by December 31, 2026?",
+    "direction": "NO",
+    "entry_price_YES": 0.085,
+    "current_price_YES": 0.085,
+    "resolution_date": "2026-12-31",
+    "resolution_YES": [
+      "Bitcoin price reaches or exceeds $150,000 on any major exchange/aggregator specified in resolution criteria before December 31, 2026"
+    ],
+    "resolution_NO": [
+      "December 31, 2026 passes without BTC reaching $150,000"
+    ],
+    "ambiguity_score": 1,
+    "ambiguity_notes": "Minimal ambiguity. Bitcoin price is a precise, continuously observable number. The only minor ambiguity: which exchange/aggregator is the reference? (CoinGecko, Binance, Coinbase all differ slightly at any given moment). But this is typically specified in resolution criteria and differences are negligible at the $150K threshold.",
+    "uma_prediction": "Would resolve cleanly based on price data. No dispute expected.",
+    "s009_adjustment": {
+      "p_event": 0.10,
+      "p_resolution_given_event": 0.99,
+      "true_yes": 0.099,
+      "market_yes": 0.085,
+      "edge_pp": 1.4,
+      "direction": "Negligible S009 effect — market may actually slightly underprice YES due to BTC volatility"
+    },
+    "news_monitors": [
+      "Bitcoin 150000",
+      "BTC 150K",
+      "Bitcoin all time high",
+      "Bitcoin price record",
+      "BTC new ATH"
+    ]
+  }
+]

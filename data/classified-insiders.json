@@ -1,0 +1,2276 @@
+{
+  "generated_at": "2026-02-26T09:45:32.888126+00:00",
+  "methodology": "L03 field classification: sub-domain decomposition + institutional hypothesis",
+  "n_accounts_processed": 14,
+  "n_with_trade_data": 14,
+  "n_dossiers_generated": 7,
+  "n_temporal_clusters": 20,
+  "accounts": [
+    {
+      "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "alias": "Theo4",
+      "insider_score": 10,
+      "account_type": "INSIDER",
+      "dominant_category": "POL",
+      "primary_subdomain": "us-presidential",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "us-presidential",
+          "n": 622,
+          "mean_edge": 0.5326,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.76,
+          "total_n_trades": 622
+        }
+      ],
+      "institutional_hypothesis": "Senior campaign strategist with internal polling",
+      "hypothesis_confidence": "PROBABLE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 14046.0,
+        "typical_entry_price": 0.422,
+        "direction_pct_buy": 1.0,
+        "total_resolved_trades": 795,
+        "total_all_trades": 803,
+        "unique_markets": 14
+      },
+      "follow_confidence": 5,
+      "total_profit_usd": 8027218.3
+    },
+    {
+      "wallet": "0x0afc7ce56285bde1fbe3a75efaffdfc86d6530b2",
+      "alias": "ricosuave666",
+      "insider_score": 10,
+      "account_type": "INSIDER",
+      "dominant_category": "GEO",
+      "primary_subdomain": "middle-east-conflict",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "middle-east-conflict",
+          "n": 103,
+          "mean_edge": 0.3814,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 1.0,
+          "total_n_trades": 109
+        }
+      ],
+      "institutional_hypothesis": "IDF reservist or active military (cf. Feb 2026 charges)",
+      "hypothesis_confidence": "PROBABLE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 1378.0,
+        "typical_entry_price": 0.47,
+        "direction_pct_buy": 0.89,
+        "total_resolved_trades": 103,
+        "total_all_trades": 109,
+        "unique_markets": 7
+      },
+      "follow_confidence": 5,
+      "total_profit_usd": 216497.77
+    },
+    {
+      "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
+      "alias": "Fredi9999",
+      "insider_score": 10,
+      "account_type": "INSIDER",
+      "dominant_category": "POL",
+      "primary_subdomain": "us-presidential",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "us-presidential",
+          "n": 1047,
+          "mean_edge": 0.3923,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.84,
+          "total_n_trades": 1047
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 12,
+          "mean_edge": 0.2319,
+          "p_value": 0.005,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 21
+        }
+      ],
+      "institutional_hypothesis": "Senior campaign strategist with internal polling",
+      "hypothesis_confidence": "PROBABLE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 14569.0,
+        "typical_entry_price": 0.449,
+        "direction_pct_buy": 1.0,
+        "total_resolved_trades": 1212,
+        "total_all_trades": 1250,
+        "unique_markets": 40
+      },
+      "follow_confidence": 5,
+      "total_profit_usd": 5274008.24
+    },
+    {
+      "wallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+      "alias": "Whale-A",
+      "insider_score": 10,
+      "account_type": "INSIDER",
+      "dominant_category": "SOC",
+      "primary_subdomain": "sports-general",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "sports-general",
+          "n": 36,
+          "mean_edge": 0.0127,
+          "p_value": 0.784919,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 733
+        },
+        {
+          "subdomain": "us-criminal",
+          "n": 6,
+          "mean_edge": 0.0078,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 9
+        }
+      ],
+      "institutional_hypothesis": null,
+      "hypothesis_confidence": "SPECULATIVE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 48.0,
+        "typical_entry_price": 0.781,
+        "direction_pct_buy": 1.0,
+        "total_resolved_trades": 1918,
+        "total_all_trades": 4000,
+        "unique_markets": 766
+      },
+      "follow_confidence": 5,
+      "total_profit_usd": 9120.96
+    },
+    {
+      "wallet": "0x9d84ce0306f8551e02efef1680475fc0f1dc1344",
+      "alias": "Domer / ImJustKen",
+      "insider_score": 9,
+      "account_type": "INSIDER",
+      "dominant_category": "GEO",
+      "primary_subdomain": "middle-east-conflict",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "middle-east-conflict",
+          "n": 95,
+          "mean_edge": 0.1626,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.15,
+          "total_n_trades": 429
+        },
+        {
+          "subdomain": "viral-pop-culture",
+          "n": 17,
+          "mean_edge": 0.132,
+          "p_value": 0.130454,
+          "as_pct_of_category_edge": 0.03,
+          "total_n_trades": 38
+        },
+        {
+          "subdomain": "us-recession",
+          "n": 3,
+          "mean_edge": 0.1067,
+          "p_value": 3e-05,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 13
+        },
+        {
+          "subdomain": "russia-ukraine",
+          "n": 69,
+          "mean_edge": 0.0758,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.05,
+          "total_n_trades": 165
+        },
+        {
+          "subdomain": "individual-stocks",
+          "n": 2,
+          "mean_edge": 0.0685,
+          "p_value": 0.937142,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 72
+        },
+        {
+          "subdomain": "latam-politics",
+          "n": 18,
+          "mean_edge": 0.0633,
+          "p_value": 0.33873,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 48
+        },
+        {
+          "subdomain": "entertainment",
+          "n": 54,
+          "mean_edge": 0.0483,
+          "p_value": 0.120167,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 165
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 119,
+          "mean_edge": 0.0159,
+          "p_value": 0.628786,
+          "as_pct_of_category_edge": 0.15,
+          "total_n_trades": 532
+        },
+        {
+          "subdomain": "us-fed-rates",
+          "n": 70,
+          "mean_edge": 0.0074,
+          "p_value": 0.607399,
+          "as_pct_of_category_edge": 0.03,
+          "total_n_trades": 138
+        },
+        {
+          "subdomain": "uk-politics",
+          "n": 2,
+          "mean_edge": 0.001,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 24
+        },
+        {
+          "subdomain": "space",
+          "n": 6,
+          "mean_edge": -0.0054,
+          "p_value": 0.70377,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 36
+        },
+        {
+          "subdomain": "sports-general",
+          "n": 103,
+          "mean_edge": -0.0157,
+          "p_value": 0.523424,
+          "as_pct_of_category_edge": 0.06,
+          "total_n_trades": 152
+        },
+        {
+          "subdomain": "us-presidential",
+          "n": 70,
+          "mean_edge": -0.0173,
+          "p_value": 0.360805,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 238
+        },
+        {
+          "subdomain": "ai-models",
+          "n": 47,
+          "mean_edge": -0.0207,
+          "p_value": 0.598845,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 75
+        },
+        {
+          "subdomain": "china-taiwan",
+          "n": 10,
+          "mean_edge": -0.0381,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 14
+        },
+        {
+          "subdomain": "us-fiscal",
+          "n": 129,
+          "mean_edge": -0.0393,
+          "p_value": 0.253661,
+          "as_pct_of_category_edge": 0.17,
+          "total_n_trades": 150
+        },
+        {
+          "subdomain": "us-executive-action",
+          "n": 23,
+          "mean_edge": -0.0615,
+          "p_value": 0.441829,
+          "as_pct_of_category_edge": 0.03,
+          "total_n_trades": 51
+        },
+        {
+          "subdomain": "eth-price",
+          "n": 2,
+          "mean_edge": -0.1156,
+          "p_value": 3e-05,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 6
+        }
+      ],
+      "institutional_hypothesis": "IDF reservist or active military (cf. Feb 2026 charges)",
+      "hypothesis_confidence": "PLAUSIBLE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 2554.0,
+        "typical_entry_price": 0.38,
+        "direction_pct_buy": 0.64,
+        "total_resolved_trades": 1138,
+        "total_all_trades": 4000,
+        "unique_markets": 1753
+      },
+      "follow_confidence": 5,
+      "total_profit_usd": 49027.31
+    },
+    {
+      "wallet": "0xee50a31c3f5a7c77824b12a941a54388a2827ed6",
+      "alias": "AlphaRaccoon",
+      "insider_score": 8,
+      "account_type": "INSIDER",
+      "dominant_category": "TEC",
+      "primary_subdomain": "ai-models",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "ai-models",
+          "n": 46,
+          "mean_edge": 0.2708,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.18,
+          "total_n_trades": 46
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 14,
+          "mean_edge": 0.1709,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 14
+        },
+        {
+          "subdomain": "latam-politics",
+          "n": 2,
+          "mean_edge": 0.01,
+          "p_value": 0.963745,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 2
+        },
+        {
+          "subdomain": "eth-price",
+          "n": 4,
+          "mean_edge": -0.0833,
+          "p_value": 0.712149,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 5
+        },
+        {
+          "subdomain": "ai-companies",
+          "n": 4,
+          "mean_edge": -0.3745,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 4
+        },
+        {
+          "subdomain": "us-presidential",
+          "n": 2,
+          "mean_edge": -0.455,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 3
+        }
+      ],
+      "institutional_hypothesis": "Employee or contractor at OpenAI, Anthropic, Google DeepMind",
+      "hypothesis_confidence": "IDENTIFIED",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 10702.0,
+        "typical_entry_price": 0.558,
+        "direction_pct_buy": 0.96,
+        "total_resolved_trades": 203,
+        "total_all_trades": 233,
+        "unique_markets": 70
+      },
+      "follow_confidence": 4,
+      "total_profit_usd": 555157.87
+    },
+    {
+      "wallet": "0x5bffcf561bcae83af680ad600cb99f1184d6ffbe",
+      "alias": "YatSen",
+      "insider_score": 7,
+      "account_type": "SUPERFORECASTER",
+      "dominant_category": "SOC",
+      "primary_subdomain": "middle-east-conflict",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "middle-east-conflict",
+          "n": 86,
+          "mean_edge": 0.156,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.03,
+          "total_n_trades": 93
+        },
+        {
+          "subdomain": "trade-tariffs",
+          "n": 3,
+          "mean_edge": 0.14,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 5
+        },
+        {
+          "subdomain": "us-republican-primary",
+          "n": 13,
+          "mean_edge": 0.0941,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 13
+        },
+        {
+          "subdomain": "eth-price",
+          "n": 149,
+          "mean_edge": 0.079,
+          "p_value": 0.005,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 161
+        },
+        {
+          "subdomain": "china-taiwan",
+          "n": 18,
+          "mean_edge": 0.06,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 34
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 127,
+          "mean_edge": 0.0589,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 214
+        },
+        {
+          "subdomain": "us-presidential",
+          "n": 1463,
+          "mean_edge": 0.0455,
+          "p_value": 3e-05,
+          "as_pct_of_category_edge": 0.46,
+          "total_n_trades": 1463
+        },
+        {
+          "subdomain": "btc-price",
+          "n": 12,
+          "mean_edge": 0.0419,
+          "p_value": 0.005,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 49
+        },
+        {
+          "subdomain": "us-fed-rates",
+          "n": 236,
+          "mean_edge": 0.0145,
+          "p_value": 0.495525,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 236
+        },
+        {
+          "subdomain": "us-democratic-primary",
+          "n": 92,
+          "mean_edge": 0.012,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 106
+        },
+        {
+          "subdomain": "russia-ukraine",
+          "n": 41,
+          "mean_edge": -0.0138,
+          "p_value": 0.548234,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 43
+        },
+        {
+          "subdomain": "us-congressional",
+          "n": 13,
+          "mean_edge": -0.0468,
+          "p_value": 0.138977,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 13
+        },
+        {
+          "subdomain": "us-executive-action",
+          "n": 17,
+          "mean_edge": -0.0584,
+          "p_value": 0.526691,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 20
+        },
+        {
+          "subdomain": "space",
+          "n": 33,
+          "mean_edge": -0.0599,
+          "p_value": 0.216425,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 36
+        },
+        {
+          "subdomain": "sports-general",
+          "n": 4,
+          "mean_edge": -0.225,
+          "p_value": 0.302872,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 5
+        }
+      ],
+      "institutional_hypothesis": "IDF reservist or active military (cf. Feb 2026 charges)",
+      "hypothesis_confidence": "PLAUSIBLE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 16374.0,
+        "typical_entry_price": 0.462,
+        "direction_pct_buy": 0.55,
+        "total_resolved_trades": 3674,
+        "total_all_trades": 4000,
+        "unique_markets": 417
+      },
+      "follow_confidence": 3,
+      "total_profit_usd": 557983.03
+    },
+    {
+      "wallet": "0x6d9fc316c3b8377060a44b852ba664adbfd59790",
+      "alias": "MEPP",
+      "insider_score": 6,
+      "account_type": "SUPERFORECASTER",
+      "dominant_category": "TEC",
+      "primary_subdomain": "middle-east-conflict",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "ai-models",
+          "n": 3,
+          "mean_edge": 0.558,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 3
+        },
+        {
+          "subdomain": "us-democratic-primary",
+          "n": 9,
+          "mean_edge": 0.2656,
+          "p_value": 0.192814,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 9
+        },
+        {
+          "subdomain": "trade-tariffs",
+          "n": 11,
+          "mean_edge": 0.209,
+          "p_value": 0.209495,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 15
+        },
+        {
+          "subdomain": "us-fiscal",
+          "n": 9,
+          "mean_edge": 0.1214,
+          "p_value": 0.16466,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 9
+        },
+        {
+          "subdomain": "eth-price",
+          "n": 7,
+          "mean_edge": 0.1182,
+          "p_value": 0.1038,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 22
+        },
+        {
+          "subdomain": "latam-politics",
+          "n": 17,
+          "mean_edge": 0.1144,
+          "p_value": 0.180474,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 18
+        },
+        {
+          "subdomain": "viral-pop-culture",
+          "n": 17,
+          "mean_edge": 0.1069,
+          "p_value": 0.214133,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 31
+        },
+        {
+          "subdomain": "btc-price",
+          "n": 6,
+          "mean_edge": 0.0769,
+          "p_value": 0.661629,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 13
+        },
+        {
+          "subdomain": "us-presidential",
+          "n": 14,
+          "mean_edge": 0.0361,
+          "p_value": 0.772968,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 14
+        },
+        {
+          "subdomain": "middle-east-conflict",
+          "n": 682,
+          "mean_edge": 0.0148,
+          "p_value": 0.39478,
+          "as_pct_of_category_edge": 0.61,
+          "total_n_trades": 1607
+        },
+        {
+          "subdomain": "us-executive-action",
+          "n": 19,
+          "mean_edge": 0.0062,
+          "p_value": 0.854215,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 20
+        },
+        {
+          "subdomain": "us-fed-rates",
+          "n": 22,
+          "mean_edge": -0.0126,
+          "p_value": 0.754717,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 27
+        },
+        {
+          "subdomain": "china-taiwan",
+          "n": 3,
+          "mean_edge": -0.0193,
+          "p_value": 0.750839,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 3
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 153,
+          "mean_edge": -0.0299,
+          "p_value": 0.365567,
+          "as_pct_of_category_edge": 0.12,
+          "total_n_trades": 355
+        },
+        {
+          "subdomain": "sports-general",
+          "n": 9,
+          "mean_edge": -0.0304,
+          "p_value": 0.854072,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 11
+        },
+        {
+          "subdomain": "russia-ukraine",
+          "n": 44,
+          "mean_edge": -0.0578,
+          "p_value": 0.344816,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 102
+        },
+        {
+          "subdomain": "entertainment",
+          "n": 7,
+          "mean_edge": -0.062,
+          "p_value": 0.3775,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 7
+        },
+        {
+          "subdomain": "space",
+          "n": 46,
+          "mean_edge": -0.0908,
+          "p_value": 0.201875,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 87
+        }
+      ],
+      "institutional_hypothesis": "IDF reservist or active military (cf. Feb 2026 charges)",
+      "hypothesis_confidence": "SPECULATIVE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 2349.0,
+        "typical_entry_price": 0.559,
+        "direction_pct_buy": 0.56,
+        "total_resolved_trades": 1234,
+        "total_all_trades": 2725,
+        "unique_markets": 488
+      },
+      "follow_confidence": 3,
+      "total_profit_usd": 7954.09
+    },
+    {
+      "wallet": "0xbaa2bcb5439e985ce4ccf815b4700027d1b92c73",
+      "alias": "denizz",
+      "insider_score": 6,
+      "account_type": "SPECIALIST",
+      "dominant_category": "SOC",
+      "primary_subdomain": "us-fiscal",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "us-fiscal",
+          "n": 8,
+          "mean_edge": 0.4437,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 8
+        },
+        {
+          "subdomain": "btc-price",
+          "n": 27,
+          "mean_edge": 0.214,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.03,
+          "total_n_trades": 27
+        },
+        {
+          "subdomain": "latam-politics",
+          "n": 89,
+          "mean_edge": 0.2002,
+          "p_value": 3e-05,
+          "as_pct_of_category_edge": 0.07,
+          "total_n_trades": 91
+        },
+        {
+          "subdomain": "sports-general",
+          "n": 17,
+          "mean_edge": 0.0812,
+          "p_value": 0.33537,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 42
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 38,
+          "mean_edge": 0.0019,
+          "p_value": 0.969206,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 224
+        },
+        {
+          "subdomain": "uk-politics",
+          "n": 4,
+          "mean_edge": -0.0023,
+          "p_value": 3e-05,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 4
+        },
+        {
+          "subdomain": "entertainment",
+          "n": 8,
+          "mean_edge": -0.0043,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 8
+        },
+        {
+          "subdomain": "middle-east-conflict",
+          "n": 1098,
+          "mean_edge": -0.0127,
+          "p_value": 0.335911,
+          "as_pct_of_category_edge": 0.73,
+          "total_n_trades": 2817
+        },
+        {
+          "subdomain": "russia-ukraine",
+          "n": 31,
+          "mean_edge": -0.0334,
+          "p_value": 0.422146,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 75
+        },
+        {
+          "subdomain": "sanctions-diplomacy",
+          "n": 61,
+          "mean_edge": -0.0652,
+          "p_value": 0.237014,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 100
+        }
+      ],
+      "institutional_hypothesis": null,
+      "hypothesis_confidence": "SPECULATIVE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 2207.0,
+        "typical_entry_price": 0.492,
+        "direction_pct_buy": 0.61,
+        "total_resolved_trades": 1591,
+        "total_all_trades": 4000,
+        "unique_markets": 427
+      },
+      "follow_confidence": 3,
+      "total_profit_usd": -65081.95
+    },
+    {
+      "wallet": "0x8f42ae0a01c0383c7ca8bd060b86a645ee74b88f",
+      "alias": "Cashy",
+      "insider_score": 6,
+      "account_type": "SPECIALIST",
+      "dominant_category": "GEO",
+      "primary_subdomain": "middle-east-conflict",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "btc-price",
+          "n": 5,
+          "mean_edge": 0.1486,
+          "p_value": 0.349715,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 6
+        },
+        {
+          "subdomain": "middle-east-conflict",
+          "n": 584,
+          "mean_edge": 0.0872,
+          "p_value": 3e-05,
+          "as_pct_of_category_edge": 0.86,
+          "total_n_trades": 1100
+        },
+        {
+          "subdomain": "us-presidential",
+          "n": 2,
+          "mean_edge": 0.075,
+          "p_value": 0.304233,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 4
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 22,
+          "mean_edge": 0.0354,
+          "p_value": 0.730828,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 85
+        },
+        {
+          "subdomain": "sports-general",
+          "n": 5,
+          "mean_edge": 0.0234,
+          "p_value": 0.343715,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 6
+        },
+        {
+          "subdomain": "russia-ukraine",
+          "n": 28,
+          "mean_edge": -0.0406,
+          "p_value": 0.552499,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 49
+        },
+        {
+          "subdomain": "us-fiscal",
+          "n": 2,
+          "mean_edge": -0.3045,
+          "p_value": 0.214852,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 2
+        },
+        {
+          "subdomain": "space",
+          "n": 7,
+          "mean_edge": -0.3776,
+          "p_value": 0.05,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 13
+        }
+      ],
+      "institutional_hypothesis": "IDF reservist or active military (cf. Feb 2026 charges)",
+      "hypothesis_confidence": "SPECULATIVE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 1113.0,
+        "typical_entry_price": 0.573,
+        "direction_pct_buy": 0.79,
+        "total_resolved_trades": 690,
+        "total_all_trades": 1443,
+        "unique_markets": 476
+      },
+      "follow_confidence": 3,
+      "total_profit_usd": 100898.62
+    },
+    {
+      "wallet": "0x509587cbb541251c74f261df3421f1fcc9fdc97c",
+      "alias": "BuckMySalls",
+      "insider_score": 6,
+      "account_type": "SPECIALIST",
+      "dominant_category": "POL",
+      "primary_subdomain": "nuclear-risk",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "nuclear-risk",
+          "n": 5,
+          "mean_edge": 0.1282,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 5
+        },
+        {
+          "subdomain": "us-recession",
+          "n": 12,
+          "mean_edge": 0.1278,
+          "p_value": 0.374646,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 17
+        },
+        {
+          "subdomain": "eu-politics",
+          "n": 70,
+          "mean_edge": 0.1185,
+          "p_value": 0.005,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 79
+        },
+        {
+          "subdomain": "middle-east-conflict",
+          "n": 72,
+          "mean_edge": 0.0955,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 126
+        },
+        {
+          "subdomain": "btc-price",
+          "n": 139,
+          "mean_edge": 0.0912,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.11,
+          "total_n_trades": 229
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 268,
+          "mean_edge": 0.0861,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.2,
+          "total_n_trades": 695
+        },
+        {
+          "subdomain": "viral-pop-culture",
+          "n": 4,
+          "mean_edge": 0.0594,
+          "p_value": 0.70682,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 4
+        },
+        {
+          "subdomain": "altcoins",
+          "n": 11,
+          "mean_edge": 0.0168,
+          "p_value": 0.916165,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 117
+        },
+        {
+          "subdomain": "us-executive-action",
+          "n": 18,
+          "mean_edge": 0.0137,
+          "p_value": 0.691595,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 23
+        },
+        {
+          "subdomain": "us-fed-rates",
+          "n": 191,
+          "mean_edge": -0.0022,
+          "p_value": 0.913165,
+          "as_pct_of_category_edge": 0.08,
+          "total_n_trades": 226
+        },
+        {
+          "subdomain": "us-presidential",
+          "n": 55,
+          "mean_edge": -0.0155,
+          "p_value": 0.783627,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 66
+        },
+        {
+          "subdomain": "russia-ukraine",
+          "n": 154,
+          "mean_edge": -0.0209,
+          "p_value": 0.553701,
+          "as_pct_of_category_edge": 0.11,
+          "total_n_trades": 278
+        },
+        {
+          "subdomain": "us-congressional",
+          "n": 4,
+          "mean_edge": -0.0228,
+          "p_value": 0.838625,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 7
+        },
+        {
+          "subdomain": "us-fiscal",
+          "n": 10,
+          "mean_edge": -0.0399,
+          "p_value": 0.697077,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 12
+        },
+        {
+          "subdomain": "eth-price",
+          "n": 125,
+          "mean_edge": -0.0425,
+          "p_value": 0.296014,
+          "as_pct_of_category_edge": 0.1,
+          "total_n_trades": 178
+        },
+        {
+          "subdomain": "sports-general",
+          "n": 10,
+          "mean_edge": -0.099,
+          "p_value": 0.45121,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 24
+        },
+        {
+          "subdomain": "ai-models",
+          "n": 2,
+          "mean_edge": -0.19,
+          "p_value": 0.576282,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 2
+        },
+        {
+          "subdomain": "us-democratic-primary",
+          "n": 26,
+          "mean_edge": -0.2102,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 46
+        }
+      ],
+      "institutional_hypothesis": null,
+      "hypothesis_confidence": "SPECULATIVE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 4663.0,
+        "typical_entry_price": 0.553,
+        "direction_pct_buy": 0.64,
+        "total_resolved_trades": 1526,
+        "total_all_trades": 2906,
+        "unique_markets": 836
+      },
+      "follow_confidence": 3,
+      "total_profit_usd": 188282.16
+    },
+    {
+      "wallet": "0x44c1dfe43260c94ed4f1d00de2e1f80fb113ebc1",
+      "alias": "aenews2",
+      "insider_score": 6,
+      "account_type": "SPECIALIST",
+      "dominant_category": "GEO",
+      "primary_subdomain": "trade-tariffs",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "trade-tariffs",
+          "n": 8,
+          "mean_edge": 0.2662,
+          "p_value": 0.175566,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 28
+        },
+        {
+          "subdomain": "us-democratic-primary",
+          "n": 57,
+          "mean_edge": 0.191,
+          "p_value": 0.005,
+          "as_pct_of_category_edge": 0.07,
+          "total_n_trades": 77
+        },
+        {
+          "subdomain": "russia-ukraine",
+          "n": 82,
+          "mean_edge": 0.1637,
+          "p_value": 3e-05,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 169
+        },
+        {
+          "subdomain": "us-scotus",
+          "n": 2,
+          "mean_edge": 0.14,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 2
+        },
+        {
+          "subdomain": "sanctions-diplomacy",
+          "n": 16,
+          "mean_edge": 0.1191,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 21
+        },
+        {
+          "subdomain": "ai-companies",
+          "n": 9,
+          "mean_edge": 0.0848,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 26
+        },
+        {
+          "subdomain": "us-presidential",
+          "n": 131,
+          "mean_edge": 0.0717,
+          "p_value": 0.05,
+          "as_pct_of_category_edge": 0.14,
+          "total_n_trades": 142
+        },
+        {
+          "subdomain": "us-fed-rates",
+          "n": 25,
+          "mean_edge": 0.0702,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 51
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 207,
+          "mean_edge": 0.0276,
+          "p_value": 0.127622,
+          "as_pct_of_category_edge": 0.08,
+          "total_n_trades": 463
+        },
+        {
+          "subdomain": "space",
+          "n": 58,
+          "mean_edge": 0.0208,
+          "p_value": 0.668451,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 108
+        },
+        {
+          "subdomain": "entertainment",
+          "n": 127,
+          "mean_edge": 0.0167,
+          "p_value": 0.327114,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 437
+        },
+        {
+          "subdomain": "viral-pop-culture",
+          "n": 35,
+          "mean_edge": 0.0167,
+          "p_value": 0.718099,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 64
+        },
+        {
+          "subdomain": "big-tech-products",
+          "n": 10,
+          "mean_edge": 0.0161,
+          "p_value": 0.005,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 23
+        },
+        {
+          "subdomain": "btc-price",
+          "n": 3,
+          "mean_edge": 0.0107,
+          "p_value": 0.269833,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 22
+        },
+        {
+          "subdomain": "middle-east-conflict",
+          "n": 202,
+          "mean_edge": 0.0062,
+          "p_value": 0.757501,
+          "as_pct_of_category_edge": 0.09,
+          "total_n_trades": 315
+        },
+        {
+          "subdomain": "us-executive-action",
+          "n": 15,
+          "mean_edge": 0.0026,
+          "p_value": 0.952866,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 26
+        },
+        {
+          "subdomain": "eth-price",
+          "n": 2,
+          "mean_edge": 0.001,
+          "p_value": 0.157299,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 16
+        },
+        {
+          "subdomain": "us-fiscal",
+          "n": 117,
+          "mean_edge": -0.0701,
+          "p_value": 0.05,
+          "as_pct_of_category_edge": 0.08,
+          "total_n_trades": 122
+        },
+        {
+          "subdomain": "latam-politics",
+          "n": 7,
+          "mean_edge": -0.1337,
+          "p_value": 0.46583,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 7
+        },
+        {
+          "subdomain": "us-recession",
+          "n": 8,
+          "mean_edge": -0.2634,
+          "p_value": 0.05,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 8
+        },
+        {
+          "subdomain": "individual-stocks",
+          "n": 5,
+          "mean_edge": -0.3107,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 11
+        }
+      ],
+      "institutional_hypothesis": "USTR employee or trade negotiator",
+      "hypothesis_confidence": "SPECULATIVE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 7242.0,
+        "typical_entry_price": 0.642,
+        "direction_pct_buy": 0.82,
+        "total_resolved_trades": 1844,
+        "total_all_trades": 4000,
+        "unique_markets": 1062
+      },
+      "follow_confidence": 3,
+      "total_profit_usd": 190697.36
+    },
+    {
+      "wallet": "0x24c8cf69a0e0a17eee21f69d29752bfa32e823e1",
+      "alias": "debased",
+      "insider_score": 6,
+      "account_type": "SPECIALIST",
+      "dominant_category": "SOC",
+      "primary_subdomain": "us-fiscal",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "us-fiscal",
+          "n": 317,
+          "mean_edge": 0.0541,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.13,
+          "total_n_trades": 320
+        },
+        {
+          "subdomain": "russia-ukraine",
+          "n": 41,
+          "mean_edge": 0.0401,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 61
+        },
+        {
+          "subdomain": "middle-east-conflict",
+          "n": 171,
+          "mean_edge": 0.0394,
+          "p_value": 0.05,
+          "as_pct_of_category_edge": 0.07,
+          "total_n_trades": 449
+        },
+        {
+          "subdomain": "eu-politics",
+          "n": 6,
+          "mean_edge": 0.0255,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 10
+        },
+        {
+          "subdomain": "us-fed-rates",
+          "n": 870,
+          "mean_edge": 0.0238,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.27,
+          "total_n_trades": 1091
+        },
+        {
+          "subdomain": "china-taiwan",
+          "n": 12,
+          "mean_edge": 0.0198,
+          "p_value": 0.05,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 13
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 170,
+          "mean_edge": 0.0181,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.03,
+          "total_n_trades": 379
+        },
+        {
+          "subdomain": "us-presidential",
+          "n": 299,
+          "mean_edge": 0.0142,
+          "p_value": 0.445697,
+          "as_pct_of_category_edge": 0.15,
+          "total_n_trades": 343
+        },
+        {
+          "subdomain": "sports-general",
+          "n": 10,
+          "mean_edge": 0.014,
+          "p_value": 0.937514,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 12
+        },
+        {
+          "subdomain": "space",
+          "n": 10,
+          "mean_edge": 0.0119,
+          "p_value": 0.240597,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 25
+        },
+        {
+          "subdomain": "ai-models",
+          "n": 6,
+          "mean_edge": 0.0073,
+          "p_value": 0.199089,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 6
+        },
+        {
+          "subdomain": "eth-price",
+          "n": 2,
+          "mean_edge": -0.006,
+          "p_value": 0.133614,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 2
+        },
+        {
+          "subdomain": "viral-pop-culture",
+          "n": 31,
+          "mean_edge": -0.0103,
+          "p_value": 0.879234,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 32
+        },
+        {
+          "subdomain": "latam-politics",
+          "n": 142,
+          "mean_edge": -0.0212,
+          "p_value": 0.516831,
+          "as_pct_of_category_edge": 0.08,
+          "total_n_trades": 142
+        },
+        {
+          "subdomain": "btc-price",
+          "n": 7,
+          "mean_edge": -0.0236,
+          "p_value": 0.119543,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 11
+        },
+        {
+          "subdomain": "entertainment",
+          "n": 7,
+          "mean_edge": -0.0534,
+          "p_value": 0.659348,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 8
+        },
+        {
+          "subdomain": "uk-politics",
+          "n": 7,
+          "mean_edge": -0.0544,
+          "p_value": 0.276351,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 10
+        },
+        {
+          "subdomain": "us-executive-action",
+          "n": 9,
+          "mean_edge": -0.1285,
+          "p_value": 0.41167,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 10
+        }
+      ],
+      "institutional_hypothesis": null,
+      "hypothesis_confidence": "PLAUSIBLE",
+      "legal_risk": false,
+      "trade_pattern": {
+        "avg_trade_size_usd": 2776.0,
+        "typical_entry_price": 0.488,
+        "direction_pct_buy": 0.73,
+        "total_resolved_trades": 2907,
+        "total_all_trades": 4000,
+        "unique_markets": 477
+      },
+      "follow_confidence": 3,
+      "total_profit_usd": 36864.4
+    },
+    {
+      "wallet": "0x000d257d2dc7616feaef4ae0f14600fdf50a758e",
+      "alias": "scottilicious",
+      "insider_score": 5,
+      "account_type": "SPECIALIST",
+      "dominant_category": "GEO",
+      "primary_subdomain": "us-scotus",
+      "has_trade_data": true,
+      "subdomain_breakdown": [
+        {
+          "subdomain": "us-scotus",
+          "n": 8,
+          "mean_edge": 0.1116,
+          "p_value": 3e-05,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 8
+        },
+        {
+          "subdomain": "space",
+          "n": 21,
+          "mean_edge": 0.0992,
+          "p_value": 0.142299,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 22
+        },
+        {
+          "subdomain": "entertainment",
+          "n": 16,
+          "mean_edge": 0.0812,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 16
+        },
+        {
+          "subdomain": "trade-tariffs",
+          "n": 18,
+          "mean_edge": 0.0698,
+          "p_value": 0.672191,
+          "as_pct_of_category_edge": 0.04,
+          "total_n_trades": 19
+        },
+        {
+          "subdomain": "trump-admin",
+          "n": 202,
+          "mean_edge": 0.0578,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.05,
+          "total_n_trades": 403
+        },
+        {
+          "subdomain": "us-democratic-primary",
+          "n": 9,
+          "mean_edge": 0.0571,
+          "p_value": 0.129475,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 61
+        },
+        {
+          "subdomain": "uk-politics",
+          "n": 60,
+          "mean_edge": 0.05,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 65
+        },
+        {
+          "subdomain": "us-executive-action",
+          "n": 83,
+          "mean_edge": 0.0464,
+          "p_value": 0.005,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 101
+        },
+        {
+          "subdomain": "latam-politics",
+          "n": 50,
+          "mean_edge": 0.0427,
+          "p_value": 0.005,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 75
+        },
+        {
+          "subdomain": "russia-ukraine",
+          "n": 217,
+          "mean_edge": 0.0401,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.12,
+          "total_n_trades": 378
+        },
+        {
+          "subdomain": "china-taiwan",
+          "n": 17,
+          "mean_edge": 0.0392,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 28
+        },
+        {
+          "subdomain": "eu-politics",
+          "n": 24,
+          "mean_edge": 0.038,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 24
+        },
+        {
+          "subdomain": "btc-price",
+          "n": 2,
+          "mean_edge": 0.0258,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 8
+        },
+        {
+          "subdomain": "us-presidential",
+          "n": 186,
+          "mean_edge": 0.0251,
+          "p_value": 0.264899,
+          "as_pct_of_category_edge": 0.1,
+          "total_n_trades": 221
+        },
+        {
+          "subdomain": "us-fed-rates",
+          "n": 109,
+          "mean_edge": 0.0237,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 150
+        },
+        {
+          "subdomain": "middle-east-conflict",
+          "n": 172,
+          "mean_edge": 0.0148,
+          "p_value": 0.497542,
+          "as_pct_of_category_edge": 0.09,
+          "total_n_trades": 483
+        },
+        {
+          "subdomain": "tech-regulation",
+          "n": 28,
+          "mean_edge": 0.0144,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 28
+        },
+        {
+          "subdomain": "us-republican-primary",
+          "n": 2,
+          "mean_edge": 0.0116,
+          "p_value": 0.0,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 36
+        },
+        {
+          "subdomain": "nuclear-risk",
+          "n": 4,
+          "mean_edge": 0.003,
+          "p_value": 0.860423,
+          "as_pct_of_category_edge": 0.0,
+          "total_n_trades": 4
+        },
+        {
+          "subdomain": "us-fiscal",
+          "n": 110,
+          "mean_edge": -0.0809,
+          "p_value": 0.025,
+          "as_pct_of_category_edge": 0.08,
+          "total_n_trades": 110
+        },
+        {
+          "subdomain": "eth-price",
+          "n": 90,
+          "mean_edge": -0.115,
+          "p_value": 0.0013,
+          "as_pct_of_category_edge": 0.06,
+          "total_n_trades": 111
+        },
+        {
+          "subdomain": "us-recession",
+          "n": 7,
+          "mean_edge": -0.2291,
+          "p_value": 0.128812,
+          "as_pct_of_category_edge": 0.01,
+          "total_n_trades": 7
+        },
+        {
+          "subdomain": "ai-models",
+          "n": 7,
+          "mean_edge": -0.6673,
+          "p_value": 3e-05,
+          "as_pct_of_category_edge": 0.02,
+          "total_n_trades": 7
+        }
+      ],
+      "institutional_hypothesis": "SCOTUS clerk (ILLEGAL: potential obstruction)",
+      "hypothesis_confidence": "SPECULATIVE",
+      "legal_risk": true,
+      "trade_pattern": {
+        "avg_trade_size_usd": 7856.0,
+        "typical_entry_price": 0.876,
+        "direction_pct_buy": 0.86,
+        "total_resolved_trades": 2264,
+        "total_all_trades": 4000,
+        "unique_markets": 711
+      },
+      "follow_confidence": 3,
+      "total_profit_usd": 294679.97
+    }
+  ],
+  "temporal_clusters": [
+    {
+      "market": "Will Jesus Christ return before 2027?",
+      "condition_id": "0x0b4cc3b739e1dfe5d73274740e7308b6fb389c5af040c3a174923d928d134bee",
+      "direction": "BUY",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "debased",
+          "price": 0.033,
+          "timestamp": 1771367169
+        },
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.047,
+          "timestamp": 1771369355
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.04,
+          "timestamp": 1771373927
+        },
+        {
+          "alias": "aenews2",
+          "price": 0.038,
+          "timestamp": 1771393142
+        },
+        {
+          "alias": "YatSen",
+          "price": 0.041,
+          "timestamp": 1771406350
+        }
+      ],
+      "window_hours": 10.9
+    },
+    {
+      "market": "Will Trump release the Epstein files by December 19?",
+      "condition_id": "0xac9c6628a5398bb2a06f566854270a9fbc7f2badec4329d3b5fdc1407291c35b",
+      "direction": "SELL",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "denizz",
+          "price": 0.93,
+          "timestamp": 1766154370
+        },
+        {
+          "alias": "debased",
+          "price": 0.74,
+          "timestamp": 1766177583
+        },
+        {
+          "alias": "Cashy",
+          "price": 0.91,
+          "timestamp": 1766178163
+        },
+        {
+          "alias": "aenews2",
+          "price": 0.96,
+          "timestamp": 1766180659
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.997,
+          "timestamp": 1766201104
+        }
+      ],
+      "window_hours": 13.0
+    },
+    {
+      "market": "Will the U.S. invade Venezuela by January 31, 2026?",
+      "condition_id": "0x7f3c6b9029a1a4a932509c147a2cc0762e1116b7a4568cde472908b29dd4889d",
+      "direction": "BUY",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "aenews2",
+          "price": 0.478,
+          "timestamp": 1767427641
+        },
+        {
+          "alias": "denizz",
+          "price": 0.734,
+          "timestamp": 1767434303
+        },
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.83,
+          "timestamp": 1767448653
+        },
+        {
+          "alias": "debased",
+          "price": 0.76,
+          "timestamp": 1767461133
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.84,
+          "timestamp": 1767477491
+        }
+      ],
+      "window_hours": 13.8
+    },
+    {
+      "market": "US strikes Iran by January 14, 2026?",
+      "condition_id": "0x64b14a09a6cf9dc02b840bc83f4dcfd41ca6108544c47ecabc6e5d00bc15fd2e",
+      "direction": "SELL",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "denizz",
+          "price": 0.143,
+          "timestamp": 1768394438
+        },
+        {
+          "alias": "Cashy",
+          "price": 0.38,
+          "timestamp": 1768429730
+        },
+        {
+          "alias": "debased",
+          "price": 0.31,
+          "timestamp": 1768431748
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.06,
+          "timestamp": 1768437730
+        },
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.006,
+          "timestamp": 1768449186
+        }
+      ],
+      "window_hours": 15.2
+    },
+    {
+      "market": "Israel military action against Iran by Friday?",
+      "condition_id": "0x7f39808829da93cfd189807f13f6d86a0e604835e6f9482d8094fac46b3abaac",
+      "direction": "BUY",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "ricosuave666",
+          "price": 0.149,
+          "timestamp": 1749711601
+        },
+        {
+          "alias": "scottilicious",
+          "price": 0.745,
+          "timestamp": 1749734557
+        },
+        {
+          "alias": "Cashy",
+          "price": 0.86,
+          "timestamp": 1749746035
+        },
+        {
+          "alias": "aenews2",
+          "price": 0.86,
+          "timestamp": 1749763841
+        },
+        {
+          "alias": "BuckMySalls",
+          "price": 0.85,
+          "timestamp": 1749767871
+        }
+      ],
+      "window_hours": 15.6
+    },
+    {
+      "market": "Will the US acquire part of Greenland in 2026?",
+      "condition_id": "0x890fc3ba40458db0b67560691aa1597344c2a0560d18e80f586a4b35f510b4ce",
+      "direction": "BUY",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.79,
+          "timestamp": 1769024488
+        },
+        {
+          "alias": "debased",
+          "price": 0.49,
+          "timestamp": 1769030506
+        },
+        {
+          "alias": "denizz",
+          "price": 0.26,
+          "timestamp": 1769042524
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.64,
+          "timestamp": 1769061308
+        },
+        {
+          "alias": "scottilicious",
+          "price": 0.771,
+          "timestamp": 1769095770
+        }
+      ],
+      "window_hours": 19.8
+    },
+    {
+      "market": "Israel strikes Iran by January 31, 2026?",
+      "condition_id": "0x23fd2b26c4e095465ba0d2ebce8d5eda57009ddc59aad8b68ab19ca968b41eed",
+      "direction": "BUY",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.75,
+          "timestamp": 1767627363
+        },
+        {
+          "alias": "ricosuave666",
+          "price": 0.164,
+          "timestamp": 1767687531
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.7,
+          "timestamp": 1767691419
+        },
+        {
+          "alias": "Cashy",
+          "price": 0.69,
+          "timestamp": 1767713211
+        },
+        {
+          "alias": "denizz",
+          "price": 0.65,
+          "timestamp": 1767717113
+        }
+      ],
+      "window_hours": 24.9
+    },
+    {
+      "market": "US military action against Iran by Saturday?",
+      "condition_id": "0x6c6cff89b135f5684f5a25a98fd0335814d1bc411d08bfcf0be400db76ce511a",
+      "direction": "BUY",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "YatSen",
+          "price": 0.9,
+          "timestamp": 1750423697
+        },
+        {
+          "alias": "denizz",
+          "price": 0.905,
+          "timestamp": 1750517171
+        },
+        {
+          "alias": "ricosuave666",
+          "price": 0.094,
+          "timestamp": 1750517789
+        },
+        {
+          "alias": "Cashy",
+          "price": 0.075,
+          "timestamp": 1750539245
+        },
+        {
+          "alias": "scottilicious",
+          "price": 0.93,
+          "timestamp": 1750541438
+        }
+      ],
+      "window_hours": 32.7
+    },
+    {
+      "market": "Israel x Iran ceasefire before July? ",
+      "condition_id": "0x3b2f19935f2a969634a7aca52b69cf653d957ec6243bdfcb97dd830003e90624",
+      "direction": "SELL",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "Cashy",
+          "price": 0.145,
+          "timestamp": 1750716583
+        },
+        {
+          "alias": "aenews2",
+          "price": 0.902,
+          "timestamp": 1750732173
+        },
+        {
+          "alias": "YatSen",
+          "price": 0.862,
+          "timestamp": 1750736467
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.991,
+          "timestamp": 1750746115
+        },
+        {
+          "alias": "BuckMySalls",
+          "price": 0.007,
+          "timestamp": 1750841813
+        }
+      ],
+      "window_hours": 34.8
+    },
+    {
+      "market": "Fordow nuclear facility destroyed before July?",
+      "condition_id": "0xfe4ddfdf4e6b6188967331f5932c8ec6dcbc815572ef9f3566b5d903a708b61f",
+      "direction": "BUY",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "denizz",
+          "price": 0.31,
+          "timestamp": 1750439906
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.28,
+          "timestamp": 1750473703
+        },
+        {
+          "alias": "Cashy",
+          "price": 0.695,
+          "timestamp": 1750549819
+        },
+        {
+          "alias": "aenews2",
+          "price": 0.22,
+          "timestamp": 1750556801
+        },
+        {
+          "alias": "YatSen",
+          "price": 0.35,
+          "timestamp": 1750597066
+        }
+      ],
+      "window_hours": 43.7
+    },
+    {
+      "market": "Will Jesus Christ return before 2027?",
+      "condition_id": "0x0b4cc3b739e1dfe5d73274740e7308b6fb389c5af040c3a174923d928d134bee",
+      "direction": "SELL",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.04,
+          "timestamp": 1771200021
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.037,
+          "timestamp": 1771377053
+        },
+        {
+          "alias": "aenews2",
+          "price": 0.962,
+          "timestamp": 1771392738
+        },
+        {
+          "alias": "YatSen",
+          "price": 0.041,
+          "timestamp": 1771409256
+        },
+        {
+          "alias": "Cashy",
+          "price": 0.96,
+          "timestamp": 1771412260
+        }
+      ],
+      "window_hours": 59.0
+    },
+    {
+      "market": "US government shutdown by October 1?",
+      "condition_id": "0x09b3e4c716df2579afa0ede1bf00edd84f8cbe1e335785f90336e7a909c52f8e",
+      "direction": "BUY",
+      "n_insiders": 5,
+      "members": [
+        {
+          "alias": "aenews2",
+          "price": 0.69,
+          "timestamp": 1758934949
+        },
+        {
+          "alias": "debased",
+          "price": 0.69,
+          "timestamp": 1758937965
+        },
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.239,
+          "timestamp": 1759014789
+        },
+        {
+          "alias": "scottilicious",
+          "price": 0.7,
+          "timestamp": 1759020893
+        },
+        {
+          "alias": "BuckMySalls",
+          "price": 0.35,
+          "timestamp": 1759147621
+        }
+      ],
+      "window_hours": 59.1
+    },
+    {
+      "market": "Will Cardi B perform during the Super Bowl LX halftime show?",
+      "condition_id": "0x891d4a752d5e8e7a7d707b6f40141975f1e469616c4ff74f8cf02869a0159cfa",
+      "direction": "SELL",
+      "n_insiders": 4,
+      "members": [
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.197,
+          "timestamp": 1770601037
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.65,
+          "timestamp": 1770602359
+        },
+        {
+          "alias": "denizz",
+          "price": 0.32,
+          "timestamp": 1770602471
+        },
+        {
+          "alias": "debased",
+          "price": 0.1,
+          "timestamp": 1770607991
+        }
+      ],
+      "window_hours": 1.9
+    },
+    {
+      "market": "Epstein blackmail evidence released in 2025? ",
+      "condition_id": "0xc9d59f87834edd00b75981175f05d9236eb8427bf9668c38d5ca4dd2bd1daf45",
+      "direction": "BUY",
+      "n_insiders": 4,
+      "members": [
+        {
+          "alias": "aenews2",
+          "price": 0.776,
+          "timestamp": 1766578135
+        },
+        {
+          "alias": "debased",
+          "price": 0.035,
+          "timestamp": 1766582247
+        },
+        {
+          "alias": "scottilicious",
+          "price": 0.97,
+          "timestamp": 1766589083
+        },
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.033,
+          "timestamp": 1766595847
+        }
+      ],
+      "window_hours": 4.9
+    },
+    {
+      "market": "Israel strike on Iran on June 24?",
+      "condition_id": "0xd2055601def8961bea2e6fc911538c64ee181e7ae944f67c78f395e39df43580",
+      "direction": "BUY",
+      "n_insiders": 4,
+      "members": [
+        {
+          "alias": "aenews2",
+          "price": 0.797,
+          "timestamp": 1750716565
+        },
+        {
+          "alias": "Cashy",
+          "price": 0.471,
+          "timestamp": 1750716689
+        },
+        {
+          "alias": "denizz",
+          "price": 0.548,
+          "timestamp": 1750719469
+        },
+        {
+          "alias": "ricosuave666",
+          "price": 0.861,
+          "timestamp": 1750757575
+        }
+      ],
+      "window_hours": 11.4
+    },
+    {
+      "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
+      "condition_id": "0x46d40e851b24d9b0af4bc1942ccd86439cae82a9011767da14950df0ad997adf",
+      "direction": "BUY",
+      "n_insiders": 4,
+      "members": [
+        {
+          "alias": "debased",
+          "price": 0.964,
+          "timestamp": 1769707086
+        },
+        {
+          "alias": "aenews2",
+          "price": 0.978,
+          "timestamp": 1769747480
+        },
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.981,
+          "timestamp": 1769760266
+        },
+        {
+          "alias": "scottilicious",
+          "price": 0.977,
+          "timestamp": 1769772286
+        }
+      ],
+      "window_hours": 18.1
+    },
+    {
+      "market": "Will Eleven die in \"Stranger Things: Season 5\"?",
+      "condition_id": "0x32707ae194389a70f25314ec934851daba12d893da616c492ffe8b655b7759a9",
+      "direction": "BUY",
+      "n_insiders": 4,
+      "members": [
+        {
+          "alias": "aenews2",
+          "price": 0.999,
+          "timestamp": 1767234031
+        },
+        {
+          "alias": "debased",
+          "price": 0.997,
+          "timestamp": 1767290549
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.998,
+          "timestamp": 1767302527
+        },
+        {
+          "alias": "scottilicious",
+          "price": 0.997,
+          "timestamp": 1767307887
+        }
+      ],
+      "window_hours": 20.5
+    },
+    {
+      "market": "Government shutdown on Saturday?",
+      "condition_id": "0x4b78de44ea49d0eb8d5fee85352294b6f679a47c56944c6ad5c945e9a2ba7211",
+      "direction": "SELL",
+      "n_insiders": 4,
+      "members": [
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.877,
+          "timestamp": 1770960645
+        },
+        {
+          "alias": "scottilicious",
+          "price": 0.194,
+          "timestamp": 1770963527
+        },
+        {
+          "alias": "denizz",
+          "price": 0.202,
+          "timestamp": 1770965697
+        },
+        {
+          "alias": "aenews2",
+          "price": 0.04,
+          "timestamp": 1771044623
+        }
+      ],
+      "window_hours": 23.3
+    },
+    {
+      "market": "US strikes Iran by January 17, 2026?",
+      "condition_id": "0x94d52f34382e9c074fb62d6ad0cf715e4ae799fb58867bbf4b443b8c34a51a09",
+      "direction": "BUY",
+      "n_insiders": 4,
+      "members": [
+        {
+          "alias": "aenews2",
+          "price": 0.37,
+          "timestamp": 1768428460
+        },
+        {
+          "alias": "denizz",
+          "price": 0.588,
+          "timestamp": 1768434314
+        },
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.789,
+          "timestamp": 1768476794
+        },
+        {
+          "alias": "debased",
+          "price": 0.09,
+          "timestamp": 1768519510
+        }
+      ],
+      "window_hours": 25.3
+    },
+    {
+      "market": "Israel and Lebanon normalize relations in 2025?",
+      "condition_id": "0xd1754bc54ec5b0af53339ad69d868bcdf5510242212a400db22bc865b103bbfb",
+      "direction": "BUY",
+      "n_insiders": 4,
+      "members": [
+        {
+          "alias": "denizz",
+          "price": 0.944,
+          "timestamp": 1759981548
+        },
+        {
+          "alias": "Domer / ImJustKen",
+          "price": 0.059,
+          "timestamp": 1759989143
+        },
+        {
+          "alias": "scottilicious",
+          "price": 0.917,
+          "timestamp": 1760025903
+        },
+        {
+          "alias": "MEPP",
+          "price": 0.92,
+          "timestamp": 1760085454
+        }
+      ],
+      "window_hours": 28.9
+    }
+  ]
+}

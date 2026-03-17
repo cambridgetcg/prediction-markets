@@ -1,0 +1,65 @@
+{
+  "signals": [
+    {
+      "id": "dada3da4f5b5",
+      "type": "FADE",
+      "source": "spike-detector",
+      "market": "Backpack FDV above $700M one day after launch?",
+      "domain": "CRY",
+      "trade": "BUY YES at 7.5%",
+      "target": "YES rises to 24.9%",
+      "stop": "YES drops to 1.0%",
+      "score": 7,
+      "magnitude": 0.435,
+      "classification": "EMOTIONAL",
+      "notes": [
+        "Emotional domain (CRY)",
+        "Extreme move (-43.5%)",
+        "Extreme price (7.5%)"
+      ],
+      "ts": "2026-03-17T14:05:17.017533+00:00",
+      "delivered": true,
+      "delivered_ts": "2026-03-17T14:05:27.670624+00:00"
+    },
+    {
+      "id": "b5bbde53fa57",
+      "type": "FADE",
+      "source": "spike-detector",
+      "market": "Will Anthropic have the best AI model at the end of March 2026?",
+      "domain": "TECH",
+      "trade": "BUY NO at 7.4%",
+      "target": "YES drops to 71.3%",
+      "stop": "YES rises to 99.0%",
+      "score": 5,
+      "magnitude": 0.533,
+      "classification": "EMOTIONAL",
+      "notes": [
+        "Extreme move (+53.3%)",
+        "Extreme price (92.7%)"
+      ],
+      "ts": "2026-03-17T14:05:17.017533+00:00",
+      "delivered": true,
+      "delivered_ts": "2026-03-17T14:05:27.670628+00:00"
+    },
+    {
+      "id": "eac1c810f802",
+      "type": "FADE",
+      "source": "spike-detector",
+      "market": "Will Anthropic have the best AI model at the end of March 2026?",
+      "domain": "TECH",
+      "trade": "BUY NO at 7.8%",
+      "target": "YES drops to 70.9%",
+      "stop": "YES rises to 99.0%",
+      "score": 5,
+      "magnitude": 0.533,
+      "classification": "EMOTIONAL",
+      "notes": [
+        "Extreme move (+53.3%)",
+        "Extreme price (92.2%)"
+      ],
+      "ts": "2026-03-17T20:03:12.190927+00:00",
+      "delivered": true,
+      "delivered_ts": "2026-03-17T20:25:46.533648+00:00"
+    }
+  ]
+}

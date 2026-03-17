@@ -1,0 +1,1869 @@
+[
+  {
+    "source": "Reuters",
+    "url": "https://www.reuters.com",
+    "category": "Wire Services",
+    "credibility_scores": {
+      "factual_accuracy": 4.8,
+      "directional_bias": 4.7,
+      "domain_expertise": 4.0,
+      "source_of_source_quality": 4.5,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 4.51,
+    "bias_direction": "Slight establishment/status-quo",
+    "bias_magnitude": "Low",
+    "strongest_domains": [
+      "ECO",
+      "GEO",
+      "POL"
+    ],
+    "weakest_domains": [
+      "TEC",
+      "CRY"
+    ],
+    "known_blind_spots": [
+      "Tends to treat official government statements as more credible than warranted",
+      "Slow to pick up crypto-native stories",
+      "Both-sides framing can obscure when one side is clearly wrong"
+    ],
+    "best_use": "Baseline factual confirmation for any claim; first-pass truth filter",
+    "worst_use": "Breaking crypto news; analysis/interpretation of why events matter",
+    "adjustment_factor": 0.9,
+    "notes": "Gold standard wire service. When Reuters reports a fact, it is almost certainly true. Their speed has declined slightly vs AP on breaking US news. Owned by Thomson Reuters \u2014 slight pro-business institutional framing."
+  },
+  {
+    "source": "Associated Press (AP)",
+    "url": "https://apnews.com",
+    "category": "Wire Services",
+    "credibility_scores": {
+      "factual_accuracy": 4.8,
+      "directional_bias": 4.8,
+      "domain_expertise": 3.8,
+      "source_of_source_quality": 4.5,
+      "breaking_news_reliability": 4.3
+    },
+    "composite_score": 4.52,
+    "bias_direction": "Near-neutral; slight liberal lean on social issues framing",
+    "bias_magnitude": "Low",
+    "strongest_domains": [
+      "POL",
+      "GEO",
+      "LAW"
+    ],
+    "weakest_domains": [
+      "CRY",
+      "TEC",
+      "ECO"
+    ],
+    "known_blind_spots": [
+      "US-centric framing on international stories",
+      "Can be slow on financial/economic nuance",
+      "Institutional trust in official sources sometimes delays corrections"
+    ],
+    "best_use": "Confirming facts, especially US domestic events and elections",
+    "worst_use": "Financial market interpretation; crypto coverage; speed on non-US breaking",
+    "adjustment_factor": 0.9,
+    "notes": "Cooperative owned by US newspapers. Slightly better than Reuters on US domestic breaking news. Their fact-check operation is solid. Style guide is the de facto US journalism standard."
+  },
+  {
+    "source": "Agence France-Presse (AFP)",
+    "url": "https://www.afp.com",
+    "category": "Wire Services",
+    "credibility_scores": {
+      "factual_accuracy": 4.5,
+      "directional_bias": 4.3,
+      "domain_expertise": 3.7,
+      "source_of_source_quality": 4.0,
+      "breaking_news_reliability": 3.8
+    },
+    "composite_score": 4.18,
+    "bias_direction": "European/French institutional perspective",
+    "bias_magnitude": "Low",
+    "strongest_domains": [
+      "GEO",
+      "POL"
+    ],
+    "weakest_domains": [
+      "CRY",
+      "TEC",
+      "ECO"
+    ],
+    "known_blind_spots": [
+      "Francophone Africa coverage strong but rest of Africa weak",
+      "European regulatory framing applied globally",
+      "Less financial depth than Reuters"
+    ],
+    "best_use": "European and African geopolitical events; French-speaking world",
+    "worst_use": "US domestic politics nuance; financial markets; technology",
+    "adjustment_factor": 0.84,
+    "notes": "Third major wire service. Stronger in Europe/Africa/Middle East than AP. Partially French government funded \u2014 not fully independent but editorial wall generally holds. English-language output is thinner than Reuters/AP."
+  },
+  {
+    "source": "New York Times",
+    "url": "https://www.nytimes.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 4.2,
+      "directional_bias": 2.8,
+      "domain_expertise": 4.3,
+      "source_of_source_quality": 4.5,
+      "breaking_news_reliability": 3.5
+    },
+    "composite_score": 3.9,
+    "bias_direction": "Liberal/center-left on social and cultural issues; establishment on foreign policy",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "POL",
+      "LAW",
+      "GEO"
+    ],
+    "weakest_domains": [
+      "CRY",
+      "ECO"
+    ],
+    "known_blind_spots": [
+      "Coastal elite bubble on cultural issues \u2014 systematically misreads rural/populist sentiment",
+      "Editorial page bleeds into news framing more than admitted",
+      "Overweights anonymous senior official sources",
+      "Slow to correct or acknowledge misses (e.g., WMD, Russiagate framing)",
+      "Trump coverage oscillates between alarm and normalization"
+    ],
+    "best_use": "Deep investigative pieces with named sources; legal/SCOTUS analysis; long-form features",
+    "worst_use": "Predicting election outcomes or populist sentiment; real-time breaking news; anything requiring understanding of crypto/DeFi",
+    "adjustment_factor": 0.78,
+    "notes": "Still the most important US newspaper for agenda-setting. Factual accuracy is high on reported facts but framing and story selection carry significant liberal lean. For prediction markets: excellent source for legal/regulatory developments, unreliable for gauging political sentiment outside coastal metros. Apply -10% confidence on political prediction framing."
+  },
+  {
+    "source": "Washington Post",
+    "url": "https://www.washingtonpost.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 3.8,
+      "directional_bias": 2.5,
+      "domain_expertise": 3.8,
+      "source_of_source_quality": 4.0,
+      "breaking_news_reliability": 3.3
+    },
+    "composite_score": 3.51,
+    "bias_direction": "Liberal; anti-Trump editorial posture; pro-establishment on national security",
+    "bias_magnitude": "Medium-High",
+    "strongest_domains": [
+      "POL",
+      "GEO"
+    ],
+    "weakest_domains": [
+      "CRY",
+      "TEC",
+      "ECO"
+    ],
+    "known_blind_spots": [
+      "Bezos ownership creates conflicts on Amazon/tech coverage",
+      "DC insider access creates capture by sources",
+      "Post-2024 editorial turbulence under new leadership has damaged newsroom morale and reliability",
+      "Democracy-dies-in-darkness framing can shade factual reporting"
+    ],
+    "best_use": "DC legislative process; federal agency actions; national security leaks",
+    "worst_use": "Predicting Republican voter behavior; tech industry coverage; anything requiring neutrality on Trump-adjacent topics",
+    "adjustment_factor": 0.7,
+    "notes": "Declined meaningfully from peak Watergate/Snowden era. Internal turmoil post-2024 with Bezos editorial interventions. Still has excellent reporters but institutional reliability has dropped. For prediction markets: good for sourcing what DC insiders think, but discount political predictions by 15-20%."
+  },
+  {
+    "source": "Wall Street Journal",
+    "url": "https://www.wsj.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 4.3,
+      "directional_bias": 3.2,
+      "domain_expertise": 4.5,
+      "source_of_source_quality": 4.5,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 4.11,
+    "bias_direction": "Pro-business, fiscal conservative; editorial page is hard-right but news desk is relatively straight",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "ECO",
+      "POL",
+      "LAW"
+    ],
+    "weakest_domains": [
+      "ENV",
+      "CRY"
+    ],
+    "known_blind_spots": [
+      "Editorial page is ideologically driven and should be ignored for trading",
+      "Pro-corporate framing in business coverage (soft on executive misconduct)",
+      "Climate/environmental coverage is inadequate",
+      "News desk vs editorial page are essentially two different publications"
+    ],
+    "best_use": "Financial/economic news; corporate actions; Fed coverage (Timiraos); M&A; regulatory",
+    "worst_use": "Environmental markets; social policy predictions; editorial page opinions on anything",
+    "adjustment_factor": 0.82,
+    "notes": "News desk is genuinely excellent \u2014 among the best business journalism in the world. MUST separate news from opinion/editorial. For prediction markets: Timiraos Fed coverage alone makes this essential. Corporate/M&A scoops are reliable. Discount editorial page to zero."
+  },
+  {
+    "source": "Bloomberg",
+    "url": "https://www.bloomberg.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 4.5,
+      "directional_bias": 3.5,
+      "domain_expertise": 4.8,
+      "source_of_source_quality": 4.3,
+      "breaking_news_reliability": 4.5
+    },
+    "composite_score": 4.34,
+    "bias_direction": "Pro-market, centrist-establishment; Bloomberg LP ownership creates conflicts",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "ECO",
+      "CRY",
+      "TEC"
+    ],
+    "weakest_domains": [
+      "ENV",
+      "POL"
+    ],
+    "known_blind_spots": [
+      "Cannot cover Bloomberg LP or Michael Bloomberg objectively",
+      "Terminal-first culture means best scoops stay behind expensive paywall",
+      "Pro-market framing can underweight systemic risks",
+      "China coverage influenced by Bloomberg's business interests there"
+    ],
+    "best_use": "Real-time financial/economic data; Fed/central bank coverage; commodity markets; crypto market data",
+    "worst_use": "Coverage involving Bloomberg LP; political predictions; anything requiring skepticism of market efficiency",
+    "adjustment_factor": 0.87,
+    "notes": "For prediction market trading, Bloomberg is the single most valuable news source for ECO domain. Terminal data is gold standard. Their speed on financial breaking news is unmatched. Mark Gurman for Apple, Matt Levine for financial analysis. Crypto coverage has improved significantly."
+  },
+  {
+    "source": "Financial Times (FT)",
+    "url": "https://www.ft.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 4.5,
+      "directional_bias": 3.8,
+      "domain_expertise": 4.7,
+      "source_of_source_quality": 4.5,
+      "breaking_news_reliability": 3.8
+    },
+    "composite_score": 4.33,
+    "bias_direction": "Pro-globalization, centrist-establishment, European institutional perspective",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "ECO",
+      "GEO",
+      "POL"
+    ],
+    "weakest_domains": [
+      "CRY",
+      "TEC"
+    ],
+    "known_blind_spots": [
+      "Nikkei ownership occasionally creates subtle Asia-Pacific framing",
+      "Pro-EU institutional bias \u2014 slow to acknowledge EU dysfunction",
+      "Globalist worldview can miss populist/nationalist developments",
+      "Less deep on US domestic politics than US papers"
+    ],
+    "best_use": "European economic policy; ECB/BoE coverage; international trade; geopolitical analysis",
+    "worst_use": "US domestic cultural politics; crypto native stories; technology startups",
+    "adjustment_factor": 0.87,
+    "notes": "Best non-US financial newspaper. Alphaville blog is underrated for contrarian financial analysis. Extremely strong on European central banking and regulation. For prediction markets: essential for ECO and GEO involving Europe. Lagarde/ECB coverage is the gold standard (directly relevant to ECB markets)."
+  },
+  {
+    "source": "Barron's",
+    "url": "https://www.barrons.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 4.0,
+      "directional_bias": 3.5,
+      "domain_expertise": 4.0,
+      "source_of_source_quality": 3.5,
+      "breaking_news_reliability": 2.5
+    },
+    "composite_score": 3.7,
+    "bias_direction": "Pro-investor, bullish tilt",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "ECO"
+    ],
+    "weakest_domains": [
+      "GEO",
+      "POL",
+      "CRY",
+      "TEC",
+      "ENV",
+      "LAW"
+    ],
+    "known_blind_spots": [
+      "Investment thesis-driven rather than news-driven",
+      "Bullish bias \u2014 bearish calls are rare and timid",
+      "Weekend publication cadence means stale on breaking"
+    ],
+    "best_use": "Investment thesis evaluation; earnings analysis; sector overviews",
+    "worst_use": "Breaking news of any kind; non-financial market predictions; geopolitics",
+    "adjustment_factor": 0.74,
+    "notes": "Dow Jones sibling of WSJ. Useful for understanding market consensus on economic themes but NOT a news source for prediction market trading. Treat as background research only."
+  },
+  {
+    "source": "Politico",
+    "url": "https://www.politico.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 3.8,
+      "directional_bias": 3.0,
+      "domain_expertise": 4.5,
+      "source_of_source_quality": 3.8,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 3.8,
+    "bias_direction": "DC establishment/insider; slightly left-center; process-focused",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "POL",
+      "LAW"
+    ],
+    "weakest_domains": [
+      "CRY",
+      "TEC",
+      "ECO",
+      "ENV"
+    ],
+    "known_blind_spots": [
+      "DC bubble \u2014 treats insider consensus as fact",
+      "Process journalism over substance",
+      "Captured by sources who use them for strategic leaks",
+      "Politico Europe is a separate (weaker) operation"
+    ],
+    "best_use": "Legislative process; executive orders; regulatory timelines; DC political dynamics",
+    "worst_use": "Predicting election outcomes outside DC; financial markets; anything outside the Beltway",
+    "adjustment_factor": 0.76,
+    "notes": "The single best source for 'what is Congress actually doing right now.' Playbook newsletter is essential for DC political prediction markets. But their predictive framing is often wrong \u2014 they report insider consensus which is frequently the wrong side of prediction markets."
+  },
+  {
+    "source": "The Hill",
+    "url": "https://thehill.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 3.3,
+      "directional_bias": 3.2,
+      "domain_expertise": 3.5,
+      "source_of_source_quality": 3.0,
+      "breaking_news_reliability": 3.5
+    },
+    "composite_score": 3.31,
+    "bias_direction": "Center-left; clickbait incentives distort coverage",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "POL"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "TEC",
+      "CRY",
+      "GEO",
+      "ENV"
+    ],
+    "known_blind_spots": [
+      "Aggregation-heavy \u2014 often repackages others' reporting",
+      "Headline-body disconnect is severe (clickbait headlines)",
+      "Op-ed section is very low quality and mixed in with news",
+      "Speed over accuracy trade-off"
+    ],
+    "best_use": "Quick signal that something is happening in Congress; aggregation of political statements",
+    "worst_use": "Definitive source for any claim; analysis; anything requiring nuance",
+    "adjustment_factor": 0.66,
+    "notes": "Useful as a signal detector \u2014 if The Hill is covering something, it's politically relevant. But ALWAYS verify claims with primary sources. Their op-eds are essentially blogs and should be completely ignored for trading."
+  },
+  {
+    "source": "Axios",
+    "url": "https://www.axios.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 3.7,
+      "directional_bias": 3.3,
+      "domain_expertise": 3.5,
+      "source_of_source_quality": 3.5,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 3.59,
+    "bias_direction": "Center-establishment; tech-optimist; brevity masks complexity",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "POL",
+      "TEC"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "GEO",
+      "ENV"
+    ],
+    "known_blind_spots": [
+      "Brevity format ('smart brevity') systematically removes nuance",
+      "Scoop-driven \u2014 sometimes publishes before fully confirmed",
+      "Tech coverage is Silicon Valley insider framing",
+      "Acquired by Cox Enterprises \u2014 corporate interests"
+    ],
+    "best_use": "Quick signal detection; scoops on personnel/policy changes; 'what happened' summaries",
+    "worst_use": "Deep analysis; understanding why something matters; definitive sourcing",
+    "adjustment_factor": 0.72,
+    "notes": "Good for speed, bad for depth. Their scoops on personnel moves and policy shifts are often first and correct. But the 'smart brevity' format means you lose critical context. Treat as alert system, not analysis."
+  },
+  {
+    "source": "CNN",
+    "url": "https://www.cnn.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 3.2,
+      "directional_bias": 2.3,
+      "domain_expertise": 3.0,
+      "source_of_source_quality": 3.2,
+      "breaking_news_reliability": 3.0
+    },
+    "composite_score": 2.96,
+    "bias_direction": "Liberal/center-left; anti-Trump posture; sensationalist",
+    "bias_magnitude": "High",
+    "strongest_domains": [
+      "POL"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC"
+    ],
+    "known_blind_spots": [
+      "24-hour news cycle creates speculation-as-news",
+      "Panel format elevates opinion to news status",
+      "Post-2022 attempted centrist rebrand has been inconsistent",
+      "Breaking news coverage often gets initial facts wrong then corrects",
+      "Ratings-driven story selection"
+    ],
+    "best_use": "Detecting that a story has reached mass-market awareness (sentiment indicator)",
+    "worst_use": "Factual sourcing for any prediction; financial analysis; measured political assessment",
+    "adjustment_factor": 0.59,
+    "notes": "For prediction markets, CNN is useful primarily as a SENTIMENT indicator \u2014 when CNN covers something heavily, it tells you what the median uninformed bettor is seeing. Factor this into market pricing, but never use CNN as a factual source for trading decisions."
+  },
+  {
+    "source": "MSNBC",
+    "url": "https://www.msnbc.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 2.8,
+      "directional_bias": 1.5,
+      "domain_expertise": 2.8,
+      "source_of_source_quality": 2.8,
+      "breaking_news_reliability": 2.5
+    },
+    "composite_score": 2.51,
+    "bias_direction": "Strong progressive/liberal; anti-Republican; advocacy journalism",
+    "bias_magnitude": "High",
+    "strongest_domains": [
+      "POL"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "GEO",
+      "ENV"
+    ],
+    "known_blind_spots": [
+      "Cannot accurately assess Republican/conservative strategy or sentiment",
+      "Systematically overestimates legal jeopardy for Republicans",
+      "Opinion and news are indistinguishable",
+      "Echo chamber with its audience"
+    ],
+    "best_use": "Understanding what progressive activists believe; gauging Democratic base sentiment",
+    "worst_use": "Any factual claim about Republicans; legal predictions; election forecasting",
+    "adjustment_factor": 0.5,
+    "notes": "Near-zero value as a factual source. Useful ONLY as a gauge of progressive sentiment. For prediction markets: if MSNBC is confidently predicting an outcome unfavorable to Republicans, consider the contrarian position. Their legal analysis (e.g., 'walls closing in') has been systematically wrong for years."
+  },
+  {
+    "source": "Fox News",
+    "url": "https://www.foxnews.com",
+    "category": "US Domestic",
+    "credibility_scores": {
+      "factual_accuracy": 2.5,
+      "directional_bias": 1.5,
+      "domain_expertise": 2.5,
+      "source_of_source_quality": 2.5,
+      "breaking_news_reliability": 2.5
+    },
+    "composite_score": 2.3,
+    "bias_direction": "Strong conservative/right-wing; pro-Trump; populist",
+    "bias_magnitude": "High",
+    "strongest_domains": [
+      "POL"
+    ],
+    "weakest_domains": [
+      "ENV",
+      "TEC",
+      "CRY",
+      "ECO",
+      "LAW"
+    ],
+    "known_blind_spots": [
+      "Cannot accurately assess Democratic strategy or sentiment",
+      "Dominion lawsuit proved internal disbelief of on-air claims",
+      "Opinion hosts drive the brand, not the news desk",
+      "Environmental/climate coverage is ideologically distorted",
+      "Systematically underreports Republican legal/ethical issues"
+    ],
+    "best_use": "Understanding conservative base sentiment; gauging what Republican voters believe",
+    "worst_use": "Any factual claim about Democrats; legal analysis; environmental markets; election forecasting",
+    "adjustment_factor": 0.46,
+    "notes": "Mirror image of MSNBC but with documented evidence of knowingly broadcasting false claims (Dominion settlement $787.5M). For prediction markets: useful ONLY as a sentiment gauge for the Republican base. Their news desk occasionally produces decent straight reporting (Jennifer Griffin on defense) but it's buried under opinion. If Fox is confidently predicting an outcome unfavorable to Democrats, consider the contrarian position."
+  },
+  {
+    "source": "BBC",
+    "url": "https://www.bbc.com",
+    "category": "UK/European",
+    "credibility_scores": {
+      "factual_accuracy": 4.3,
+      "directional_bias": 3.5,
+      "domain_expertise": 4.0,
+      "source_of_source_quality": 4.0,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 4.02,
+    "bias_direction": "British establishment; slight center-left social, center-right economic; pro-Western on geopolitics",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "GEO",
+      "POL"
+    ],
+    "weakest_domains": [
+      "CRY",
+      "ECO"
+    ],
+    "known_blind_spots": [
+      "British colonial/Commonwealth perspective on developing world",
+      "UK domestic politics coverage is more contested than international",
+      "Impartiality mandate sometimes creates false equivalence",
+      "Middle East coverage has been criticized from both sides \u2014 actual bias is pro-Western status quo"
+    ],
+    "best_use": "International news verification; non-US geopolitical events; African and South Asian coverage",
+    "worst_use": "US domestic politics nuance; crypto; financial market interpretation",
+    "adjustment_factor": 0.8,
+    "notes": "Best free English-language international news source. World Service coverage of Africa, South Asia is unmatched. For prediction markets: excellent for GEO domain verification. Their caution means they're sometimes slow but rarely wrong on confirmed facts. Apply slight Western-institutional discount on Middle East and developing world framing."
+  },
+  {
+    "source": "The Guardian",
+    "url": "https://www.theguardian.com",
+    "category": "UK/European",
+    "credibility_scores": {
+      "factual_accuracy": 3.8,
+      "directional_bias": 2.3,
+      "domain_expertise": 3.5,
+      "source_of_source_quality": 3.8,
+      "breaking_news_reliability": 3.2
+    },
+    "composite_score": 3.38,
+    "bias_direction": "Left/progressive; pro-environment; anti-corporate",
+    "bias_magnitude": "Medium-High",
+    "strongest_domains": [
+      "ENV",
+      "POL",
+      "LAW"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY"
+    ],
+    "known_blind_spots": [
+      "Environmental advocacy bleeds into news coverage",
+      "Anti-corporate framing can distort business reporting",
+      "UK Labour-sympathetic",
+      "Snowden/WikiLeaks history creates overconfidence in leak-based reporting"
+    ],
+    "best_use": "Environmental/climate policy developments; civil liberties/surveillance; UK politics from left perspective",
+    "worst_use": "Business/corporate analysis; balanced political assessment; crypto",
+    "adjustment_factor": 0.68,
+    "notes": "Investigative journalism is genuinely excellent (Panama Papers partnership, Snowden). But news coverage carries a visible progressive lens. For prediction markets: ENV domain markets benefit from Guardian coverage. For other domains, apply progressive-framing discount. Their climate reporting is actually MORE accurate than centrist outlets on scientific consensus."
+  },
+  {
+    "source": "The Economist",
+    "url": "https://www.economist.com",
+    "category": "UK/European",
+    "credibility_scores": {
+      "factual_accuracy": 4.3,
+      "directional_bias": 3.3,
+      "domain_expertise": 4.5,
+      "source_of_source_quality": 4.0,
+      "breaking_news_reliability": 2.0
+    },
+    "composite_score": 3.88,
+    "bias_direction": "Classical liberal; pro-free-trade; pro-globalization; technocratic",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "ECO",
+      "GEO",
+      "POL"
+    ],
+    "weakest_domains": [
+      "CRY",
+      "TEC"
+    ],
+    "known_blind_spots": [
+      "Free-market ideology blinds to market failures",
+      "Technocratic worldview misses populist dynamics",
+      "Unsigned articles mean no individual accountability",
+      "Weekly cadence means never breaking news"
+    ],
+    "best_use": "Geopolitical analysis; economic policy assessment; understanding elite consensus view",
+    "worst_use": "Breaking news; populist sentiment prediction; technology disruption assessment",
+    "adjustment_factor": 0.78,
+    "notes": "Excellent analytical source but with a clear ideological lens. Their predictions track record is middling \u2014 sophisticated analysis but systematically wrong on populism, protectionism, and disruption. For prediction markets: great for understanding the 'smart money' consensus, which is sometimes exactly wrong. Their election prediction model has been decent."
+  },
+  {
+    "source": "Euronews",
+    "url": "https://www.euronews.com",
+    "category": "UK/European",
+    "credibility_scores": {
+      "factual_accuracy": 3.5,
+      "directional_bias": 3.5,
+      "domain_expertise": 3.0,
+      "source_of_source_quality": 3.0,
+      "breaking_news_reliability": 3.0
+    },
+    "composite_score": 3.3,
+    "bias_direction": "Pro-EU institutional",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "LAW"
+    ],
+    "known_blind_spots": [
+      "Pro-EU framing is structural \u2014 EU-skeptic positions underrepresented",
+      "Aggregation-heavy, limited original reporting",
+      "Multilingual operation means quality varies by language desk"
+    ],
+    "best_use": "European policy developments; EU institutional actions",
+    "worst_use": "Analysis; non-European coverage; financial markets",
+    "adjustment_factor": 0.66,
+    "notes": "Decent for European political coverage but not a primary source for trading decisions. Partially acquired by Portuguese group with ties to Hungarian interests \u2014 ownership questions. Use for EU policy signals, verify elsewhere."
+  },
+  {
+    "source": "Der Spiegel (English)",
+    "url": "https://www.spiegel.de/international",
+    "category": "UK/European",
+    "credibility_scores": {
+      "factual_accuracy": 3.8,
+      "directional_bias": 3.0,
+      "domain_expertise": 3.8,
+      "source_of_source_quality": 4.0,
+      "breaking_news_reliability": 3.0
+    },
+    "composite_score": 3.58,
+    "bias_direction": "Center-left; German institutional perspective; pro-European",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "GEO",
+      "POL"
+    ],
+    "weakest_domains": [
+      "CRY",
+      "TEC",
+      "ECO"
+    ],
+    "known_blind_spots": [
+      "Relotius fabrication scandal (2018) damaged credibility \u2014 reforms implemented but institutional trust was shaken",
+      "German-centric worldview",
+      "English edition is a fraction of the German content"
+    ],
+    "best_use": "German/European political analysis; investigative features on European affairs",
+    "worst_use": "Breaking news; US domestic; financial markets; anything requiring non-European perspective",
+    "adjustment_factor": 0.72,
+    "notes": "Post-Relotius reforms have been serious, but the fabrication scandal is a permanent credibility mark. English edition is curated and generally higher quality than average German output. For prediction markets: useful for German/EU-specific markets only."
+  },
+  {
+    "source": "Al Jazeera",
+    "url": "https://www.aljazeera.com",
+    "category": "Middle East/Geopolitical",
+    "credibility_scores": {
+      "factual_accuracy": 3.3,
+      "directional_bias": 2.0,
+      "domain_expertise": 4.2,
+      "source_of_source_quality": 3.5,
+      "breaking_news_reliability": 3.8
+    },
+    "composite_score": 3.29,
+    "bias_direction": "Pro-Qatar state interests; pro-Muslim Brotherhood; anti-Saudi/UAE; anti-Israel",
+    "bias_magnitude": "High",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "CRY",
+      "TEC",
+      "ECO"
+    ],
+    "known_blind_spots": [
+      "Qatar foreign policy alignment is structural and non-negotiable",
+      "Cannot cover Qatar critically",
+      "Pro-Brotherhood framing on Egypt, Tunisia, Libya",
+      "Israel-Palestine coverage is advocacy, not journalism",
+      "Anti-Saudi framing during blockade period; has moderated slightly post-reconciliation"
+    ],
+    "best_use": "Ground-level Middle East reporting (especially Gaza, Syria); developing world coverage; non-Western perspective as counterweight",
+    "worst_use": "Any story involving Qatar interests; balanced Israel-Palestine assessment; Gulf state coverage",
+    "adjustment_factor": 0.66,
+    "notes": "Al Jazeera English is significantly better than Al Jazeera Arabic. Their on-the-ground reporting in conflict zones is genuinely valuable and courageous. For prediction markets: excellent for GEO domain when you apply the Qatar-interest discount. Their coverage of areas Western media ignores (sub-Saharan Africa, Southeast Asia) adds genuine value. But on Qatar-adjacent topics, treat as state media."
+  },
+  {
+    "source": "Times of Israel",
+    "url": "https://www.timesofisrael.com",
+    "category": "Middle East/Geopolitical",
+    "credibility_scores": {
+      "factual_accuracy": 3.5,
+      "directional_bias": 2.3,
+      "domain_expertise": 4.0,
+      "source_of_source_quality": 3.5,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 3.41,
+    "bias_direction": "Pro-Israel; Zionist center-left; critical of Netanyahu from within Israeli consensus",
+    "bias_magnitude": "Medium-High",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "ENV"
+    ],
+    "known_blind_spots": [
+      "Palestinian perspectives are underrepresented structurally",
+      "Israeli security framing applied to all conflict coverage",
+      "Blog platform mixed with news creates quality inconsistency",
+      "Settlement/occupation coverage within Israeli Overton window"
+    ],
+    "best_use": "Israeli domestic politics; IDF operations; Israeli-Iran tensions; hostage situations",
+    "worst_use": "Balanced Israel-Palestine analysis; Palestinian perspective; non-Middle East topics",
+    "adjustment_factor": 0.68,
+    "notes": "Fast and comprehensive on Israeli political developments. For prediction markets: essential for Israel/Iran/Gaza markets but apply pro-Israel discount. Their speed on Israeli military operations is unmatched in English. Blog section is unreliable \u2014 stick to staff reporting."
+  },
+  {
+    "source": "Haaretz",
+    "url": "https://www.haaretz.com",
+    "category": "Middle East/Geopolitical",
+    "credibility_scores": {
+      "factual_accuracy": 4.0,
+      "directional_bias": 2.8,
+      "domain_expertise": 4.3,
+      "source_of_source_quality": 4.0,
+      "breaking_news_reliability": 3.5
+    },
+    "composite_score": 3.77,
+    "bias_direction": "Israeli left/liberal; critical of occupation; anti-Netanyahu",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "GEO",
+      "POL"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC"
+    ],
+    "known_blind_spots": [
+      "Israeli left perspective \u2014 minority view in current Israeli politics",
+      "Anti-Netanyahu framing can overestimate his political vulnerability",
+      "English edition is subset of Hebrew content"
+    ],
+    "best_use": "Critical Israeli domestic analysis; occupation/settlement coverage; Israeli intelligence community leaks",
+    "worst_use": "Predicting Israeli election outcomes (systematically overestimates left); non-Middle East topics",
+    "adjustment_factor": 0.75,
+    "notes": "Israel's most respected left-wing newspaper. Higher journalistic standards than Times of Israel. For prediction markets: provides essential counterweight to pro-government Israeli sources. Their intelligence community sources are excellent. But apply left-opposition discount on political predictions within Israel."
+  },
+  {
+    "source": "Middle East Eye",
+    "url": "https://www.middleeasteye.net",
+    "category": "Middle East/Geopolitical",
+    "credibility_scores": {
+      "factual_accuracy": 3.0,
+      "directional_bias": 2.0,
+      "domain_expertise": 3.8,
+      "source_of_source_quality": 3.0,
+      "breaking_news_reliability": 3.0
+    },
+    "composite_score": 2.96,
+    "bias_direction": "Pro-Palestinian; pro-Muslim Brotherhood; aligned with Qatari interests; anti-Saudi/UAE",
+    "bias_magnitude": "High",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "LAW"
+    ],
+    "known_blind_spots": [
+      "Qatari funding creates same structural biases as Al Jazeera",
+      "Consistently frames Saudi/UAE actions in worst possible light",
+      "Muslim Brotherhood sympathetic framing",
+      "Can publish underverified claims that align with editorial stance"
+    ],
+    "best_use": "Alternative perspective on Middle East events; coverage of stories Western and Israeli media underreport",
+    "worst_use": "Definitive sourcing on any claim; Gulf state coverage; balanced assessment",
+    "adjustment_factor": 0.59,
+    "notes": "UK-based but Qatari-aligned. Occasionally breaks genuine scoops that others miss. For prediction markets: use as a signal that something is happening, then verify with Reuters/AP. Their David Hearst editorials telegraph Qatari thinking, which has predictive value for Qatar-related markets."
+  },
+  {
+    "source": "Iran International",
+    "url": "https://www.iranintl.com",
+    "category": "Middle East/Geopolitical",
+    "credibility_scores": {
+      "factual_accuracy": 3.0,
+      "directional_bias": 1.8,
+      "domain_expertise": 3.8,
+      "source_of_source_quality": 3.0,
+      "breaking_news_reliability": 3.5
+    },
+    "composite_score": 2.97,
+    "bias_direction": "Anti-Iranian regime; Saudi-funded; pro-opposition",
+    "bias_magnitude": "High",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "POL"
+    ],
+    "known_blind_spots": [
+      "Saudi funding creates structural anti-Iran regime bias",
+      "Amplifies opposition claims without adequate verification",
+      "Cannot assess regime stability objectively \u2014 systematically overestimates weakness",
+      "Diaspora audience creates confirmation bias feedback loop"
+    ],
+    "best_use": "Iran protest movements; Iranian diaspora sentiment; signal of Saudi intelligence perspective",
+    "worst_use": "Objective assessment of Iranian regime stability; Iran nuclear deal coverage; anything requiring balance on Iran",
+    "adjustment_factor": 0.59,
+    "notes": "Now owned by Volant Media (UK) but originally Saudi-backed. Their Farsi-language reporting has genuine sources inside Iran that Western media lacks. For prediction markets: useful for Iran-specific markets as a SIGNAL source, but their regime-will-fall framing has been wrong for years. Apply heavy regime-stability discount."
+  },
+  {
+    "source": "PressTV",
+    "url": "https://www.presstv.ir",
+    "category": "Middle East/Geopolitical",
+    "credibility_scores": {
+      "factual_accuracy": 1.5,
+      "directional_bias": 1.0,
+      "domain_expertise": 2.5,
+      "source_of_source_quality": 1.5,
+      "breaking_news_reliability": 2.0
+    },
+    "composite_score": 1.65,
+    "bias_direction": "Iranian state propaganda; anti-Western; anti-Israel",
+    "bias_magnitude": "Extreme",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "POL",
+      "LAW",
+      "ENV"
+    ],
+    "known_blind_spots": [
+      "State media \u2014 editorial line IS Iranian government position",
+      "Fabricates or distorts unfavorable information",
+      "Conspiracy theories presented as news",
+      "Cannot report negatively on Iranian regime actions"
+    ],
+    "best_use": "ONLY as a direct signal of what the Iranian government wants the world to believe; official Iranian government statements",
+    "worst_use": "Factual source for ANY claim; any reporting on Western countries; Israel coverage",
+    "adjustment_factor": 0.33,
+    "notes": "This is state propaganda, not journalism. For prediction markets: the ONLY value is as a direct window into Iranian regime messaging. When PressTV says something, it tells you what Iran wants you to believe \u2014 which has genuine predictive value for Iranian government actions. Never treat any factual claim as credible."
+  },
+  {
+    "source": "Al-Monitor",
+    "url": "https://www.al-monitor.com",
+    "category": "Middle East/Geopolitical",
+    "credibility_scores": {
+      "factual_accuracy": 3.8,
+      "directional_bias": 3.5,
+      "domain_expertise": 4.5,
+      "source_of_source_quality": 4.0,
+      "breaking_news_reliability": 3.0
+    },
+    "composite_score": 3.82,
+    "bias_direction": "Center; pro-engagement/diplomacy; US foreign policy establishment perspective",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC"
+    ],
+    "known_blind_spots": [
+      "Pro-diplomacy framing can underweight military escalation probabilities",
+      "US foreign policy establishment lens",
+      "Jamal Daniel (founder) background in Turkish/Iraqi affairs influences focus"
+    ],
+    "best_use": "Middle East diplomatic analysis; US-Iran/Turkey/Israel relationship coverage; expert commentary",
+    "worst_use": "Breaking news; non-Middle East topics; financial markets",
+    "adjustment_factor": 0.76,
+    "notes": "Best English-language Middle East analytical source. Their contributor network includes genuine regional experts. For prediction markets: highest value for GEO domain markets involving Middle East diplomacy. Ben Caspit on Israeli politics, Amberin Zaman on Turkey/Kurds are genuinely excellent. Apply slight pro-diplomacy discount on military escalation predictions."
+  },
+  {
+    "source": "The War Zone (TWZ)",
+    "url": "https://www.twz.com",
+    "category": "Defense/Military",
+    "credibility_scores": {
+      "factual_accuracy": 4.0,
+      "directional_bias": 3.8,
+      "domain_expertise": 4.8,
+      "source_of_source_quality": 3.8,
+      "breaking_news_reliability": 4.2
+    },
+    "composite_score": 4.12,
+    "bias_direction": "Pro-military technology enthusiasm; US defense perspective",
+    "bias_magnitude": "Low",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "POL",
+      "ENV"
+    ],
+    "known_blind_spots": [
+      "Military-tech enthusiasm can overstate capabilities",
+      "US-centric defense perspective",
+      "Less strong on geopolitical context \u2014 focuses on hardware and operations",
+      "Tyler Rogoway's style is enthusiastic which occasionally outpaces confirmation"
+    ],
+    "best_use": "Military operations tracking; weapons systems analysis; satellite imagery analysis; conflict monitoring",
+    "worst_use": "Political context of conflicts; economic implications; non-defense topics",
+    "adjustment_factor": 0.82,
+    "notes": "Exceptional for tracking military movements, weapons usage, and operational details. For prediction markets: essential for GEO domain markets involving military conflict (Ukraine, Middle East). Their satellite imagery analysis and open-source intelligence work is genuinely best-in-class for a media outlet. Combine with ISW for the full picture."
+  },
+  {
+    "source": "Defense News",
+    "url": "https://www.defensenews.com",
+    "category": "Defense/Military",
+    "credibility_scores": {
+      "factual_accuracy": 4.0,
+      "directional_bias": 3.3,
+      "domain_expertise": 4.5,
+      "source_of_source_quality": 4.0,
+      "breaking_news_reliability": 3.5
+    },
+    "composite_score": 3.91,
+    "bias_direction": "Pro-defense industry; US military establishment perspective",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "POL",
+      "ENV"
+    ],
+    "known_blind_spots": [
+      "Defense industry advertising revenue creates soft pro-contractor bias",
+      "Pentagon source access requires maintaining relationships",
+      "Procurement coverage is thorough but uncritical of waste"
+    ],
+    "best_use": "Defense procurement; military budget; weapons program status; Pentagon policy",
+    "worst_use": "Anti-war or critical defense analysis; non-military topics",
+    "adjustment_factor": 0.78,
+    "notes": "Sightline Media Group publication. Reliable on defense industry facts and procurement. For prediction markets: useful for defense spending markets and military capability assessments. Less useful for conflict prediction \u2014 they cover the tools, not the strategy."
+  },
+  {
+    "source": "Breaking Defense",
+    "url": "https://breakingdefense.com",
+    "category": "Defense/Military",
+    "credibility_scores": {
+      "factual_accuracy": 3.8,
+      "directional_bias": 3.3,
+      "domain_expertise": 4.3,
+      "source_of_source_quality": 3.8,
+      "breaking_news_reliability": 3.8
+    },
+    "composite_score": 3.8,
+    "bias_direction": "Pro-defense establishment; industry-adjacent",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "POL",
+      "ENV"
+    ],
+    "known_blind_spots": [
+      "Similar to Defense News \u2014 industry relationship maintenance",
+      "Less editorial infrastructure than Defense News",
+      "Speed sometimes beats accuracy on scoops"
+    ],
+    "best_use": "Defense industry scoops; contractor competition updates; budget analysis",
+    "worst_use": "Strategic/geopolitical analysis; non-defense topics",
+    "adjustment_factor": 0.76,
+    "notes": "Faster than Defense News, slightly less rigorous. Good complement. For prediction markets: useful for defense-specific markets, especially procurement and contractor competition outcomes."
+  },
+  {
+    "source": "Jane's (Janes.com)",
+    "url": "https://www.janes.com",
+    "category": "Defense/Military",
+    "credibility_scores": {
+      "factual_accuracy": 4.8,
+      "directional_bias": 4.3,
+      "domain_expertise": 5.0,
+      "source_of_source_quality": 4.8,
+      "breaking_news_reliability": 3.0
+    },
+    "composite_score": 4.56,
+    "bias_direction": "Western defense establishment perspective; data-driven",
+    "bias_magnitude": "Low",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "POL"
+    ],
+    "known_blind_spots": [
+      "Paywalled \u2014 limits accessibility",
+      "Western military capability assessments may overrate NATO vs adversaries",
+      "Slow publication cadence for some products",
+      "Data-focused means they miss political/diplomatic context"
+    ],
+    "best_use": "Military capability assessments; weapons systems data; order of battle; country risk assessment",
+    "worst_use": "Breaking news; political analysis; anything requiring non-military perspective",
+    "adjustment_factor": 0.91,
+    "notes": "Gold standard for defense/military data since 1898. For prediction markets: if Jane's says a country has a military capability, it does. Their country risk assessments are used by actual military planners. Extremely expensive but unmatched for GEO domain accuracy on military questions."
+  },
+  {
+    "source": "Bellingcat",
+    "url": "https://www.bellingcat.com",
+    "category": "Defense/Military",
+    "credibility_scores": {
+      "factual_accuracy": 4.5,
+      "directional_bias": 3.0,
+      "domain_expertise": 4.8,
+      "source_of_source_quality": 4.8,
+      "breaking_news_reliability": 2.5
+    },
+    "composite_score": 4.09,
+    "bias_direction": "Pro-Western; anti-Russian government; human rights advocacy",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "POL"
+    ],
+    "known_blind_spots": [
+      "Focus on Russian/authoritarian state misdeeds means less scrutiny of Western actions",
+      "Partially funded by Western governments/NGOs \u2014 creates structural alignment",
+      "OSINT methodology is excellent but can be overconfident in conclusions",
+      "Slow \u2014 investigations take weeks/months"
+    ],
+    "best_use": "Verifying military incidents; OSINT investigation results; Russian military/intelligence activity; chemical weapons attribution",
+    "worst_use": "Breaking news; balanced assessment of Western military actions; anything requiring speed",
+    "adjustment_factor": 0.82,
+    "notes": "Pioneered modern OSINT journalism. Their methodology is genuinely rigorous \u2014 showing evidence, not just claiming sources. For prediction markets: when Bellingcat publishes an investigation, the factual claims are almost always correct (MH17, Skripal, Syrian chemical weapons). Apply anti-Russia focus discount but trust the methodology."
+  },
+  {
+    "source": "Institute for the Study of War (ISW)",
+    "url": "https://www.understandingwar.org",
+    "category": "Defense/Military",
+    "credibility_scores": {
+      "factual_accuracy": 4.2,
+      "directional_bias": 2.8,
+      "domain_expertise": 4.8,
+      "source_of_source_quality": 4.2,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 4.02,
+    "bias_direction": "Hawkish/interventionist; pro-Ukraine; neoconservative-adjacent (Kagan family)",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "GEO"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "CRY",
+      "TEC",
+      "POL",
+      "ENV"
+    ],
+    "known_blind_spots": [
+      "Kagan family ties to neoconservative movement create hawkish default",
+      "Pro-Ukraine framing has been consistent \u2014 may overstate Ukrainian capabilities",
+      "Interventionist worldview underestimates costs of military action",
+      "Daily Ukraine updates are essential but carry optimistic-for-Ukraine bias"
+    ],
+    "best_use": "Daily Ukraine-Russia conflict tracking; military campaign analysis; understanding battlefront developments",
+    "worst_use": "Assessing whether intervention is wise; balanced peace negotiation coverage; non-military analysis",
+    "adjustment_factor": 0.8,
+    "notes": "Their daily Ukraine assessments have become the standard reference. For prediction markets: ESSENTIAL for any Ukraine/Russia market. Apply 10-15% pro-Ukraine discount on their assessment of Ukrainian military prospects. Their mapped frontline data is factual; their strategic assessments carry ideological bias. Kim Kagan and Frederick Kagan's hawkish worldview is structural."
+  },
+  {
+    "source": "CME FedWatch",
+    "url": "https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html",
+    "category": "Financial/Economic",
+    "credibility_scores": {
+      "factual_accuracy": 5.0,
+      "directional_bias": 5.0,
+      "domain_expertise": 5.0,
+      "source_of_source_quality": 5.0,
+      "breaking_news_reliability": 5.0
+    },
+    "composite_score": 5.0,
+    "bias_direction": "None \u2014 pure market-derived data",
+    "bias_magnitude": "None",
+    "strongest_domains": [
+      "ECO"
+    ],
+    "weakest_domains": [],
+    "known_blind_spots": [
+      "Reflects market consensus, which CAN be wrong",
+      "Implied probabilities assume risk-neutral pricing (not true probabilities)",
+      "Liquidity-dependent \u2014 thin markets produce unreliable signals",
+      "Not a prediction \u2014 it's a price. The market can be systematically mispriced."
+    ],
+    "best_use": "Fed rate decision probability baseline; identifying Polymarket mispricing vs CME consensus",
+    "worst_use": "Treating market prices as truth \u2014 they're consensus, not fact",
+    "adjustment_factor": 1.0,
+    "notes": "This is DATA, not journalism. Perfect accuracy score because it reports what it measures \u2014 Fed funds futures implied probabilities. For prediction markets: this IS the benchmark for ECO domain Fed markets. When Polymarket diverges from CME FedWatch, one of them is wrong (usually Polymarket). But remember: CME can also be wrong \u2014 they had 2022 rate hikes badly underpriced."
+  },
+  {
+    "source": "Nick Timiraos / WSJ Fed Coverage",
+    "url": "https://www.wsj.com/news/author/nick-timiraos",
+    "category": "Financial/Economic",
+    "credibility_scores": {
+      "factual_accuracy": 4.8,
+      "directional_bias": 4.5,
+      "domain_expertise": 5.0,
+      "source_of_source_quality": 4.8,
+      "breaking_news_reliability": 4.8
+    },
+    "composite_score": 4.78,
+    "bias_direction": "Fed-sympathetic framing (access journalism); not partisan",
+    "bias_magnitude": "Low",
+    "strongest_domains": [
+      "ECO"
+    ],
+    "weakest_domains": [],
+    "known_blind_spots": [
+      "Access journalism \u2014 Timiraos maintains sources by being sympathetic to Fed narrative",
+      "Effectively acts as unofficial Fed communication channel (this is also the VALUE)",
+      "When the Fed wants to leak, they go through Timiraos \u2014 so he's a conduit, not independent"
+    ],
+    "best_use": "Fed policy signals; FOMC preview/reaction; understanding what the Fed wants you to believe",
+    "worst_use": "Critical assessment of Fed policy errors; anything outside monetary policy",
+    "adjustment_factor": 0.96,
+    "notes": "The single most important individual journalist for ECO domain prediction markets. Timiraos IS the Fed's preferred communication channel. When he publishes, it's often the Fed telling you what they're going to do. For prediction markets: a Timiraos article before FOMC is the strongest possible non-data signal. His book on Covid-era Fed policy confirms the access-journalism dynamic."
+  },
+  {
+    "source": "Zero Hedge",
+    "url": "https://www.zerohedge.com",
+    "category": "Financial/Economic",
+    "credibility_scores": {
+      "factual_accuracy": 2.0,
+      "directional_bias": 1.5,
+      "domain_expertise": 2.8,
+      "source_of_source_quality": 1.8,
+      "breaking_news_reliability": 2.5
+    },
+    "composite_score": 2.09,
+    "bias_direction": "Permabear; anti-establishment; conspiratorial; pro-gold/Bitcoin; anti-Fed",
+    "bias_magnitude": "Extreme",
+    "strongest_domains": [
+      "ECO",
+      "CRY"
+    ],
+    "weakest_domains": [
+      "POL",
+      "LAW",
+      "ENV",
+      "TEC"
+    ],
+    "known_blind_spots": [
+      "Permabear bias means they predict every crash and claim credit when one eventually happens",
+      "Anonymous authorship ('Tyler Durden') eliminates accountability",
+      "Conspiracy theories mixed with legitimate market commentary",
+      "Pro-Russia slant on geopolitics has been documented",
+      "Aggregates others' work often without adequate attribution"
+    ],
+    "best_use": "Detecting extreme bearish sentiment; occasionally first on leaked financial documents; understanding what retail contrarians believe",
+    "worst_use": "Factual source for ANY claim; geopolitical analysis; any directional prediction",
+    "adjustment_factor": 0.42,
+    "notes": "This is a contrarian indicator, not a news source. For prediction markets: when Zero Hedge is universally bearish on something, consider the opposite position. They've called approximately 200 of the last 2 crashes. Occasionally aggregates genuinely interesting financial data or leaked documents, but you must verify everything independently. Their audience is a meaningful segment of prediction market participants."
+  },
+  {
+    "source": "CoinDesk",
+    "url": "https://www.coindesk.com",
+    "category": "Crypto",
+    "credibility_scores": {
+      "factual_accuracy": 3.5,
+      "directional_bias": 2.8,
+      "domain_expertise": 4.5,
+      "source_of_source_quality": 3.5,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 3.61,
+    "bias_direction": "Pro-crypto; industry-embedded; was owned by DCG (conflict), now Bullish",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "CRY"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "POL",
+      "GEO",
+      "LAW"
+    ],
+    "known_blind_spots": [
+      "Pro-crypto bias is structural \u2014 their audience and revenue depend on crypto adoption",
+      "Ownership by Bullish (crypto exchange) is a direct conflict of interest",
+      "Previously owned by DCG \u2014 broke FTX story partly due to DCG/Alameda rivalry",
+      "Regulation coverage framed from crypto-industry perspective"
+    ],
+    "best_use": "Crypto industry news; token launches; exchange developments; DeFi updates",
+    "worst_use": "Objective assessment of crypto risks; traditional financial analysis; non-crypto topics",
+    "adjustment_factor": 0.72,
+    "notes": "Broke the initial FTX/Alameda balance sheet story \u2014 their biggest journalism moment. But the motivation was partly DCG competitive intelligence. For prediction markets: essential for CRY domain signal detection. Apply pro-crypto discount. Their Consensus conference reporting signals industry sentiment."
+  },
+  {
+    "source": "The Block",
+    "url": "https://www.theblock.co",
+    "category": "Crypto",
+    "credibility_scores": {
+      "factual_accuracy": 3.8,
+      "directional_bias": 3.0,
+      "domain_expertise": 4.5,
+      "source_of_source_quality": 3.8,
+      "breaking_news_reliability": 4.2
+    },
+    "composite_score": 3.82,
+    "bias_direction": "Pro-crypto but more analytical; data-driven",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "CRY"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "POL",
+      "GEO",
+      "LAW"
+    ],
+    "known_blind_spots": [
+      "CEO secretly took $27M from Alameda (2022 scandal) \u2014 has reformed but trust was damaged",
+      "Pro-crypto industry framing remains",
+      "Data dashboard is genuinely useful but free version is limited"
+    ],
+    "best_use": "Crypto data analysis; DeFi metrics; exchange flow data; crypto regulatory developments",
+    "worst_use": "Non-crypto topics; objective risk assessment of crypto",
+    "adjustment_factor": 0.76,
+    "notes": "More analytical than CoinDesk. Their data products are genuinely valuable. The Alameda funding scandal was serious but the organization has reformed under new leadership. For prediction markets: The Block's data dashboard + their scoops on exchange/regulatory actions make them the best CRY domain source for trading signals."
+  },
+  {
+    "source": "Decrypt",
+    "url": "https://decrypt.co",
+    "category": "Crypto",
+    "credibility_scores": {
+      "factual_accuracy": 3.2,
+      "directional_bias": 2.5,
+      "domain_expertise": 3.8,
+      "source_of_source_quality": 3.0,
+      "breaking_news_reliability": 3.5
+    },
+    "composite_score": 3.19,
+    "bias_direction": "Pro-crypto; more retail/consumer focused; hype-adjacent",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "CRY"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "POL",
+      "GEO",
+      "LAW",
+      "TEC"
+    ],
+    "known_blind_spots": [
+      "Retail audience means coverage skews toward price action and hype",
+      "Less rigorous editorial standards than CoinDesk or The Block",
+      "NFT/gaming coverage can be uncritically enthusiastic"
+    ],
+    "best_use": "Retail crypto sentiment; NFT/gaming crypto developments; quick crypto news aggregation",
+    "worst_use": "Definitive sourcing; institutional crypto analysis; non-crypto topics",
+    "adjustment_factor": 0.64,
+    "notes": "Third-tier crypto publication. For prediction markets: useful as a gauge of retail crypto sentiment (which moves Polymarket CRY markets). When Decrypt is hyping something, retail money is flowing in \u2014 useful for timing contrarian positions."
+  },
+  {
+    "source": "Glassnode",
+    "url": "https://glassnode.com",
+    "category": "Crypto",
+    "credibility_scores": {
+      "factual_accuracy": 4.8,
+      "directional_bias": 4.8,
+      "domain_expertise": 5.0,
+      "source_of_source_quality": 5.0,
+      "breaking_news_reliability": 4.5
+    },
+    "composite_score": 4.83,
+    "bias_direction": "None \u2014 on-chain data",
+    "bias_magnitude": "None",
+    "strongest_domains": [
+      "CRY"
+    ],
+    "weakest_domains": [],
+    "known_blind_spots": [
+      "On-chain data only \u2014 misses off-chain/OTC activity",
+      "Heuristics for entity clustering can be wrong",
+      "Bitcoin-centric \u2014 weaker on alt-chain coverage",
+      "Data is backward-looking \u2014 tells you what happened, not what will happen"
+    ],
+    "best_use": "On-chain flow analysis; exchange balance tracking; whale movement detection; network health metrics",
+    "worst_use": "Price prediction; off-chain market dynamics; non-Bitcoin chain analysis",
+    "adjustment_factor": 0.97,
+    "notes": "DATA source, not journalism. For prediction markets: Glassnode exchange flow data is the best available signal for BTC/ETH price markets. When exchange inflows spike, selling pressure is building. Their HODL waves and SOPR metrics have genuine predictive value for CRY domain markets. Free tier is limited but sufficient for basic trading signals."
+  },
+  {
+    "source": "CoinGlass",
+    "url": "https://www.coinglass.com",
+    "category": "Crypto",
+    "credibility_scores": {
+      "factual_accuracy": 4.8,
+      "directional_bias": 4.8,
+      "domain_expertise": 4.8,
+      "source_of_source_quality": 5.0,
+      "breaking_news_reliability": 4.5
+    },
+    "composite_score": 4.79,
+    "bias_direction": "None \u2014 derivatives market data",
+    "bias_magnitude": "None",
+    "strongest_domains": [
+      "CRY"
+    ],
+    "weakest_domains": [],
+    "known_blind_spots": [
+      "Derivatives data only \u2014 misses spot-market dynamics",
+      "Liquidation data is exchange-reported (can be manipulated)",
+      "Funding rates are lagging indicators, not leading"
+    ],
+    "best_use": "Crypto derivatives positioning; liquidation cascades; funding rates; open interest tracking",
+    "worst_use": "Spot market analysis; fundamental analysis; non-derivatives topics",
+    "adjustment_factor": 0.96,
+    "notes": "DATA source. For prediction markets: CoinGlass liquidation maps and funding rate data are essential for CRY domain BTC/ETH price target markets. When funding is extremely positive + high open interest, a liquidation cascade is likely. The combination of Glassnode (on-chain) + CoinGlass (derivatives) gives the fullest picture for crypto market prediction."
+  },
+  {
+    "source": "Crypto Twitter/X",
+    "url": "https://x.com",
+    "category": "Crypto",
+    "credibility_scores": {
+      "factual_accuracy": 1.8,
+      "directional_bias": 1.5,
+      "domain_expertise": 3.0,
+      "source_of_source_quality": 1.5,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 2.17,
+    "bias_direction": "Extremely pro-crypto; shilling; pump-driven; bag-talking",
+    "bias_magnitude": "Extreme",
+    "strongest_domains": [
+      "CRY"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "POL",
+      "GEO",
+      "LAW",
+      "ENV",
+      "TEC"
+    ],
+    "known_blind_spots": [
+      "Financial incentives to promote holdings",
+      "Sybil attacks and bot networks amplify narratives",
+      "Survivorship bias \u2014 you only hear from winners",
+      "Coordinated pump groups disguised as organic sentiment",
+      "FOMO/FUD cycle creates extreme noise"
+    ],
+    "best_use": "Speed \u2014 fastest source for crypto events by 5-15 minutes; sentiment gauge; detecting narrative shifts",
+    "worst_use": "ANY factual claim; investment thesis; analysis of any kind",
+    "adjustment_factor": 0.43,
+    "notes": "The fastest and least reliable source simultaneously. For prediction markets: CT is where CRY market movements originate. Key accounts (e.g., @EmberCN for on-chain flows, @lookonchain for whale tracking) provide genuine signal. But 90%+ is noise/shilling. Build a curated list of 20-30 reliable accounts and ignore the rest. NEVER trade on anonymous CT claims without verification."
+  },
+  {
+    "source": "arXiv",
+    "url": "https://arxiv.org",
+    "category": "AI/Technology",
+    "credibility_scores": {
+      "factual_accuracy": 3.8,
+      "directional_bias": 4.5,
+      "domain_expertise": 5.0,
+      "source_of_source_quality": 4.5,
+      "breaking_news_reliability": 4.5
+    },
+    "composite_score": 4.32,
+    "bias_direction": "None editorially; publication bias toward positive results; corporate lab papers have implicit promotional element",
+    "bias_magnitude": "Low",
+    "strongest_domains": [
+      "TEC"
+    ],
+    "weakest_domains": [
+      "POL",
+      "GEO",
+      "ECO",
+      "CRY",
+      "LAW"
+    ],
+    "known_blind_spots": [
+      "No peer review \u2014 quality ranges from Nobel-worthy to garbage",
+      "Corporate lab papers (Google, OpenAI, Meta) are marketing as much as science",
+      "Replication crisis applies \u2014 benchmark results may not generalize",
+      "Speed of publication means errors persist",
+      "Publication bias toward positive results"
+    ],
+    "best_use": "AI capability benchmarks; new model announcements; understanding technical claims from AI labs",
+    "worst_use": "Definitive scientific claims (not peer-reviewed); non-STEM topics; practical product implications",
+    "adjustment_factor": 0.86,
+    "notes": "For prediction markets: arXiv is where AI capability claims originate. TEC domain markets about AI benchmarks and capabilities should reference arXiv papers. But DISCOUNT corporate lab papers by 20% \u2014 they cherry-pick benchmarks and underreport failures. Academic papers from independent labs are more reliable. The lag between arXiv preprint and real-world product is usually 6-18 months."
+  },
+  {
+    "source": "The Verge",
+    "url": "https://www.theverge.com",
+    "category": "AI/Technology",
+    "credibility_scores": {
+      "factual_accuracy": 3.8,
+      "directional_bias": 3.0,
+      "domain_expertise": 4.0,
+      "source_of_source_quality": 3.5,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 3.67,
+    "bias_direction": "Tech-skeptical consumer advocacy; anti-Big Tech editorial stance",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "TEC"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "GEO",
+      "CRY",
+      "POL"
+    ],
+    "known_blind_spots": [
+      "Anti-Big Tech framing can be reflexive rather than analytical",
+      "Consumer-focused \u2014 misses B2B and enterprise technology",
+      "Nilay Patel's editorial voice is opinionated and sometimes substitutes for analysis",
+      "Platform/product reviews carry audience-optimization incentives"
+    ],
+    "best_use": "Consumer tech product launches; tech regulatory developments; Apple/Google/Meta product coverage",
+    "worst_use": "Enterprise tech; B2B analysis; financial implications of tech; deep AI technical analysis",
+    "adjustment_factor": 0.73,
+    "notes": "Vox Media publication. For prediction markets: useful for TEC domain consumer product markets. Their antitrust/regulatory coverage is actually good. Tom Warren on Microsoft is excellent. But for AI capability markets, they're too consumer-focused to provide the technical depth needed."
+  },
+  {
+    "source": "Ars Technica",
+    "url": "https://arstechnica.com",
+    "category": "AI/Technology",
+    "credibility_scores": {
+      "factual_accuracy": 4.3,
+      "directional_bias": 3.5,
+      "domain_expertise": 4.5,
+      "source_of_source_quality": 4.0,
+      "breaking_news_reliability": 3.3
+    },
+    "composite_score": 4.05,
+    "bias_direction": "Tech-literate skepticism; pro-open-source; privacy-conscious",
+    "bias_magnitude": "Low-Medium",
+    "strongest_domains": [
+      "TEC"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "GEO",
+      "CRY",
+      "POL"
+    ],
+    "known_blind_spots": [
+      "Technical depth can miss business/market implications",
+      "Pro-open-source bias may underrate closed-source products",
+      "Less breaking news \u2014 more analysis/explainer",
+      "Conde Nast ownership"
+    ],
+    "best_use": "Technical analysis of AI models; security vulnerabilities; detailed tech explainers; science coverage",
+    "worst_use": "Breaking news; business/market analysis; non-tech topics",
+    "adjustment_factor": 0.81,
+    "notes": "Highest technical accuracy of the general tech publications. For prediction markets: best for TEC domain markets requiring technical understanding (AI benchmarks, security vulnerabilities, space technology). Their AI coverage (especially by Benj Edwards and Kyle Orland) is technically sound and appropriately skeptical."
+  },
+  {
+    "source": "Wired",
+    "url": "https://www.wired.com",
+    "category": "AI/Technology",
+    "credibility_scores": {
+      "factual_accuracy": 3.5,
+      "directional_bias": 2.8,
+      "domain_expertise": 3.5,
+      "source_of_source_quality": 3.3,
+      "breaking_news_reliability": 2.8
+    },
+    "composite_score": 3.27,
+    "bias_direction": "Progressive tech-skeptic; privacy/surveillance focus; cultural lens on technology",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "TEC"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "GEO",
+      "CRY",
+      "POL"
+    ],
+    "known_blind_spots": [
+      "Cultural/political framing often overwhelms technical analysis",
+      "Long-form narrative format means slow and sometimes outdated by publication",
+      "Tech-anxiety framing can overstate risks",
+      "Conde Nast ownership influences advertiser relationships"
+    ],
+    "best_use": "Long-form tech investigations; privacy/surveillance stories; cybersecurity features",
+    "worst_use": "Breaking news; quick factual verification; financial/market implications",
+    "adjustment_factor": 0.65,
+    "notes": "More literary than technical. For prediction markets: limited direct value. Occasionally produces important investigative pieces but cadence is too slow for trading. Their coverage of AI safety/risk is more cultural than technical."
+  },
+  {
+    "source": "VentureBeat",
+    "url": "https://venturebeat.com",
+    "category": "AI/Technology",
+    "credibility_scores": {
+      "factual_accuracy": 3.3,
+      "directional_bias": 2.8,
+      "domain_expertise": 3.8,
+      "source_of_source_quality": 3.0,
+      "breaking_news_reliability": 3.5
+    },
+    "composite_score": 3.29,
+    "bias_direction": "Pro-AI industry; enterprise/VC perspective; hype-adjacent",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "TEC"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "GEO",
+      "CRY",
+      "POL",
+      "LAW"
+    ],
+    "known_blind_spots": [
+      "AI hype cycle participation \u2014 rarely skeptical of AI claims",
+      "VC/enterprise audience means pro-startup framing",
+      "Event-driven revenue model (Transform conference) creates conflicts",
+      "Press release journalism is common"
+    ],
+    "best_use": "Enterprise AI adoption trends; startup announcements; AI industry event coverage",
+    "worst_use": "Critical AI assessment; consumer technology; non-tech topics",
+    "adjustment_factor": 0.66,
+    "notes": "For prediction markets: useful for gauging AI industry hype (which influences TEC domain markets). When VentureBeat is breathless about an AI capability, the market is probably already overpriced. Their Transform conference coverage signals enterprise AI adoption trends."
+  },
+  {
+    "source": "Anthropic Blog",
+    "url": "https://www.anthropic.com/news",
+    "category": "AI/Technology",
+    "credibility_scores": {
+      "factual_accuracy": 4.5,
+      "directional_bias": 2.0,
+      "domain_expertise": 5.0,
+      "source_of_source_quality": 4.5,
+      "breaking_news_reliability": 5.0
+    },
+    "composite_score": 4.15,
+    "bias_direction": "Self-promotional; AI safety framing; competitive positioning vs OpenAI/Google",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "TEC"
+    ],
+    "weakest_domains": [],
+    "known_blind_spots": [
+      "Will not publish negative results about own products",
+      "Safety framing is genuine but also competitive differentiation",
+      "Benchmark selection is self-serving",
+      "Timing of announcements is strategic (often competitive response)"
+    ],
+    "best_use": "Claude model capabilities (authoritative source); Anthropic-specific AI safety research; Constitutional AI methodology",
+    "worst_use": "Comparative AI model assessment; objective AI safety landscape; anything about competitors",
+    "adjustment_factor": 0.83,
+    "notes": "Primary source for anything about Claude/Anthropic. For prediction markets: authoritative for TEC domain markets about Anthropic's own products. DISCOUNT benchmark claims by 15% (cherry-picked). Their safety research publications are genuinely important for AI regulation markets."
+  },
+  {
+    "source": "Google AI Blog / DeepMind Blog",
+    "url": "https://blog.google/technology/ai/",
+    "category": "AI/Technology",
+    "credibility_scores": {
+      "factual_accuracy": 4.3,
+      "directional_bias": 2.0,
+      "domain_expertise": 5.0,
+      "source_of_source_quality": 4.5,
+      "breaking_news_reliability": 5.0
+    },
+    "composite_score": 4.07,
+    "bias_direction": "Self-promotional; frames everything as Google innovation; downplays competitors",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "TEC"
+    ],
+    "weakest_domains": [],
+    "known_blind_spots": [
+      "Vaporware announcements \u2014 not all announced capabilities ship",
+      "Gemini benchmark drama showed willingness to cherry-pick",
+      "Multiple overlapping AI teams create confusion about what's real",
+      "Timing of announcements is competitive (often around OpenAI launches)"
+    ],
+    "best_use": "Google/DeepMind AI capabilities (authoritative); Gemini model details; Google product AI integration",
+    "worst_use": "Comparative AI assessment; timeline promises; anything about competitors",
+    "adjustment_factor": 0.81,
+    "notes": "Primary source for Google AI. For prediction markets: authoritative on Google's own products but HEAVILY discount timelines and capabilities until independently verified. The Gemini Ultra benchmark presentation was misleadingly edited. Apply 20% discount to capability claims until third-party confirmation."
+  },
+  {
+    "source": "OpenAI Blog",
+    "url": "https://openai.com/blog",
+    "category": "AI/Technology",
+    "credibility_scores": {
+      "factual_accuracy": 3.8,
+      "directional_bias": 1.8,
+      "domain_expertise": 5.0,
+      "source_of_source_quality": 4.0,
+      "breaking_news_reliability": 5.0
+    },
+    "composite_score": 3.78,
+    "bias_direction": "Strongly self-promotional; AGI narrative framing; hype-maximizing",
+    "bias_magnitude": "High",
+    "strongest_domains": [
+      "TEC"
+    ],
+    "weakest_domains": [],
+    "known_blind_spots": [
+      "Hype is a business strategy \u2014 every launch is 'revolutionary'",
+      "Safety washing \u2014 pivoted from nonprofit to capped-profit to for-profit while claiming safety focus",
+      "Sam Altman's public statements have been unreliable (board firing, Scarlett Johansson voice)",
+      "Model capability claims are systematically overstated in demos",
+      "Timeline promises are routinely missed"
+    ],
+    "best_use": "OpenAI product announcements (authoritative source for what they're shipping); GPT model details",
+    "worst_use": "Capability claims before independent verification; timeline promises; safety commitments; competitive comparisons",
+    "adjustment_factor": 0.76,
+    "notes": "For prediction markets: OpenAI blog is authoritative ONLY for what OpenAI is doing, not for what they claim it means. Apply 25% discount to capability claims. Their demo videos are particularly unreliable (GPT-4o voice demo was pre-recorded and misleading). Sam Altman's Twitter is even less reliable than the blog. For TEC domain markets about OpenAI specifically, this is the primary source \u2014 but verify everything."
+  },
+  {
+    "source": "SCOTUSblog",
+    "url": "https://www.scotusblog.com",
+    "category": "Legal/Regulatory",
+    "credibility_scores": {
+      "factual_accuracy": 4.8,
+      "directional_bias": 4.0,
+      "domain_expertise": 5.0,
+      "source_of_source_quality": 5.0,
+      "breaking_news_reliability": 4.8
+    },
+    "composite_score": 4.7,
+    "bias_direction": "Slight liberal/academic legal perspective; Supreme Court institutionalist",
+    "bias_magnitude": "Low",
+    "strongest_domains": [
+      "LAW"
+    ],
+    "weakest_domains": [],
+    "known_blind_spots": [
+      "Supreme Court-only focus means no lower court or regulatory agency coverage",
+      "Academic legal perspective may not predict political outcomes of decisions",
+      "Institutionalist framing may underestimate the current Court's willingness to break norms"
+    ],
+    "best_use": "SCOTUS case tracking; oral argument analysis; opinion prediction; cert petition monitoring",
+    "worst_use": "Lower court proceedings; regulatory agency actions; anything outside SCOTUS",
+    "adjustment_factor": 0.94,
+    "notes": "THE definitive source for Supreme Court coverage. For prediction markets: essential for any LAW domain SCOTUS market. Their case analysis and oral argument live-blogging are unmatched. Amy Howe's coverage is authoritative. For SCOTUS decision prediction markets, this is the single most valuable source."
+  },
+  {
+    "source": "Law360",
+    "url": "https://www.law360.com",
+    "category": "Legal/Regulatory",
+    "credibility_scores": {
+      "factual_accuracy": 4.3,
+      "directional_bias": 4.0,
+      "domain_expertise": 4.5,
+      "source_of_source_quality": 4.3,
+      "breaking_news_reliability": 4.0
+    },
+    "composite_score": 4.25,
+    "bias_direction": "Legal industry perspective; defense-bar sympathetic",
+    "bias_magnitude": "Low",
+    "strongest_domains": [
+      "LAW"
+    ],
+    "weakest_domains": [
+      "GEO",
+      "CRY",
+      "TEC"
+    ],
+    "known_blind_spots": [
+      "Paywalled \u2014 expensive and limited access",
+      "Legal industry audience means coverage favors lawyers' perspective",
+      "Less accessible to non-lawyers",
+      "Corporate litigation coverage stronger than public interest law"
+    ],
+    "best_use": "Federal litigation tracking; regulatory enforcement actions; antitrust proceedings; SEC actions",
+    "worst_use": "Public-facing legal analysis; non-legal topics; anything requiring plain language",
+    "adjustment_factor": 0.85,
+    "notes": "LexisNexis-owned legal trade publication. For prediction markets: excellent for LAW domain markets involving specific litigation outcomes, regulatory enforcement, and antitrust. Their speed on legal filings is very good. Expensive but if you're trading legal markets, worth it."
+  },
+  {
+    "source": "Courthouse News Service",
+    "url": "https://www.courthousenews.com",
+    "category": "Legal/Regulatory",
+    "credibility_scores": {
+      "factual_accuracy": 4.0,
+      "directional_bias": 3.8,
+      "domain_expertise": 4.0,
+      "source_of_source_quality": 4.5,
+      "breaking_news_reliability": 4.3
+    },
+    "composite_score": 4.04,
+    "bias_direction": "Slight progressive lean; plaintiff-bar sympathetic; pro-transparency",
+    "bias_magnitude": "Low",
+    "strongest_domains": [
+      "LAW"
+    ],
+    "weakest_domains": [
+      "ECO",
+      "GEO",
+      "CRY",
+      "TEC"
+    ],
+    "known_blind_spots": [
+      "Plaintiff-side framing in civil litigation coverage",
+      "State court focus means less federal expertise than Law360",
+      "Smaller staff limits depth"
+    ],
+    "best_use": "State court filings; civil rights litigation; government transparency cases; real-time court reporting",
+    "worst_use": "Non-legal topics; federal regulatory analysis; corporate transactions",
+    "adjustment_factor": 0.81,
+    "notes": "Reporters physically in courthouses. For prediction markets: valuable for LAW domain markets involving state-level litigation. Their court access means they're often first on filings and rulings. Less comprehensive than Law360 but free and faster on state court matters."
+  },
+  {
+    "source": "Twitter/X - Verified Official Entities",
+    "url": "https://x.com",
+    "category": "Social",
+    "credibility_scores": {
+      "factual_accuracy": 4.2,
+      "directional_bias": 3.0,
+      "domain_expertise": 4.0,
+      "source_of_source_quality": 4.5,
+      "breaking_news_reliability": 4.8
+    },
+    "composite_score": 4.01,
+    "bias_direction": "Varies by entity \u2014 official accounts are self-serving by nature",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "POL",
+      "ECO",
+      "TEC"
+    ],
+    "weakest_domains": [],
+    "known_blind_spots": [
+      "Official accounts only share favorable information",
+      "X verification (post-Musk) is unreliable \u2014 blue check is purchasable",
+      "Government accounts can post propaganda",
+      "Speed can outpace internal verification"
+    ],
+    "best_use": "Official statements from governments, agencies, companies (primary source); fastest source for official announcements",
+    "worst_use": "Objective assessment; context; anything beyond 'what did entity X officially say'",
+    "adjustment_factor": 0.8,
+    "notes": "For prediction markets: official entity accounts are PRIMARY sources \u2014 when @POTUS tweets, that IS the presidential statement. When @federalreserve posts, that IS the Fed communication. Fastest possible source for official actions. But treat as what-they-said, not what-is-true. CRITICAL: verify account authenticity independently (X blue checks are now meaningless for verification)."
+  },
+  {
+    "source": "Twitter/X - Journalists at Known Outlets",
+    "url": "https://x.com",
+    "category": "Social",
+    "credibility_scores": {
+      "factual_accuracy": 3.3,
+      "directional_bias": 2.8,
+      "domain_expertise": 3.5,
+      "source_of_source_quality": 2.8,
+      "breaking_news_reliability": 4.5
+    },
+    "composite_score": 3.31,
+    "bias_direction": "Varies by journalist; Twitter incentivizes hot takes over accuracy",
+    "bias_magnitude": "Medium",
+    "strongest_domains": [
+      "POL",
+      "GEO"
+    ],
+    "weakest_domains": [],
+    "known_blind_spots": [
+      "Engagement incentives corrupt judgment \u2014 viral > accurate",
+      "Personal opinions bleed into reporting on Twitter",
+      "Journalists tweet preliminary/unverified info they wouldn't put in print",
+      "Quote-tweet pile-ons create false consensus",
+      "Twitter persona may differ from published work quality"
+    ],
+    "best_use": "Early signals that a story is developing; journalist-to-journalist information exchange; scoops before publication",
+    "worst_use": "Definitive sourcing; nuanced analysis; any claim without a linked article",
+    "adjustment_factor": 0.66,
+    "notes": "For prediction markets: journalist Twitter is the early warning system. When multiple credible journalists tweet about the same development, something is happening. But ALWAYS wait for the actual article. Key accounts to follow per domain: Timiraos (Fed), Hersh-tier investigative (scoops), defense correspondents (GEO). Apply 30% discount to any tweet without a linked published article."
+  },
+  {
+    "source": "Twitter/X - Anonymous Accounts",
+    "url": "https://x.com",
+    "category": "Social",
+    "credibility_scores": {
+      "factual_accuracy": 1.5,
+      "directional_bias": 1.0,
+      "domain_expertise": 2.5,
+      "source_of_source_quality": 1.0,
+      "breaking_news_reliability": 3.0
+    },
+    "composite_score": 1.7,
+    "bias_direction": "Unknowable \u2014 could be anyone with any agenda; assume maximum bias",
+    "bias_magnitude": "Extreme-Unknown",
+    "strongest_domains": [
+      "CRY"
+    ],
+    "weakest_domains": [
+      "POL",
+      "LAW",
+      "ENV",
+      "ECO",
+      "GEO"
+    ],
+    "known_blind_spots": [
+      "Zero accountability",
+      "Could be state actors, market manipulators, or bots",
+      "Survivorship bias \u2014 you see the anonymous accounts that were right, not the thousands that were wrong",
+      "Pump-and-dump schemes are rampant",
+      "Identity can be anyone \u2014 including corporate/state intelligence operations"
+    ],
+    "best_use": "ONLY as sentiment/narrative indicators; occasional genuine insider leaks (verify independently); detecting emerging narratives before mainstream",
+    "worst_use": "Factual source for ANY claim; trading signal without independent verification; anything",
+    "adjustment_factor": 0.34,
+    "notes": "For prediction markets: anonymous Twitter accounts are the most dangerous information source. Some are genuinely valuable (certain on-chain analysts, domain experts who can't use real names). But you CANNOT distinguish signal from noise without a long track record of verification. The few valuable anonymous accounts (@EmberCN, @DefiIgnas type) should be individually tracked and scored over time. Default assumption: manipulation until proven otherwise."
+  }
+]

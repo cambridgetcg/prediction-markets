@@ -1,0 +1,137 @@
+2026-02-27 23:16:33 INFO  [perspective_matrix] Loaded 207 domains from /Users/yu/Desktop/prediction-markets/sources/source_bias.json
+2026-02-27 23:16:33 WARNING [truth_extractor] No API key found — TruthExtractor disabled.
+2026-02-27 23:16:33 INFO  [pipeline] Running single pass — all queries.
+2026-02-27 23:16:33 INFO  [pipeline] [23:16:33] Tick: iran-nuclear
+2026-02-27 23:16:34 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=US&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:35 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=GB&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:36 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=RU&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:38 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=SA&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:38 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=TR&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:40 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=IN&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:40 INFO  [pipeline]   20 new articles for iran-nuclear
+2026-02-27 23:16:40 INFO  [pipeline]   Enriched: {'llm_calls': 0, 'llm_articles': 0, 'fallback_articles': 20}
+2026-02-27 23:16:40 INFO  [pipeline]   1 active clusters
+2026-02-27 23:16:40 INFO  [pipeline]   1 divergent cluster(s) — processing.
+2026-02-27 23:16:40 ERROR [truth_extractor] No Anthropic client available.
+2026-02-27 23:16:40 INFO  [pipeline] [23:16:40] Tick: russia-ukraine
+2026-02-27 23:16:41 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=US&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:41 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=GB&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:43 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=RU&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:43 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=SA&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:44 INFO  [pipeline]   13 new articles for russia-ukraine
+2026-02-27 23:16:44 INFO  [pipeline]   Enriched: {'llm_calls': 0, 'llm_articles': 0, 'fallback_articles': 33}
+2026-02-27 23:16:44 INFO  [pipeline]   2 active clusters
+2026-02-27 23:16:44 INFO  [pipeline]   No divergent clusters.
+2026-02-27 23:16:44 INFO  [pipeline] [23:16:44] Tick: us-politics
+2026-02-27 23:16:45 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=US&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:45 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=GB&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:46 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=CN&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:47 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=RU&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:48 INFO  [pipeline]   25 new articles for us-politics
+2026-02-27 23:16:48 INFO  [pipeline]   Enriched: {'llm_calls': 0, 'llm_articles': 0, 'fallback_articles': 58}
+2026-02-27 23:16:48 INFO  [pipeline]   3 active clusters
+2026-02-27 23:16:48 INFO  [pipeline]   No divergent clusters.
+2026-02-27 23:16:48 INFO  [pipeline] [23:16:48] Tick: markets-macro
+2026-02-27 23:16:49 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=US&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:16:50 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=GB&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:16:51 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=DE&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:16:52 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=CN&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:16:52 INFO  [pipeline]   15 new articles for markets-macro
+2026-02-27 23:16:52 INFO  [pipeline]   Enriched: {'llm_calls': 0, 'llm_articles': 0, 'fallback_articles': 73}
+2026-02-27 23:16:52 INFO  [pipeline]   15 active clusters
+2026-02-27 23:16:52 INFO  [pipeline]   No divergent clusters.
+2026-02-27 23:16:52 INFO  [pipeline] [23:16:52] Tick: ai-regulation
+2026-02-27 23:16:53 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=AI+regulation+OR+artificial+intelligence+policy+OR+AI+safety&count=15&country=US&freshness=pw&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:54 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=AI+regulation+OR+artificial+intelligence+policy+OR+AI+safety&count=15&country=GB&freshness=pw&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:16:54 INFO  [pipeline]   10 new articles for ai-regulation
+2026-02-27 23:16:54 INFO  [pipeline]   Enriched: {'llm_calls': 0, 'llm_articles': 0, 'fallback_articles': 83}
+2026-02-27 23:16:54 INFO  [pipeline]   22 active clusters
+2026-02-27 23:16:54 INFO  [pipeline]   No divergent clusters.
+2026-02-27 23:16:54 INFO  [pipeline] Archived 4 stale clusters.
+2026-02-27 23:16:54 INFO  [pipeline] Pipeline shutting down.
+2026-02-27 23:24:21 INFO  [perspective_matrix] Loaded 207 domains from /Users/yu/Desktop/prediction-markets/sources/source_bias.json
+2026-02-27 23:24:21 INFO  [pipeline] Running single pass — all queries.
+2026-02-27 23:24:21 INFO  [pipeline] [23:24:21] Tick: iran-nuclear
+2026-02-27 23:24:22 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=US&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:23 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=GB&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:24 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=RU&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:25 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=SA&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:26 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=TR&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:27 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=IN&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:27 INFO  [pipeline]   0 new articles for iran-nuclear
+2026-02-27 23:24:27 INFO  [pipeline] [23:24:27] Tick: russia-ukraine
+2026-02-27 23:24:28 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=US&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:29 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=GB&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:30 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=RU&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:31 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=SA&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:31 INFO  [pipeline]   1 new articles for russia-ukraine
+2026-02-27 23:24:32 INFO  [httpx] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-02-27 23:24:32 INFO  [pipeline]   Enriched: {'llm_calls': 0, 'llm_articles': 0, 'fallback_articles': 1}
+2026-02-27 23:24:32 INFO  [pipeline]   18 active clusters
+2026-02-27 23:24:32 INFO  [pipeline]   No divergent clusters.
+2026-02-27 23:24:32 INFO  [pipeline] [23:24:32] Tick: us-politics
+2026-02-27 23:24:33 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=US&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:34 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=GB&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:35 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=CN&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:36 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=RU&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:36 INFO  [pipeline]   4 new articles for us-politics
+2026-02-27 23:24:36 INFO  [httpx] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-02-27 23:24:36 INFO  [pipeline]   Enriched: {'llm_calls': 0, 'llm_articles': 0, 'fallback_articles': 5}
+2026-02-27 23:24:36 INFO  [pipeline]   18 active clusters
+2026-02-27 23:24:36 INFO  [pipeline]   No divergent clusters.
+2026-02-27 23:24:36 INFO  [pipeline] [23:24:36] Tick: markets-macro
+2026-02-27 23:24:37 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=US&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:24:38 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=GB&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:24:39 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=DE&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:24:40 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=CN&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:24:40 INFO  [pipeline]   2 new articles for markets-macro
+2026-02-27 23:24:40 INFO  [httpx] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 401 Unauthorized"
+2026-02-27 23:24:40 INFO  [pipeline]   Enriched: {'llm_calls': 0, 'llm_articles': 0, 'fallback_articles': 7}
+2026-02-27 23:24:40 INFO  [pipeline]   18 active clusters
+2026-02-27 23:24:40 INFO  [pipeline]   No divergent clusters.
+2026-02-27 23:24:40 INFO  [pipeline] [23:24:40] Tick: ai-regulation
+2026-02-27 23:24:41 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=AI+regulation+OR+artificial+intelligence+policy+OR+AI+safety&count=15&country=US&freshness=pw&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:42 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=AI+regulation+OR+artificial+intelligence+policy+OR+AI+safety&count=15&country=GB&freshness=pw&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:24:42 INFO  [pipeline]   0 new articles for ai-regulation
+2026-02-27 23:24:42 INFO  [pipeline] Pipeline shutting down.
+2026-02-27 23:49:01 INFO  [perspective_matrix] Loaded 207 domains from /Users/yu/Desktop/prediction-markets/sources/source_bias.json
+2026-02-27 23:49:01 INFO  [pipeline] Running single pass — all queries.
+2026-02-27 23:49:01 INFO  [pipeline] [23:49:01] Tick: iran-nuclear
+2026-02-27 23:49:02 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=US&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:02 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=GB&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:04 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=RU&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:05 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=SA&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:05 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=TR&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:06 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Iran+OR+nuclear+OR+IAEA+OR+enrichment+OR+Geneva+talks&count=15&country=IN&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:07 INFO  [pipeline]   0 new articles for iran-nuclear
+2026-02-27 23:49:07 INFO  [pipeline] [23:49:07] Tick: russia-ukraine
+2026-02-27 23:49:08 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=US&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:09 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=GB&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:10 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=RU&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:11 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Russia+OR+Ukraine+OR+ceasefire+OR+Zelensky+OR+Crimea&count=15&country=SA&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:11 INFO  [pipeline]   0 new articles for russia-ukraine
+2026-02-27 23:49:11 INFO  [pipeline] [23:49:11] Tick: us-politics
+2026-02-27 23:49:12 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=US&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:13 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=GB&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:14 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=CN&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:15 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Trump+OR+Congress+OR+Senate+OR+executive+order+OR+tariff&count=20&country=RU&freshness=pd&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:15 INFO  [pipeline]   1 new articles for us-politics
+2026-02-27 23:49:16 INFO  [httpx] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-02-27 23:49:16 INFO  [pipeline]   Enriched: {'llm_calls': 1, 'llm_articles': 1, 'fallback_articles': 0}
+2026-02-27 23:49:16 INFO  [pipeline]   19 active clusters
+2026-02-27 23:49:16 INFO  [pipeline]   No divergent clusters.
+2026-02-27 23:49:16 INFO  [pipeline] [23:49:16] Tick: markets-macro
+2026-02-27 23:49:17 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=US&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:49:18 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=GB&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:49:19 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=DE&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:49:20 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=Federal+Reserve+OR+interest+rate+OR+inflation+OR+GDP+OR+recession&count=15&country=CN&freshness=pd "HTTP/1.1 200 OK"
+2026-02-27 23:49:20 INFO  [pipeline]   3 new articles for markets-macro
+2026-02-27 23:49:23 INFO  [httpx] HTTP Request: POST https://api.anthropic.com/v1/messages "HTTP/1.1 200 OK"
+2026-02-27 23:49:23 INFO  [pipeline]   Enriched: {'llm_calls': 2, 'llm_articles': 4, 'fallback_articles': 0}
+2026-02-27 23:49:23 INFO  [pipeline]   22 active clusters
+2026-02-27 23:49:23 INFO  [pipeline]   No divergent clusters.
+2026-02-27 23:49:23 INFO  [pipeline] [23:49:23] Tick: ai-regulation
+2026-02-27 23:49:23 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=AI+regulation+OR+artificial+intelligence+policy+OR+AI+safety&count=15&country=US&freshness=pw&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:25 INFO  [httpx] HTTP Request: GET https://api.search.brave.com/res/v1/news/search?q=AI+regulation+OR+artificial+intelligence+policy+OR+AI+safety&count=15&country=GB&freshness=pw&extra_snippets=true "HTTP/1.1 200 OK"
+2026-02-27 23:49:25 INFO  [pipeline]   0 new articles for ai-regulation
+2026-02-27 23:49:25 INFO  [pipeline] Pipeline shutting down.

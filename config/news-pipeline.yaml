@@ -1,0 +1,82 @@
+# NB08: News Intelligence Pipeline Configuration
+# Created: 2026-02-27
+
+brave:
+  api_key: ${BRAVE_API_KEY}
+  max_requests_per_month: 900    # leave 100 buffer from 1000 free tier
+  daily_soft_limit: 50
+
+queries:
+  - name: iran-nuclear
+    keywords: ["Iran", "nuclear", "IAEA", "enrichment", "Geneva talks"]
+    boolean_mode: OR
+    countries: [US, GB, RU, SA, TR, IN]
+    freshness: pd
+    count_per_country: 15
+    interval_minutes: 30
+    extra_snippets: true
+
+  - name: russia-ukraine
+    keywords: ["Russia", "Ukraine", "ceasefire", "Zelensky", "Crimea"]
+    boolean_mode: OR
+    countries: [US, GB, RU, SA]
+    freshness: pd
+    count_per_country: 15
+    interval_minutes: 30
+    extra_snippets: true
+
+  - name: us-politics
+    keywords: ["Trump", "Congress", "Senate", "executive order", "tariff"]
+    boolean_mode: OR
+    countries: [US, GB, CN, RU]
+    freshness: pd
+    count_per_country: 20
+    interval_minutes: 30
+    extra_snippets: true
+
+  - name: markets-macro
+    keywords: ["Federal Reserve", "interest rate", "inflation", "GDP", "recession"]
+    boolean_mode: OR
+    countries: [US, GB, DE, CN]
+    freshness: pd
+    count_per_country: 15
+    interval_minutes: 60
+    extra_snippets: false
+
+  - name: ai-regulation
+    keywords: ["AI regulation", "artificial intelligence policy", "AI safety"]
+    boolean_mode: OR
+    countries: [US, GB]
+    freshness: pw
+    count_per_country: 15
+    interval_minutes: 360
+    extra_snippets: true
+
+pipeline:
+  divergence_threshold: 3.0
+  max_extractions_per_hour: 20
+  max_pending_signals: 3
+  cluster_expiry_hours: 72
+  yes_discount_factor: 0.85
+  min_edge: 0.05
+  min_confidence: 0.6
+
+  # Circuit breaker
+  circuit_breaker_threshold: 3      # consecutive failures before pause
+  circuit_breaker_pause_minutes: 30
+
+  # Tone extraction
+  tone_use_llm: true
+  tone_model: claude-haiku-4-5-20251001
+
+delivery:
+  channel: telegram
+  signal_format: full
+  # OpenClaw webhook (set in env)
+  webhook_url: ${OPENCLAW_WEBHOOK_URL}
+
+logging:
+  level: INFO
+  file: data/news-pipeline.log
+  max_bytes: 10485760   # 10 MB
+  backup_count: 3

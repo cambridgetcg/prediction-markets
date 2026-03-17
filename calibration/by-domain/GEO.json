@@ -1,0 +1,8 @@
+{
+  "domain": "GEO",
+  "predictions": 4,
+  "resolved": 3,
+  "brier_score": 0.1899,
+  "beat_market_rate": 0.0,
+  "last_updated": "2026-03-08T10:05:52.939468Z"
+}

@@ -1,0 +1,176 @@
+{
+    "date": "2026-03-08",
+    "note": "Operation Epic Fury day 9. MAJOR ESCALATION: US/Israel struck Tehran oil depot (Mar 7), Iran retaliated with Kheibar-Shekan missiles on Haifa refinery (Mar 8). Oil infrastructure now targeted both sides. Reuters: Assembly of Experts 'majority consensus' reached on next Supreme Leader — likely Mojtaba Khamenei. Trump: 'unconditional surrender' stance unchanged. Iran FM says 'not asking for ceasefire.' Brent ~$93/bbl. BTC crashed to ~$67K (-5% from Mar 7). Kuwait + UAE slashed oil production. Polymarket: $679M+ total Iran trading volume. Crude $100 March odds: 76%.",
+    "GEO": {
+        "iran_strikes_mar8": {
+            "YES": 1.0,
+            "status": "LIVE_TODAY",
+            "note": "Strikes continuing — oil infrastructure now targeted"
+        },
+        "new_supreme_leader_by_mar8": {
+            "YES": 0.26,
+            "note": "BREAKING: Reuters reports Assembly of Experts 'majority consensus' reached — announcement could come today. Polymarket pricing 26% for today specifically, 29% for announcement today"
+        },
+        "new_supreme_leader_by_mar15": {
+            "YES": 0.81,
+            "note": "Was 97% for 'by Mar 15' on Mar 7 snapshot (different market); this specific market at 81%"
+        },
+        "new_supreme_leader_by_mar31": {
+            "YES": 0.93,
+            "note": "$5.2M volume. Down from 97% on Mar 7 — might reflect uncertainty around whether 'consensus' = formal announcement"
+        },
+        "iran_leader_announcement_mar8": {
+            "YES": 0.294,
+            "note": "NEW — 'Iran announces new Supreme Leader on...?' market. Mar 8 is frontrunner at 29.4%. $91K volume on this date alone"
+        },
+        "iran_leader_next_mojtaba": {
+            "YES": 0.66,
+            "note": "WAS 41% on Mar 7 — SURGED +25pp on Assembly consensus reports. ABC News confirms Mojtaba settled by Assembly"
+        },
+        "iran_leader_next_arafi": {
+            "YES": "est_0.08",
+            "note": "Likely dropped as Mojtaba surges"
+        },
+        "iran_leader_end2026_mojtaba": {
+            "YES": "est_0.30",
+            "note": "Likely up from 24% given consensus reports"
+        },
+        "iran_leader_end2026_pahlavi": {
+            "YES": 0.17,
+            "note": "Stable — regime change scenario; US intel says 'unlikely'"
+        },
+        "us_recognizes_pahlavi_2026": {
+            "YES": 0.22,
+            "note": "Stable/slight up"
+        },
+        "strait_hormuz_closure_mar31": {
+            "YES": 0.85,
+            "note": "Stable from Mar 7"
+        },
+        "strait_hormuz_closure_dec31": {
+            "YES": 0.81,
+            "note": "Stable"
+        },
+        "iran_ceasefire_mar15": {
+            "YES": 0.26,
+            "note": "NEW TRACK from Benzinga — was not tracked before"
+        },
+        "iran_ceasefire_mar31": {
+            "YES": 0.46,
+            "note": "WAS 28% on Mar 7 — ROSE +18pp? Benzinga reports 46%. Possible spike on Assembly consensus = leadership transition = potential diplomacy path. OR different market aggregation."
+        },
+        "iran_ceasefire_apr30": {
+            "YES": "est_0.45",
+            "note": "Likely down further from 48% — Iran FM explicitly rejected ceasefire"
+        },
+        "trump_ends_operations_mar31": {
+            "YES": 0.31,
+            "note": "Stable — Trump says 'whatever it takes'"
+        },
+        "iran_regime_fall_mar31": {
+            "YES": 0.31,
+            "note": "Stable — US intel leaked: regime change 'unlikely'"
+        },
+        "iran_regime_fall_jun30": {
+            "YES": 0.52,
+            "note": "Stable"
+        },
+        "us_ground_troops_iran_2026": {
+            "YES": "RESEARCH_NEEDED",
+            "note": "Trump called ground invasion 'waste of time'; Hegseth brushed off Russia assistance. Whale still active per Newsweek"
+        },
+        "us_support_kurds_iran_mar31": {
+            "YES": "NEW_TRACK",
+            "note": "NEW MARKET — $275K volume. 'US announces military support of Kurds in Iran by March 31'"
+        },
+        "which_countries_strike_iran": {
+            "saudi": 0.28,
+            "uae": 0.27,
+            "note": "NEW — 'Which countries will strike Iran by March 31?' Saudi 28%, UAE 27%"
+        },
+        "another_country_strikes_iran_mar31": {
+            "YES": 0.46,
+            "note": "NEW — 46% another country (not US/Israel) strikes Iran by Mar 31"
+        },
+        "ukraine_ceasefire_mar31": {
+            "YES": 0.0275,
+            "note": "Stable — Iran war consuming all attention"
+        }
+    },
+    "POL": {
+        "fed_chair_warsh": {
+            "YES": 0.935,
+            "note": "Stable"
+        },
+        "fed_march_no_change": {
+            "YES": 0.97,
+            "note": "Stable — Fed holding despite oil shock + stagflation risk"
+        },
+        "fed_cuts_2026_2cuts": {
+            "YES": 0.26,
+            "note": "Stable"
+        },
+        "dem_2028_newsom": {
+            "YES": 0.252,
+            "note": "Stable"
+        },
+        "dem_2028_aoc": {
+            "YES": 0.088,
+            "note": "Stable"
+        }
+    },
+    "CRY": {
+        "btc_current_price": "~$67,000-67,400",
+        "btc_note": "CRASHED from $70-71K on Mar 7. Down ~5% in 24h. Meyka: $67,367. CryptoNews: $67,925 (Mar 7 close). InteractiveCrypto: $67,039 (-1.47% today). Risk-off accelerating as oil infra targeted. CryptoQuant projects BTC bottom Sept-Nov 2026. ETF outflows >$9B.",
+        "btc_60k_or_80k_first": {
+            "note": "NEW MARKET — 'Will Bitcoin hit $60k or $80k first?' Active on Polymarket. With BTC at $67K, this is a critical inflection market"
+        },
+        "btc_above_75k_march": {
+            "YES": "est_0.30",
+            "note": "WAS 48% on Mar 7 — likely dropped further as BTC fell another $3-4K"
+        },
+        "btc_above_80k_march": {
+            "YES": "est_0.20",
+            "note": "WAS 33% on Mar 7 — needs $13K rally in 23 days. Increasingly unlikely"
+        },
+        "btc_crash_65k_march": {
+            "YES": "est_0.55",
+            "note": "WAS 44% on Mar 7 — BTC now only $2K above this level. Rising probability"
+        },
+        "btc_100k_2026": {
+            "YES": 0.385,
+            "note": "Stable — long-dated. Polymarket says 82% chance of hitting $65K (already near there)"
+        },
+        "btc_150k_march": {
+            "YES": 0.01,
+            "note": "Motley Fool confirms 1%. Dead."
+        }
+    },
+    "ECO": {
+        "brent_crude_mar8": "$92-93/bbl (spot); $115 on Hyperliquid perps",
+        "brent_note": "ESCALATION: US/Israel hit Tehran oil depot Mar 7, Iran hit Haifa refinery Mar 8. Kuwait + UAE slashing production. Brent up ~20% WoW (from $77). WTI above $85. Biggest weekly gain since COVID. Commodity.com: up 20.25% vs last week.",
+        "brent_above_100_march": {
+            "YES": 0.76,
+            "note": "NEW TRACK — SURGED from 35% to 76% in 24h after oil infra attacks. $10M+ volume. Most dramatic single-day shift tracked."
+        },
+        "oil_impact": "India raised cooking gas prices. Global supply disruption risk acute with Hormuz + direct energy infrastructure attacks."
+    },
+    "TEC": {
+        "best_ai_model_march": {
+            "anthropic": "est_0.57",
+            "google": "est_0.235",
+            "openai": "est_0.12",
+            "note": "Stable — war dominating, AI markets quiet"
+        }
+    },
+    "LAW": {
+        "kalshi_lawsuit": "Class action for $54M ongoing. CFTC scrutiny increasing — Public Citizen sent letter to CFTC chair requesting federal probe. Raw Story, The Atlantic, NPR all covering insider trading angle.",
+        "cftc_probe": "Public Citizen formally requested CFTC probe into insider trading on prediction markets. 'Magamyman' $553K Khamenei bet and pre-strike whale activity cited. The Atlantic: 'Insider Trading Is Going to Get People Killed.'"
+    },
+    "META": {
+        "polymarket_total_iran_volume": "$679M+",
+        "regulatory_pressure": "Massive. CNN, NYT, NPR, The Atlantic, Raw Story all running critical stories. CFTC probe requested. Trump Jr. connection to both Polymarket and Kalshi advisory roles scrutinized. Industry credibility crisis building.",
+        "insider_trading": "89 wallets (0.4% of bettors) captured 70% of Khamenei contract profits. CFTC investigation likely.",
+        "market_integrity": "Kalshi $54M lawsuit could be existential for platform. Polymarket's decision to honor payouts strengthens its position vs Kalshi."
+    }
+}
