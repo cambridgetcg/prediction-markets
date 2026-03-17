@@ -273,3 +273,94 @@ ws.run_forever()
 ---
 
 _This document is the data foundation. Every prediction synthesised, every scenario built, every trade decision made — all flow from these sources. Keep it current as new sources emerge._
+
+---
+
+## Layer 6: Betting Markets (sharp money signals)
+
+### The Odds API ⭐ PRIMARY betting data
+**What:** Real-time odds from 40+ bookmakers. Betfair, Bet365, DraftKings, FanDuel, William Hill.
+**Key value:** Line movement tracking, multi-book divergence detection, political markets.
+```
+Base URL: https://api.the-odds-api.com/v4
+Sports:   GET /v4/sports/?apiKey=KEY                    (free, unlimited)
+Odds:     GET /v4/sports/{sport}/odds/?apiKey=KEY&regions=uk,eu&markets=h2h
+Political: sport key = "politics" or "us_politics"
+```
+**Cost:** Free 500 req/month → $30/mo (20K) → $59/mo (100K)
+**Register:** https://the-odds-api.com/#get-access
+**Store:** `python3 tools/credentials.py store odds-api-key <key>`
+
+### OddsPapi ⭐ PINNACLE DATA (free tier)
+**What:** 348 bookmakers including **Pinnacle** (the sharpest book, closed direct API).
+Historical line movement (opening → closing). Free for pre-match.
+```
+Base URL: https://api.oddspapi.io/v1
+Free:     Pre-match odds, all 348 books, historical data
+Paid:     WebSocket, sub-second latency (Pro tier)
+```
+**Cost:** Free tier covers 95% of use cases.
+**Register:** https://oddspapi.io/
+**Store:** `python3 tools/credentials.py store oddspapi-key <key>`
+
+### Betfair Exchange 🏆 GOLD STANDARD (free for personal use)
+**What:** Peer-to-peer betting exchange. The odds ARE the market consensus — no bookmaker
+bias. Highest liquidity globally for major events. Political and world events markets.
+**Value:** Streaming API, real volume data, no vig to remove.
+```
+API:     https://api.betfair.com/exchange/betting/rest/v1.0
+Stream:  tcp://stream-api.betfair.com:443 (Betfair Exchange Streaming API)
+Markets: Politics, elections, entertainment, sports
+```
+**Cost:** Free for personal use. Account required.
+**Register:** betfair.com → My Account → API Keys
+**Store:** `python3 tools/credentials.py store betfair-token <token>`
+
+---
+
+## Signal Extraction: What Line Movement Tells Us
+
+```
+Bookmaker hierarchy (sharpest → softest):
+  Pinnacle > Betfair > Matchbook         ← SHARP BOOKS
+  > Bet365 > William Hill > Ladbrokes    ← SOFT BOOKS
+  > FanDuel > DraftKings > PointsBet     ← SQUARE/US BOOKS
+
+STEAM MOVE (highest signal):
+  Pinnacle + 3+ books move simultaneously within 30min
+  → An informed bettor (syndicate/insider) acted. Something happened.
+  
+REVERSE LINE MOVEMENT:
+  70%+ of public bets on Team A, but line moves toward Team A
+  → Sharps disagree. Private information favors Team B.
+  
+DROPPING ODDS:
+  Decimal odds drop >10% within 2 hours (e.g. 3.50 → 2.80)
+  → Fast consensus forming. High-conviction prediction.
+  
+CROSS-MARKET SIGNAL:
+  Betting prob = 65%, Polymarket = 52% → gap of 13pp
+  → Either sharps know something, or one market is wrong.
+  → Historical finding: for sports, betting > Polymarket accuracy.
+                        for US politics, Polymarket often leads.
+```
+
+---
+
+## Updated Acquisition Order (including betting)
+
+### Register today (all free):
+```
+[ ] The Odds API key   → the-odds-api.com (free 500/mo)
+[ ] OddsPapi key       → oddspapi.io (free tier, Pinnacle included)
+[ ] Betfair account    → betfair.com (free personal use)
+[ ] FRED API key       → fred.stlouisfed.org (free)
+[ ] Guardian API key   → bonobo.capi.gutools.co.uk (free)
+```
+
+### Run once keys are in vault:
+```bash
+python3 engine/betting_signals.py scan          # political markets
+python3 engine/betting_signals.py sport politics # political line movement
+python3 engine/betting_signals.py divergence     # vs Polymarket gap
+```
