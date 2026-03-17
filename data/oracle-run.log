@@ -19,3 +19,27 @@
 [2026-03-17 21:00:05 UTC] Whale scanner not found — skipping
 [2026-03-17 21:00:05 UTC]   Whale signals: 0 found, 0 new
 [2026-03-17 21:00:05 UTC] === Oracle run complete: 0 new signals, 3 total ===
+[2026-03-17 21:30:00 UTC] === Oracle run starting ===
+[2026-03-17 21:30:00 UTC] Loaded 3 existing signals
+[2026-03-17 21:30:00 UTC] Running spike-detector...
+[2026-03-17 21:30:03 UTC]   spike-detector found 2 spikes
+[2026-03-17 21:30:03 UTC]   Spike signals: 2 found, 1 new
+[2026-03-17 21:30:03 UTC] Whale scanner not found — skipping
+[2026-03-17 21:30:03 UTC]   Whale signals: 0 found, 0 new
+[2026-03-17 21:30:03 UTC] === Oracle run complete: 1 new signals, 4 total ===
+[2026-03-17 22:00:01 UTC] === Oracle run starting ===
+[2026-03-17 22:00:01 UTC] Loaded 4 existing signals
+[2026-03-17 22:00:01 UTC] Running spike-detector...
+[2026-03-17 22:00:03 UTC]   spike-detector found 2 spikes
+[2026-03-17 22:00:03 UTC]   Spike signals: 2 found, 0 new
+[2026-03-17 22:00:03 UTC] Whale scanner not found — skipping
+[2026-03-17 22:00:03 UTC]   Whale signals: 0 found, 0 new
+[2026-03-17 22:00:03 UTC] === Oracle run complete: 0 new signals, 4 total ===
+[2026-03-17 22:30:00 UTC] === Oracle run starting ===
+[2026-03-17 22:30:00 UTC] Loaded 4 existing signals
+[2026-03-17 22:30:00 UTC] Running spike-detector...
+[2026-03-17 22:30:03 UTC]   spike-detector found 2 spikes
+[2026-03-17 22:30:03 UTC]   Spike signals: 2 found, 0 new
+[2026-03-17 22:30:03 UTC] Whale scanner not found — skipping
+[2026-03-17 22:30:03 UTC]   Whale signals: 0 found, 0 new
+[2026-03-17 22:30:03 UTC] === Oracle run complete: 0 new signals, 4 total ===

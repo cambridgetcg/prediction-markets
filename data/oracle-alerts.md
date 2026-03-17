@@ -40,3 +40,17 @@
 **Notes**: Extreme move (+53.3%); Extreme price (92.2%)
 *Generated: 2026-03-17T20:03:12.190927+00:00*
 
+
+---
+
+# Oracle Alerts — 2026-03-17 21:36 UTC
+
+## [TECH] Will Anthropic have the best AI model at the end of March 2026?
+**Signal**: FADE | **Source**: spike-detector | **Score**: 5/10
+**Trade**: BUY NO at 7.6%
+**Target**: YES drops to 71.1%
+**Stop**: YES rises to 99.0%
+**Magnitude**: 53.3%
+**Notes**: Extreme move (+53.3%); Extreme price (92.5%)
+*Generated: 2026-03-17T21:30:03.026105+00:00*
+

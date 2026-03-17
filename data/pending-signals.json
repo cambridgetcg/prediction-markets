@@ -60,6 +60,26 @@
       "ts": "2026-03-17T20:03:12.190927+00:00",
       "delivered": true,
       "delivered_ts": "2026-03-17T20:25:46.533648+00:00"
+    },
+    {
+      "id": "313bb1e1e8c0",
+      "type": "FADE",
+      "source": "spike-detector",
+      "market": "Will Anthropic have the best AI model at the end of March 2026?",
+      "domain": "TECH",
+      "trade": "BUY NO at 7.6%",
+      "target": "YES drops to 71.1%",
+      "stop": "YES rises to 99.0%",
+      "score": 5,
+      "magnitude": 0.533,
+      "classification": "EMOTIONAL",
+      "notes": [
+        "Extreme move (+53.3%)",
+        "Extreme price (92.5%)"
+      ],
+      "ts": "2026-03-17T21:30:03.026105+00:00",
+      "delivered": true,
+      "delivered_ts": "2026-03-17T21:36:02.449059+00:00"
     }
   ]
 }
