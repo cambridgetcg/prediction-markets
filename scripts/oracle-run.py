@@ -26,6 +26,7 @@ SIGNALS_FILE = DATA_DIR / "pending-signals.json"
 STATUS_FILE = DATA_DIR / "oracle-status.json"
 LOG_FILE = DATA_DIR / "oracle-run.log"
 WHALE_SCANNER = SCRIPTS_DIR / "whale-activity-scanner.py"
+GEO_BRIDGE = BASE_DIR / "pipeline" / "geo_intelligence.py"
 
 
 def log(msg):
@@ -282,9 +283,43 @@ def update_status(signals):
         json.dump(status, f, indent=2)
 
 
+def run_geo_inject():
+    """Run geo intelligence bridge inject if available."""
+    if not GEO_BRIDGE.exists():
+        log("Geo bridge not found — skipping Layer 6")
+        return
+
+    log("Running geo intelligence inject...")
+    try:
+        result = subprocess.run(
+            [sys.executable, str(GEO_BRIDGE), "inject"],
+            capture_output=True, text=True, timeout=60,
+            cwd=str(BASE_DIR)
+        )
+        if result.returncode != 0:
+            stderr = result.stderr.strip()
+            if "not found" in stderr or "No events" in result.stdout:
+                log("  WW3 bridge inactive — no DB")
+            else:
+                log(f"  Geo inject failed (rc={result.returncode}): {stderr[:200]}")
+        else:
+            out = result.stdout.strip()
+            if out:
+                log(f"  Geo inject: {out[:120]}")
+            else:
+                log("  Geo inject: done (no output)")
+    except subprocess.TimeoutExpired:
+        log("  Geo inject timed out (60s)")
+    except Exception as e:
+        log(f"  Geo inject error: {e}")
+
+
 def run_once():
     """Execute one full Oracle cycle."""
     log("=== Oracle run starting ===")
+
+    # Layer 6: Geo intelligence inject (before detectors)
+    run_geo_inject()
 
     # Load existing signals
     signals = load_signals()
