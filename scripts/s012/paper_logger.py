@@ -50,7 +50,7 @@ class PaperTrade:
 
     # Entry
     direction: str                  # YES | NO
-    entry_price: float
+    entry_price: float               # Price of the token bought (YES or NO)
     entry_time: datetime
     size_usdc: float
     shares: float                   # size_usdc / entry_price
@@ -61,7 +61,7 @@ class PaperTrade:
     expiry_time: datetime           # entry_time + time_horizon
 
     # Exit (filled when closed)
-    exit_price: float | None
+    exit_price: float | None         # YES market price at exit (compatibility field)
     exit_time: datetime | None
     exit_reason: str | None         # TARGET_HIT | STOP_HIT | TIME_EXPIRED | MANUAL
 
@@ -115,19 +115,21 @@ class CalibrationReport:
 
 # --- P&L ---
 
-def calculate_pnl(direction: str, entry_price: float, exit_price: float,
+def calculate_pnl(direction: str, entry_token_price: float, exit_yes_price: float,
                   shares: float) -> float:
-    """Calculate P&L for a paper trade.
+    """Calculate P&L using a token-unit entry and a YES-price exit quote.
 
-    For YES: bought at entry, value at exit → (exit - entry) * shares
-    For NO:  bought at (1 - entry_yes), value at (1 - exit_yes)
-             → simplifies to (entry_yes - exit_yes) * shares
-    All prices are YES prices.
+    ``entry_token_price`` is the price actually paid for the selected token:
+    YES for a YES trade and NO for a NO trade. ``exit_yes_price`` is always the
+    market's YES quote because that is what the price fetcher returns.
     """
     if direction == "YES":
-        return (exit_price - entry_price) * shares
+        exit_token_price = exit_yes_price
+    elif direction == "NO":
+        exit_token_price = 1.0 - exit_yes_price
     else:
-        return (entry_price - exit_price) * shares
+        raise ValueError(f"Unsupported trade direction: {direction}")
+    return (exit_token_price - entry_token_price) * shares
 
 
 # --- Trade ID ---
@@ -408,8 +410,14 @@ def log_to_jsonl(t: PaperTrade):
 
 # --- Open Trade ---
 
-def open_trade_from_signal(signal: dict, store: TradeStore) -> PaperTrade:
-    """Create a PaperTrade from an approved signal dict."""
+def open_trade_from_signal(signal: dict, store: TradeStore,
+                           write_jsonl: bool = True) -> PaperTrade:
+    """Create a PaperTrade from an approved signal dict.
+
+    Signal entry, target, and stop prices are denominated in the selected
+    token. Database ``exit_price`` remains a YES quote for compatibility with
+    existing records and the market-price fetcher.
+    """
     now = datetime.now(timezone.utc)
     trade_id = next_trade_id(store.conn)
 
@@ -449,14 +457,15 @@ def open_trade_from_signal(signal: dict, store: TradeStore) -> PaperTrade:
     )
 
     store.save(trade)
-    log_to_jsonl(trade)
+    if write_jsonl:
+        log_to_jsonl(trade)
     return trade
 
 
 # --- Check Trades ---
 
 def check_trade(trade: dict, current_yes_price: float, now: datetime) -> dict | None:
-    """Check if a trade should be closed. Returns close info dict or None."""
+    """Check whether to close; returned ``exit_price`` is always a YES quote."""
     direction = trade["direction"]
     target = trade["target_price"]
     stop = trade["stop_price"]
@@ -482,12 +491,12 @@ def check_trade(trade: dict, current_yes_price: float, now: datetime) -> dict | 
     return None
 
 
-def close_trade(store: TradeStore, trade: dict, exit_price: float,
+def close_trade(store: TradeStore, trade: dict, exit_yes_price: float,
                 exit_reason: str) -> tuple[float, float]:
-    """Close a trade and record P&L. Returns (pnl_usdc, pnl_pct)."""
+    """Close at a YES quote and record P&L. Returns (pnl_usdc, pnl_pct)."""
     now = datetime.now(timezone.utc)
     pnl = calculate_pnl(
-        trade["direction"], trade["entry_price"], exit_price, trade["shares"]
+        trade["direction"], trade["entry_price"], exit_yes_price, trade["shares"]
     )
     pnl_pct = pnl / trade["size_usdc"] if trade["size_usdc"] > 0 else 0.0
 
@@ -495,7 +504,7 @@ def close_trade(store: TradeStore, trade: dict, exit_price: float,
 
     store.update_exit(
         trade_id=trade["trade_id"],
-        exit_price=exit_price,
+        exit_price=exit_yes_price,
         exit_time=now,
         exit_reason=exit_reason,
         pnl_usdc=round(pnl, 2),

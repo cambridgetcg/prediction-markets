@@ -1,0 +1,11 @@
+NO LIVE TRADING
+
+This source-level policy brake is raised.
+
+Nothing in this repository is authorized to place, sign, route, fund, or settle
+a real-money prediction-market order. Any future integration must check for
+this file and fail closed while it is present.
+
+This marker is not proof that every old or external process checks it. Removing
+it would grant no authority. Live execution would require the separate,
+recorded approvals and safeguards named in SYSTEM-DESIGN.md.

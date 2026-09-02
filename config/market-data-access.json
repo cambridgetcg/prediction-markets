@@ -1,0 +1,42 @@
+{
+  "version": 1,
+  "reviewed_on": "2026-09-02",
+  "sources": {
+    "polymarket": {
+      "automated_read": "unconfirmed",
+      "jurisdiction": "unknown",
+      "data_rights": "unknown",
+      "authority": null,
+      "scope": null,
+      "use_location": "Switzerland",
+      "source_url": "https://docs.polymarket.com/market-data/overview",
+      "reviewed_on": "2026-09-02",
+      "next_review": null,
+      "reason": "The intended use and data rights have not been confirmed; Swiss live execution is separately blocked."
+    },
+    "kalshi": {
+      "automated_read": "blocked",
+      "jurisdiction": "denied",
+      "data_rights": "denied",
+      "authority": null,
+      "scope": null,
+      "use_location": "Switzerland",
+      "source_url": "https://kalshi-public-docs.s3.amazonaws.com/kalshi-data-terms-of-service.pdf",
+      "reviewed_on": "2026-09-02",
+      "next_review": null,
+      "reason": "Written automated-data authority is absent, and Switzerland is a restricted trading jurisdiction."
+    },
+    "manifold": {
+      "automated_read": "unconfirmed",
+      "jurisdiction": "unknown",
+      "data_rights": "unknown",
+      "authority": null,
+      "scope": null,
+      "use_location": "Switzerland",
+      "source_url": "https://docs.manifold.markets/data",
+      "reviewed_on": "2026-09-02",
+      "next_review": null,
+      "reason": "Permission for the intended automated or AI-assisted use has not been recorded."
+    }
+  }
+}

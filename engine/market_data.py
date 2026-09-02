@@ -22,13 +22,66 @@ import time
 import urllib.request
 import urllib.parse
 import urllib.error
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 VENV_PYTHON = BASE_DIR / ".venv" / "bin" / "python3"
 DATA_DIR = BASE_DIR / "data"
 CONFIG_DIR = BASE_DIR / "config"
+MARKET_DATA_ACCESS_FILE = CONFIG_DIR / "market-data-access.json"
+
+
+class MarketDataAccessError(RuntimeError):
+    """Raised before a venue request when recorded data authority is absent."""
+
+
+def market_data_access(source: str, path: Path = MARKET_DATA_ACCESS_FILE) -> dict:
+    """Return the fail-closed access decision for one prediction-market source."""
+    try:
+        config = json.loads(path.read_text())
+    except (OSError, json.JSONDecodeError):
+        config = {}
+
+    record = config.get("sources", {}).get(source, {})
+    authority = record.get("authority")
+    required_text = ("scope", "use_location", "source_url", "reviewed_on", "next_review")
+    complete = all(
+        isinstance(record.get(field), str) and bool(record[field].strip())
+        for field in required_text
+    )
+    current = False
+    if complete:
+        try:
+            current = date.fromisoformat(record["next_review"]) >= date.today()
+        except ValueError:
+            current = False
+    authorised = (
+        config.get("version") == 1
+        and record.get("automated_read") == "authorised"
+        and record.get("jurisdiction") == "allowed"
+        and record.get("data_rights") == "allowed"
+        and isinstance(authority, str)
+        and bool(authority.strip())
+        and complete
+        and record["source_url"].startswith("https://")
+        and current
+    )
+    return {
+        "source": source,
+        "authorised": authorised,
+        "status": record.get("automated_read", "unrecorded"),
+        "reason": record.get("reason", "No recorded authority for automated reading."),
+    }
+
+
+def _require_market_data_access(source: str) -> None:
+    """Stop before network access unless the source has explicit recorded authority."""
+    decision = market_data_access(source)
+    if not decision["authorised"]:
+        raise MarketDataAccessError(
+            f"Automated {source} reading is blocked: {decision['reason']}"
+        )
 
 # ── API Keys (loaded from vault or env) ──────────────────────────────────────
 
@@ -70,32 +123,36 @@ def _get(url: str, timeout: int = 10) -> dict:
 
 # ── Prediction Markets ─────────────────────────────────────────────────────────
 
-def _parse_price(outcome_prices) -> float:
-    """Parse Polymarket outcomePrices which can be list, string-encoded list, or number."""
+def _parse_price(outcome_prices):
+    """Parse a YES price in [0, 1], returning None for absent or malformed input."""
     try:
-        if outcome_prices is None:
-            return 0.5
+        if outcome_prices is None or isinstance(outcome_prices, bool):
+            return None
         if isinstance(outcome_prices, (int, float)):
-            return float(outcome_prices)
-        if isinstance(outcome_prices, list) and outcome_prices:
-            return float(str(outcome_prices[0]).strip('"\''))
-        if isinstance(outcome_prices, str):
+            price = float(outcome_prices)
+        elif isinstance(outcome_prices, list) and outcome_prices:
+            price = float(str(outcome_prices[0]).strip('"\''))
+        elif isinstance(outcome_prices, str):
             # Could be '["0.75", "0.25"]' or '0.75'
             import json as _json
             try:
                 parsed = _json.loads(outcome_prices)
                 if isinstance(parsed, list) and parsed:
-                    return float(str(parsed[0]).strip('"\''))
-                return float(parsed)
+                    price = float(str(parsed[0]).strip('"\''))
+                else:
+                    price = float(parsed)
             except Exception:
-                return float(outcome_prices.strip('[]"\'').split(",")[0].strip('"\''))
-    except Exception:
-        pass
-    return 0.5
+                price = float(outcome_prices.strip('[]"\'').split(",")[0].strip('"\''))
+        else:
+            return None
+    except (TypeError, ValueError, json.JSONDecodeError):
+        return None
+    return price if 0.0 <= price <= 1.0 else None
 
 
 def get_polymarket_prices(query: str = "", limit: int = 20) -> list:
     """Search Polymarket for active markets matching query."""
+    _require_market_data_access("polymarket")
     params = urllib.parse.urlencode({
         "limit": limit,
         "closed": "false",
@@ -111,60 +168,95 @@ def get_polymarket_prices(query: str = "", limit: int = 20) -> list:
     else:
         return []
 
-    return [{
-        "platform": "polymarket",
-        "question": m.get("question", "?"),
-        "price_yes": _parse_price(m.get("outcomePrices")),
-        "volume": float(m.get("volume", 0)),
-        "liquidity": float(m.get("liquidity", 0)),
-        "end_date": m.get("endDate", ""),
-        "market_id": m.get("conditionId", ""),
-    } for m in markets if m.get("active")]
+    normalised = []
+    for market in markets:
+        price = _parse_price(market.get("outcomePrices"))
+        if not market.get("active") or price is None:
+            continue
+        normalised.append({
+            "platform": "polymarket",
+            "question": market.get("question", "?"),
+            "price_yes": price,
+            "volume": float(market.get("volume", 0)),
+            "liquidity": float(market.get("liquidity", 0)),
+            "end_date": market.get("endDate", ""),
+            "market_id": market.get("conditionId", ""),
+        })
+    return normalised
 
 
 def get_manifold_prices(query: str = "", limit: int = 10) -> list:
     """Search Manifold Markets (free, no key)."""
+    _require_market_data_access("manifold")
     params = urllib.parse.urlencode({"term": query, "limit": limit, "sort": "liquidity"})
     url = f"https://api.manifold.markets/v0/search-markets?{params}"
     markets = _get(url)
     if not isinstance(markets, list):
         return []
-    return [{
-        "platform": "manifold",
-        "question": m.get("question", "?"),
-        "price_yes": m.get("probability", 0.5),
-        "volume": m.get("volume", 0),
-        "liquidity": m.get("totalLiquidity", 0),
-        "end_date": m.get("closeTime", ""),
-        "market_id": m.get("id", ""),
-    } for m in markets[:limit] if m.get("isResolved") is False]
+    normalised = []
+    for market in markets[:limit]:
+        price = _parse_price(market.get("probability"))
+        if market.get("isResolved") is not False or price is None:
+            continue
+        normalised.append({
+            "platform": "manifold",
+            "question": market.get("question", "?"),
+            "price_yes": price,
+            "volume": market.get("volume", 0),
+            "liquidity": market.get("totalLiquidity", 0),
+            "end_date": market.get("closeTime", ""),
+            "market_id": market.get("id", ""),
+        })
+    return normalised
 
 
 def get_kalshi_prices(query: str = "", limit: int = 10) -> list:
     """Get Kalshi markets (no auth needed for market data)."""
+    _require_market_data_access("kalshi")
     params = urllib.parse.urlencode({"limit": limit, "status": "open"})
     if query:
         params += f"&search={urllib.parse.quote(query)}"
     url = f"https://api.elections.kalshi.com/trade-api/v2/markets?{params}"
     data = _get(url)
     markets = data.get("markets", []) if isinstance(data, dict) else []
-    return [{
-        "platform": "kalshi",
-        "question": m.get("title", m.get("subtitle", "?")),
-        "price_yes": float(m.get("yes_ask", 50)) / 100,  # Kalshi uses cents
-        "volume": float(m.get("volume", 0)),
-        "liquidity": 0,
-        "end_date": m.get("close_time", ""),
-        "market_id": m.get("ticker", ""),
-    } for m in markets]
+    normalised = []
+    for market in markets:
+        try:
+            price = float(market["yes_ask"]) / 100
+        except (KeyError, TypeError, ValueError):
+            continue
+        if not 0.0 <= price <= 1.0:
+            continue
+        normalised.append({
+            "platform": "kalshi",
+            "question": market.get("title", market.get("subtitle", "?")),
+            "price_yes": price,
+            "volume": float(market.get("volume", 0)),
+            "liquidity": 0,
+            "end_date": market.get("close_time", ""),
+            "market_id": market.get("ticker", ""),
+        })
+    return normalised
 
 
 def get_all_prediction_prices(query: str) -> list:
     """Get prices from all prediction market platforms, sorted by volume."""
+    sources = {
+        "polymarket": (get_polymarket_prices, 10),
+        "manifold": (get_manifold_prices, 5),
+        "kalshi": (get_kalshi_prices, 5),
+    }
+    authorised = [name for name in sources if market_data_access(name)["authorised"]]
+    if not authorised:
+        raise MarketDataAccessError(
+            "No prediction-market source has recorded automated-read authority. "
+            f"Review {MARKET_DATA_ACCESS_FILE}."
+        )
+
     all_markets = []
-    all_markets.extend(get_polymarket_prices(query, limit=10))
-    all_markets.extend(get_manifold_prices(query, limit=5))
-    all_markets.extend(get_kalshi_prices(query, limit=5))
+    for name in authorised:
+        fetch, limit = sources[name]
+        all_markets.extend(fetch(query, limit=limit))
     return sorted(all_markets, key=lambda x: x.get("volume", 0), reverse=True)
 
 

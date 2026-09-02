@@ -1,5 +1,15 @@
 # Prediction Markets Observatory
 
+## Current Status — 2 September 2026
+
+This repository is **dormant, read-only, and paper-only**. It does not authorize
+or place real-money trades. The `NO-LIVE-TRADING` brake is present.
+
+Descriptions below of active markets, daily jobs, live signals, or recurring
+work are historical records or design notes. They do not describe the current
+operating state. See `SYSTEM-DESIGN.md` for the boundary that governs any future
+integration.
+
 A structured system for learning about real-world events through prediction markets, building domain knowledge, and calibrating forecasting ability over time.
 
 ## Purpose

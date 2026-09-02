@@ -27,6 +27,7 @@ STATUS_FILE = DATA_DIR / "oracle-status.json"
 LOG_FILE = DATA_DIR / "oracle-run.log"
 WHALE_SCANNER = SCRIPTS_DIR / "whale-activity-scanner.py"
 GEO_BRIDGE = BASE_DIR / "pipeline" / "geo_intelligence.py"
+STILL_PATH = BASE_DIR / "STILL"
 
 
 def log(msg):
@@ -346,11 +347,15 @@ def run_once():
 
 
 def run_loop():
-    """Run continuously — spike every 30m, whale every 15m."""
+    """Run until the project-root STILL file requests rest."""
     import time
     log("=== Oracle entering continuous mode ===")
     cycle = 0
     while True:
+        if STILL_PATH.exists():
+            log(f"=== Oracle resting because {STILL_PATH} exists ===")
+            return
+
         try:
             cycle += 1
             # Whale runs every cycle (15m), spike every 2nd cycle (30m)

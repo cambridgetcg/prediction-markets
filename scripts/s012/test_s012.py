@@ -11,6 +11,7 @@ import time
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from unittest.mock import AsyncMock, patch
 
 from news_ingestor import (
     Article,
@@ -958,17 +959,19 @@ class TestDemoMode(unittest.TestCase):
 
     def test_demo_interpret_no_api(self):
         """Full demo interpret should succeed without API calls."""
-        tmp = tempfile.NamedTemporaryFile(suffix=".db", delete=False)
-        tmp.close()
-        db_path = Path(tmp.name)
+        with tempfile.TemporaryDirectory() as tmp:
+            db_path = Path(tmp) / "interpretations.db"
+            match = _make_demo_match()
+            store = InterpretationStore(db_path=db_path)
 
-        match = _make_demo_match()
-        store = InterpretationStore(db_path=db_path)
+            from reaction_interpreter import interpret
+            with patch("reaction_interpreter.log_to_jsonl") as jsonl_log:
+                try:
+                    interp = interpret(match, store, use_api=False)
+                finally:
+                    store.close()
 
-        from reaction_interpreter import interpret
-        interp = interpret(match, store, use_api=False)
-        store.close()
-        db_path.unlink(missing_ok=True)
+            jsonl_log.assert_called_once()
 
         self.assertIsNotNone(interp)
         self.assertAlmostEqual(interp.prior_probability, 0.35)
@@ -1884,14 +1887,22 @@ class TestPnlNoWin(unittest.TestCase):
     def test_no_price_drops(self):
         # Bought NO when YES was 0.70 (NO entry = 0.30)
         # YES drops to 0.60 (NO = 0.40) → profit
-        # P&L = (entry_yes - exit_yes) * shares = (0.70 - 0.60) * 500 = 50
-        pnl = calculate_pnl("NO", 0.70, 0.60, 500.0)
+        pnl = calculate_pnl("NO", 0.30, 0.60, 500.0)
         self.assertAlmostEqual(pnl, 50.0)
 
     def test_no_resolves_no(self):
-        # Bought NO when YES was 0.70, resolves NO (YES = 0.0)
-        pnl = calculate_pnl("NO", 0.70, 0.0, 500.0)
+        # Bought NO at 0.30, resolves NO (YES = 0.0, NO = 1.0)
+        pnl = calculate_pnl("NO", 0.30, 0.0, 500.0)
         self.assertAlmostEqual(pnl, 350.0)
+
+    def test_no_price_rises(self):
+        # Bought NO at 0.30; YES rises to 0.80 (NO = 0.20) → loss
+        pnl = calculate_pnl("NO", 0.30, 0.80, 500.0)
+        self.assertAlmostEqual(pnl, -50.0)
+
+    def test_unknown_direction_fails_closed(self):
+        with self.assertRaises(ValueError):
+            calculate_pnl("SELL", 0.30, 0.60, 500.0)
 
 
 class TestTargetHit(unittest.TestCase):
@@ -2151,7 +2162,7 @@ class TestOpenTradeFromSignal(unittest.TestCase):
 
     def test_creates_trade(self):
         signal = _make_demo_signal()
-        trade = open_trade_from_signal(signal, self.store)
+        trade = open_trade_from_signal(signal, self.store, write_jsonl=False)
         self.assertEqual(trade.trade_id, "PT-S012-001")
         self.assertEqual(trade.signal_id, "demo-sig-pt-001")
         self.assertEqual(trade.direction, "NO")
@@ -2162,16 +2173,29 @@ class TestOpenTradeFromSignal(unittest.TestCase):
 
     def test_shares_calculated(self):
         signal = _make_demo_signal()
-        trade = open_trade_from_signal(signal, self.store)
+        trade = open_trade_from_signal(signal, self.store, write_jsonl=False)
         expected = round(300.0 / 0.275, 4)
         self.assertAlmostEqual(trade.shares, expected, places=2)
 
     def test_stored_in_db(self):
         signal = _make_demo_signal()
-        open_trade_from_signal(signal, self.store)
+        open_trade_from_signal(signal, self.store, write_jsonl=False)
         loaded = self.store.load_all()
         self.assertEqual(len(loaded), 1)
         self.assertEqual(loaded[0]["status"], "OPEN")
+
+    def test_no_trade_pnl_uses_no_entry_and_yes_exit(self):
+        signal = _make_demo_signal()
+        open_trade_from_signal(signal, self.store, write_jsonl=False)
+        trade = self.store.load_open()[0]
+
+        pnl, pnl_pct = close_trade(
+            self.store, trade, exit_yes_price=0.655, exit_reason="TARGET_HIT"
+        )
+
+        # NO moved from 0.275 to 0.345: 0.07 * 1090.9091 shares.
+        self.assertAlmostEqual(pnl, 76.36, places=2)
+        self.assertAlmostEqual(pnl_pct, 0.2545, places=4)
 
 
 # ============================================================
@@ -2185,6 +2209,7 @@ from orchestrator import (
     check_open_trades,
     periodic_snapshots,
     demo_tick,
+    run_daemon,
 )
 from market_snapshot import MarketSnapshot as MarketSnap, score_relevance
 
@@ -2412,6 +2437,42 @@ class TestCircuitBreaker(unittest.TestCase):
         self.assertEqual(consecutive_failures, 0)
 
 
+class TestStillBrake(unittest.TestCase):
+    """The project-root STILL file rests the S012 observation loop."""
+
+    def setUp(self):
+        self.tmp_dir = tempfile.TemporaryDirectory()
+        self.still_path = Path(self.tmp_dir.name) / "STILL"
+        self.config = Config(poll_interval_seconds=0)
+
+    def tearDown(self):
+        self.tmp_dir.cleanup()
+
+    def test_still_stops_before_first_tick(self):
+        self.still_path.touch()
+        with patch("orchestrator.STILL_PATH", self.still_path), patch(
+            "orchestrator.tick", new_callable=AsyncMock
+        ) as tick_mock:
+            asyncio.run(run_daemon(self.config))
+
+        tick_mock.assert_not_awaited()
+
+    def test_still_is_checked_between_ticks(self):
+        async def first_tick_requests_rest(*args, **kwargs):
+            self.still_path.touch()
+            return []
+
+        with patch("orchestrator.STILL_PATH", self.still_path), patch(
+            "orchestrator.tick", new_callable=AsyncMock,
+            side_effect=first_tick_requests_rest,
+        ) as tick_mock, patch(
+            "orchestrator.asyncio.sleep", new_callable=AsyncMock
+        ):
+            asyncio.run(run_daemon(self.config))
+
+        self.assertEqual(tick_mock.await_count, 1)
+
+
 class TestPeriodicSnapshots(unittest.TestCase):
     """test_periodic_snapshots: snapshots stored for watchlist."""
 
@@ -2443,8 +2504,25 @@ class TestDemoTick(unittest.TestCase):
         import io
         from contextlib import redirect_stdout
         f = io.StringIO()
-        with redirect_stdout(f):
-            signals = asyncio.run(demo_tick())
+        with tempfile.TemporaryDirectory() as tmp:
+            db_path = Path(tmp) / "demo-pipeline.db"
+
+            def interpretation_store():
+                return InterpretationStore(db_path=db_path)
+
+            def trade_store():
+                return TradeStore(db_path=db_path)
+
+            with patch(
+                "orchestrator.InterpretationStore", side_effect=interpretation_store
+            ), patch(
+                "orchestrator.TradeStore", side_effect=trade_store
+            ), patch(
+                "reaction_interpreter.log_to_jsonl"
+            ) as jsonl_log, redirect_stdout(f):
+                signals = asyncio.run(demo_tick())
+
+            jsonl_log.assert_called_once()
         output = f.getvalue()
         # Should have printed all 6 stages
         self.assertIn("[Stage 1]", output)

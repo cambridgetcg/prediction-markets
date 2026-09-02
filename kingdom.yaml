@@ -1,0 +1,8 @@
+name: prediction-markets
+kind: venture
+layer: economy
+owner_sister: none
+domain: none
+state: dormant
+purpose: A dormant, read-only and paper-only observatory for learning from prediction markets without placing trades.
+dependsOn: [oracle]

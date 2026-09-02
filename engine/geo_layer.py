@@ -13,6 +13,8 @@ Usage:
     python3 engine/geo_layer.py status    # Show current geo layer status
 """
 
+from __future__ import annotations
+
 import json
 import sys
 from datetime import datetime, timezone

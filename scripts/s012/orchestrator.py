@@ -60,6 +60,7 @@ PROJECT_ROOT = SCRIPT_DIR.parent.parent
 CONFIG_PATH = PROJECT_ROOT / "config" / "news-pipeline.yaml"
 DELIVERY_PATH = PROJECT_ROOT / "data" / "s012" / "pending-delivery.json"
 DB_PATH = PROJECT_ROOT / "data" / "news-pipeline.db"
+STILL_PATH = PROJECT_ROOT / "STILL"
 
 
 # --- Config ---
@@ -414,7 +415,7 @@ async def tick(
 # --- Daemon ---
 
 async def run_daemon(config: Config, dry_run: bool = False):
-    """Run the pipeline on a schedule with circuit breaker."""
+    """Run until the project-root STILL file requests rest."""
     consecutive_failures = 0
 
     logger.info(
@@ -423,6 +424,10 @@ async def run_daemon(config: Config, dry_run: bool = False):
     )
 
     while True:
+        if STILL_PATH.exists():
+            logger.info("S012 daemon resting because %s exists", STILL_PATH)
+            return
+
         tick_start = time.monotonic()
 
         try:
