@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>dev.kingdom.prediction-markets.telegram-control</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/Users/yu/Desktop/prediction-markets/.venv/bin/python</string>
+    <string>-m</string>
+    <string>telegram_gateway</string>
+    <string>--db</string>
+    <string>/Users/yu/Desktop/prediction-markets/telegram_gateway/var/gateway.db</string>
+    <string>--calibration-ledger</string>
+    <string>/Users/yu/Desktop/prediction-markets/telegram_gateway/var/calibration.jsonl</string>
+    <string>run</string>
+    <string>--poll-timeout</string>
+    <string>45</string>
+    <string>--token-source</string>
+    <string>keychain</string>
+    <string>--bot-username</string>
+    <string>KingdomResearchBot</string>
+    <string>--keychain-account</string>
+    <string>kingdomresearchbot</string>
+    <string>--control-only</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/yu/Desktop/prediction-markets</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>KINGDOM_TELEGRAM_STARS_PRICE</key>
+    <string>0</string>
+    <key>PYTHONUNBUFFERED</key>
+    <string>1</string>
+  </dict>
+
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>ThrottleInterval</key>
+  <integer>60</integer>
+  <key>ProcessType</key>
+  <string>Background</string>
+  <key>LimitLoadToSessionType</key>
+  <string>Aqua</string>
+  <key>LowPriorityIO</key>
+  <true/>
+  <key>Umask</key>
+  <integer>63</integer>
+
+  <key>StandardOutPath</key>
+  <string>/Users/yu/Library/Logs/KingdomResearchBot/control.stdout.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/yu/Library/Logs/KingdomResearchBot/control.stderr.log</string>
+</dict>
+</plist>
