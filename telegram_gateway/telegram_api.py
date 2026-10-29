@@ -51,11 +51,16 @@ class TelegramError(RuntimeError):
         error_code: int | None = None,
         retry_after: int | None = None,
         ambiguous: bool = False,
+        failure_class: str | None = None,
     ):
         super().__init__(message)
         self.error_code = error_code
         self.retry_after = retry_after
         self.ambiguous = ambiguous
+        # A log-safe tag for what failed: exception type names or an HTTP
+        # status only. Never a URL (it embeds the token), an exception
+        # message, or a response body.
+        self.failure_class = failure_class
 
 
 @dataclass(frozen=True)
@@ -145,6 +150,7 @@ class TelegramAPI:
                     "Telegram redirects are not allowed",
                     error_code=exc.code,
                     ambiguous=True,
+                    failure_class=_http_failure_class(exc.code),
                 ) from None
             if not isinstance(result, Mapping):
                 result = {}
@@ -162,6 +168,7 @@ class TelegramAPI:
                 ambiguous=(
                     exc.code >= 500 or not 400 <= error_code < 500
                 ),
+                failure_class=_http_failure_class(exc.code),
             ) from None
         except (
             urllib.error.URLError,
@@ -169,18 +176,27 @@ class TelegramAPI:
             socket.timeout,
             OSError,
             http.client.HTTPException,
-        ):
+        ) as exc:
             # The request may have reached Telegram even though no response was
             # observed, so callers must not blindly retry a message send.
             raise TelegramError(
                 "Telegram transport failed before a response was observed",
                 ambiguous=True,
+                failure_class=_transport_failure_class(exc),
             ) from None
-        except (RecursionError, UnicodeError, ValueError):
-            raise TelegramError("Telegram returned an invalid response", ambiguous=True) from None
+        except (RecursionError, UnicodeError, ValueError) as exc:
+            raise TelegramError(
+                "Telegram returned an invalid response",
+                ambiguous=True,
+                failure_class="invalid_response/" + _type_tag(exc),
+            ) from None
 
         if not isinstance(result, dict) or not isinstance(result.get("ok"), bool):
-            raise TelegramError("Telegram returned an invalid response", ambiguous=True)
+            raise TelegramError(
+                "Telegram returned an invalid response",
+                ambiguous=True,
+                failure_class="invalid_response",
+            )
         if result["ok"] is False:
             parameters = result.get("parameters")
             parameters = parameters if isinstance(parameters, Mapping) else {}
@@ -195,6 +211,9 @@ class TelegramAPI:
                 retry_after=_safe_retry_after(parameters.get("retry_after")),
                 ambiguous=not (
                     error_code is not None and 400 <= error_code < 500
+                ),
+                failure_class=(
+                    "ok_false" if error_code is None else f"ok_false/{error_code}"
                 ),
             )
         return result.get("result")
@@ -617,7 +636,11 @@ class TelegramAPI:
             and 0 <= update_id <= (1 << 31) - 1
             for item in result
         ):
-            raise TelegramError("Telegram returned an invalid updates list", ambiguous=True)
+            raise TelegramError(
+                "Telegram returned an invalid updates list",
+                ambiguous=True,
+                failure_class="invalid_updates",
+            )
         return result
 
     def get_ops_updates(
@@ -818,6 +841,31 @@ def _safe_retry_after(value: Any) -> int | None:
     if parsed is None or parsed <= 0:
         return None
     return min(parsed, 3_600)
+
+
+_SAFE_TYPE_NAME = re.compile(r"[A-Za-z_][A-Za-z0-9_]{0,63}\Z")
+
+
+def _type_tag(exc: BaseException) -> str:
+    """Return only an exception's class name, never its message."""
+
+    name = type(exc).__name__
+    return name if _SAFE_TYPE_NAME.fullmatch(name) else "Exception"
+
+
+def _transport_failure_class(exc: BaseException) -> str:
+    """Tag a transport failure by type names only, e.g. URLError/gaierror."""
+
+    tag = _type_tag(exc)
+    reason = getattr(exc, "reason", None) if isinstance(exc, urllib.error.URLError) else None
+    if isinstance(reason, BaseException):
+        tag += "/" + _type_tag(reason)
+    return tag
+
+
+def _http_failure_class(code: Any) -> str:
+    parsed = _safe_int(code)
+    return f"HTTP{parsed}" if parsed is not None and 100 <= parsed <= 599 else "HTTPError"
 
 
 def _safe_description(value: Any, *, fallback: str, secret: str = "") -> str:

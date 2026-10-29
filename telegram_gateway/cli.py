@@ -6,6 +6,7 @@ import argparse
 import fcntl
 import json
 import os
+import re
 import sqlite3
 import sys
 import time
@@ -13,7 +14,7 @@ from contextlib import contextmanager
 from dataclasses import asdict
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Iterator
+from typing import Any, Callable, Iterator, Mapping, TextIO
 
 from .bootstrap import (
     DEFAULT_BOT_NAME,
@@ -1183,11 +1184,191 @@ def _promotion_report(
     }
 
 
+LIVENESS_INTERVAL_SECONDS = 6 * 60 * 60
+_SAFE_FAILURE_CLASS = re.compile(r"[A-Za-z0-9_/]{1,96}\Z")
+
+
+def _utc_stamp(moment: datetime | None = None) -> str:
+    """ISO-8601 UTC with milliseconds, e.g. 2026-10-29T10:15:02.123Z."""
+
+    moment = datetime.now(timezone.utc) if moment is None else moment
+    return (
+        moment.astimezone(timezone.utc)
+        .isoformat(timespec="milliseconds")
+        .replace("+00:00", "Z")
+    )
+
+
+class _TimestampedLines:
+    """Prefix every line written to a text stream with an ISO-8601 UTC time.
+
+    Text passes straight through without buffering, so a crash cannot strand
+    a half-written diagnostic; only the first write of each line is stamped.
+    """
+
+    def __init__(
+        self, stream: TextIO, clock: Callable[[], datetime] | None = None
+    ) -> None:
+        self._stream = stream
+        self._clock = clock
+        self._at_line_start = True
+
+    def write(self, text: str) -> int:
+        pieces: list[str] = []
+        start = 0
+        while start < len(text):
+            if self._at_line_start:
+                pieces.append(
+                    _utc_stamp(self._clock() if self._clock is not None else None)
+                    + " "
+                )
+                self._at_line_start = False
+            end = text.find("\n", start)
+            if end == -1:
+                pieces.append(text[start:])
+                break
+            pieces.append(text[start:end + 1])
+            self._at_line_start = True
+            start = end + 1
+        if pieces:
+            self._stream.write("".join(pieces))
+        return len(text)
+
+    def writelines(self, lines: Any) -> None:
+        for line in lines:
+            self.write(line)
+
+    def flush(self) -> None:
+        self._stream.flush()
+
+    def __getattr__(self, name: str) -> Any:
+        return getattr(self._stream, name)
+
+
+@contextmanager
+def _timestamped_stderr(
+    clock: Callable[[], datetime] | None = None,
+) -> Iterator[None]:
+    original = sys.stderr
+    stamped = _TimestampedLines(original, clock)
+    sys.stderr = stamped  # type: ignore[assignment]
+    restore = True
+    try:
+        yield
+    except Exception:
+        # The process is about to print this crash; keep stamping so the
+        # interpreter's traceback lines carry the crash time as well.
+        restore = False
+        raise
+    finally:
+        if restore and sys.stderr is stamped:
+            sys.stderr = original
+
+
+def _transient_failure_class(exc: TelegramError) -> str:
+    tag = getattr(exc, "failure_class", None)
+    if isinstance(tag, str) and _SAFE_FAILURE_CLASS.fullmatch(tag):
+        return tag
+    code = exc.error_code
+    if isinstance(code, int) and not isinstance(code, bool) and 0 < code < 1000:
+        return f"TelegramError/{code}"
+    return "TelegramError"
+
+
+def _transient_failure_line(exc: TelegramError, failure_class: str, delay: int) -> str:
+    """Render a credential-free failure line: no URL, message, or body."""
+
+    line = (
+        "gateway: transient Telegram failure: "
+        f"class={failure_class} retry_in_s={delay}"
+    )
+    if exc.error_code == 409:
+        line += (
+            " (409 conflict: another getUpdates poller or a webhook is "
+            "active for this bot)"
+        )
+    return line
+
+
+class _GatewayLiveness:
+    """Count long-poll outcomes and render at most one alive line per interval.
+
+    The first line is due after the first poll attempt, so a restart shows
+    promptly whether polling works; each later line summarizes the interval
+    since the previous one. ``updates_seen`` counts new updates poll_once
+    handled or failed (duplicates and invalid IDs are not counted).
+    """
+
+    def __init__(
+        self,
+        *,
+        interval_seconds: float = LIVENESS_INTERVAL_SECONDS,
+        clock: Callable[[], float] = time.monotonic,
+    ) -> None:
+        self._interval = interval_seconds
+        self._clock = clock
+        self._window_started = clock()
+        self._last_line: float | None = None
+        self._reset()
+
+    def _reset(self) -> None:
+        self.polls_ok = 0
+        self.updates_seen = 0
+        self.updates_failed = 0
+        self.db_busy = 0
+        self.transient: dict[str, int] = {}
+
+    def record_poll(self, result: Mapping[str, Any]) -> None:
+        def count(value: Any) -> int:
+            return value if isinstance(value, int) and not isinstance(value, bool) and value > 0 else 0
+
+        handled = count(result.get("updates"))
+        failed = count(result.get("failed_updates"))
+        self.polls_ok += 1
+        self.updates_seen += handled + failed
+        self.updates_failed += failed
+
+    def record_transient(self, failure_class: str) -> None:
+        self.transient[failure_class] = self.transient.get(failure_class, 0) + 1
+
+    def record_db_busy(self) -> None:
+        self.db_busy += 1
+
+    def due_line(self) -> str | None:
+        now = self._clock()
+        if self._last_line is not None and now - self._last_line < self._interval:
+            return None
+        failures = sum(self.transient.values())
+        by_class = ",".join(
+            f"{name}:{count}" for name, count in sorted(self.transient.items())
+        )
+        line = (
+            f"gateway: alive window_s={max(0, round(now - self._window_started))} "
+            f"polls_ok={self.polls_ok} updates_seen={self.updates_seen} "
+            f"updates_failed={self.updates_failed} "
+            f"transient_failures={failures}"
+            + (f" by_class={by_class}" if by_class else "")
+            + f" db_busy={self.db_busy}"
+        )
+        self._last_line = now
+        self._window_started = now
+        self._reset()
+        return line
+
+
+def _print_liveness_if_due(liveness: _GatewayLiveness) -> None:
+    line = liveness.due_line()
+    if line is not None:
+        print(line, file=sys.stderr)
+
+
 def _run_gateway(
     args: argparse.Namespace,
     store: GatewayStore,
     api: TelegramAPI,
     config: ServiceConfig,
+    *,
+    liveness: _GatewayLiveness | None = None,
 ) -> int:
     """Run one locally serialized poller with consent-bound preferences."""
 
@@ -1228,6 +1409,7 @@ def _run_gateway(
             print(json.dumps(result, sort_keys=True))
             return 0
 
+        liveness = _GatewayLiveness() if liveness is None else liveness
         last_import_error: str | None = None
         last_lifecycle_error: str | None = None
         while True:
@@ -1258,26 +1440,33 @@ def _run_gateway(
                     deliver_corrections=not args.control_only,
                 )
             except TelegramError as exc:
+                failure_class = _transient_failure_class(exc)
+                liveness.record_transient(failure_class)
+                delay = min(max(exc.retry_after or 5, 1), 60)
                 print(
-                    f"gateway: transient Telegram failure: {exc}",
+                    _transient_failure_line(exc, failure_class, delay),
                     file=sys.stderr,
                 )
-                delay = exc.retry_after or 5
-                time.sleep(min(max(delay, 1), 60))
+                _print_liveness_if_due(liveness)
+                time.sleep(delay)
                 continue
             except sqlite3.OperationalError:
+                liveness.record_db_busy()
                 print(
                     "gateway: database busy; update was not acknowledged and will be retried",
                     file=sys.stderr,
                 )
+                _print_liveness_if_due(liveness)
                 time.sleep(1)
                 continue
+            liveness.record_poll(result)
             if any(
                 value
                 for field, value in result.items()
                 if field not in {"broadcast_paused", "corrections_paused"}
             ):
                 print(json.dumps(result, sort_keys=True))
+            _print_liveness_if_due(liveness)
 
 
 def _ops_command(args: argparse.Namespace) -> dict[str, Any]:
@@ -1411,6 +1600,15 @@ def main(argv: list[str] | None = None) -> int:
         except Exception as exc:
             print(json.dumps(_ops_error(exc), sort_keys=True), file=sys.stderr)
             return 1
+    if args.command == "run":
+        # The long-running launchd gateway: stamp every stderr line (UTC),
+        # including its fatal-error line, so a quiet log reads against time.
+        with _timestamped_stderr():
+            return _gateway_command(args)
+    return _gateway_command(args)
+
+
+def _gateway_command(args: argparse.Namespace) -> int:
     try:
         if args.command == "bot-plan":
             selected_profile = bot_profile(args.profile)
@@ -2096,6 +2294,11 @@ def main(argv: list[str] | None = None) -> int:
                         expected_username=args.bot_username,
                         required_profile=bot_profile("research"),
                     )
+                    print(
+                        "gateway: boot checks passed: bot identity and research "
+                        "profile verified; runner lock held; polling starts",
+                        file=sys.stderr,
+                    )
                     return _run_gateway(args, store, api, config)
     except (
         CandidateInputError,
@@ -2108,7 +2311,10 @@ def main(argv: list[str] | None = None) -> int:
         OSError,
         sqlite3.Error,
     ) as exc:
-        print(f"gateway: {exc}", file=sys.stderr)
+        message = f"gateway: {exc}"
+        if isinstance(exc, TelegramError):
+            message += f" [class={_transient_failure_class(exc)}]"
+        print(message, file=sys.stderr)
         return 1
     except KeyboardInterrupt:
         return 130
