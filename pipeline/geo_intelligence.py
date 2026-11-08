@@ -24,10 +24,11 @@ The relationship:
   Scenario trees → conditional trade adjustments
 
 What it reads: ww3's `event` rows, each with its newest `escalationstate` and
-`impactassessment`. ww3 writes those only when its model layer analyses an
-observation, or when someone adds an event by hand. Its scheduled collection
-writes observations only, and the bridge does not turn observations into
-signals, so a current ledger may hold no Event rows at all.
+`impactassessment`. ww3 writes Event rows only when its model layer analyses an
+observation (which may add both assessments), or when someone adds an event
+by hand (with neither, so it is counted but moves nothing). Its scheduled
+collection writes observations only, and the bridge does not turn observations
+into signals, so a current ledger may hold no Event rows at all.
 engine/DATA-SOURCES.md has the current status.
 
 The Kingdom maps this to Wall 2 (TREASURY) + Wall 4 (ACADEMY):

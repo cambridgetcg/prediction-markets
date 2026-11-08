@@ -384,11 +384,12 @@ reads the newest record for synthesis context and a small probability
 adjustment. Nothing feeds either one today.
 
 - **No Event rows to read.** The bridge reads ww3's `event` table, each event
-  with its newest `escalationstate` and `impactassessment`. ww3 writes those
-  when its model layer analyses an observation, or when someone adds an event
-  by hand. ww3's scheduled collection runs with the model layer off and writes
-  observations only. The bridge does not turn observations into signals, so
-  even a current ledger gives it nothing to read.
+  with its newest `escalationstate` and `impactassessment`. ww3 writes Event
+  rows when its model layer analyses an observation (which may add both
+  assessments), or when someone adds an event by hand (with neither, so it
+  moves nothing here). ww3's scheduled collection runs with the model layer
+  off and writes observations only. The bridge does not turn observations into
+  signals, so even a current ledger gives it nothing to read.
 - **No ledger connected.** `WW3_DB_PATH` names the ww3 database file to read,
   for example a restored copy of ww3's weekly export. Unset, the bridge looks
   at `~/Desktop/ww3-intelligence/core/db/ww3.db`, where a one-off copy lived in
@@ -415,16 +416,20 @@ adjustment. Nothing feeds either one today.
 
 What the numbers can and cannot mean once a ledger with events is connected:
 
-- **Escalation** is the highest of ww3's per-region 1-10 assessments among the
-  events read. It is a judgement made by ww3's model or by whoever entered the
-  event, not a measurement. 0 means no event read had an assessment. An event
-  without one is counted but moves nothing.
+- **Escalation** is the highest level among the events read, each event taking
+  its newest ww3 escalation assessment (1-10, recorded against a region). Only
+  ww3's model layer writes these; an event added by hand has none. It is the
+  model's judgement, not a measurement, and ww3 records a 1 when the model
+  named a region but gave no level, so a 1 may mean "not stated". 0 means no
+  event read had an assessment. An event without one is counted but moves
+  nothing.
 - **Instrument adjustments** weight fixed, hand-written profiles
   (`GEO_SENSITIVITY`) by escalation and by ww3's `economic_global` impact score
-  (1-10). The profiles are the bridge author's priors and have not been fitted
-  to market data. ww3's categories are coarse (seismic, military, political,
-  cyber, economic, other), so political, seismic and other events use the
-  generic default profile.
+  (1-10). ww3 stores 1 for an impact field the model left out, so a 1 there
+  may also mean "not stated". The profiles are the bridge author's priors and
+  have not been fitted to market data. ww3's categories are coarse (seismic,
+  military, political, cyber, economic, other), so political, seismic and
+  other events use the generic default profile.
 - **Freshness.** `engine/geo_layer.py` reads a record as STALE once its data is
   older than `GEO_MAX_AGE_HOURS` (default 24). Age runs from the older of the
   record's write time and the newest observation in the ledger the bridge read
