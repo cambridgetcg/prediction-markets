@@ -130,7 +130,7 @@ def _connect_ww3(db_path: Path | None = None) -> sqlite3.Connection:
         conn = sqlite3.connect(uri, uri=True)
         try:
             conn.execute("PRAGMA schema_version").fetchone()
-        except sqlite3.OperationalError:
+        except sqlite3.OperationalError as first_error:
             conn.close()
             # ww3 keeps its database in WAL mode, and reading one needs a -shm file
             # beside it. In a directory this process cannot write, a copy without
@@ -147,7 +147,7 @@ def _connect_ww3(db_path: Path | None = None) -> sqlite3.Connection:
                     f"directory this process cannot write, and reading it from here would "
                     f"skip those rows. Copy the ledger and its -wal to a writable directory, "
                     f"or checkpoint it before archiving."
-                )
+                ) from first_error
             conn = sqlite3.connect(f"{uri}&immutable=1", uri=True)
             conn.execute("PRAGMA schema_version").fetchone()
     except sqlite3.Error as exc:
