@@ -182,6 +182,24 @@ class TestSchemaContract(LedgerTestCase):
         self.assertIn("not a database", str(caught.exception))
         self.assertIn("cannot be read", out.getvalue())
 
+    def test_wal_copy_in_read_only_directory_is_readable(self):
+        """An archived WAL-mode export with no -shm beside it still reads."""
+        conn = sqlite3.connect(self.ledger.path)
+        conn.execute("PRAGMA journal_mode=wal")
+        conn.close()
+        self.ledger.add_event("Strike", "2026-11-07")
+        conn = sqlite3.connect(self.ledger.path)
+        conn.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+        conn.close()
+        for sidecar in ("-wal", "-shm"):
+            Path(f"{self.ledger.path}{sidecar}").unlink(missing_ok=True)
+        directory = self.ledger.path.parent
+        directory.chmod(0o555)
+        self.addCleanup(directory.chmod, 0o755)
+        titles = [r["title"] for r in bridge.read_ww3_events(now=NOW)]
+        self.assertEqual(titles, ["Strike"])
+        self.assertFalse(Path(f"{self.ledger.path}-shm").exists())
+
     def test_reads_are_read_only(self):
         conn = bridge._connect_ww3(self.ledger.path)
         try:

@@ -123,11 +123,24 @@ def _connect_ww3(db_path: Path | None = None) -> sqlite3.Connection:
     db_path = db_path or ww3_db_path()
     if not db_path.is_file():
         raise WW3LedgerError(missing_db_message(db_path))
+    # Read-only: the bridge never writes the ledger, and a restored copy stays as restored.
+    uri = f"{db_path.resolve().as_uri()}?mode=ro"
     try:
-        # Read-only: the bridge never writes the ledger, and a restored copy stays as restored.
-        conn = sqlite3.connect(f"{db_path.resolve().as_uri()}?mode=ro", uri=True)
+        conn = sqlite3.connect(uri, uri=True)
+        try:
+            conn.execute("PRAGMA schema_version").fetchone()
+        except sqlite3.OperationalError:
+            conn.close()
+            # ww3 keeps its database in WAL mode, and reading one needs a -shm file
+            # beside it. In a directory this process cannot write, a copy without
+            # one cannot get one. Nothing of ours can write such a copy (an
+            # archived export), so it is read as immutable.
+            if os.access(db_path, os.W_OK) and os.access(db_path.parent, os.W_OK):
+                raise
+            conn = sqlite3.connect(f"{uri}&immutable=1", uri=True)
+            conn.execute("PRAGMA schema_version").fetchone()
     except sqlite3.Error as exc:
-        raise WW3LedgerError(f"ww3 ledger at {db_path} cannot be opened: {exc}") from exc
+        raise WW3LedgerError(f"ww3 ledger at {db_path} cannot be read: {exc}") from exc
     conn.row_factory = sqlite3.Row
     return conn
 
