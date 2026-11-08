@@ -200,6 +200,36 @@ class TestSchemaContract(LedgerTestCase):
         self.assertEqual(titles, ["Strike"])
         self.assertFalse(Path(f"{self.ledger.path}-shm").exists())
 
+    def test_wal_copy_with_unmerged_rows_in_read_only_directory_is_refused(self):
+        """An immutable read would skip rows still in the -wal; say so instead."""
+        writer = sqlite3.connect(self.ledger.path)
+        self.addCleanup(writer.close)
+        writer.execute("PRAGMA journal_mode=wal")
+        writer.execute("PRAGMA wal_autocheckpoint=0")
+        writer.execute(
+            'INSERT INTO event (title, date, category, classification, significance, '
+            'created_at, updated_at) VALUES (?, ?, ?, ?, ?, ?, ?)',
+            ("Strike", "2026-11-07", "military", "reported", 5,
+             "2026-11-08 00:00:00", "2026-11-08 00:00:00"),
+        )
+        writer.commit()
+        # Copy the file and its -wal while the writer holds them, as a plain
+        # file copy of a live ledger would. The Strike row is only in the -wal.
+        archive = tempfile.TemporaryDirectory()
+        self.addCleanup(archive.cleanup)
+        copy = Path(archive.name) / "ww3.db"
+        for sidecar in ("", "-wal"):
+            Path(f"{copy}{sidecar}").write_bytes(Path(f"{self.ledger.path}{sidecar}").read_bytes())
+        self.assertGreater(Path(f"{copy}-wal").stat().st_size, 0)
+        copy.parent.chmod(0o555)
+        self.addCleanup(copy.parent.chmod, 0o755)
+        if os.access(copy.parent, os.W_OK):
+            self.skipTest("this process can write a 0o555 directory (running as root)")
+        with self.assertRaises(bridge.WW3LedgerError) as caught:
+            bridge.read_ww3_events(db_path=copy, now=NOW)
+        self.assertIn("ww3.db-wal", str(caught.exception))
+        self.assertIn("skip those rows", str(caught.exception))
+
     def test_reads_are_read_only(self):
         conn = bridge._connect_ww3(self.ledger.path)
         try:

@@ -137,6 +137,16 @@ def _connect_ww3(db_path: Path | None = None) -> sqlite3.Connection:
             # archived export), so it is read as immutable.
             if os.access(db_path, os.W_OK) and os.access(db_path.parent, os.W_OK):
                 raise
+            # An immutable read skips the -wal file. Committed rows still in one
+            # would be missing with no error, so such a copy is refused instead.
+            wal = Path(f"{db_path.resolve()}-wal")
+            if wal.is_file() and wal.stat().st_size > 0:
+                raise WW3LedgerError(
+                    f"ww3 ledger at {db_path} has a non-empty {wal.name} beside it in a "
+                    f"directory this process cannot write, and reading it from here would "
+                    f"skip those rows. Copy the ledger and its -wal to a writable directory, "
+                    f"or checkpoint it before archiving."
+                )
             conn = sqlite3.connect(f"{uri}&immutable=1", uri=True)
             conn.execute("PRAGMA schema_version").fetchone()
     except sqlite3.Error as exc:
